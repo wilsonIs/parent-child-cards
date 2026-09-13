@@ -55,6 +55,11 @@ def fetch_wikitext(page: str) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
         data = json.loads(resp.read().decode("utf-8"))
+    if "parse" not in data:
+        err = data.get("error", {})
+        raise RuntimeError(
+            f"API error {err.get('code')}: {err.get('info')} (page: {page})"
+        )
     return data["parse"]["wikitext"]
 
 
@@ -143,6 +148,8 @@ def main() -> int:
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     index = {}
     total_ok, total_fail = 0, 0
+    log_lines = [f"# fetch-public-domain 运行日志 {time.strftime('%Y-%m-%d %H:%M:%S UTC', time.gmtime())}"]
+    log_lines.append(f"# 成功 {0} 页起步；书目: " + ", ".join(b["name"] for b in CATALOG))
 
     for book in CATALOG:
         key = book["key"]
@@ -160,6 +167,7 @@ def main() -> int:
                 continue
             text = None
             used = None
+            last_err = ""
             for name in names:
                 page = name.format(cn=cn_num(i)) if "{cn}" in name else name
                 try:
@@ -168,10 +176,11 @@ def main() -> int:
                     used = page
                     break
                 except Exception as e:  # noqa: BLE001
-                    last_err = e
+                    last_err = f"{type(e).__name__}: {e}"
                     time.sleep(0.5)
             if text is None or not text.strip():
-                fails.append((i, names[0], str(last_err)))
+                fails.append((i, names[0], last_err))
+                log_lines.append(f"FAIL {book['name']} #{i} 尝试页名 {names[0]} → {last_err}")
                 continue
             out_file.write_text(text, encoding="utf-8")
             ok += 1
@@ -193,7 +202,10 @@ def main() -> int:
     (RAW_DIR / "index.json").write_text(
         json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    print(f"\n[fetch] 完成：成功 {total_ok} 页，失败 {total_fail} 页")
+    (RAW_DIR / "_fetch-log.txt").write_text(
+        "\n".join(log_lines) + "\n", encoding="utf-8"
+    )
+    print(f"\n[fetch] 完成：成功 {total_ok} 页，失败 {total_fail} 页（详情见 src/data/raw/_fetch-log.txt）")
     return 0 if total_fail == 0 else 1
 
 

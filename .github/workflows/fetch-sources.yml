@@ -33,6 +33,7 @@ jobs:
         run: python3 scripts/fetch-public-domain.py
 
       - name: Commit and push if changed
+        if: always() # 即使抓取失败也提交日志，便于排查
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
