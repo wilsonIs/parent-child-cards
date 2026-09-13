@@ -52,7 +52,14 @@ const pool = computed(() => {
   const cat = category.value
   if (cat === '全部') return allCards.value
   if (cat === '系列') return allCards.value.filter((c) => c.kind === 'series')
-  return allCards.value.filter((c) => c.kind === 'story' && c.story.category.includes(cat))
+  // 具体分类：把该分类下的所有故事（含系列内故事）展开为单篇卡
+  const storyCards: Card[] = []
+  for (const st of data.stories) {
+    if (Array.isArray(st.category) && st.category.includes(cat)) {
+      storyCards.push({ kind: 'story', story: st })
+    }
+  }
+  return storyCards
 })
 
 /** 随机打乱后的播放顺序 */
