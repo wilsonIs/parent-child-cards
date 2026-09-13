@@ -55,6 +55,34 @@ function clearAll() {
         </div>
       </section>
 
+      <!-- 1.5 自动连播 -->
+      <section class="card-soft space-y-3 p-4">
+        <div class="flex items-center justify-between">
+          <div>
+            <h3 class="font-bold text-ink">自动听下一个</h3>
+            <p class="text-xs text-ink-muted">
+              故事播完后自动切换到下一个（同系列优先，系列播完随机）
+            </p>
+          </div>
+          <button
+            class="relative h-7 w-12 shrink-0 rounded-full transition-colors"
+            :class="
+              settings.settings.autoPlay ? 'bg-story' : 'bg-cream-300'
+            "
+            role="switch"
+            :aria-checked="settings.settings.autoPlay"
+            @click="settings.toggleAutoPlay()"
+          >
+            <span
+              class="absolute top-1 h-5 w-5 rounded-full bg-white shadow-soft transition-all"
+              :class="
+                settings.settings.autoPlay ? 'left-6' : 'left-1'
+              "
+            ></span>
+          </button>
+        </div>
+      </section>
+
       <!-- 2. 孩子年级 -->
       <section class="card-soft space-y-3 p-4">
         <div>
@@ -130,7 +158,7 @@ function clearAll() {
           和孩子一起，每天简单做点事。
         </p>
         <p class="text-xs text-ink-muted">
-          无广告 · 无 VIP · 无内购 · 无推送 · 无积分 · 无排行榜 · 无自动连播
+          无广告 · 无 VIP · 无内购 · 无推送 · 无积分 · 无排行榜
         </p>
         <p class="text-xs text-ink-muted">数据本地存储，不上传</p>
       </section>

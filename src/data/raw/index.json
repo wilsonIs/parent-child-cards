@@ -1,0 +1,32 @@
+{
+  "xiyouji": {
+    "name": "西游记",
+    "count": 0,
+    "dir": "src/data/raw/xiyouji",
+    "source": "https://zh.wikisource.org/wiki/西游记"
+  },
+  "sanguoyanyi": {
+    "name": "三国演义",
+    "count": 0,
+    "dir": "src/data/raw/sanguoyanyi",
+    "source": "https://zh.wikisource.org/wiki/三国演义"
+  },
+  "shuihuzhuan": {
+    "name": "水浒传",
+    "count": 0,
+    "dir": "src/data/raw/shuihuzhuan",
+    "source": "https://zh.wikisource.org/wiki/水浒传"
+  },
+  "fengshenyanyi": {
+    "name": "封神演义",
+    "count": 0,
+    "dir": "src/data/raw/fengshenyanyi",
+    "source": "https://zh.wikisource.org/wiki/封神演义"
+  },
+  "hongloumeng": {
+    "name": "红楼梦",
+    "count": 0,
+    "dir": "src/data/raw/hongloumeng",
+    "source": "https://zh.wikisource.org/wiki/红楼梦"
+  }
+}

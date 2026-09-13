@@ -95,6 +95,8 @@ export interface Settings {
   fontSize: 'normal' | 'large'
   /** 孩子年级（用于古诗等内容的默认过滤）：全部/学龄前/一年级…六年级 */
   childGrade: string
+  /** 故事播完自动听下一个（默认开启） */
+  autoPlay: boolean
 }
 
 /** 浏览习惯记录 */

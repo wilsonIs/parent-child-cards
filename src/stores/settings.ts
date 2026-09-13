@@ -11,12 +11,15 @@ const DEFAULT_SETTINGS: Settings = {
   playbackRate: 1,
   fontSize: 'normal',
   childGrade: '全部',
+  autoPlay: true,
 }
 
 export const useSettingsStore = defineStore('settings', () => {
-  const settings = ref<Settings>(
-    readJSON<Settings>(SETTINGS_KEY, { ...DEFAULT_SETTINGS }),
-  )
+  // 与默认值合并：老版本 localStorage 缺少新增字段（如 autoPlay）时补默认
+  const settings = ref<Settings>({
+    ...DEFAULT_SETTINGS,
+    ...readJSON<Partial<Settings>>(SETTINGS_KEY, {}),
+  })
   const history = ref<HistoryItem[]>(readJSON<HistoryItem[]>(HISTORY_KEY, []))
 
   // 应用字体大小到根元素（用户习惯可视化）
@@ -41,6 +44,10 @@ export const useSettingsStore = defineStore('settings', () => {
 
   function setChildGrade(grade: string) {
     settings.value.childGrade = grade
+  }
+
+  function toggleAutoPlay() {
+    settings.value.autoPlay = !settings.value.autoPlay
   }
 
   function recordView(type: HistoryItem['type'], id: string) {
@@ -80,6 +87,7 @@ export const useSettingsStore = defineStore('settings', () => {
     setPlaybackRate,
     setFontSize,
     setChildGrade,
+    toggleAutoPlay,
     recordView,
     clearAllUserData,
   }
