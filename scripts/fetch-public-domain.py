@@ -25,6 +25,9 @@ MAX_RETRY = 4
 # 书目清单：Gutenberg 中文公版书（仅保留适合儿童阅读的书目）
 CATALOG = [
     {"key": "xiyouji", "name": "西游记", "gid": 23962},
+    {"key": "fengshenyanyi", "name": "封神演义", "gid": 23910},
+    {"key": "shanhaijing", "name": "山海经", "gid": 25288},
+    {"key": "liaozhaizhiyi", "name": "聊斋志异", "gid": 51828},
 ]
 
 
