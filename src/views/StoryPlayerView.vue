@@ -92,9 +92,9 @@ onBeforeUnmount(() => {
     <div class="flex-1 overflow-y-auto">
       <!-- 封面区 -->
       <div
-        class="flex flex-col items-center gap-3 bg-gradient-to-br from-story to-story-soft px-6 py-8 text-center"
+        class="flex flex-col items-center gap-2 bg-gradient-to-br from-story to-story-soft px-6 py-6 text-center"
       >
-        <div class="text-8xl">{{ story.icon }}</div>
+        <div class="text-7xl">{{ story.icon }}</div>
         <h2 class="text-xl font-bold text-story-deep">{{ story.title }}</h2>
         <div class="flex flex-wrap justify-center gap-1">
           <span v-for="c in story.category" :key="c" class="chip chip-on">{{
@@ -113,42 +113,49 @@ onBeforeUnmount(() => {
         <p class="text-base leading-relaxed text-ink">{{ story.text }}</p>
       </div>
 
-      <!-- 播放器 -->
-      <div class="mx-4 mb-4 rounded-3xl bg-cream-100 p-4">
-        <div
-          v-if="noAudio"
-          class="mb-3 rounded-2xl bg-cream-200 px-3 py-2 text-center text-sm text-ink-muted"
+      <!-- 操作按钮 -->
+      <div class="flex justify-center px-4 pb-6">
+        <ActionButtons type="story" :id="story.id" />
+      </div>
+    </div>
+
+    <!-- 吸底播放器：长故事滚动时播放控件始终可见 -->
+    <div class="shrink-0 border-t border-cream-300/50 bg-cream-100 px-4 py-3">
+      <div
+        v-if="noAudio"
+        class="mb-2 rounded-2xl bg-cream-200 px-3 py-1.5 text-center text-sm text-ink-muted"
+      >
+        该故事暂无音频，可阅读文本
+      </div>
+      <div class="flex items-center gap-3">
+        <button
+          class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-story text-xl text-white shadow-soft transition-transform active:scale-95 disabled:opacity-40"
+          :disabled="noAudio"
+          @click="toggle"
         >
-          该故事暂无音频，可阅读文本
-        </div>
-        <div class="flex items-center gap-3">
-          <button
-            class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-story text-xl text-white shadow-soft transition-transform active:scale-95 disabled:opacity-40"
+          <span>{{ playing ? '⏸' : '▶' }}</span>
+        </button>
+        <div class="flex-1">
+          <input
+            type="range"
+            class="w-full accent-story"
+            :min="0"
+            :max="duration || 0"
+            :step="0.1"
+            :value="current"
             :disabled="noAudio"
-            @click="toggle"
-          >
-            <span>{{ playing ? '⏸' : '▶' }}</span>
-          </button>
-          <div class="flex-1">
-            <input
-              type="range"
-              class="w-full accent-story"
-              :min="0"
-              :max="duration || 0"
-              :step="0.1"
-              :value="current"
-              :disabled="noAudio"
-              @input="seek(Number(($event.target as HTMLInputElement).value))"
-            />
-            <div class="flex justify-between text-xs text-ink-muted">
-              <span>{{ fmtTime(current) }}</span>
-              <span>{{ fmtTime(duration) }}</span>
-            </div>
+            @input="seek(Number(($event.target as HTMLInputElement).value))"
+          />
+          <div class="flex justify-between text-xs text-ink-muted">
+            <span>{{ fmtTime(current) }}</span>
+            <span>{{ fmtTime(duration) }}</span>
           </div>
         </div>
+      </div>
 
+      <div class="mt-2 flex items-center justify-between gap-3">
         <!-- 语速 -->
-        <div class="mt-3 flex items-center justify-center gap-2">
+        <div class="flex items-center gap-1.5">
           <button
             v-for="r in rates"
             :key="r"
@@ -158,41 +165,35 @@ onBeforeUnmount(() => {
             >{{ r }}x</button
           >
         </div>
-
         <!-- 自动连播 -->
-        <div class="mt-3 flex items-center justify-between">
-          <span class="text-sm text-ink-soft">自动听下一个</span>
+        <div class="flex items-center gap-2">
+          <span class="text-xs text-ink-soft">自动听下一个</span>
           <button
-            class="relative h-7 w-12 rounded-full transition-colors"
+            class="relative h-6 w-11 rounded-full transition-colors"
             :class="prefs.autoPlay ? 'bg-story' : 'bg-cream-300'"
             role="switch"
             :aria-checked="prefs.autoPlay"
             @click="settings.toggleAutoPlay()"
           >
             <span
-              class="absolute top-1 h-5 w-5 rounded-full bg-white shadow-soft transition-all"
-              :class="prefs.autoPlay ? 'left-6' : 'left-1'"
+              class="absolute top-0.5 h-5 w-5 rounded-full bg-white shadow-soft transition-all"
+              :class="prefs.autoPlay ? 'left-[22px]' : 'left-0.5'"
             ></span>
           </button>
         </div>
-
-        <p
-          v-if="ended"
-          class="mt-3 text-center text-sm"
-          :class="prefs.autoPlay ? 'text-story-deep' : 'text-ink-muted'"
-        >
-          {{
-            prefs.autoPlay
-              ? '正在自动切换到下一个故事…'
-              : '播完啦，点播放可再听一遍'
-          }}
-        </p>
       </div>
 
-      <!-- 操作按钮 -->
-      <div class="flex justify-center px-4 pb-6">
-        <ActionButtons type="story" :id="story.id" />
-      </div>
+      <p
+        v-if="ended"
+        class="mt-1.5 text-center text-xs"
+        :class="prefs.autoPlay ? 'text-story-deep' : 'text-ink-muted'"
+      >
+        {{
+          prefs.autoPlay
+            ? '正在自动切换到下一个故事…'
+            : '播完啦，点播放可再听一遍'
+        }}
+      </p>
     </div>
 
     <audio ref="audioRef" :src="story.audio || undefined" />
