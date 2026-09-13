@@ -26,15 +26,9 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm build --base=/parent-child-cards/
-      - name: Deploy dist to gh-pages
-        run: |
-          git config --global user.name "wilson"
-          git config --global user.email "zhangtao522009@163.com"
-          git fetch origin gh-pages || git checkout --orphan gh-pages
-          git checkout gh-pages || git checkout --orphan gh-pages
-          git rm -rf --cached . > /dev/null 2>&1 || true
-          rm -rf *
-          cp -R dist/* .
-          git add -A
-          git commit -m "deploy: ${{ github.sha }}" || echo "nothing to commit"
-          git push origin gh-pages --force
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          force_orphan: true
