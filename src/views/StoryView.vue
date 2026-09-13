@@ -32,7 +32,7 @@ onMounted(() => {
 
 <template>
   <div class="flex h-full flex-col">
-    <AppHeader title="故事 · 今天听什么" colorClass="story" />
+    <AppHeader title="故事 · 今天听什么" show-back color-class="story" />
     <FilterBar :options="STORY_CATEGORIES" v-model="category" />
     <div class="flex-1 overflow-y-auto">
       <div v-if="filtered.length" class="grid grid-cols-2 gap-3 p-4">

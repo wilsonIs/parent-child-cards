@@ -36,14 +36,25 @@ jobs:
       - name: Run data sync script
         run: node scripts/sync-data.mjs
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install edge-tts
+        run: pip install edge-tts
+
+      - name: Generate missing story audio (Edge TTS)
+        run: python3 scripts/tts.py
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data scripts pnpm-lock.yaml
+          git add src/data scripts pnpm-lock.yaml public/assets/audio
           if git diff --cached --quiet; then
             echo "数据无变化，跳过提交"
           else
-            git commit -m "chore: 同步古诗蒙学数据（chinese-poetry 开源数据集）"
+            git commit -m "chore: 同步古诗蒙学数据与故事音频（chinese-poetry + Edge TTS）"
             git push origin main
           fi

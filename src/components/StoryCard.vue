@@ -43,9 +43,16 @@ function open(id: string) {
       </div>
     </div>
     <span
+      v-if="story.audio"
       class="pointer-events-none absolute bottom-3 right-3 flex h-9 w-9 items-center justify-center rounded-full bg-story text-sm text-white shadow-soft"
       aria-hidden="true"
       >▶</span
+    >
+    <span
+      v-else
+      class="pointer-events-none absolute bottom-3 right-3 flex h-9 w-9 items-center justify-center rounded-full bg-cream-200 text-sm text-ink-muted"
+      aria-hidden="true"
+      >📖</span
     >
   </button>
 </template>

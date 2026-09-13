@@ -10,6 +10,7 @@ const HISTORY_MAX = 50
 const DEFAULT_SETTINGS: Settings = {
   playbackRate: 1,
   fontSize: 'normal',
+  childGrade: '全部',
 }
 
 export const useSettingsStore = defineStore('settings', () => {
@@ -36,6 +37,10 @@ export const useSettingsStore = defineStore('settings', () => {
   function setFontSize(size: Settings['fontSize']) {
     settings.value.fontSize = size
     applyFontSize()
+  }
+
+  function setChildGrade(grade: string) {
+    settings.value.childGrade = grade
   }
 
   function recordView(type: HistoryItem['type'], id: string) {
@@ -74,6 +79,7 @@ export const useSettingsStore = defineStore('settings', () => {
     applyFontSize,
     setPlaybackRate,
     setFontSize,
+    setChildGrade,
     recordView,
     clearAllUserData,
   }

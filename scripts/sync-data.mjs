@@ -25,6 +25,8 @@ const DATA_DIR = path.join(ROOT, 'src', 'data')
 
 const RAW_BASE =
   'https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/蒙学'
+const RAW_SHIJING =
+  'https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/诗经/shijing.json'
 
 const MENGXUE_LIST = [
   { file: 'sanzijing-new.json', title: '三字经', author: '王应麟' },
@@ -33,6 +35,45 @@ const MENGXUE_LIST = [
   { file: 'dizigui.json', title: '弟子规', author: '李毓秀' },
   { file: 'shenglvqimeng.json', title: '声律启蒙', author: '车万育' },
 ]
+
+/**
+ * 小学必背古诗年级映射（对照部编版教材，仅收录唐诗三百首中存在的篇目）。
+ * 未收录的唐诗默认为「拓展」；蒙学经典为「学龄前」；诗经为「拓展」。
+ */
+const TANG_GRADE = {
+  静夜思: '一年级',
+  悯农: '一年级',
+  古朗月行: '一年级',
+  风: '一年级',
+  登鹳雀楼: '二年级',
+  咏柳: '二年级',
+  赋得古原草送别: '二年级',
+  绝句: '二年级',
+  山行: '三年级',
+  望天门山: '三年级',
+  早发白帝城: '三年级',
+  九月九日忆山东兄弟: '三年级',
+  清明: '三年级',
+  滁州西涧: '三年级',
+  大林寺桃花: '三年级',
+  鹿柴: '四年级',
+  暮江吟: '四年级',
+  嫦娥: '四年级',
+  出塞: '四年级',
+  凉州词: '四年级',
+  别董大: '四年级',
+  芙蓉楼送辛渐: '四年级',
+  塞下曲: '四年级',
+  枫桥夜泊: '五年级',
+  山居秋暝: '五年级',
+  鸟鸣涧: '五年级',
+  游子吟: '五年级',
+  从军行: '五年级',
+  黄鹤楼送孟浩然之广陵: '五年级',
+  春夜喜雨: '六年级',
+  马诗: '六年级',
+  早春呈水部张十八员外: '六年级',
+}
 
 /** 简体转换（源为繁体） */
 const converter = OpenCC.Converter({ from: 't', to: 'cn' })
@@ -52,6 +93,16 @@ async function fetchJSON(url) {
   return res.json()
 }
 
+/** 按体裁推定年级：五绝→三年级、七绝→四年级、五律→五年级、七律→六年级、乐府→拓展 */
+function gradeByType(type) {
+  const tt = t(type)
+  if (tt.includes('五言绝句')) return '三年级'
+  if (tt.includes('七言绝句')) return '四年级'
+  if (tt.includes('五言律诗')) return '五年级'
+  if (tt.includes('七言律诗')) return '六年级'
+  return '拓展'
+}
+
 /** 1. 拉取并生成 poems.json（幂等，全量重写） */
 async function syncPoems() {
   const poems = []
@@ -61,12 +112,14 @@ async function syncPoems() {
   for (const section of tang.content || []) {
     for (const p of section.content || []) {
       seq++
+      const title = t(p.chapter) || '无题'
       poems.push({
         id: `poem_${String(seq).padStart(3, '0')}`,
         type: 'poem',
-        title: t(p.chapter) || '无题',
+        title,
         author: t(p.author) || '佚名',
         category: '唐诗',
+        grade: TANG_GRADE[title] || gradeByType(section.type),
         paragraphs: (p.paragraphs || []).map(t),
         source: 'chinese-poetry 开源数据集（古籍公共领域）',
         license: 'MIT 数据集 · 古籍公版',
@@ -83,7 +136,25 @@ async function syncPoems() {
       title: t(j.title || m.title),
       author: t(m.author),
       category: '蒙学',
+      grade: '学龄前',
       paragraphs: (j.paragraphs || []).map(t),
+      source: 'chinese-poetry 开源数据集（古籍公共领域）',
+      license: 'MIT 数据集 · 古籍公版',
+    })
+  }
+
+  // 诗经（305 篇，按国风/雅/颂分类）
+  const shijing = await fetchJSON(RAW_SHIJING)
+  for (const p of shijing || []) {
+    seq++
+    poems.push({
+      id: `poem_${String(seq).padStart(3, '0')}`,
+      type: 'poem',
+      title: t(p.title) || '无题',
+      author: '佚名',
+      category: '诗经',
+      grade: '拓展',
+      paragraphs: (p.content || []).map(t),
       source: 'chinese-poetry 开源数据集（古籍公共领域）',
       license: 'MIT 数据集 · 古籍公版',
     })

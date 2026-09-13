@@ -19,8 +19,15 @@ defineProps<{ poem: Poem }>()
             : 'bg-coral-soft text-coral-deep'
         "
       >
-        {{ poem.category === '蒙学' ? '📜 蒙学' : '🪶 唐诗' }}
+        {{
+          poem.category === '蒙学'
+            ? '📜 蒙学'
+            : poem.category === '诗经'
+              ? '🌾 诗经'
+              : '🪶 唐诗'
+        }}
       </span>
+      <span v-if="poem.grade" class="chip chip-off">{{ poem.grade }}</span>
       <span v-if="poem.author" class="chip chip-off">{{ poem.author }}</span>
     </div>
 

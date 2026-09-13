@@ -27,7 +27,7 @@ const filtered = computed(() =>
 
 <template>
   <div class="flex h-full flex-col">
-    <AppHeader title="学 · 今天学什么" color-class="learn" />
+    <AppHeader title="学 · 今天学什么" show-back color-class="learn" />
 
     <div class="bg-learn-soft/60">
       <FilterBar v-model="subject" :options="LEARN_SUBJECTS" />

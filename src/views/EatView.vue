@@ -22,7 +22,7 @@ const list = computed(() =>
 
 <template>
   <div class="flex h-full flex-col">
-    <AppHeader title="吃 · 今天吃什么" color-class="eat" />
+    <AppHeader title="吃 · 今天吃什么" show-back color-class="eat" />
     <FilterBar :options="DISH_MEALS" v-model="meal" />
     <FilterBar :options="DISH_TYPES" v-model="dishType" />
     <div class="feed flex-1">

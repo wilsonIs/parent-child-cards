@@ -12,7 +12,7 @@ function go(key: string) {
 
 <template>
   <div class="flex h-full flex-col">
-    <AppHeader title="玩 · 今天玩什么" colorClass="play" />
+    <AppHeader title="玩 · 今天玩什么" show-back colorClass="play" />
     <p class="px-4 pt-3 text-center text-sm text-ink-muted">
       选个场景，看看能玩什么
     </p>

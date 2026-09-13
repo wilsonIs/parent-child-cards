@@ -73,7 +73,8 @@ export interface Poem {
   type: 'poem'
   title: string
   author: string
-  category: '唐诗' | '蒙学'
+  category: '唐诗' | '蒙学' | '诗经'
+  grade: string // 学龄前 / 一年级…六年级 / 拓展
   paragraphs: string[]
   source?: string
   license?: string
@@ -90,6 +91,8 @@ export interface SavedItem {
 export interface Settings {
   playbackRate: number // 故事语速 0.5~1.5
   fontSize: 'normal' | 'large'
+  /** 孩子年级（用于古诗等内容的默认过滤）：全部/学龄前/一年级…六年级 */
+  childGrade: string
 }
 
 /** 浏览习惯记录 */

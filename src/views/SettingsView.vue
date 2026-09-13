@@ -3,6 +3,7 @@ import AppHeader from '@/components/AppHeader.vue'
 import { useSettingsStore } from '@/stores/settings'
 import { useFavoritesStore } from '@/stores/favorites'
 import { useTodayStore } from '@/stores/today'
+import { POEM_GRADES } from '@/config/modules'
 
 const settings = useSettingsStore()
 const fav = useFavoritesStore()
@@ -54,7 +55,28 @@ function clearAll() {
         </div>
       </section>
 
-      <!-- 2. 字体大小 -->
+      <!-- 2. 孩子年级 -->
+      <section class="card-soft space-y-3 p-4">
+        <div>
+          <h3 class="font-bold text-ink">孩子年级</h3>
+          <p class="text-xs text-ink-muted">古诗蒙学等内容默认按此过滤</p>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          <button
+            v-for="g in POEM_GRADES"
+            :key="g"
+            class="chip"
+            :class="
+              settings.settings.childGrade === g ? 'chip-on' : 'chip-off'
+            "
+            @click="settings.setChildGrade(g)"
+          >
+            {{ g }}
+          </button>
+        </div>
+      </section>
+
+      <!-- 3. 字体大小 -->
       <section class="card-soft space-y-3 p-4">
         <div>
           <h3 class="font-bold text-ink">字体大小</h3>
