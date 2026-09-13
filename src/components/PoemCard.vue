@@ -16,7 +16,9 @@ defineProps<{ poem: Poem }>()
         :class="
           poem.category === '蒙学'
             ? 'bg-learn-soft text-learn-deep'
-            : 'bg-coral-soft text-coral-deep'
+            : poem.category === '宋词'
+              ? 'bg-play-soft text-play-deep'
+              : 'bg-coral-soft text-coral-deep'
         "
       >
         {{
@@ -24,7 +26,11 @@ defineProps<{ poem: Poem }>()
             ? '📜 蒙学'
             : poem.category === '诗经'
               ? '🌾 诗经'
-              : '🪶 唐诗'
+              : poem.category === '宋词'
+                ? '🎼 宋词'
+                : poem.category === '楚辞'
+                  ? '🍃 楚辞'
+                  : '🪶 唐诗'
         }}
       </span>
       <span v-if="poem.grade" class="chip chip-off">{{ poem.grade }}</span>
@@ -34,7 +40,11 @@ defineProps<{ poem: Poem }>()
     <h3 class="text-lg font-bold leading-snug text-ink">{{ poem.title }}</h3>
 
     <div class="space-y-1 text-base leading-relaxed text-ink-soft">
-      <p v-for="(line, i) in poem.paragraphs" :key="i" :class="poem.category === '唐诗' ? 'text-center' : ''">
+      <p
+        v-for="(line, i) in poem.paragraphs"
+        :key="i"
+        :class="poem.category === '蒙学' ? '' : 'text-center'"
+      >
         {{ line }}
       </p>
     </div>

@@ -27,6 +27,16 @@ const RAW_BASE =
   'https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/蒙学'
 const RAW_SHIJING =
   'https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/诗经/shijing.json'
+const RAW_CHUCI =
+  'https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/楚辞/chuci.json'
+const RAW_CI_FILES = [
+  'https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/宋词/ci.song.0.json',
+  'https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/宋词/ci.song.1000.json',
+  'https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/宋词/ci.song.2000.json',
+  'https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/宋词/ci.song.3000.json',
+  'https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/宋词/ci.song.4000.json',
+  'https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/宋词/ci.song.5000.json',
+]
 
 const MENGXUE_LIST = [
   { file: 'sanzijing-new.json', title: '三字经', author: '王应麟' },
@@ -74,6 +84,16 @@ const TANG_GRADE = {
   马诗: '六年级',
   早春呈水部张十八员外: '六年级',
 }
+
+/** 著名宋词人（每人在拉取范围内精选若干首） */
+const SONG_AUTHORS = [
+  '苏轼', '辛弃疾', '李清照', '柳永', '晏殊', '晏几道', '欧阳修',
+  '秦观', '周邦彦', '姜夔', '陆游', '范仲淹', '岳飞', '李煜',
+  '张先', '贺铸', '黄庭坚', '王安石', '蒋捷', '吴文英', '张炎',
+  '朱敦儒', '李之仪', '张孝祥', '叶梦得', '王观', '陈与义', '刘克庄',
+  '杨万里', '范成大',
+]
+const MAX_PER_AUTHOR = 10
 
 /** 简体转换（源为繁体） */
 const converter = OpenCC.Converter({ from: 't', to: 'cn' })
@@ -153,6 +173,47 @@ async function syncPoems() {
       title: t(p.title) || '无题',
       author: '佚名',
       category: '诗经',
+      grade: '拓展',
+      paragraphs: (p.content || []).map(t),
+      source: 'chinese-poetry 开源数据集（古籍公共领域）',
+      license: 'MIT 数据集 · 古籍公版',
+    })
+  }
+
+  // 宋词精选（著名词人，每人限选）
+  const seen = new Map()
+  for (const url of RAW_CI_FILES) {
+    const arr = await fetchJSON(url)
+    for (const c of arr || []) {
+      const author = t(c.author || '')
+      if (!SONG_AUTHORS.includes(author)) continue
+      if ((seen.get(author) || 0) >= MAX_PER_AUTHOR) continue
+      seen.set(author, (seen.get(author) || 0) + 1)
+      seq++
+      poems.push({
+        id: `poem_${String(seq).padStart(3, '0')}`,
+        type: 'poem',
+        title: t(c.rhythmic) || '无题',
+        author,
+        category: '宋词',
+        grade: '六年级',
+        paragraphs: (c.paragraphs || []).map(t),
+        source: 'chinese-poetry 开源数据集（古籍公共领域）',
+        license: 'MIT 数据集 · 古籍公版',
+      })
+    }
+  }
+
+  // 楚辞（65 篇，屈原及汉代拟骚）
+  const chuci = await fetchJSON(RAW_CHUCI)
+  for (const p of chuci || []) {
+    seq++
+    poems.push({
+      id: `poem_${String(seq).padStart(3, '0')}`,
+      type: 'poem',
+      title: t(p.title) || '无题',
+      author: t(p.author) || '佚名',
+      category: '楚辞',
       grade: '拓展',
       paragraphs: (p.content || []).map(t),
       source: 'chinese-poetry 开源数据集（古籍公共领域）',

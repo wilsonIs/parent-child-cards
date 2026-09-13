@@ -122,90 +122,6 @@
   {
     "id": "learn_011",
     "type": "learn",
-    "title": "GeoGebra · 数学互动课堂",
-    "subject": "数学",
-    "grade": "全年级",
-    "resourceType": "互动练习",
-    "url": "https://www.geogebra.org/",
-    "source": "GeoGebra",
-    "license": "官方免费",
-    "description": "免费数学可视化工具，几何、函数、统计动态演示。"
-  },
-  {
-    "id": "learn_012",
-    "type": "learn",
-    "title": "PhET · 数学与科学模拟",
-    "subject": "科学",
-    "grade": "全年级",
-    "resourceType": "互动练习",
-    "url": "https://phet.colorado.edu/zh_CN/",
-    "source": "PhET 交互模拟",
-    "license": "官方免费",
-    "description": "科罗拉多大学交互模拟实验，覆盖数理化生学科。"
-  },
-  {
-    "id": "learn_013",
-    "type": "learn",
-    "title": "Khan Academy Kids · 数学启蒙",
-    "subject": "数学",
-    "grade": "一年级",
-    "resourceType": "互动练习",
-    "url": "https://www.khanacademy.org/kids",
-    "source": "Khan Academy Kids",
-    "license": "官方免费",
-    "description": "2-8 岁免费数学启蒙课程，游戏化练习计数与运算。"
-  },
-  {
-    "id": "learn_014",
-    "type": "learn",
-    "title": "Khan Academy Kids · 英语阅读",
-    "subject": "英语",
-    "grade": "全年级",
-    "resourceType": "互动练习",
-    "url": "https://www.khanacademy.org/kids",
-    "source": "Khan Academy Kids",
-    "license": "官方免费",
-    "description": "免费英语绘本与拼读课程，含字母、词汇与阅读理解。"
-  },
-  {
-    "id": "learn_015",
-    "type": "learn",
-    "title": "LearnEnglish Kids",
-    "subject": "英语",
-    "grade": "全年级",
-    "resourceType": "互动练习",
-    "url": "https://learnenglishkids.britishcouncil.org/",
-    "source": "British Council",
-    "license": "官方免费",
-    "description": "英国文化教育协会出品，含游戏、歌曲、故事与写作练习。"
-  },
-  {
-    "id": "learn_016",
-    "type": "learn",
-    "title": "Super Simple Songs · 英文儿歌",
-    "subject": "英语",
-    "grade": "一年级",
-    "resourceType": "视频课",
-    "url": "https://supersimple.com/",
-    "source": "Super Simple",
-    "license": "官方免费",
-    "description": "经典英文儿歌与动画，适合零基础英语启蒙磨耳朵。"
-  },
-  {
-    "id": "learn_017",
-    "type": "learn",
-    "title": "Scratch · 少儿编程",
-    "subject": "科学",
-    "grade": "全年级",
-    "resourceType": "互动练习",
-    "url": "https://scratch.mit.edu/",
-    "source": "MIT Scratch",
-    "license": "官方免费",
-    "description": "麻省理工积木式编程平台，做动画、故事与小游戏。"
-  },
-  {
-    "id": "learn_018",
-    "type": "learn",
     "title": "国家图书馆 · 少儿数字资源",
     "subject": "阅读",
     "grade": "全年级",
@@ -216,7 +132,7 @@
     "description": "国图少儿数字资源，含电子绘本、有声书与科普读物。"
   },
   {
-    "id": "learn_019",
+    "id": "learn_012",
     "type": "learn",
     "title": "小学数学同步课（五年级）",
     "subject": "数学",
@@ -228,7 +144,7 @@
     "description": "分数、小数、几何与统计，五年级数学全章节精讲。"
   },
   {
-    "id": "learn_020",
+    "id": "learn_013",
     "type": "learn",
     "title": "小学英语同步课（六年级）",
     "subject": "英语",
@@ -240,7 +156,7 @@
     "description": "六年级英语综合复习与时态、阅读写作专项训练。"
   },
   {
-    "id": "learn_021",
+    "id": "learn_014",
     "type": "learn",
     "title": "国家教育资源公共服务平台",
     "subject": "全科",
@@ -252,7 +168,7 @@
     "description": "汇聚全国优质教学资源，覆盖各学科、各学段。"
   },
   {
-    "id": "learn_022",
+    "id": "learn_015",
     "type": "learn",
     "title": "深圳教育云资源平台",
     "subject": "全科",
@@ -264,7 +180,7 @@
     "description": "深圳本地课程资源与名师优课。"
   },
   {
-    "id": "learn_023",
+    "id": "learn_016",
     "type": "learn",
     "title": "国家智慧教育读书平台",
     "subject": "阅读",
@@ -276,7 +192,7 @@
     "description": "官方推荐阅读书单与电子书资源。"
   },
   {
-    "id": "learn_024",
+    "id": "learn_017",
     "type": "learn",
     "title": "中国数字科技馆",
     "subject": "科学",
@@ -288,7 +204,7 @@
     "description": "科普文章、虚拟展馆与科学实验。"
   },
   {
-    "id": "learn_025",
+    "id": "learn_018",
     "type": "learn",
     "title": "中国科普博览",
     "subject": "科学",
@@ -300,7 +216,7 @@
     "description": "中科院官方科普资源，内容权威。"
   },
   {
-    "id": "learn_026",
+    "id": "learn_019",
     "type": "learn",
     "title": "故宫博物院·青少年",
     "subject": "历史",
@@ -312,7 +228,7 @@
     "description": "云逛故宫，了解中国传统文化。"
   },
   {
-    "id": "learn_027",
+    "id": "learn_020",
     "type": "learn",
     "title": "数字敦煌",
     "subject": "历史",
@@ -324,7 +240,7 @@
     "description": "高清数字壁画，感受千年艺术。"
   },
   {
-    "id": "learn_028",
+    "id": "learn_021",
     "type": "learn",
     "title": "央视频·少儿频道",
     "subject": "全科",
@@ -336,7 +252,7 @@
     "description": "央视少儿节目与动画合集。"
   },
   {
-    "id": "learn_029",
+    "id": "learn_022",
     "type": "learn",
     "title": "学习强国·中小学课堂",
     "subject": "全科",
@@ -348,7 +264,7 @@
     "description": "中小学免费课程与德育资源。"
   },
   {
-    "id": "learn_030",
+    "id": "learn_023",
     "type": "learn",
     "title": "云听·少儿频道",
     "subject": "阅读",
@@ -360,7 +276,7 @@
     "description": "少儿故事、儿歌与名著有声版。"
   },
   {
-    "id": "learn_031",
+    "id": "learn_024",
     "type": "learn",
     "title": "国家图书馆·少年儿童馆",
     "subject": "阅读",
@@ -372,7 +288,7 @@
     "description": "少儿电子书、连环画与有声资源。"
   },
   {
-    "id": "learn_032",
+    "id": "learn_025",
     "type": "learn",
     "title": "国家平台·家庭教育专题",
     "subject": "道法",
@@ -384,7 +300,7 @@
     "description": "家庭教育专题与亲子沟通课程。"
   },
   {
-    "id": "learn_033",
+    "id": "learn_026",
     "type": "learn",
     "title": "国家平台·课后服务",
     "subject": "全科",
@@ -396,31 +312,7 @@
     "description": "科普、体育、艺术等课后服务资源。"
   },
   {
-    "id": "learn_034",
-    "type": "learn",
-    "title": "BBC Learning English",
-    "subject": "英语",
-    "grade": "全年级",
-    "resourceType": "英语",
-    "url": "https://www.bbc.co.uk/learningenglish/",
-    "source": "BBC",
-    "license": "官方免费",
-    "description": "英语听力、发音与词汇学习。"
-  },
-  {
-    "id": "learn_035",
-    "type": "learn",
-    "title": "Storyline Online",
-    "subject": "英语",
-    "grade": "全年级",
-    "resourceType": "阅读",
-    "url": "https://storylineonline.net/",
-    "source": "SAG-AFTRA基金会",
-    "license": "免费",
-    "description": "名人朗读英文绘本视频。"
-  },
-  {
-    "id": "learn_036",
+    "id": "learn_027",
     "type": "learn",
     "title": "国家平台·劳动教育",
     "subject": "道法",
@@ -432,31 +324,7 @@
     "description": "劳动教育课程与实践活动指导。"
   },
   {
-    "id": "learn_037",
-    "type": "learn",
-    "title": "可汗学院",
-    "subject": "数学",
-    "grade": "全年级",
-    "resourceType": "课程",
-    "url": "https://www.khanacademy.org/",
-    "source": "Khan Academy",
-    "license": "免费",
-    "description": "全球知名免费在线课程，数学体系完整。"
-  },
-  {
-    "id": "learn_038",
-    "type": "learn",
-    "title": "熊猫博士",
-    "subject": "科学",
-    "grade": "全年级",
-    "resourceType": "App",
-    "url": "https://www.drpanda.com/",
-    "source": "Dr. Panda",
-    "license": "免费",
-    "description": "儿童益智游戏与百科知识（注意使用时长）。"
-  },
-  {
-    "id": "learn_039",
+    "id": "learn_028",
     "type": "learn",
     "title": "百度汉语",
     "subject": "语文",
@@ -468,7 +336,7 @@
     "description": "汉字笔顺、成语、诗词查询工具。"
   },
   {
-    "id": "learn_040",
+    "id": "learn_029",
     "type": "learn",
     "title": "国家平台·体育",
     "subject": "体育",
@@ -478,5 +346,377 @@
     "source": "国家中小学智慧教育平台",
     "license": "官方免费",
     "description": "体育课程与居家锻炼指导。"
+  },
+  {
+    "id": "learn_030",
+    "type": "learn",
+    "title": "中国科学院",
+    "subject": "科学",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.cas.cn/",
+    "source": "中国科学院",
+    "license": "官方免费",
+    "description": "国家科研机构官网，科学资讯与前沿动态"
+  },
+  {
+    "id": "learn_031",
+    "type": "learn",
+    "title": "中国科技馆",
+    "subject": "科学",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.cstm.org.cn/",
+    "source": "中国科技馆",
+    "license": "官方免费",
+    "description": "国家级科技馆，常设展览与科普活动"
+  },
+  {
+    "id": "learn_032",
+    "type": "learn",
+    "title": "中国载人航天工程网",
+    "subject": "科学",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.cmse.gov.cn/",
+    "source": "中国载人航天工程网",
+    "license": "官方免费",
+    "description": "官方航天工程，航天知识与发射直播"
+  },
+  {
+    "id": "learn_033",
+    "type": "learn",
+    "title": "中国航天科技集团",
+    "subject": "科学",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.spacechina.com/",
+    "source": "中国航天科技集团",
+    "license": "官方免费",
+    "description": "航天科普与火箭发射资讯"
+  },
+  {
+    "id": "learn_034",
+    "type": "learn",
+    "title": "中国国家博物馆",
+    "subject": "历史",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.chnmuseum.cn/",
+    "source": "中国国家博物馆",
+    "license": "官方免费",
+    "description": "云端看国宝，历史与艺术课堂"
+  },
+  {
+    "id": "learn_035",
+    "type": "learn",
+    "title": "北京天文馆",
+    "subject": "科学",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.bjp.org.cn/",
+    "source": "北京天文馆",
+    "license": "官方免费",
+    "description": "仰望星空，天文科普与球幕影院"
+  },
+  {
+    "id": "learn_036",
+    "type": "learn",
+    "title": "中国丝绸博物馆",
+    "subject": "历史",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.chinasilkmuseum.com/",
+    "source": "中国丝绸博物馆",
+    "license": "官方免费",
+    "description": "丝绸文化与中国服饰史"
+  },
+  {
+    "id": "learn_037",
+    "type": "learn",
+    "title": "三星堆博物馆",
+    "subject": "历史",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.sxd.cn/",
+    "source": "三星堆博物馆",
+    "license": "官方免费",
+    "description": "古蜀文明探秘"
+  },
+  {
+    "id": "learn_038",
+    "type": "learn",
+    "title": "秦始皇帝陵博物院",
+    "subject": "历史",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.bmy.com.cn/",
+    "source": "秦始皇帝陵博物院",
+    "license": "官方免费",
+    "description": "兵马俑与秦文化"
+  },
+  {
+    "id": "learn_039",
+    "type": "learn",
+    "title": "河南博物院",
+    "subject": "历史",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.chnmus.net/",
+    "source": "河南博物院",
+    "license": "官方免费",
+    "description": "华夏文明寻宝，文物云展览"
+  },
+  {
+    "id": "learn_040",
+    "type": "learn",
+    "title": "南京博物院",
+    "subject": "历史",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.njmuseum.com/",
+    "source": "南京博物院",
+    "license": "官方免费",
+    "description": "六朝古都的文物宝库"
+  },
+  {
+    "id": "learn_041",
+    "type": "learn",
+    "title": "上海博物馆",
+    "subject": "历史",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.shanghaimuseum.net/",
+    "source": "上海博物馆",
+    "license": "官方免费",
+    "description": "青铜器与书画珍藏"
+  },
+  {
+    "id": "learn_042",
+    "type": "learn",
+    "title": "陕西历史博物馆",
+    "subject": "历史",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.sxhm.com/",
+    "source": "陕西历史博物馆",
+    "license": "官方免费",
+    "description": "周秦汉唐历史长廊"
+  },
+  {
+    "id": "learn_043",
+    "type": "learn",
+    "title": "广东省博物馆",
+    "subject": "历史",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.gdmuseum.com/",
+    "source": "广东省博物馆",
+    "license": "官方免费",
+    "description": "岭南文化博物馆"
+  },
+  {
+    "id": "learn_044",
+    "type": "learn",
+    "title": "中少在线",
+    "subject": "阅读",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.ccppg.com.cn/",
+    "source": "中少在线",
+    "license": "官方免费",
+    "description": "中国少年儿童新闻出版总社官方阅读平台"
+  },
+  {
+    "id": "learn_045",
+    "type": "learn",
+    "title": "未来网",
+    "subject": "阅读",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.k618.cn/",
+    "source": "未来网",
+    "license": "官方免费",
+    "description": "共青团中央少年儿童门户，少先队资讯"
+  },
+  {
+    "id": "learn_046",
+    "type": "learn",
+    "title": "中国青年网·少年",
+    "subject": "阅读",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.youth.cn/",
+    "source": "中国青年网·少年",
+    "license": "官方免费",
+    "description": "面向青少年的新闻与成长内容"
+  },
+  {
+    "id": "learn_047",
+    "type": "learn",
+    "title": "中国文明网·未成年人",
+    "subject": "道法",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.wenming.cn/",
+    "source": "中国文明网·未成年人",
+    "license": "官方免费",
+    "description": "未成年人思想道德建设专题"
+  },
+  {
+    "id": "learn_048",
+    "type": "learn",
+    "title": "国家体育总局·青少年体育",
+    "subject": "体育",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.sport.gov.cn/",
+    "source": "国家体育总局·青少年体育",
+    "license": "官方免费",
+    "description": "青少年体质与运动指导"
+  },
+  {
+    "id": "learn_049",
+    "type": "learn",
+    "title": "中国教育电视台",
+    "subject": "全科",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "http://www.cetv.cn/",
+    "source": "中国教育电视台",
+    "license": "官方免费",
+    "description": "教育节目与《同上一堂课》"
+  },
+  {
+    "id": "learn_050",
+    "type": "learn",
+    "title": "中国大学MOOC",
+    "subject": "全科",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.icourse163.org/",
+    "source": "中国大学MOOC",
+    "license": "官方免费",
+    "description": "国家精品在线开放课程"
+  },
+  {
+    "id": "learn_051",
+    "type": "learn",
+    "title": "学堂在线",
+    "subject": "全科",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.xuetangx.com/",
+    "source": "学堂在线",
+    "license": "官方免费",
+    "description": "教育部在线教育研究中心平台"
+  },
+  {
+    "id": "learn_052",
+    "type": "learn",
+    "title": "国家高等教育智慧教育平台",
+    "subject": "全科",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://higher.smartedu.cn/",
+    "source": "国家高等教育智慧教育平台",
+    "license": "官方免费",
+    "description": "国家高等教育课程平台"
+  },
+  {
+    "id": "learn_053",
+    "type": "learn",
+    "title": "中国国家地理",
+    "subject": "地理",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.dili360.com/",
+    "source": "中国国家地理",
+    "license": "官方免费",
+    "description": "中国地理、自然与人文科普"
+  },
+  {
+    "id": "learn_054",
+    "type": "learn",
+    "title": "中国电子学会·青少年科创",
+    "subject": "科学",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.cie.org.cn/",
+    "source": "中国电子学会·青少年科创",
+    "license": "官方免费",
+    "description": "青少年编程与机器人等级认证"
+  },
+  {
+    "id": "learn_055",
+    "type": "learn",
+    "title": "国家大剧院·古典音乐频道",
+    "subject": "艺术",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.chncpa.org/",
+    "source": "国家大剧院·古典音乐频道",
+    "license": "官方免费",
+    "description": "音乐、舞蹈、戏剧艺术欣赏"
+  },
+  {
+    "id": "learn_056",
+    "type": "learn",
+    "title": "中央音乐学院",
+    "subject": "艺术",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.ccom.edu.cn/",
+    "source": "中央音乐学院",
+    "license": "官方免费",
+    "description": "中国最高音乐学府，音乐知识"
+  },
+  {
+    "id": "learn_057",
+    "type": "learn",
+    "title": "外研社·少儿英语",
+    "subject": "英语",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.fltrp.com/",
+    "source": "外研社·少儿英语",
+    "license": "官方免费",
+    "description": "中国专业外语出版机构"
+  },
+  {
+    "id": "learn_058",
+    "type": "learn",
+    "title": "中国日报双语新闻",
+    "subject": "英语",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://language.chinadaily.com.cn/",
+    "source": "中国日报双语新闻",
+    "license": "官方免费",
+    "description": "中英双语阅读素材"
+  },
+  {
+    "id": "learn_059",
+    "type": "learn",
+    "title": "中国大百科全书（第三版）",
+    "subject": "全科",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.zgbk.com/",
+    "source": "中国大百科全书（第三版）",
+    "license": "官方免费",
+    "description": "国家级百科全书在线版"
+  },
+  {
+    "id": "learn_060",
+    "type": "learn",
+    "title": "人民教育出版社",
+    "subject": "全科",
+    "grade": "全年级",
+    "resourceType": "网站",
+    "url": "https://www.pep.com.cn/",
+    "source": "人民教育出版社",
+    "license": "官方免费",
+    "description": "中小学教材与配套课程资源"
   }
 ]

@@ -12,7 +12,7 @@ const data = useDataStore()
 const settings = useSettingsStore()
 
 const category = ref('全部')
-const CATEGORIES = ['全部', '唐诗', '蒙学', '诗经']
+const CATEGORIES = ['全部', '唐诗', '宋词', '诗经', '楚辞', '蒙学']
 
 /** 用户设置的孩子年级（数字等级；'全部' = 不过滤） */
 const gradeLevel = computed(() =>

@@ -75,7 +75,7 @@ export interface Poem {
   type: 'poem'
   title: string
   author: string
-  category: '唐诗' | '蒙学' | '诗经'
+  category: '唐诗' | '宋词' | '诗经' | '楚辞' | '蒙学'
   grade: string // 学龄前 / 一年级…六年级 / 拓展
   paragraphs: string[]
   source?: string
