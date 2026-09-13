@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
+import { RouterLink } from 'vue-router'
 import AppHeader from '@/components/AppHeader.vue'
 import FilterBar from '@/components/FilterBar.vue'
 import EmptyState from '@/components/EmptyState.vue'
@@ -31,6 +32,24 @@ const filtered = computed(() =>
     <div class="bg-learn-soft/60">
       <FilterBar v-model="subject" :options="LEARN_SUBJECTS" />
       <FilterBar v-model="grade" :options="LEARN_GRADES" />
+    </div>
+
+    <div class="px-4 pt-3">
+      <RouterLink
+        to="/poems"
+        class="card-soft flex items-center justify-between gap-2 bg-gradient-to-br from-learn-soft/70 to-cream-100 p-4 transition-transform active:scale-[0.98]"
+      >
+        <div class="flex items-center gap-3">
+          <span class="text-4xl">🪶</span>
+          <div>
+            <h3 class="font-bold text-ink">古诗 · 蒙学</h3>
+            <p class="text-xs text-ink-muted">
+              唐诗三百首 · 三字经 · 百家姓 · 千字文 · 弟子规 · 声律启蒙
+            </p>
+          </div>
+        </div>
+        <span class="text-ink-muted">›</span>
+      </RouterLink>
     </div>
 
     <div class="flex-1 overflow-y-auto">

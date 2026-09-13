@@ -1,0 +1,49 @@
+name: Sync Content Data
+
+# 定时同步古诗/蒙学数据（chinese-poetry 开源数据集）
+# 数据有变化时自动提交到 main，触发 deploy-pages 重新构建部署
+
+on:
+  schedule:
+    - cron: '0 21 * * 0' # 每周日 21:00 UTC = 北京时间周一 05:00
+  workflow_dispatch: # 支持在 Actions 页面手动触发
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-data
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run data sync script
+        run: node scripts/sync-data.mjs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data scripts pnpm-lock.yaml
+          if git diff --cached --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "chore: 同步古诗蒙学数据（chinese-poetry 开源数据集）"
+            git push origin main
+          fi

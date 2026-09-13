@@ -1,6 +1,6 @@
 // 通用数据类型定义
 
-export type ItemType = 'dish' | 'story' | 'game' | 'learn'
+export type ItemType = 'dish' | 'story' | 'game' | 'learn' | 'poem'
 
 /** 吃 - 菜谱 */
 export interface Dish {
@@ -65,6 +65,18 @@ export interface Learn {
   source?: string
   license?: string
   description?: string
+}
+
+/** 学 - 古诗 / 蒙学（chinese-poetry 开源数据集自动同步） */
+export interface Poem {
+  id: string
+  type: 'poem'
+  title: string
+  author: string
+  category: '唐诗' | '蒙学'
+  paragraphs: string[]
+  source?: string
+  license?: string
 }
 
 /** 收藏 / 今日清单条目 */

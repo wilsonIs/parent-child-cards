@@ -14,8 +14,9 @@ const TYPE_META: Record<ItemType, { label: string; icon: string }> = {
   learn: { label: '学', icon: '📚' },
   story: { label: '故事', icon: '📖' },
   game: { label: '玩', icon: '🎲' },
+  poem: { label: '古诗', icon: '🪶' },
 }
-const ORDER: ItemType[] = ['dish', 'learn', 'story', 'game']
+const ORDER: ItemType[] = ['dish', 'learn', 'poem', 'story', 'game']
 
 /** 解析条目标题与图标；数据未加载时回退 id 占位 */
 function resolve(type: ItemType, id: string) {
@@ -23,6 +24,7 @@ function resolve(type: ItemType, id: string) {
   if (!item) return { title: id, icon: TYPE_META[type].icon }
   if ('name' in item) return { title: item.name, icon: item.icon }
   if ('subject' in item) return { title: item.title, icon: TYPE_META[type].icon }
+  if ('paragraphs' in item) return { title: item.title, icon: TYPE_META[type].icon }
   return { title: item.title, icon: item.icon }
 }
 

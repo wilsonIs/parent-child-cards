@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
-import type { Dish, Game, Learn, Story } from '@/types'
+import type { Dish, Game, Learn, Poem, Story } from '@/types'
 
 /**
  * 数据 store：应用启动时 fetch 四个静态 JSON，缓存到内存。
@@ -11,6 +11,7 @@ export const useDataStore = defineStore('data', () => {
   const stories = ref<Story[]>([])
   const games = ref<Game[]>([])
   const learn = ref<Learn[]>([])
+  const poems = ref<Poem[]>([])
 
   const loaded = ref(false)
   const loading = ref(false)
@@ -20,16 +21,18 @@ export const useDataStore = defineStore('data', () => {
     loading.value = true
     try {
       // 直接 import 静态 JSON，Vite 会打包进产物，避免 file:// 与 CORS 问题
-      const [d, s, g, l] = await Promise.all([
+      const [d, s, g, l, p] = await Promise.all([
         import('@/data/dishes.json'),
         import('@/data/stories.json'),
         import('@/data/games.json'),
         import('@/data/learn.json'),
+        import('@/data/poems.json'),
       ])
       dishes.value = d.default as Dish[]
       stories.value = s.default as Story[]
       games.value = g.default as Game[]
       learn.value = l.default as Learn[]
+      poems.value = p.default as Poem[]
       loaded.value = true
     } catch (e) {
       console.error('数据加载失败', e)
@@ -42,6 +45,7 @@ export const useDataStore = defineStore('data', () => {
   const storyById = (id: string) => stories.value.find((x) => x.id === id)
   const gameById = (id: string) => games.value.find((x) => x.id === id)
   const learnById = (id: string) => learn.value.find((x) => x.id === id)
+  const poemById = (id: string) => poems.value.find((x) => x.id === id)
 
   /** 按 type 取对应集合（供收藏/今日清单回填展示） */
   const itemByType = (type: string, id: string) => {
@@ -54,6 +58,8 @@ export const useDataStore = defineStore('data', () => {
         return gameById(id)
       case 'learn':
         return learnById(id)
+      case 'poem':
+        return poemById(id)
       default:
         return undefined
     }
@@ -64,6 +70,7 @@ export const useDataStore = defineStore('data', () => {
     stories,
     games,
     learn,
+    poems,
     loaded,
     loading,
     loadAll,
@@ -71,6 +78,7 @@ export const useDataStore = defineStore('data', () => {
     storyById,
     gameById,
     learnById,
+    poemById,
     itemByType,
   }
 })
