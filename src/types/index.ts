@@ -63,7 +63,10 @@ export interface Learn {
   subject: string
   grade: string
   resourceType: string
-  url: string
+  /** 本地可直接阅读的知识内容（应用内展示，不依赖外链） */
+  content: string
+  /** 可选：移动端友好的外部平台链接（如 B站/小红书/抖音），没有则为空 */
+  url?: string
   source?: string
   license?: string
   description?: string

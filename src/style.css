@@ -12,6 +12,8 @@
   body,
   #app {
     height: 100%;
+    /* Safari/浏览器滚动弹性（橡皮筋效果）处理：到顶/到底不再回弹 */
+    overscroll-behavior: none;
   }
 
   body {
@@ -67,6 +69,12 @@
   .line-clamp-1 {
     display: -webkit-box;
     -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }

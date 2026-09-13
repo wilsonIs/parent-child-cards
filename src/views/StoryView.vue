@@ -111,6 +111,8 @@ function onTouchStart(e: TouchEvent) {
 }
 function onTouchMove(e: TouchEvent) {
   if (!dragging.value) return
+  // 拖动卡片流时阻止浏览器默认手势（避免 Safari 上拉下提的橡皮筋弹性）
+  e.preventDefault()
   const dy = e.touches[0].clientY - startY
   const max = 45
   const damped = Math.max(-max, Math.min(max, dy * 0.5))
@@ -158,8 +160,8 @@ const brief = (text: string) => (text.length > 70 ? text.slice(0, 70) + '……'
     <!-- 上滑卡片流 -->
     <div
       class="relative flex-1 overflow-hidden px-3 pb-3"
-      @touchstart.passive="onTouchStart"
-      @touchmove.passive="onTouchMove"
+      @touchstart="onTouchStart"
+      @touchmove="onTouchMove"
       @touchend="onTouchEnd"
       @wheel="onWheel"
     >

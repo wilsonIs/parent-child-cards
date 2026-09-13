@@ -233,7 +233,7 @@ const REQUIRED = {
   dishes: ['id', 'type', 'name', 'icon'],
   stories: ['id', 'type', 'title', 'text'],
   games: ['id', 'type', 'title', 'rules'],
-  learn: ['id', 'type', 'title', 'url'],
+  learn: ['id', 'type', 'title', 'content'],
 }
 
 async function validateExisting() {
