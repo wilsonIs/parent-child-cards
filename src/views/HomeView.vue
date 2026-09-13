@@ -5,11 +5,24 @@ import AppHeader from '@/components/AppHeader.vue'
 import { MODULES } from '@/config/modules'
 import { colors } from '@/config/colors'
 import { useTodayStore } from '@/stores/today'
+import { useSettingsStore } from '@/stores/settings'
+import { useDataStore } from '@/stores/data'
 
 const today = useTodayStore()
+const settings = useSettingsStore()
+const data = useDataStore()
 
 const cards = computed(() =>
   MODULES.map((m) => ({ m, c: colors(m.colorClass) })),
+)
+
+/** 最近听过的故事（取最近 5 个） */
+const recentStories = computed(() =>
+  settings.history
+    .filter((h) => h.type === 'story')
+    .slice(0, 5)
+    .map((h) => data.storyById(h.id))
+    .filter((s): s is NonNullable<typeof s> => Boolean(s)),
 )
 </script>
 
@@ -34,6 +47,28 @@ const cards = computed(() =>
             class="chip shrink-0 bg-white text-coral shadow-soft"
           >
             今日 {{ today.count }}
+          </RouterLink>
+        </div>
+      </section>
+
+      <!-- 最近听过 -->
+      <section v-if="recentStories.length" class="px-4 pt-4">
+        <div class="mb-2 flex items-center justify-between">
+          <h3 class="text-sm font-bold text-ink">最近听过</h3>
+          <RouterLink to="/story" class="text-xs text-coral">去故事 ›</RouterLink>
+        </div>
+        <div class="scrollbar-none flex gap-3 overflow-x-auto pb-1">
+          <RouterLink
+            v-for="st in recentStories"
+            :key="st.id"
+            :to="`/story/${st.id}`"
+            class="flex w-24 shrink-0 flex-col items-center gap-1 rounded-2xl bg-cream-100 p-3 text-center transition-transform active:scale-95"
+          >
+            <span class="text-3xl">{{ st.icon }}</span>
+            <span class="line-clamp-1 w-full text-xs font-bold text-ink">{{
+              st.title
+            }}</span>
+            <span class="text-[10px] text-ink-muted">{{ st.duration }}</span>
           </RouterLink>
         </div>
       </section>

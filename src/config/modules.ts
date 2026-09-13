@@ -111,3 +111,16 @@ export const GRADE_LEVEL: Record<string, number> = {
   六年级: 6,
   拓展: 6,
 }
+
+/** 故事系列元数据（icon 与一句话简介） */
+export const SERIES_META: Record<string, { icon: string; desc: string }> = {
+  西游记: { icon: '🐒', desc: '取经路上降妖除魔的经典故事' },
+  三国演义: { icon: '⚔️', desc: '群雄逐鹿的智慧与忠义' },
+  一千零一夜: { icon: '🧞', desc: '阿拉伯的奇妙夜谭' },
+  格林童话: { icon: '👸', desc: '德国经典童话集' },
+  安徒生童话: { icon: '🦢', desc: '丹麦童话大师的经典作品' },
+  伊索寓言: { icon: '🦊', desc: '小动物讲出的大道理' },
+  成语故事: { icon: '📖', desc: '一条成语，一段来历' },
+  中国神话: { icon: '🌌', desc: '盘古开天到夸父逐日' },
+  民间传说: { icon: '🏮', desc: '流传千年的民间故事' },
+}

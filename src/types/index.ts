@@ -33,6 +33,8 @@ export interface Story {
   audio?: string
   source?: string
   license?: string
+  /** 所属系列（如 西游记/格林童话）；无则为单篇 */
+  series?: string
 }
 
 /** 玩 - 亲子游戏 */
