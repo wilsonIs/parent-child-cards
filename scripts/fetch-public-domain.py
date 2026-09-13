@@ -22,12 +22,15 @@ UA = "ParentChildCards-SourceFetcher/1.0 (public domain texts)"
 TIMEOUT = 90
 MAX_RETRY = 4
 
-# 书目清单：Gutenberg 中文公版书（仅保留适合儿童阅读的书目）
+# 书目清单：Gutenberg 中文公版书
+# 只收能产出儿童故事的底稿：古典小说原文 + 神话/寓言古籍
+# （《封神演义》《聊斋志异》等不适合儿童的书目已排除）
 CATALOG = [
     {"key": "xiyouji", "name": "西游记", "gid": 23962},
-    {"key": "fengshenyanyi", "name": "封神演义", "gid": 23910},
     {"key": "shanhaijing", "name": "山海经", "gid": 25288},
-    {"key": "liaozhaizhiyi", "name": "聊斋志异", "gid": 51828},
+    {"key": "huainanzi", "name": "淮南子", "gid": 24059},
+    {"key": "liezi", "name": "列子", "gid": 7341},
+    {"key": "zhuangzigushi", "name": "庄子的故事", "gid": 23913},
 ]
 
 
