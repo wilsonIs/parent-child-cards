@@ -1,7 +1,7 @@
 name: Fetch Public Domain Sources
 
-# 定时抓取维基文库公版原著原文（西游记/三国/水浒/封神/红楼梦），
-# 在 GitHub 服务器执行，规避国内网络对维基文库的封锁。
+# 定时抓取 Project Gutenberg 公版原著原文（适合儿童的书目，目前为西游记），
+# 在 GitHub 服务器执行，规避国内网络波动导致的大文件下载截断。
 # 抓取的原文存入 src/data/raw/，作为故事白话改写的底稿素材。
 # 有变化时自动提交到 main，触发 deploy-pages 重新构建部署。
 
@@ -9,8 +9,6 @@ on:
   schedule:
     - cron: '30 3 * * 6' # 每周六 03:30 UTC = 北京时间周六 11:30
   workflow_dispatch: # 支持在 Actions 页面手动触发
-  push:
-    branches: [main] # TEMP: 临时触发验证，验证后移除
 
 permissions:
   contents: write
@@ -29,7 +27,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Fetch public domain story sources (Wikisource)
+      - name: Fetch public domain story sources (Gutenberg)
         run: python3 scripts/fetch-public-domain.py
 
       - name: Commit and push if changed
@@ -41,6 +39,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "公版原文无变化，跳过提交"
           else
-            git commit -m "chore: 抓取公版原著原文（维基文库）"
+            git commit -m "chore: 抓取公版原著原文（Gutenberg）"
             git push origin main
           fi

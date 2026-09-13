@@ -22,12 +22,9 @@ UA = "ParentChildCards-SourceFetcher/1.0 (public domain texts)"
 TIMEOUT = 90
 MAX_RETRY = 4
 
-# 书目清单：Gutenberg 中文公版书
+# 书目清单：Gutenberg 中文公版书（仅保留适合儿童阅读的书目）
 CATALOG = [
     {"key": "xiyouji", "name": "西游记", "gid": 23962},
-    {"key": "sanguoyanyi", "name": "三国演义", "gid": 23950},
-    {"key": "shuihuzhuan", "name": "水浒传", "gid": 23863},
-    {"key": "hongloumeng", "name": "红楼梦", "gid": 24264},
 ]
 
 

@@ -2,29 +2,7 @@
   "xiyouji": {
     "name": "西游记",
     "gid": 23962,
-    "chars": 740534,
     "size_bytes": 2173242,
     "source": "https://www.gutenberg.org/ebooks/23962"
-  },
-  "sanguoyanyi": {
-    "name": "三国演义",
-    "gid": 23950,
-    "chars": 611228,
-    "size_bytes": 1797388,
-    "source": "https://www.gutenberg.org/ebooks/23950"
-  },
-  "shuihuzhuan": {
-    "name": "水浒传",
-    "gid": 23863,
-    "chars": 538065,
-    "size_bytes": 1583055,
-    "source": "https://www.gutenberg.org/ebooks/23863"
-  },
-  "hongloumeng": {
-    "name": "红楼梦",
-    "gid": 24264,
-    "chars": 900443,
-    "size_bytes": 2599430,
-    "source": "https://www.gutenberg.org/ebooks/24264"
   }
 }
