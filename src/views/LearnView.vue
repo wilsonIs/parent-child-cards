@@ -6,12 +6,19 @@ import FilterBar from '@/components/FilterBar.vue'
 import EmptyState from '@/components/EmptyState.vue'
 import LearnCard from '@/components/LearnCard.vue'
 import { useDataStore } from '@/stores/data'
+import { useSettingsStore } from '@/stores/settings'
 import { LEARN_GRADES, LEARN_SUBJECTS } from '@/config/modules'
 
 const data = useDataStore()
+const settings = useSettingsStore()
 
 const subject = ref('全部')
-const grade = ref('全部')
+// 默认按设置里的孩子年级过滤（学龄前→一年级；未设置→全部），用户可手动切换
+const grade = ref(
+  settings.settings.childGrade === '学龄前'
+    ? '一年级'
+    : settings.settings.childGrade || '全部',
+)
 
 const filtered = computed(() =>
   data.learn.filter((l) => {
