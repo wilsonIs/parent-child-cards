@@ -5,6 +5,7 @@ import { computed } from 'vue'
 const route = useRoute()
 
 const tabs = [
+  { to: '/home', icon: '🏠', label: '首页' },
   { to: '/today', icon: '⭐', label: '今日清单' },
   { to: '/favorites', icon: '❤️', label: '收藏' },
   { to: '/settings', icon: '⚙️', label: '设置' },

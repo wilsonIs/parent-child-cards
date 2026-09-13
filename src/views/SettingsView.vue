@@ -31,7 +31,7 @@ function clearAll() {
 
 <template>
   <div class="flex h-full flex-col">
-    <AppHeader title="设置" />
+    <AppHeader title="设置" show-back />
     <div class="flex-1 overflow-y-auto space-y-4 p-4">
       <!-- 1. 故事语速 -->
       <section class="card-soft space-y-3 p-4">

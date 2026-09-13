@@ -45,7 +45,7 @@ function confirmClear() {
 
 <template>
   <div class="flex h-full flex-col">
-    <AppHeader title="今日清单" />
+    <AppHeader title="今日清单" show-back />
     <div class="flex-1 overflow-y-auto p-4">
       <EmptyState
         v-if="today.count === 0"

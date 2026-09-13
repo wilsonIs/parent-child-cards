@@ -45,7 +45,7 @@ function confirmClear() {
 
 <template>
   <div class="flex h-full flex-col">
-    <AppHeader title="收藏" />
+    <AppHeader title="收藏" show-back />
     <div class="flex-1 overflow-y-auto p-4">
       <EmptyState
         v-if="fav.count === 0"
