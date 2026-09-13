@@ -9,6 +9,8 @@ on:
   schedule:
     - cron: '30 3 * * 6' # 每周六 03:30 UTC = 北京时间周六 11:30
   workflow_dispatch: # 支持在 Actions 页面手动触发
+  push:
+    branches: [main] # TEMP: 临时触发验证，验证后移除
 
 permissions:
   contents: write
