@@ -21,7 +21,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_002",
@@ -45,7 +46,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_003",
@@ -69,7 +71,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_004",
@@ -93,7 +96,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_005",
@@ -117,7 +121,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_006",
@@ -141,7 +146,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_007",
@@ -164,7 +170,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_008",
@@ -188,7 +195,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_009",
@@ -212,7 +220,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_010",
@@ -236,7 +245,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_011",
@@ -260,7 +270,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_012",
@@ -284,7 +295,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_013",
@@ -308,7 +320,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_014",
@@ -332,7 +345,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_015",
@@ -355,7 +369,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_016",
@@ -379,7 +394,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_017",
@@ -402,7 +418,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_018",
@@ -425,7 +442,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_019",
@@ -448,7 +466,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_020",
@@ -471,7 +490,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_021",
@@ -494,7 +514,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_022",
@@ -518,7 +539,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_024",
@@ -541,7 +563,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_025",
@@ -564,7 +587,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_026",
@@ -587,7 +611,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_027",
@@ -610,7 +635,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_028",
@@ -634,7 +660,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_029",
@@ -658,7 +685,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_030",
@@ -682,7 +710,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_031",
@@ -706,7 +735,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_032",
@@ -730,7 +760,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_033",
@@ -754,7 +785,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_034",
@@ -778,7 +810,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_035",
@@ -802,7 +835,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_036",
@@ -826,7 +860,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_037",
@@ -850,7 +885,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_038",
@@ -874,7 +910,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_039",
@@ -898,7 +935,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_040",
@@ -922,7 +960,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_041",
@@ -946,7 +985,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_042",
@@ -970,7 +1010,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_043",
@@ -994,7 +1035,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_044",
@@ -1017,7 +1059,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_045",
@@ -1041,7 +1084,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_046",
@@ -1065,7 +1109,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_047",
@@ -1089,7 +1134,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_048",
@@ -1113,7 +1159,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_049",
@@ -1136,7 +1183,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_050",
@@ -1160,7 +1208,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_051",
@@ -1184,7 +1233,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_052",
@@ -1208,7 +1258,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_053",
@@ -1232,7 +1283,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_054",
@@ -1256,7 +1308,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_055",
@@ -1280,7 +1333,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_056",
@@ -1304,7 +1358,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_057",
@@ -1328,7 +1383,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_058",
@@ -1352,7 +1408,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_059",
@@ -1376,7 +1433,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_060",
@@ -1399,7 +1457,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_061",
@@ -1423,7 +1482,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_062",
@@ -1447,7 +1507,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_063",
@@ -1471,7 +1532,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_064",
@@ -1495,7 +1557,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_065",
@@ -1519,7 +1582,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_066",
@@ -1543,7 +1607,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_067",
@@ -1567,7 +1632,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_068",
@@ -1591,7 +1657,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_069",
@@ -1615,7 +1682,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_070",
@@ -1639,7 +1707,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_071",
@@ -1663,7 +1732,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_072",
@@ -1687,7 +1757,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_073",
@@ -1711,7 +1782,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_074",
@@ -1735,7 +1807,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_075",
@@ -1759,7 +1832,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_076",
@@ -1783,7 +1857,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_077",
@@ -1807,7 +1882,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_078",
@@ -1831,7 +1907,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_079",
@@ -1855,7 +1932,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_084",
@@ -1879,7 +1957,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_085",
@@ -1903,7 +1982,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_086",
@@ -1927,7 +2007,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_087",
@@ -1951,7 +2032,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_088",
@@ -1975,7 +2057,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_089",
@@ -1999,7 +2082,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_090",
@@ -2023,7 +2107,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_091",
@@ -2047,7 +2132,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_092",
@@ -2071,7 +2157,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_093",
@@ -2095,7 +2182,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_094",
@@ -2119,7 +2207,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_095",
@@ -2143,7 +2232,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_096",
@@ -2167,7 +2257,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_097",
@@ -2191,7 +2282,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_098",
@@ -2215,7 +2307,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_099",
@@ -2239,7 +2332,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_100",
@@ -2263,7 +2357,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_101",
@@ -2287,7 +2382,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_102",
@@ -2311,7 +2407,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_103",
@@ -2335,7 +2432,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_104",
@@ -2359,7 +2457,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_105",
@@ -2383,7 +2482,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_106",
@@ -2407,7 +2507,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_107",
@@ -2431,7 +2532,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_108",
@@ -2455,7 +2557,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_109",
@@ -2479,7 +2582,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_110",
@@ -2503,7 +2607,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_111",
@@ -2527,7 +2632,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_112",
@@ -2551,7 +2657,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_113",
@@ -2575,7 +2682,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_114",
@@ -2599,7 +2707,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_115",
@@ -2623,7 +2732,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_116",
@@ -2647,7 +2757,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_117",
@@ -2671,7 +2782,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_118",
@@ -2695,7 +2807,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_119",
@@ -2720,7 +2833,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_120",
@@ -2745,7 +2859,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_121",
@@ -2770,7 +2885,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_122",
@@ -2795,7 +2911,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_123",
@@ -2820,7 +2937,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_124",
@@ -2845,7 +2963,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_125",
@@ -2870,7 +2989,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_127",
@@ -2895,7 +3015,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_128",
@@ -2920,7 +3041,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_129",
@@ -2945,7 +3067,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_130",
@@ -2970,7 +3093,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_131",
@@ -2995,7 +3119,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_132",
@@ -3020,7 +3145,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_126",
@@ -3045,7 +3171,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_133",
@@ -3070,7 +3197,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_134",
@@ -3095,7 +3223,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_135",
@@ -3120,7 +3249,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_136",
@@ -3145,7 +3275,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_137",
@@ -3170,7 +3301,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_138",
@@ -3195,7 +3327,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_139",
@@ -3220,7 +3353,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_140",
@@ -3245,7 +3379,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_141",
@@ -3270,7 +3405,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_142",
@@ -3295,7 +3431,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_143",
@@ -3320,7 +3457,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_144",
@@ -3345,7 +3483,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_145",
@@ -3370,7 +3509,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_146",
@@ -3395,7 +3535,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_147",
@@ -3420,7 +3561,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_148",
@@ -3445,7 +3587,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_149",
@@ -3470,7 +3613,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_150",
@@ -3495,7 +3639,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_151",
@@ -3520,7 +3665,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_152",
@@ -3545,7 +3691,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_153",
@@ -3570,7 +3717,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_154",
@@ -3595,7 +3743,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_155",
@@ -3620,7 +3769,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_156",
@@ -3645,7 +3795,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_157",
@@ -3670,7 +3821,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_158",
@@ -3695,7 +3847,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_159",
@@ -3720,7 +3873,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_160",
@@ -3745,7 +3899,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_161",
@@ -3770,7 +3925,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_162",
@@ -3795,7 +3951,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_163",
@@ -3820,7 +3977,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_164",
@@ -3845,7 +4003,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_165",
@@ -3870,7 +4029,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_166",
@@ -3895,7 +4055,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_167",
@@ -3920,7 +4081,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_168",
@@ -3944,7 +4106,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_169",
@@ -3968,7 +4131,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_170",
@@ -3992,7 +4156,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_171",
@@ -4016,7 +4181,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_172",
@@ -4040,7 +4206,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_173",
@@ -4064,7 +4231,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_174",
@@ -4088,7 +4256,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_175",
@@ -4112,7 +4281,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_176",
@@ -4137,7 +4307,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_177",
@@ -4162,7 +4333,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_178",
@@ -4187,7 +4359,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_179",
@@ -4212,7 +4385,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_180",
@@ -4237,7 +4411,8 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   },
   {
     "id": "story_181",
@@ -4262,6 +4437,371 @@
       "pitch": "+35Hz",
       "rate": "+10%"
     },
-    "copyright_status": "public_domain"
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
+  },
+  {
+    "id": "story_182",
+    "type": "story",
+    "title": "\"鹰愁涧收白龙马\"",
+    "cover": "assets/covers/cover_23962.jpg",
+    "icon": "🐒",
+    "category": [
+      "名著",
+      "神话"
+    ],
+    "age": "8岁+",
+    "duration": "8分钟",
+    "text": "\"唐僧师徒离开长安，一路向西。这天，他们来到一条深山峡谷，谷底有条大河，河水又深又急，名叫鹰愁涧。师徒三人正沿着河岸赶路，忽然，河里“哗啦”一声巨响，蹿出一条白龙，张牙舞爪地向唐僧扑来！\\n\\n孙悟空眼疾手快，一把抱住师父，纵身跳到半空。可白龙抢不到唐僧，竟然一口把白马拖进水里，“咕嘟咕嘟”喝了个精光。唐僧急得直跺脚：“这可如何是好！没了马，我怎么赶路？”悟空说：“师父别急，我去把马要回来！”\\n\\n悟空一个筋斗翻进河里，跟白龙大战起来。白龙哪里是悟空的对手，几下就被打得狼狈不堪，一头扎进河底藏了起来。悟空回到岸上：“师父，那白龙躲起来了，我下去找它！”\\n\\n这时，观音菩萨从云头飘落，笑呵呵地说：“悟空，别打了！这白龙本是西海龙王的三太子，因为纵火烧了殿上的明珠，犯了天条，我让他在这里等唐僧，给他当脚力赎罪。”菩萨招招手，白龙从河里跃出，变成一匹神骏的白马，身上银光闪闪。\\n\\n唐僧又惊又喜：“菩萨，这就是我的马？”菩萨点点头：“它叫白龙马，能驮你走十万八千里，任劳任怨。”白龙马低下头，蹭了蹭唐僧的手。\\n\\n从此，唐僧骑上了白龙马。白龙马走路又快又稳，过河爬山从不叫苦。悟空逗它：“老白龙，你可别偷懒！”白龙马仰头长嘶一声，像是在说：放心吧，我一定把师父驮到西天！\\n\\n后来，师徒四人历经千难万险，白龙马一直默默驮着唐僧，从不掉队。直到取经功成，它才在化龙池里变回龙身，飞上天空。大家这才知道：这匹不起眼的白马，原来是一位忠心的龙太子呀！\"",
+    "audio": "assets/audio/story_182.mp3",
+    "source": "《西游记》\"鹰愁涧收白龙马\"（Project Gutenberg 原文改写）",
+    "license": "公共领域",
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    },
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
+  },
+  {
+    "id": "story_183",
+    "type": "story",
+    "title": "\"大战黄风怪\"",
+    "cover": "assets/covers/cover_23962.jpg",
+    "icon": "🐒",
+    "category": [
+      "名著",
+      "神话"
+    ],
+    "age": "8岁+",
+    "duration": "8分钟",
+    "text": "\"唐僧师徒来到一座高山，山上怪风阵阵，吹得人睁不开眼。忽然，“呼——”一阵黄风刮过，唐僧被风卷走了！悟空和八戒追到一座黄风洞里，原来这里住着一个黄风怪，它有一件宝贝，能刮起漫天黄风。\\n\\n悟空二话不说，举棒就打。黄风怪迎战，几个回合就招架不住，转身逃回洞里，拿出一个葫芦，对着悟空一吹——“呜！”一阵黄风铺天盖地地刮来，飞沙走石，连天都刮黑了。悟空的眼睛被风沙迷住，又酸又痛，什么也看不见，只好败下阵来。\\n\\n八戒连忙请来护法神，用三花九子膏给悟空治眼睛。悟空歇了一夜，眼睛才好。他气得直咬牙：“好你个黄风怪！明天我非收拾你不可！”\\n\\n第二天，悟空变成一只小苍蝇，飞进洞里，听见黄风怪正在得意：“那猴子眼睛被我吹瞎了，我看他还有什么本事！”悟空听了，现出真身，抡起金箍棒就打。黄风怪又拿出葫芦，可这次悟空早有防备，一个筋斗躲过，一棒打碎葫芦，又追着黄风怪打。\\n\\n黄风怪被悟空打得哇哇乱叫，可它狡猾得很，趁乱化作一阵风逃走了。悟空追到灵吉菩萨的道场，说明来意。灵吉菩萨说：“这黄风怪原是灵山脚下的一只黄毛貂鼠，偷吃了灯油，逃到凡间作怪。看我的飞龙宝杖！”\\n\\n菩萨来到黄风洞前，抛出飞龙宝杖。宝杖化作一条金龙，张牙舞爪地扑向黄风怪，一口把它叼住。黄风怪现出原形，原来是只黄毛貂鼠。菩萨收了它：“随我去灵山听候发落吧！”\\n\\n悟空救出唐僧，师徒继续赶路。八戒扛着钉耙，边走边说：“大师兄，你眼睛都迷了还这么厉害，俺老猪真服了你！”悟空笑着说：“只要师父平安，俺老孙的眼睛迷了也值得！”\"",
+    "audio": "assets/audio/story_183.mp3",
+    "source": "《西游记》\"大战黄风怪\"（Project Gutenberg 原文改写）",
+    "license": "公共领域",
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    },
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
+  },
+  {
+    "id": "story_184",
+    "type": "story",
+    "title": "\"四圣试禅心\"",
+    "cover": "assets/covers/cover_23962.jpg",
+    "icon": "🐒",
+    "category": [
+      "名著",
+      "神话"
+    ],
+    "age": "8岁+",
+    "duration": "8分钟",
+    "text": "\"唐僧师徒一路西行，这天来到一片庄院前。庄院富丽堂皇，一位满头珠翠的妇人迎了出来，笑盈盈地说：“几位长老从哪来呀？天色不早了，不如到我家歇歇。”\\n\\n妇人摆下丰盛的斋饭，招待师徒四人。饭后，妇人说：“长老们有所不知，我家老爷早年去世，留下万贯家财，还有三个女儿，个个如花似玉。我见四位长老仪表堂堂，不如……招赘在此，享一辈子清福，何必去西天受苦呢？”\\n\\n唐僧听了，双手合十，连连摇头：“阿弥陀佛，贫僧立志取经，不敢动此凡心。”妇人又劝八戒：“这位长老，你看怎么样？”八戒早就动心了，眼睛直勾勾地看着后院，支支吾吾地说：“这……这事儿得听师父的。”\\n\\n悟空在旁边挤眉弄眼：“呆子，师父不去，你留下来呗！”八戒搓着手说：“师父，要不……俺老猪留下来，替您照顾这片庄院？”唐僧板起脸：“八戒，不可胡闹！”八戒这才垂头丧气地不吭声了。\\n\\n晚上，八戒翻来覆去睡不着，偷偷溜出门，摸到后院，只见三个姑娘正在院子里说话。八戒凑上去，正要搭话，忽然“唰”的一声，眼前的庄院不见了，三个姑娘变成三座坟墓，只剩下八戒被珍珠汗衫紧紧裹住，吊在半空，疼得哇哇直叫。\\n\\n原来，这是黎山老母和观音、普贤、文殊三位菩萨变的，专门来试探师徒的取经心。菩萨们现出真身，教训道：“八戒，你凡心未退，这次是给你个教训！”八戒连忙磕头求饶：“菩萨饶命！俺老猪再也不敢了！”\\n\\n师徒们继续上路。唐僧骑着马，念了一声佛；悟空扛着棒，笑着说：“呆子，清福没享成，倒挨了一顿吊！”八戒红着脸，低着头，一句话也不敢说。\"",
+    "audio": "assets/audio/story_184.mp3",
+    "source": "《西游记》\"四圣试禅心\"（Project Gutenberg 原文改写）",
+    "license": "公共领域",
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    },
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
+  },
+  {
+    "id": "story_185",
+    "type": "story",
+    "title": "\"乌鸡国降妖\"",
+    "cover": "assets/covers/cover_23962.jpg",
+    "icon": "🐒",
+    "category": [
+      "名著",
+      "神话"
+    ],
+    "age": "8岁+",
+    "duration": "8分钟",
+    "text": "\"唐僧师徒来到乌鸡国，夜宿在宝林寺。半夜，唐僧正在念经，忽然一阵阴风，吹来一个浑身湿淋淋的国王，跪在唐僧面前：“圣僧救命！”\\n\\n原来，五年前乌鸡国来了一个道士，能呼风唤雨，帮国家求来大雨。国王感激不尽，和道士结为兄弟。可谁知这道士是个妖怪，他把国王推下井，自己变成国王的模样，霸占了王位和皇后！\\n\\n国王哭着说：“圣僧，我的魂魄冤屈不散，求您让徒弟替我做主！”唐僧把这事告诉了悟空。悟空眼珠一转：“师父放心，我自有办法！”\\n\\n第二天，悟空把八戒叫来：“八戒，师父让你到井里捞一件宝贝。”八戒半信半疑地跳下井，捞了半天，捞上来一具尸体——正是那个被推下井的国王！八戒吓得直喊：“大师兄，这……这是死人！”\\n\\n悟空去求太上老君，讨来一颗还魂丹，喂给国王。国王“哇”地吐出一口浊水，慢慢睁开眼睛，活了过来。唐僧把国王藏进禅房，商量对策。\\n\\n第二天上朝，悟空把国王扮成随从，带进皇宫。那个假国王坐在龙椅上，威风凛凛。悟空大喝一声：“妖怪！还不现出原形！”假国王一看露了馅，化作一道黑烟想逃，悟空一棒打去，假国王变成一只青毛狮子，张牙舞爪地扑来！\\n\\n正在这时，文殊菩萨驾云赶到：“悟空，住手！这狮子是我的坐骑，因为乌鸡国王曾把我浸在水中三天，我让它来报这个仇。”菩萨让狮子现出原形，驮着它回灵山去了。\\n\\n悟空救出真国王，让他重新坐回龙椅。国王感激不尽，设宴款待师徒。八戒一边吃一边嘀咕：“大师兄，你可真行，连死人都能救活！”悟空笑着说：“俺老孙的本事，大着呢！”\"",
+    "audio": "assets/audio/story_185.mp3",
+    "source": "《西游记》\"乌鸡国降妖\"（Project Gutenberg 原文改写）",
+    "license": "公共领域",
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    },
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
+  },
+  {
+    "id": "story_186",
+    "type": "story",
+    "title": "\"朱紫国行医\"",
+    "cover": "assets/covers/cover_23962.jpg",
+    "icon": "🐒",
+    "category": [
+      "名著",
+      "神话"
+    ],
+    "age": "8岁+",
+    "duration": "8分钟",
+    "text": "\"唐僧师徒来到朱紫国。这朱紫国奇怪得很，满城的药材铺都空了，大街小巷贴满了求医的告示。原来，国王得了怪病，胸口憋闷，饭也吃不下，觉也睡不着。\\n\\n悟空看了告示，笑道：“师父，俺老孙还会治病呢！”他揭下皇榜，来到金銮殿。国王半信半疑：“你一个出家人，会看什么病？”悟空说：“让俺老孙给陛下把把脉！”他让国王伸出手，伸出三根手指，掐指一算，心里明白了。\\n\\n悟空配了一副药，让八戒去取无根水（雨水）做药引。八戒折腾了半天，好不容易取来雨水。国王喝下药，肚里“咕噜咕噜”一阵响，拉出一大堆乌黑的血块，病一下子好了大半。\\n\\n国王又惊又喜：“长老真是神医！朕的病好了，可心病还没好。”原来，三年前朱紫国来了个妖怪，名叫赛太岁，抢走了王后娘娘，国王日日思念，才得了心病。\\n\\n悟空听了，拍着胸脯：“陛下放心，俺老孙去把娘娘救回来！”他一个筋斗翻到麒麟山獬豸洞，见那赛太岁正逼着王后成亲。悟空变成一只蜜蜂，悄悄落在王后耳边：“娘娘别怕，我是来救你的！”\\n\\n赛太岁有一件宝贝，叫紫金铃，一摇能放火、放烟、放沙，厉害得很。悟空变成一个小妖，混进洞里，趁赛太岁睡觉，把紫金铃偷了出来，用毫毛变了个假的换进去。赛太岁醒来，拿起假铃一摇，什么动静也没有。悟空现出真身，举起真铃一摇——“轰！”火光冲天，烟沙滚滚，把赛太岁烧得满地打滚！\\n\\n观音菩萨及时赶到：“悟空，这赛太岁是我骑的金毛犼，因看守它的童子睡着了，偷跑下凡。饶它一命吧！”菩萨收了金毛犼，救出王后。\\n\\n国王见到王后，两人抱头痛哭。师徒们又救了一位国王，悟空的名声也传遍了朱紫国。八戒竖起大拇指：“大师兄，你又会打架又会看病，俺老猪可真服了！”\"",
+    "audio": "assets/audio/story_186.mp3",
+    "source": "《西游记》\"朱紫国行医\"（Project Gutenberg 原文改写）",
+    "license": "公共领域",
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    },
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
+  },
+  {
+    "id": "story_187",
+    "type": "story",
+    "title": "\"比丘国救小儿\"",
+    "cover": "assets/covers/cover_23962.jpg",
+    "icon": "🐒",
+    "category": [
+      "名著",
+      "神话"
+    ],
+    "age": "8岁+",
+    "duration": "8分钟",
+    "text": "\"唐僧师徒来到比丘国。一进城，师徒们都愣住了：家家户户门口都挂着笼子，笼子里关着五六岁的小孩子！八戒吓得直叫：“哎呀，这城里怎么关着这么多孩子？”\\n\\n悟空打听了一番，气得直咬牙。原来，比丘国的国王迷上了一个白鹿精变的国丈，还有他的狐狸精女儿。国丈说国王得了重病，要用一千一百一十一个小儿的心肝做药引，才能治好！国王听信谗言，就把全城的孩子都关了起来。\\n\\n悟空一听，怒火中烧：“这妖怪害人，俺老孙绝不能饶他！”他变出许多分身，一阵风把城里的小孩子都救走，藏到城外安全的地方。\\n\\n第二天，国丈不见了孩子，气得吹胡子瞪眼。悟空趁夜摸进王宫，看见国丈正和国王商量，又生毒计。悟空悄悄跟在国丈身后，来到他的老巢，现出真身，大喝一声：“妖怪！哪里逃！”\\n\\n白鹿精现出原形，是一只浑身雪白的梅花鹿，它撒开四蹄想逃。悟空抡起金箍棒就追。白鹿精逃到山坡上，忽然，南极仙翁驾云赶到：“悟空，手下留情！这是我的坐骑，私自下凡作怪！”\\n\\n原来，这只白鹿趁南极仙翁下棋时偷跑下界。仙翁把白鹿收走，又化作一道清风，把狐狸精也收了。悟空救出真国王，把被关的孩子都送了回来。比丘国的百姓们感激涕零，纷纷跪拜：“多谢长老救命之恩！”\\n\\n国王幡然醒悟，从此勤政爱民，再不听信妖言。师徒们继续上路，八戒回头看着欢天喜地的百姓，感慨地说：“大师兄，你这一棒，可救了全城的孩子呀！”\"",
+    "audio": "assets/audio/story_187.mp3",
+    "source": "《西游记》\"比丘国救小儿\"（Project Gutenberg 原文改写）",
+    "license": "公共领域",
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    },
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
+  },
+  {
+    "id": "story_188",
+    "type": "story",
+    "title": "\"无底洞\"",
+    "cover": "assets/covers/cover_23962.jpg",
+    "icon": "🐒",
+    "category": [
+      "名著",
+      "神话"
+    ],
+    "age": "8岁+",
+    "duration": "8分钟",
+    "text": "\"唐僧师徒来到一片深山，山里有座黑雾缭绕的大庙，名叫镇海寺。这庙里怪得很，香客们都不敢来，因为庙里总闹妖怪，庙里的和尚都跑光了。\\n\\n夜里，唐僧正在禅房打坐，忽然一阵香风飘过，一个美貌的女子走进来，自称是烧香迷路的，想借宿一晚。唐僧正要问话，忽然“咯噔”一声，那女子化作一股黑风，把唐僧卷走了！\\n\\n悟空和八戒追到一座山下，发现一个深不见底的大洞，洞口刻着三个字：无底洞。悟空二话不说，跳进洞里，发现里面金碧辉煌，竟是一座地宫。悟空找了一圈，看见师父正被绑在一根柱子上，旁边坐着一个花容月貌的女妖——她是只金鼻白毛老鼠精！\\n\\n老鼠精看见悟空，张口喷出一股毒烟。悟空被呛得直咳嗽，只好先退出洞来。八戒和沙僧也赶来，三人商量对策。悟空说：“那妖怪认得我，我变成师父的样子，骗她上当！”\\n\\n悟空摇身一变，变成唐僧的模样，坐在禅房里。老鼠精果然上当，走进来想抓“唐僧”。悟空一把揪住她：“妖怪！看棒！”老鼠精吓得现出原形，一只白毛大老鼠，钻回洞里。\\n\\n悟空追进无底洞，老鼠精又喷毒烟，还放出许多小妖。悟空杀得兴起，一路追到洞底，却发现老鼠精举着唐僧的令牌，逼着唐僧念紧箍咒。悟空疼得满地打滚，只好先撤。\\n\\n悟空请来托塔李天王和哪吒三太子。原来，这老鼠精曾在灵山偷吃如来佛的香花宝烛，被天王父子抓住，后来又逃跑下凡。李天王大喝一声：“老鼠精！还不现出原形！”\\n\\n老鼠精吓得浑身发抖，跪在地上。李天王用照妖镜一照，它现出原形，被押回天宫。悟空救出唐僧，师徒们又踏上了西行之路。八戒笑着说：“师父，这无底洞再深，也深不过大师兄的本事呀！”\"",
+    "audio": "assets/audio/story_188.mp3",
+    "source": "《西游记》\"无底洞\"（Project Gutenberg 原文改写）",
+    "license": "公共领域",
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    },
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
+  },
+  {
+    "id": "story_189",
+    "type": "story",
+    "title": "\"灭法国\"",
+    "cover": "assets/covers/cover_23962.jpg",
+    "icon": "🐒",
+    "category": [
+      "名著",
+      "神话"
+    ],
+    "age": "8岁+",
+    "duration": "8分钟",
+    "text": "\"唐僧师徒来到一座城池。进城前，悟空发现不对劲：城门口贴着一张皇榜，上面写着：凡有和尚进城，一律抓住处死！\\n\\n原来，这城叫灭法国。国王前世得罪过僧人，这一世对和尚恨之入骨，立下誓言：要杀掉一万个和尚才解恨。他已经杀了九千九百九十六个，只差四个就要凑够数了！\\n\\n八戒吓得直哆嗦：“师父，咱们快绕道走吧！”悟空却笑着说：“怕什么！师父，咱们半夜进城，俺老孙自有办法。”\\n\\n夜里，师徒四人悄悄进城。悟空让师父、八戒、沙僧变成商人模样，自己也摇身一变，成了个白白净净的书生。四个人神不知鬼不觉地住进一家旅店。\\n\\n半夜，悟空悄悄溜出房间，变成一只小蜜蜂，飞进王宫。他看见国王和王后正在睡觉，微微一笑，拔出毫毛，变出无数把剃刀。只听见“咔嚓咔嚓”一阵响——国王的头发、王后的头发、满朝文武的头发，全被剃得精光！\\n\\n第二天早上，国王一照镜子，吓得魂飞魄散：“朕……朕的头发呢？！”王后也哭喊：“我的头发也没了！”满朝大臣你看看我，我看看你，一个个都成了光头，急得直跺脚。\\n\\n国王又惊又怕，问大臣：“这是怎么回事？”有大臣说：“陛下，臣听说昨夜城里来了几个奇怪的客人，一定是他们使的法术！”国王连忙派人去查，果然查到旅店里住着四个怪人。\\n\\n国王战战兢兢地来到旅店，看见唐僧师徒。唐僧双手合十：“陛下，贫僧是东土大唐去西天取经的和尚。”国王一听“和尚”，吓得扑通一声跪下：“圣僧饶命！是朕糊涂，要杀和尚，才招来这般报应！”\\n\\n悟空笑着说：“陛下，只要您从此敬佛重僧，不再杀和尚，头发自然就长回来了。”国王连连磕头：“圣僧教训得是！朕从今往后，绝不再害一个和尚！”\\n\\n国王把国名也改了，从此叫“钦法国”。他还盛情款待师徒四人，亲自送他们出城。八戒摸着自己的光头，嘿嘿直笑：“师父，俺老猪的头发也没了，不过换个国王改邪归正，也值了！”\"",
+    "audio": "assets/audio/story_189.mp3",
+    "source": "《西游记》\"灭法国\"（Project Gutenberg 原文改写）",
+    "license": "公共领域",
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    },
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
+  },
+  {
+    "id": "story_190",
+    "type": "story",
+    "title": "\"隐雾山\"",
+    "cover": "assets/covers/cover_23962.jpg",
+    "icon": "🐒",
+    "category": [
+      "名著",
+      "神话"
+    ],
+    "age": "8岁+",
+    "duration": "8分钟",
+    "text": "\"唐僧师徒来到隐雾山。这山上雾气缭绕，阴森森的，山里有座洞，叫折岳连环洞，住着一个豹子精。\\n\\n豹子精听说唐僧要路过，高兴得直搓爪子：“吃了唐僧肉，就能长生不老！”它变作一阵狂风，把唐僧卷进洞里。悟空发现师父不见了，急得火冒三丈，抡起金箍棒就砸洞门。\\n\\n豹子精打不过悟空，缩在洞里想坏主意。它让一个小妖抱来一个柳树根，咬破指头，把血涂在上面，然后让两个小妖抬到洞口，故意大声喊：“大王！我们捉住孙悟空了！”\\n\\n悟空在洞外一听，探头一看，只见两个小妖抬着一个血淋淋的“人头”出来。悟空认出那是柳树根变的，冷笑一声：“哼！想骗俺老孙？没门！”他摇身一变，变成一只苍蝇，飞进洞里。\\n\\n洞里，豹子精正得意地跟小妖们说：“等风声过了，咱们就把唐僧蒸着吃！”悟空听了，气得七窍生烟，现出真身，挥棒就打。豹子精吓了一跳，连忙迎战，可它哪里是悟空的对手，几个回合就被打得现出原形——原来是一只金钱豹！\\n\\n豹子精就地一滚，化作一股妖风，卷起唐僧就跑。悟空紧追不舍，八戒和沙僧也赶来帮忙。豹子精被追得走投无路，忽然看见远处来了一位老奶奶，它眼珠一转，变成老奶奶的模样，躲了过去。\\n\\n悟空追上来，正要问老奶奶，忽然觉得不对——这深山老林，哪来的老奶奶？他掏出金箍棒一照，老奶奶立刻现出原形！悟空一棒打去，豹子精惨叫一声，倒地而死。\\n\\n悟空救出唐僧，把洞里的妖怪都收拾干净。师徒们走出隐雾山，八戒扛着钉耙说：“大师兄，这豹子精还想骗你，真是自不量力！”悟空笑着说：“俺老孙火眼金睛，什么妖怪能骗得了我？”\"",
+    "audio": "assets/audio/story_190.mp3",
+    "source": "《西游记》\"隐雾山\"（Project Gutenberg 原文改写）",
+    "license": "公共领域",
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    },
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
+  },
+  {
+    "id": "story_191",
+    "type": "story",
+    "title": "\"凤仙郡祈雨\"",
+    "cover": "assets/covers/cover_23962.jpg",
+    "icon": "🐒",
+    "category": [
+      "名著",
+      "神话"
+    ],
+    "age": "8岁+",
+    "duration": "8分钟",
+    "text": "\"唐僧师徒来到凤仙郡。这郡里奇怪得很：田野干裂，庄稼枯黄，河塘见底，百姓们一个个面黄肌瘦，跪在地上求雨。郡侯见到唐僧，扑通跪下：“圣僧救命！我们这里三年没下一滴雨，庄稼全旱死了！”\\n\\n悟空听了，拍拍胸脯：“这有何难？俺老孙去请龙王下雨！”他一个筋斗翻到东海，找到龙王。龙王却连连摆手：“大圣，不是我不肯下雨，是玉帝下了圣旨，不许给凤仙郡下雨！”\\n\\n悟空又翻到天庭，问玉帝。玉帝板着脸说：“那凤仙郡郡侯，三年前把供奉我的贡品推翻了，还让狗吃了。我设了三件事：米山、面山、金锁，什么时候米山被鸡吃完、面山被狗舔完、金锁被灯火烧断，才给他下雨！”\\n\\n悟空一看，好家伙：天上一座米山，一群鸡正在啄；一座面山，一条狗正在舔；还有一把金锁，一盏油灯在烧。悟空挠挠头：“这三件事，猴年马月才能完呀！”\\n\\n回到凤仙郡，悟空把情况告诉郡侯，板着脸说：“郡侯，玉帝说了，是你得罪了上天，才连累全城百姓遭殃！你得真心悔过才行！”郡侯一听，吓得满头大汗，立刻换上素服，天天跪在香案前磕头认罪，还下令全城百姓斋戒诵经。\\n\\n说来也怪，郡侯真心悔过后，天上的米山越来越小，面山越来越矮，金锁“啪”的一声断了！玉帝见郡侯改过自新，龙颜大悦，立刻传旨龙王下雨。\\n\\n“轰隆隆——”乌云滚滚，电闪雷鸣，豆大的雨点哗啦啦地落下来。凤仙郡的百姓们冲出家门，在雨中又跳又笑：“下雨啦！下雨啦！”干裂的土地喝足了水，枯黄的庄稼又挺起了腰。\\n\\n郡侯感激地跪在唐僧面前：“多谢圣僧！多谢大圣！”悟空笑着说：“郡侯，记住这次的教训，善待百姓、诚心向善，天老爷自然护佑你！”\"",
+    "audio": "assets/audio/story_191.mp3",
+    "source": "《西游记》\"凤仙郡祈雨\"（Project Gutenberg 原文改写）",
+    "license": "公共领域",
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    },
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
+  },
+  {
+    "id": "story_192",
+    "type": "story",
+    "title": "\"玉华州\"",
+    "cover": "assets/covers/cover_23962.jpg",
+    "icon": "🐒",
+    "category": [
+      "名著",
+      "神话"
+    ],
+    "age": "8岁+",
+    "duration": "8分钟",
+    "text": "\"唐僧师徒来到玉华州。这州里三位小王子武艺高强，听说来了个会七十二变的孙悟空，都跑来拜师学艺。\\n\\n悟空看三个王子诚心，就答应了：“好，我教你们武艺！”他让三个王子每人选一件兵器——可他们没有合适的兵器。悟空笑道：“这有何难？我的金箍棒、八戒的钉耙、沙僧的宝杖，你们拿去照着打一副就是！”\\n\\n三个王子如获至宝，把三件宝贝兵器抬到铁匠铺，让工匠照着样子打造。可这一抬不要紧，金箍棒发出的金光冲上云霄，惊动了附近豹头山虎口洞里的一个妖怪——九头狮子精！\\n\\n九头狮子精连夜赶到铁匠铺，把三件宝贝兵器全偷走了！第二天，三个王子发现兵器不见了，急得直哭。悟空一听，火冒三丈：“偷俺老孙的东西？走，找他去！”\\n\\n悟空和八戒、沙僧来到豹头山，看见九头狮子精正在洞里舞弄金箍棒。悟空大喊：“妖怪！还我兵器！”九头狮子精哈哈大笑：“有本事你来拿！”它张开大嘴，“嗖——”地喷出一股妖气，把悟空、八戒、沙僧三人一起吸进肚子里！\\n\\n原来，这九头狮子精是太乙救苦天尊的坐骑九灵元圣，法力高强。它在肚子里折腾三人，悟空忍着疼，拔下毫毛变出小虫，在它肚子里乱咬。九头狮子精疼得满地打滚，只好把三人吐了出来。\\n\\n悟空知道打不过它，一个筋斗翻到天界，找到太乙救苦天尊。天尊一听，忙说：“是我的坐骑偷跑下凡了！”天尊带着狮奴来到豹头山，念动咒语，九头狮子精立刻现出原形——一只威风凛凛的九头狮子，乖乖地趴在地上。\\n\\n天尊骑着九头狮子回天宫去了。悟空拿回三件兵器，还给了三个王子。三位王子学会了武艺，后来都成了保家卫国的大将军。八戒看着自己的钉耙，乐呵呵地说：“还是自己的兵器用着顺手呀！”\"",
+    "audio": "assets/audio/story_192.mp3",
+    "source": "《西游记》\"玉华州\"（Project Gutenberg 原文改写）",
+    "license": "公共领域",
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    },
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
+  },
+  {
+    "id": "story_193",
+    "type": "story",
+    "title": "\"天竺国玉兔\"",
+    "cover": "assets/covers/cover_23962.jpg",
+    "icon": "🐒",
+    "category": [
+      "名著",
+      "神话"
+    ],
+    "age": "8岁+",
+    "duration": "8分钟",
+    "text": "\"唐僧师徒来到天竺国。天竺国正在举行选亲大会：公主抛绣球招驸马！\\n\\n街上人山人海，八戒伸着脖子想看热闹。谁知，楼上忽然抛下一个绣球，不偏不倚，正好落在唐僧怀里！公主的侍女们欢呼着涌上来：“驸马爷！驸马爷！”把唐僧簇拥着拉进了皇宫。\\n\\n唐僧急得连连摆手：“贫僧是出家人，不能成亲呀！”可国王已经乐得合不拢嘴：“圣僧，这是天意呀！三天后，你们就成亲！”\\n\\n悟空觉得这事蹊跷，便变成一只蜜蜂，飞到公主的绣楼外偷看。这一看，悟空看出门道来了：公主身上有股妖气！到了半夜，公主悄悄溜出皇宫，往城外走去。悟空悄悄跟着，只见公主来到一座庙前，变回原形——原来是一只玉兔精！\\n\\n原来，天竺国的真公主三年前被这只玉兔精扔进河里，玉兔精变成公主的模样，霸占了她的位置。悟空大喝一声：“妖怪！哪里逃！”玉兔精见露了馅，化作一道白光想逃，悟空一棒打去，玉兔精钻进洞里。\\n\\n悟空追进洞，玉兔精又冲出来，举着一根捣药杵和悟空打成一团。正在这时，太阴星君驾云赶到：“悟空，住手！这玉兔是我广寒宫里捣药的玉兔，私自下凡作怪，我带它回去！”\\n\\n星君收了玉兔，悟空连忙问：“星君，那真公主呢？”星君说：“她就在河里，你去救她吧！”悟空跳进河底，果然救起昏睡的真公主，送回皇宫。\\n\\n国王又惊又喜，得知真相后，对师徒四人感激不尽，摆下盛大的宴席。唐僧这才松了口气，念了声佛：“阿弥陀佛，总算有惊无险。”八戒笑着说：“师父，您这驸马没当成，倒救了个公主回来！”\"",
+    "audio": "assets/audio/story_193.mp3",
+    "source": "《西游记》\"天竺国玉兔\"（Project Gutenberg 原文改写）",
+    "license": "公共领域",
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    },
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
+  },
+  {
+    "id": "story_194",
+    "type": "story",
+    "title": "\"青龙山犀牛精\"",
+    "cover": "assets/covers/cover_23962.jpg",
+    "icon": "🐒",
+    "category": [
+      "名著",
+      "神话"
+    ],
+    "age": "8岁+",
+    "duration": "8分钟",
+    "text": "\"唐僧师徒来到青龙山。这山脚下有座庙，庙里供着三尊神像：二十八宿里的角木蛟、斗木獬、奎木狼。\\n\\n夜里，唐僧正在庙里念经，忽然刮起一阵妖风，吹得烛火乱晃。三个妖怪闯进庙里，二话不说，卷起唐僧就跑！悟空追出去，只见三个黑影钻进了玄英洞。原来，洞里有三个犀牛精：辟寒大王、辟暑大王、辟尘大王，它们专爱吃唐僧肉。\\n\\n悟空抡棒打洞门，三个犀牛精冲出来，个个手拿钢叉，围着悟空乱打。悟空以一敌三，正打得难分难解，忽然一个犀牛精掏出宝贝——那宝贝一照，放出万道金光，把悟空的眼睛晃得睁不开！悟空只好败下阵来。\\n\\n八戒扛着钉耙冲上去，也被金光晃得晕头转向，一跤摔了个大跟头。沙僧去救八戒，同样被金光逼退。三个徒弟都吃了亏，急得团团转。\\n\\n悟空想了个办法，变成一只萤火虫，飞进玄英洞，看见师父被绑在石柱上。悟空悄悄对师父说：“师父，您别怕，我这就去搬救兵！”\\n\\n悟空一个筋斗翻上天庭，找到二十八宿。玉帝派角木蛟、斗木獬、奎木狼四位星官，跟着悟空来到青龙山。四位星官摇身一变，变成四头凶猛的天兽，冲进玄英洞，和三个犀牛精大战起来。\\n\\n三个犀牛精哪里是天将的对手，被打得节节败退。辟寒大王想驾风逃跑，悟空一棒把它打翻在地；辟暑大王和辟尘大王也被星官们活捉。\\n\\n悟空救出唐僧，把三个犀牛精的角锯下来，送给了当地百姓。从此，青龙山下再也没有妖怪作乱，百姓们安居乐业。唐僧师徒收拾行装，继续向西天进发。\"",
+    "audio": "assets/audio/story_194.mp3",
+    "source": "《西游记》\"青龙山犀牛精\"（Project Gutenberg 原文改写）",
+    "license": "公共领域",
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    },
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
+  },
+  {
+    "id": "story_195",
+    "type": "story",
+    "title": "\"铜台府\"",
+    "cover": "assets/covers/cover_23962.jpg",
+    "icon": "🐒",
+    "category": [
+      "名著",
+      "神话"
+    ],
+    "age": "8岁+",
+    "duration": "8分钟",
+    "text": "\"唐僧师徒来到铜台府。这里有一位大善人，名叫寇洪，他听说唐僧来了，高兴得合不拢嘴：“我发愿要斋僧一万个，如今差几个就满愿了！”他盛情款待师徒四人，一连留了他们好几天。\\n\\n唐僧急着赶路，再三辞别。寇洪送了一程又一程，依依不舍地说：“圣僧，一路保重！”临别时，还赠了盘缠。\\n\\n谁知，师徒刚走不久，铜台府就出了大事。寇洪家来了两个强盗，他们趁夜闯进府里，抢走了金银珠宝，还把寇洪打死了！寇洪的家人哭天喊地，想起唐僧师徒刚从家里离开，便一口咬定：是那几个和尚干的！\\n\\n官府立刻派兵追赶，把唐僧师徒抓进大牢。八戒在牢里唉声叹气：“师父，咱们没偷没抢，怎么反倒坐了牢？”悟空却胸有成竹：“别急，俺老孙自有道理。”\\n\\n夜里，悟空悄悄溜出大牢，变成一个阴间的鬼差，来到寇洪的墓前。他对着寇洪的魂魄说：“寇善人，你命不该绝！我放你回去，你亲自到官府说明真相，救出我师父！”\\n\\n寇洪的魂魄点点头。第二天，寇洪竟然活了过来！他听说唐僧师徒被冤枉入狱，连忙赶到官府，把事情的来龙去脉说了一遍。官府这才知道抓错了人，连忙把唐僧师徒放出大牢。\\n\\n寇洪见到唐僧，跪地便拜：“圣僧，多亏您救了我一命！”悟空笑着说：“寇善人，你斋僧行善，是个好人，好人有好报呀！”\\n\\n唐僧师徒谢过寇洪，继续西行。八戒一边走一边说：“大师兄，你连阴曹地府都能去，俺老猪真是服了！”悟空笑着说：“只要问心无愧，走遍天下都不怕！”\"",
+    "audio": "assets/audio/story_195.mp3",
+    "source": "《西游记》\"铜台府\"（Project Gutenberg 原文改写）",
+    "license": "公共领域",
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    },
+    "copyright_status": "public_domain",
+    "audio_channel": "tts"
   }
 ]
