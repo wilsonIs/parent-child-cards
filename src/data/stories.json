@@ -3,7 +3,7 @@
     "id": "story_001",
     "type": "story",
     "title": "守株待兔",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🐇",
     "category": [
       "成语"
@@ -28,7 +28,7 @@
     "id": "story_002",
     "type": "story",
     "title": "掩耳盗铃",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🔔",
     "category": [
       "成语"
@@ -53,7 +53,7 @@
     "id": "story_003",
     "type": "story",
     "title": "刻舟求剑",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🗡️",
     "category": [
       "成语"
@@ -78,7 +78,7 @@
     "id": "story_004",
     "type": "story",
     "title": "亡羊补牢",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🐑",
     "category": [
       "成语"
@@ -103,7 +103,7 @@
     "id": "story_005",
     "type": "story",
     "title": "拔苗助长",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🌱",
     "category": [
       "成语"
@@ -128,7 +128,7 @@
     "id": "story_006",
     "type": "story",
     "title": "狐假虎威",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🦊",
     "category": [
       "成语"
@@ -177,7 +177,7 @@
     "id": "story_008",
     "type": "story",
     "title": "龟兔赛跑",
-    "cover": "",
+    "cover": "assets/covers/themed/aesop.jpg",
     "icon": "🐢",
     "category": [
       "寓言"
@@ -202,7 +202,7 @@
     "id": "story_009",
     "type": "story",
     "title": "狼来了",
-    "cover": "",
+    "cover": "assets/covers/themed/aesop.jpg",
     "icon": "🐺",
     "category": [
       "寓言"
@@ -227,7 +227,7 @@
     "id": "story_010",
     "type": "story",
     "title": "农夫与蛇",
-    "cover": "",
+    "cover": "assets/covers/themed/aesop.jpg",
     "icon": "🐍",
     "category": [
       "寓言"
@@ -252,7 +252,7 @@
     "id": "story_011",
     "type": "story",
     "title": "盘古开天",
-    "cover": "",
+    "cover": "assets/covers/themed/chinese_myth.jpg",
     "icon": "🌌",
     "category": [
       "神话"
@@ -277,7 +277,7 @@
     "id": "story_012",
     "type": "story",
     "title": "女娲补天",
-    "cover": "",
+    "cover": "assets/covers/themed/chinese_myth.jpg",
     "icon": "🌈",
     "category": [
       "神话"
@@ -302,7 +302,7 @@
     "id": "story_013",
     "type": "story",
     "title": "后羿射日",
-    "cover": "",
+    "cover": "assets/covers/themed/chinese_myth.jpg",
     "icon": "☀️",
     "category": [
       "神话"
@@ -327,7 +327,7 @@
     "id": "story_014",
     "type": "story",
     "title": "小红帽",
-    "cover": "",
+    "cover": "assets/covers/themed/grimm.jpg",
     "icon": "🔴",
     "category": [
       "童话"
@@ -376,7 +376,7 @@
     "id": "story_016",
     "type": "story",
     "title": "丑小鸭",
-    "cover": "",
+    "cover": "assets/covers/themed/mermaid.jpg",
     "icon": "🦆",
     "category": [
       "童话"
@@ -521,7 +521,7 @@
     "id": "story_022",
     "type": "story",
     "title": "猴王出世",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🐵",
     "category": [
       "名著"
@@ -642,7 +642,7 @@
     "id": "story_028",
     "type": "story",
     "title": "田螺姑娘",
-    "cover": "",
+    "cover": "assets/covers/themed/folklore.jpg",
     "icon": "🐌",
     "category": [
       "民间"
@@ -667,7 +667,7 @@
     "id": "story_029",
     "type": "story",
     "title": "牛郎织女",
-    "cover": "",
+    "cover": "assets/covers/themed/folklore.jpg",
     "icon": "🌠",
     "category": [
       "民间"
@@ -692,7 +692,7 @@
     "id": "story_030",
     "type": "story",
     "title": "嫦娥奔月",
-    "cover": "",
+    "cover": "assets/covers/themed/folklore.jpg",
     "icon": "🌕",
     "category": [
       "民间"
@@ -717,7 +717,7 @@
     "id": "story_031",
     "type": "story",
     "title": "画蛇添足",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🐍",
     "category": [
       "成语"
@@ -742,7 +742,7 @@
     "id": "story_032",
     "type": "story",
     "title": "井底之蛙",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🐸",
     "category": [
       "成语"
@@ -767,7 +767,7 @@
     "id": "story_033",
     "type": "story",
     "title": "滥竽充数",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🎼",
     "category": [
       "成语"
@@ -792,7 +792,7 @@
     "id": "story_034",
     "type": "story",
     "title": "自相矛盾",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🛡️",
     "category": [
       "成语"
@@ -817,7 +817,7 @@
     "id": "story_035",
     "type": "story",
     "title": "惊弓之鸟",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🦅",
     "category": [
       "成语"
@@ -842,7 +842,7 @@
     "id": "story_036",
     "type": "story",
     "title": "杯弓蛇影",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🏺",
     "category": [
       "成语"
@@ -867,7 +867,7 @@
     "id": "story_037",
     "type": "story",
     "title": "画龙点睛",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🐉",
     "category": [
       "成语"
@@ -892,7 +892,7 @@
     "id": "story_038",
     "type": "story",
     "title": "对牛弹琴",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🐮",
     "category": [
       "成语"
@@ -917,7 +917,7 @@
     "id": "story_039",
     "type": "story",
     "title": "叶公好龙",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🐲",
     "category": [
       "成语"
@@ -942,7 +942,7 @@
     "id": "story_040",
     "type": "story",
     "title": "望梅止渴",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🫐",
     "category": [
       "成语"
@@ -967,7 +967,7 @@
     "id": "story_041",
     "type": "story",
     "title": "精卫填海",
-    "cover": "",
+    "cover": "assets/covers/themed/chinese_myth.jpg",
     "icon": "🕊️",
     "category": [
       "神话"
@@ -992,7 +992,7 @@
     "id": "story_042",
     "type": "story",
     "title": "夸父逐日",
-    "cover": "",
+    "cover": "assets/covers/themed/chinese_myth.jpg",
     "icon": "🏃",
     "category": [
       "神话"
@@ -1017,7 +1017,7 @@
     "id": "story_043",
     "type": "story",
     "title": "大禹治水",
-    "cover": "",
+    "cover": "assets/covers/themed/chinese_myth.jpg",
     "icon": "🌊",
     "category": [
       "神话"
@@ -1066,7 +1066,7 @@
     "id": "story_045",
     "type": "story",
     "title": "八仙过海",
-    "cover": "",
+    "cover": "assets/covers/themed/folklore.jpg",
     "icon": "🧙",
     "category": [
       "神话"
@@ -1091,7 +1091,7 @@
     "id": "story_046",
     "type": "story",
     "title": "猴子捞月",
-    "cover": "",
+    "cover": "assets/covers/themed/folklore.jpg",
     "icon": "🌙",
     "category": [
       "民间"
@@ -1116,7 +1116,7 @@
     "id": "story_047",
     "type": "story",
     "title": "神笔马良",
-    "cover": "",
+    "cover": "assets/covers/themed/folklore.jpg",
     "icon": "🖌️",
     "category": [
       "民间"
@@ -1141,7 +1141,7 @@
     "id": "story_048",
     "type": "story",
     "title": "十二生肖的故事",
-    "cover": "",
+    "cover": "assets/covers/themed/folklore.jpg",
     "icon": "🐭",
     "category": [
       "民间"
@@ -1190,7 +1190,7 @@
     "id": "story_050",
     "type": "story",
     "title": "拇指姑娘",
-    "cover": "",
+    "cover": "assets/covers/themed/mermaid.jpg",
     "icon": "🌷",
     "category": [
       "童话"
@@ -1215,7 +1215,7 @@
     "id": "story_051",
     "type": "story",
     "title": "卖火柴的小女孩",
-    "cover": "",
+    "cover": "assets/covers/themed/mermaid.jpg",
     "icon": "🔥",
     "category": [
       "童话"
@@ -1240,7 +1240,7 @@
     "id": "story_052",
     "type": "story",
     "title": "海的女儿",
-    "cover": "",
+    "cover": "assets/covers/themed/mermaid.jpg",
     "icon": "🧜",
     "category": [
       "童话"
@@ -1265,7 +1265,7 @@
     "id": "story_053",
     "type": "story",
     "title": "豌豆公主",
-    "cover": "",
+    "cover": "assets/covers/themed/mermaid.jpg",
     "icon": "🫛",
     "category": [
       "童话"
@@ -1290,7 +1290,7 @@
     "id": "story_054",
     "type": "story",
     "title": "青蛙王子",
-    "cover": "",
+    "cover": "assets/covers/themed/grimm.jpg",
     "icon": "🐸",
     "category": [
       "童话"
@@ -1315,7 +1315,7 @@
     "id": "story_055",
     "type": "story",
     "title": "灰姑娘",
-    "cover": "",
+    "cover": "assets/covers/themed/grimm.jpg",
     "icon": "👠",
     "category": [
       "童话"
@@ -1340,7 +1340,7 @@
     "id": "story_056",
     "type": "story",
     "title": "白雪公主",
-    "cover": "",
+    "cover": "assets/covers/themed/grimm.jpg",
     "icon": "🍎",
     "category": [
       "童话"
@@ -1365,7 +1365,7 @@
     "id": "story_057",
     "type": "story",
     "title": "狐狸和葡萄",
-    "cover": "",
+    "cover": "assets/covers/themed/aesop.jpg",
     "icon": "🦊",
     "category": [
       "寓言"
@@ -1390,7 +1390,7 @@
     "id": "story_058",
     "type": "story",
     "title": "北风和太阳",
-    "cover": "",
+    "cover": "assets/covers/themed/aesop.jpg",
     "icon": "🌞",
     "category": [
       "寓言"
@@ -1415,7 +1415,7 @@
     "id": "story_059",
     "type": "story",
     "title": "蚂蚁和蚱蜢",
-    "cover": "",
+    "cover": "assets/covers/themed/aesop.jpg",
     "icon": "🐜",
     "category": [
       "寓言"
@@ -1464,7 +1464,7 @@
     "id": "story_061",
     "type": "story",
     "title": "猴王学艺",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🙈",
     "category": [
       "名著"
@@ -1489,7 +1489,7 @@
     "id": "story_062",
     "type": "story",
     "title": "龙宫借宝",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🌊",
     "category": [
       "名著"
@@ -1514,7 +1514,7 @@
     "id": "story_063",
     "type": "story",
     "title": "大闹天宫",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "⚡",
     "category": [
       "名著"
@@ -1539,7 +1539,7 @@
     "id": "story_064",
     "type": "story",
     "title": "五行山下",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "⛰️",
     "category": [
       "名著"
@@ -1564,7 +1564,7 @@
     "id": "story_065",
     "type": "story",
     "title": "高老庄收八戒",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🐷",
     "category": [
       "名著"
@@ -1589,7 +1589,7 @@
     "id": "story_066",
     "type": "story",
     "title": "流沙河收沙僧",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🏜️",
     "category": [
       "名著"
@@ -1614,7 +1614,7 @@
     "id": "story_067",
     "type": "story",
     "title": "三打白骨精",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🦴",
     "category": [
       "名著"
@@ -1639,7 +1639,7 @@
     "id": "story_068",
     "type": "story",
     "title": "黑风山斗黑熊精",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🐻",
     "category": [
       "名著"
@@ -1664,7 +1664,7 @@
     "id": "story_069",
     "type": "story",
     "title": "大战红孩儿",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🔥",
     "category": [
       "名著"
@@ -1689,7 +1689,7 @@
     "id": "story_070",
     "type": "story",
     "title": "车迟国斗法",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🧙",
     "category": [
       "名著"
@@ -1714,7 +1714,7 @@
     "id": "story_071",
     "type": "story",
     "title": "真假美猴王",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "👥",
     "category": [
       "名著"
@@ -1739,7 +1739,7 @@
     "id": "story_072",
     "type": "story",
     "title": "三借芭蕉扇",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🍌",
     "category": [
       "名著"
@@ -1764,7 +1764,7 @@
     "id": "story_073",
     "type": "story",
     "title": "女儿国奇遇",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "👑",
     "category": [
       "名著"
@@ -1789,7 +1789,7 @@
     "id": "story_074",
     "type": "story",
     "title": "通天河降妖",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🐟",
     "category": [
       "名著"
@@ -1814,7 +1814,7 @@
     "id": "story_075",
     "type": "story",
     "title": "盘丝洞",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🕷️",
     "category": [
       "名著"
@@ -1839,7 +1839,7 @@
     "id": "story_076",
     "type": "story",
     "title": "狮驼岭",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🦅",
     "category": [
       "名著"
@@ -1864,7 +1864,7 @@
     "id": "story_077",
     "type": "story",
     "title": "小雷音寺",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🔔",
     "category": [
       "名著"
@@ -1889,7 +1889,7 @@
     "id": "story_078",
     "type": "story",
     "title": "偷吃人参果",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "👶",
     "category": [
       "名著"
@@ -1914,7 +1914,7 @@
     "id": "story_079",
     "type": "story",
     "title": "取经归来",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🏆",
     "category": [
       "名著"
@@ -1939,7 +1939,7 @@
     "id": "story_084",
     "type": "story",
     "title": "山鲁佐德的故事",
-    "cover": "",
+    "cover": "assets/covers/themed/arabian.jpg",
     "icon": "🌙",
     "category": [
       "童话"
@@ -1964,7 +1964,7 @@
     "id": "story_085",
     "type": "story",
     "title": "阿里巴巴与四十大盗",
-    "cover": "",
+    "cover": "assets/covers/themed/arabian.jpg",
     "icon": "🗝️",
     "category": [
       "童话"
@@ -1989,7 +1989,7 @@
     "id": "story_086",
     "type": "story",
     "title": "阿拉丁神灯",
-    "cover": "",
+    "cover": "assets/covers/themed/arabian.jpg",
     "icon": "🪔",
     "category": [
       "童话"
@@ -2014,7 +2014,7 @@
     "id": "story_087",
     "type": "story",
     "title": "辛巴达航海记",
-    "cover": "",
+    "cover": "assets/covers/themed/arabian.jpg",
     "icon": "⛵",
     "category": [
       "童话"
@@ -2039,7 +2039,7 @@
     "id": "story_088",
     "type": "story",
     "title": "渔夫和魔鬼",
-    "cover": "",
+    "cover": "assets/covers/themed/arabian.jpg",
     "icon": "🧞",
     "category": [
       "童话"
@@ -2064,7 +2064,7 @@
     "id": "story_089",
     "type": "story",
     "title": "会飞的木马",
-    "cover": "",
+    "cover": "assets/covers/themed/arabian.jpg",
     "icon": "🐎",
     "category": [
       "童话"
@@ -2089,7 +2089,7 @@
     "id": "story_090",
     "type": "story",
     "title": "睡美人",
-    "cover": "",
+    "cover": "assets/covers/themed/grimm.jpg",
     "icon": "💤",
     "category": [
       "童话"
@@ -2114,7 +2114,7 @@
     "id": "story_091",
     "type": "story",
     "title": "莴苣姑娘",
-    "cover": "",
+    "cover": "assets/covers/themed/grimm.jpg",
     "icon": "🌿",
     "category": [
       "童话"
@@ -2139,7 +2139,7 @@
     "id": "story_092",
     "type": "story",
     "title": "糖果屋",
-    "cover": "",
+    "cover": "assets/covers/themed/grimm.jpg",
     "icon": "🍬",
     "category": [
       "童话"
@@ -2164,7 +2164,7 @@
     "id": "story_093",
     "type": "story",
     "title": "不来梅的音乐家",
-    "cover": "",
+    "cover": "assets/covers/themed/grimm.jpg",
     "icon": "🎵",
     "category": [
       "童话"
@@ -2189,7 +2189,7 @@
     "id": "story_094",
     "type": "story",
     "title": "渔夫和他的妻子",
-    "cover": "",
+    "cover": "assets/covers/themed/grimm.jpg",
     "icon": "🐟",
     "category": [
       "童话"
@@ -2214,7 +2214,7 @@
     "id": "story_095",
     "type": "story",
     "title": "皇帝的新装",
-    "cover": "",
+    "cover": "assets/covers/themed/mermaid.jpg",
     "icon": "👑",
     "category": [
       "童话"
@@ -2239,7 +2239,7 @@
     "id": "story_096",
     "type": "story",
     "title": "坚定的锡兵",
-    "cover": "",
+    "cover": "assets/covers/themed/mermaid.jpg",
     "icon": "🎖️",
     "category": [
       "童话"
@@ -2264,7 +2264,7 @@
     "id": "story_097",
     "type": "story",
     "title": "夜莺",
-    "cover": "",
+    "cover": "assets/covers/themed/mermaid.jpg",
     "icon": "🌹",
     "category": [
       "童话"
@@ -2564,7 +2564,7 @@
     "id": "story_109",
     "type": "story",
     "title": "杞人忧天",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "😟",
     "category": [
       "成语"
@@ -2614,7 +2614,7 @@
     "id": "story_111",
     "type": "story",
     "title": "歧路亡羊",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🐑",
     "category": [
       "成语"
@@ -2664,7 +2664,7 @@
     "id": "story_113",
     "type": "story",
     "title": "庖丁解牛",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🔪",
     "category": [
       "成语"
@@ -2689,7 +2689,7 @@
     "id": "story_114",
     "type": "story",
     "title": "邯郸学步",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🚶",
     "category": [
       "成语"
@@ -2714,7 +2714,7 @@
     "id": "story_115",
     "type": "story",
     "title": "望洋兴叹",
-    "cover": "",
+    "cover": "assets/covers/themed/idiom.jpg",
     "icon": "🌊",
     "category": [
       "成语"
@@ -2739,7 +2739,7 @@
     "id": "story_116",
     "type": "story",
     "title": "刑天舞干戚",
-    "cover": "",
+    "cover": "assets/covers/themed/chinese_myth.jpg",
     "icon": "🛡️",
     "category": [
       "神话"
@@ -2764,7 +2764,7 @@
     "id": "story_117",
     "type": "story",
     "title": "金角银角",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🏺",
     "category": [
       "名著"
@@ -2789,7 +2789,7 @@
     "id": "story_118",
     "type": "story",
     "title": "黄袍怪",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "👑",
     "category": [
       "名著"
@@ -3958,7 +3958,7 @@
     "id": "story_163",
     "type": "story",
     "title": "\"快乐王子\"",
-    "cover": "",
+    "cover": "assets/covers/themed/happy_prince.jpg",
     "icon": "🦢",
     "category": [
       "名著",
@@ -3984,7 +3984,7 @@
     "id": "story_164",
     "type": "story",
     "title": "\"夜莺与玫瑰\"",
-    "cover": "",
+    "cover": "assets/covers/themed/happy_prince.jpg",
     "icon": "🌹",
     "category": [
       "名著",
@@ -4010,7 +4010,7 @@
     "id": "story_165",
     "type": "story",
     "title": "\"自私的巨人\"",
-    "cover": "",
+    "cover": "assets/covers/themed/happy_prince.jpg",
     "icon": "🧚",
     "category": [
       "名著",
@@ -4036,7 +4036,7 @@
     "id": "story_166",
     "type": "story",
     "title": "\"忠实的朋友\"",
-    "cover": "",
+    "cover": "assets/covers/themed/happy_prince.jpg",
     "icon": "🤝",
     "category": [
       "名著",
@@ -4062,7 +4062,7 @@
     "id": "story_167",
     "type": "story",
     "title": "\"了不起的火箭\"",
-    "cover": "",
+    "cover": "assets/covers/themed/happy_prince.jpg",
     "icon": "🚀",
     "category": [
       "名著",
@@ -4088,7 +4088,7 @@
     "id": "story_168",
     "type": "story",
     "title": "\"野天鹅\"",
-    "cover": "",
+    "cover": "assets/covers/themed/mermaid.jpg",
     "icon": "🦢",
     "category": [
       "童话"
@@ -4113,7 +4113,7 @@
     "id": "story_169",
     "type": "story",
     "title": "\"打火匣\"",
-    "cover": "",
+    "cover": "assets/covers/themed/mermaid.jpg",
     "icon": "🔥",
     "category": [
       "童话"
@@ -4138,7 +4138,7 @@
     "id": "story_170",
     "type": "story",
     "title": "\"红鞋\"",
-    "cover": "",
+    "cover": "assets/covers/themed/mermaid.jpg",
     "icon": "👠",
     "category": [
       "童话"
@@ -4163,7 +4163,7 @@
     "id": "story_171",
     "type": "story",
     "title": "\"笨汉汉斯\"",
-    "cover": "",
+    "cover": "assets/covers/themed/mermaid.jpg",
     "icon": "🤴",
     "category": [
       "童话"
@@ -4188,7 +4188,7 @@
     "id": "story_172",
     "type": "story",
     "title": "\"狼和七只小羊\"",
-    "cover": "",
+    "cover": "assets/covers/themed/grimm.jpg",
     "icon": "🐺",
     "category": [
       "童话"
@@ -4213,7 +4213,7 @@
     "id": "story_173",
     "type": "story",
     "title": "\"金鹅\"",
-    "cover": "",
+    "cover": "assets/covers/themed/grimm.jpg",
     "icon": "🪿",
     "category": [
       "童话"
@@ -4238,7 +4238,7 @@
     "id": "story_174",
     "type": "story",
     "title": "\"勇敢的小裁缝\"",
-    "cover": "",
+    "cover": "assets/covers/themed/grimm.jpg",
     "icon": "🧵",
     "category": [
       "童话"
@@ -4263,7 +4263,7 @@
     "id": "story_175",
     "type": "story",
     "title": "\"六只天鹅\"",
-    "cover": "",
+    "cover": "assets/covers/themed/grimm.jpg",
     "icon": "🦢",
     "category": [
       "童话"
@@ -4288,7 +4288,7 @@
     "id": "story_176",
     "type": "story",
     "title": "\"仓颉造字\"",
-    "cover": "",
+    "cover": "assets/covers/themed/chinese_myth.jpg",
     "icon": "✍️",
     "category": [
       "神话",
@@ -4314,7 +4314,7 @@
     "id": "story_177",
     "type": "story",
     "title": "\"神农尝百草\"",
-    "cover": "",
+    "cover": "assets/covers/themed/chinese_myth.jpg",
     "icon": "🌿",
     "category": [
       "神话",
@@ -4340,7 +4340,7 @@
     "id": "story_178",
     "type": "story",
     "title": "\"吴刚伐桂\"",
-    "cover": "",
+    "cover": "assets/covers/themed/chinese_myth.jpg",
     "icon": "🪓",
     "category": [
       "神话",
@@ -4366,7 +4366,7 @@
     "id": "story_179",
     "type": "story",
     "title": "\"鲤鱼跃龙门\"",
-    "cover": "",
+    "cover": "assets/covers/themed/chinese_myth.jpg",
     "icon": "🐟",
     "category": [
       "神话",
@@ -4392,7 +4392,7 @@
     "id": "story_180",
     "type": "story",
     "title": "\"女娲造人\"",
-    "cover": "",
+    "cover": "assets/covers/themed/chinese_myth.jpg",
     "icon": "🏺",
     "category": [
       "神话",
@@ -4418,7 +4418,7 @@
     "id": "story_181",
     "type": "story",
     "title": "\"姜子牙钓鱼\"",
-    "cover": "",
+    "cover": "assets/covers/themed/chinese_myth.jpg",
     "icon": "🎣",
     "category": [
       "神话",
@@ -4444,7 +4444,7 @@
     "id": "story_182",
     "type": "story",
     "title": "\"鹰愁涧收白龙马\"",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🐒",
     "category": [
       "名著",
@@ -4470,7 +4470,7 @@
     "id": "story_183",
     "type": "story",
     "title": "\"大战黄风怪\"",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🐒",
     "category": [
       "名著",
@@ -4496,7 +4496,7 @@
     "id": "story_184",
     "type": "story",
     "title": "\"四圣试禅心\"",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🐒",
     "category": [
       "名著",
@@ -4522,7 +4522,7 @@
     "id": "story_185",
     "type": "story",
     "title": "\"乌鸡国降妖\"",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🐒",
     "category": [
       "名著",
@@ -4548,7 +4548,7 @@
     "id": "story_186",
     "type": "story",
     "title": "\"朱紫国行医\"",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🐒",
     "category": [
       "名著",
@@ -4574,7 +4574,7 @@
     "id": "story_187",
     "type": "story",
     "title": "\"比丘国救小儿\"",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🐒",
     "category": [
       "名著",
@@ -4600,7 +4600,7 @@
     "id": "story_188",
     "type": "story",
     "title": "\"无底洞\"",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🐒",
     "category": [
       "名著",
@@ -4626,7 +4626,7 @@
     "id": "story_189",
     "type": "story",
     "title": "\"灭法国\"",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🐒",
     "category": [
       "名著",
@@ -4652,7 +4652,7 @@
     "id": "story_190",
     "type": "story",
     "title": "\"隐雾山\"",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🐒",
     "category": [
       "名著",
@@ -4678,7 +4678,7 @@
     "id": "story_191",
     "type": "story",
     "title": "\"凤仙郡祈雨\"",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🐒",
     "category": [
       "名著",
@@ -4704,7 +4704,7 @@
     "id": "story_192",
     "type": "story",
     "title": "\"玉华州\"",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🐒",
     "category": [
       "名著",
@@ -4730,7 +4730,7 @@
     "id": "story_193",
     "type": "story",
     "title": "\"天竺国玉兔\"",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🐒",
     "category": [
       "名著",
@@ -4756,7 +4756,7 @@
     "id": "story_194",
     "type": "story",
     "title": "\"青龙山犀牛精\"",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🐒",
     "category": [
       "名著",
@@ -4782,7 +4782,7 @@
     "id": "story_195",
     "type": "story",
     "title": "\"铜台府\"",
-    "cover": "assets/covers/cover_23962.jpg",
+    "cover": "assets/covers/themed/xyj.jpg",
     "icon": "🐒",
     "category": [
       "名著",

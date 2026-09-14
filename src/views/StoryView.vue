@@ -194,26 +194,57 @@ const brief = (text: string) => (text.length > 70 ? text.slice(0, 70) + '……'
         <button
           v-else
           type="button"
-          class="card-soft fade-up flex h-full w-full flex-col items-center justify-center gap-4 bg-gradient-to-br from-cream-100 to-cream-200 p-6 text-center"
+          class="card-soft fade-up relative flex h-full w-full flex-col items-center justify-center gap-4 overflow-hidden p-6 text-center"
           @click="openCard(card)"
         >
-          <span class="text-8xl drop-shadow-sm">{{ card.story.icon }}</span>
-          <h2 class="text-3xl font-bold text-ink">{{ card.story.title }}</h2>
-          <div class="flex flex-wrap justify-center gap-1">
-            <span v-for="c in card.story.category" :key="c" class="chip chip-on">{{
-              c
-            }}</span>
+          <!-- 有封面：图片铺满 + 暗色渐变遮罩保证文字可读 -->
+          <template v-if="card.story.cover">
+            <img
+              :src="card.story.cover"
+              :alt="card.story.title"
+              class="absolute inset-0 h-full w-full object-cover"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-b from-ink/60 via-ink/25 to-ink/75"
+            ></div>
+          </template>
+          <!-- 无封面：紫色渐变底 -->
+          <div
+            v-else
+            class="absolute inset-0 bg-gradient-to-br from-story to-story-deep"
+          ></div>
+          <span
+            class="relative text-8xl drop-shadow-md"
+            :class="card.story.cover ? 'opacity-90' : ''"
+            >{{ card.story.icon }}</span
+          >
+          <h2
+            class="relative text-3xl font-bold text-white drop-shadow-sm"
+          >
+            {{ card.story.title }}
+          </h2>
+          <div class="relative flex flex-wrap justify-center gap-1">
+            <span
+              v-for="c in card.story.category"
+              :key="c"
+              class="chip bg-white/25 text-white backdrop-blur-sm"
+              >{{ c }}</span
+            >
           </div>
-          <p class="max-w-sm text-sm leading-relaxed text-ink-soft">
+          <p
+            class="relative max-w-sm text-sm leading-relaxed text-white/90 drop-shadow-sm"
+          >
             {{ brief(card.story.text) }}
           </p>
-          <div class="flex items-center gap-3 text-sm text-ink-muted">
+          <div
+            class="relative flex items-center gap-3 text-sm text-white/85"
+          >
             <span>{{ card.story.age }}</span>
             <span>·</span>
             <span>{{ card.story.duration }}</span>
           </div>
           <span
-            class="mt-1 flex items-center gap-2 rounded-full bg-story px-6 py-3 font-bold text-white shadow-soft"
+            class="relative mt-1 flex items-center gap-2 rounded-full bg-white px-6 py-3 font-bold text-story-deep shadow-soft"
           >
             {{ card.story.audio ? '▶ 开始听' : '📖 开始读' }}
           </span>
