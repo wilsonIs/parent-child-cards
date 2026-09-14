@@ -39,12 +39,12 @@ def main() -> None:
 
     # 重新生成音频
     if "--audio" in sys.argv:
-        voice = "zh-CN-XiaoxiaoNeural"
+        voice = "zh-CN-XiaoyiNeural"  # 活泼儿童向女声（晓伊+35Hz音调+10%语速）
         for sid in done:
             s = by_id[sid]
             out = AUDIO_DIR / f"{sid}.mp3"
             subprocess.run(
-                ["edge-tts", "--voice", voice, "--text", s["text"], "--write-media", str(out)],
+                ["edge-tts", "--voice", voice, "--pitch=+35Hz", "--rate=+10%", "--text", s["text"], "--write-media", str(out)],
                 check=True,
                 capture_output=True,
             )
