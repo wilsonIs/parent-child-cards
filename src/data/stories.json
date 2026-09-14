@@ -14,7 +14,13 @@
     "audio": "assets/audio/story_001.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_002",
@@ -31,7 +37,13 @@
     "audio": "assets/audio/story_002.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_003",
@@ -48,7 +60,13 @@
     "audio": "assets/audio/story_003.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_004",
@@ -65,7 +83,13 @@
     "audio": "assets/audio/story_004.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_005",
@@ -82,7 +106,13 @@
     "audio": "assets/audio/story_005.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_006",
@@ -99,7 +129,13 @@
     "audio": "assets/audio/story_006.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_007",
@@ -115,7 +151,13 @@
     "text": "夏天，太阳火辣辣地照着，一只乌鸦飞了很久，又渴又累。它看见路边有个瓶子，赶紧飞过去，瓶子里果然有水！可是瓶口又小又深，水也不多，乌鸦的嘴伸进去，怎么都够不着水。它围着瓶子转了好几圈，又试着用翅膀推瓶子，瓶子纹丝不动，根本推不倒。乌鸦急得“哇哇”直叫。它忽然看见地上散落着许多小石子，眼睛一亮，想出一个办法：它衔起一颗石子，“扑通”一声投进瓶子里，水面就升高了一点点。乌鸦高兴极了，一趟一趟地飞，一颗一颗地衔石子往瓶子里丢。太阳晒得它直冒汗，它也不肯歇。石子越丢越多，水面越升越高。终于，水面升到了瓶口。乌鸦把嘴伸进瓶口，“咕咚咕咚”喝了个痛快。喝饱了水，它精神抖擞，拍拍翅膀飞走了。遇到困难别着急，动动脑筋，办法总比困难多。",
     "audio": "assets/audio/story_007.mp3",
     "source": "公共领域改写",
-    "license": "公共领域"
+    "license": "公共领域",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_008",
@@ -132,7 +174,13 @@
     "audio": "assets/audio/story_008.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "伊索寓言"
+    "series": "伊索寓言",
+    "source_url": "https://zh.wikisource.org/wiki/伊索寓言",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_009",
@@ -149,7 +197,13 @@
     "audio": "assets/audio/story_009.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "伊索寓言"
+    "series": "伊索寓言",
+    "source_url": "https://zh.wikisource.org/wiki/伊索寓言",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_010",
@@ -166,7 +220,13 @@
     "audio": "assets/audio/story_010.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "伊索寓言"
+    "series": "伊索寓言",
+    "source_url": "https://zh.wikisource.org/wiki/伊索寓言",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_011",
@@ -183,7 +243,13 @@
     "audio": "assets/audio/story_011.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "中国神话"
+    "series": "中国神话",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_012",
@@ -200,7 +266,13 @@
     "audio": "assets/audio/story_012.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "中国神话"
+    "series": "中国神话",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_013",
@@ -217,7 +289,13 @@
     "audio": "assets/audio/story_013.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "中国神话"
+    "series": "中国神话",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_014",
@@ -234,7 +312,13 @@
     "audio": "assets/audio/story_014.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "格林童话"
+    "series": "格林童话",
+    "source_url": "https://zh.wikisource.org/wiki/格林童话",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_015",
@@ -250,7 +334,13 @@
     "text": "猪妈妈有三个孩子，都长大了，要自己出去盖房子住。老大偷懒，用稻草三下两下就搭了间草屋，睡进去呼呼大睡。老二也图省事，找来几块木板，叮叮当当钉了间木头屋。只有老三不偷懒，他推着小车，一趟一趟地搬砖头，累得满头大汗，盖了一间又结实又漂亮的红砖房。老大老二笑话他：“费那么大劲，多傻呀！”老三笑着说：“房子是住一辈子的，盖结实点心里踏实。”一天，大灰狼来了。它先来到老大的草屋前，鼓起腮帮子，“呼——”地一吹，草屋就飞走了。老大吓得连滚带爬，跑到老二家。大灰狼追到木头屋前，用脑袋狠狠一撞，“咔嚓”一声，木板散了一地。两只小猪吓得拼命往老三的砖房跑。大灰狼追到砖房前，吹，吹不动；撞，撞不倒，还撞得自己眼冒金星。它眼珠一转，爬上屋顶，想从烟囱钻进去。老三早有准备，在壁炉里烧了一大锅滚烫的开水。大灰狼顺着烟囱往下溜，“扑通”一声掉进锅里，烫得“嗷嗷”直叫，夹着尾巴没命地逃跑了。三只小猪这才明白：盖房子不能图省事，做人做事也一样，基础打得牢，才不怕风吹雨打。",
     "audio": "assets/audio/story_015.mp3",
     "source": "公共领域改写",
-    "license": "公共领域"
+    "license": "公共领域",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_016",
@@ -267,7 +357,13 @@
     "audio": "assets/audio/story_016.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "安徒生童话"
+    "series": "安徒生童话",
+    "source_url": "https://zh.wikisource.org/wiki/安徒生童话",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_017",
@@ -283,7 +379,13 @@
     "text": "小朋友，你晚上抬头看月亮，有没有发现一件奇怪的事？月亮有时候圆得像一个银盘子，有时候却弯得像一把小镰刀，还有时候只剩一道细细的月牙。这是为什么呢？其实，月亮自己不会发光，它身上的光，全部是太阳照上去的。月亮就像一个大皮球，绕着地球一圈一圈地转。我们在地球上看到的，永远只是月亮被太阳照亮的那一面。月亮转到地球和太阳中间的时候，太阳照亮的是它背对我们的一面，我们几乎看不见它，这就叫“新月”；等到月亮转到地球的另外一边，太阳把它的正面照得亮亮的，我们看到的月亮又大又圆，这就叫“满月”。从新月到满月，再从满月变回新月，正好是一个月。所以，每个月我们都能看到月亮圆了又缺、缺了又圆。下次抬头看月亮的时候，你可以想一想：月亮还是那个月亮，只是太阳照亮它的角度，每天都不一样呢。",
     "audio": "assets/audio/story_017.mp3",
     "source": "公共领域改写",
-    "license": "公共领域"
+    "license": "公共领域",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_018",
@@ -299,7 +401,13 @@
     "text": "夏天的午后，天忽然暗下来，乌云黑压压地堆在天上，紧接着“咔嚓”一声，一道闪电划破天空，轰隆隆的雷声响起来，大雨哗啦啦地下了起来。雷和雨到底是怎么来的呢？原来，太阳把地面上的水晒热，水变成看不见的水蒸气，慢慢升到高高的天空。天空冷，水蒸气又凝结成小水珠，小水珠聚在一起，就成了云。云里的水珠越聚越多，越聚越重，托不住了，就变成雨点落下来，这就是下雨。那雷声呢？云里的水珠和冰晶不停地碰撞、摩擦，会产生电。正电和负电越积越多，像两个想打架的小孩子。它们终于碰到一起的时候，就会发出耀眼的光——闪电，同时发出巨大的声音——雷声。其实闪电和雷声是同时发生的，只不过光跑得比声音快得多，所以我们总是先看见闪电，过一会儿才听见雷声。下次再打雷，你可以数一数：“一、二、三……”数到几，雷声就差不多到了几公里外呢。",
     "audio": "assets/audio/story_018.mp3",
     "source": "公共领域改写",
-    "license": "公共领域"
+    "license": "公共领域",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_019",
@@ -315,7 +423,13 @@
     "text": "爷爷常说：“蚂蚁搬家蛇过道，大雨不久就来到。”小蚂蚁真的会预报天气吗？会！蚂蚁的家建在地下，它们最怕雨水灌进洞里。聪明的小蚂蚁，能感觉到空气里湿度的变化。天要下雨之前，空气变得又闷又潮，蚂蚁就知道大水要来了。于是它们急急忙忙地搬家，驮着粮食，拖着小蚂蚁卵，往地势高的地方爬，把家安在淋不着雨的地方。所以，当你看见一群群蚂蚁排着长长的队伍，慌慌张张地爬来爬去，还驮着白白的小颗粒，那多半就是要下雨了。小蚂蚁虽然个子小，却比谁都懂得未雨绸缪。它们不慌不忙，分工合作，搬家的队伍整整齐齐，谁也不会掉队。等到大雨哗哗地下起来，小蚂蚁们早就躲进新家，舒舒服服地待着了。下次看到蚂蚁搬家，你可以抬头看看天——也许用不了多久，雨点就会落下来啦。",
     "audio": "assets/audio/story_019.mp3",
     "source": "公共领域改写",
-    "license": "公共领域"
+    "license": "公共领域",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_020",
@@ -331,7 +445,13 @@
     "text": "天上有一颗小星星，每天晚上都眨着眼睛，看着地上小朋友们甜甜地睡觉。它有个小小的愿望：真想飞到人间，陪一个小朋友一起睡呀。一天晚上，一阵风把它轻轻吹了下来，落在一个小女孩的窗台上。小女孩正要关窗睡觉，忽然看见窗台上有个亮晶晶的小东西，捧起来一看，竟是一颗小星星！星星闪着温柔的光，轻轻说：“我能和你一起睡觉吗？”小女孩又惊又喜：“当然可以！”她把星星放在枕头边。星星的光亮亮的、软软的，像盖了一层月光被，小女孩觉得特别安心，闭上眼睛，很快就睡着了。她做了一个甜甜的梦：梦里她坐在星星上，飞过一朵朵云，去看月亮婆婆，月亮婆婆还送给她一块云朵糖。第二天早上，小女孩醒来，枕头边的星星不见了。她有点失落，可从那以后，每到晚上，窗外总有一颗最亮的星星，对着她眨眼睛——那是小星星回天上去了，还惦记着她这个朋友呢。",
     "audio": "assets/audio/story_020.mp3",
     "source": "公共领域改写",
-    "license": "公共领域"
+    "license": "公共领域",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_021",
@@ -347,13 +467,19 @@
     "text": "夜里，天上那弯月亮像一只银光闪闪的小船，摇啊摇。一个小女孩趴在窗台上，望着它出神：“月亮船，月亮船，你能载我去天上看看星星吗？”月亮船好像听见了，轻轻飘下来，落在她面前，柔声说：“上来吧，我带你去夜空里逛逛。”小女孩高兴地坐上月亮船，船儿摇啊摇，飞上了天空。她们飞过一片片白云，白云像软软的棉花糖，抓一把还能闻见甜甜的香味；她们飞过一颗颗星星，星星亮晶晶的，朝她们点头微笑。月亮船载着小女孩来到银河边，银河像一条撒满银沙的大河，哗啦哗啦地流淌。她们还遇见了北斗七星，七颗星星排成一把大勺子，请她们喝星星茶。玩了好一会儿，月亮船说：“天快亮了，我送你回家吧，明天晚上再来接你。”小女孩依依不舍地下了船。第二天晚上，月亮船又挂在天上，摇啊摇，等着她呢。",
     "audio": "assets/audio/story_021.mp3",
     "source": "公共领域改写",
-    "license": "公共领域"
+    "license": "公共领域",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_022",
     "type": "story",
     "title": "猴王出世",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "🐵",
     "category": [
       "名著"
@@ -364,7 +490,13 @@
     "audio": "assets/audio/story_022.mp3",
     "source": "《西游记》第一回·猴王出世（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_024",
@@ -380,7 +512,13 @@
     "text": "One hot afternoon, a lion was sleeping under a big tree. A little mouse ran over his nose by accident. The lion woke up, caught the mouse, and roared, \"How dare you wake me up! I will eat you!\" The mouse trembled and said, \"Please let me go, King of the forest! I am so small. One day, I may help you too!\" The lion laughed: \"You? Help me? A tiny mouse?\" But he was in a good mood, so he let the mouse go. A few days later, the lion walked into a hunter's net and could not get out. He roared and roared, but nobody came. The little mouse heard the lion's roars and ran over quickly. She saw the net and began to chew it with her small teeth. Bite by bite, she made a big hole. The lion broke free! \"Thank you, little mouse!\" said the lion. \"I laughed at you before, but you really saved my life!\" From then on, the lion and the mouse became good friends. Even the smallest friend can be a big help.",
     "audio": "assets/audio/story_024.mp3",
     "source": "公共领域改写",
-    "license": "公共领域"
+    "license": "公共领域",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_025",
@@ -396,7 +534,13 @@
     "text": "北宋时候，有个聪明的小孩叫司马光。有一天，他和几个小伙伴在院子里玩耍。院子角落里放着一口大水缸，缸里装满了水，是为了防火用的。孩子们你追我赶，玩得正开心，忽然，一个爬到缸沿上的小男孩脚下一滑，“扑通”一声掉进了水缸里。水缸又高又大，里面的水没过了他的头顶，小男孩拼命扑腾，呛了好几口水，眼看就要沉下去了。小伙伴们吓坏了，有的哇哇大哭，有的转身就跑，还有的站在原地发呆，谁也不知道该怎么办。这时，司马光一点儿也没有慌。他急中生智，搬起一块大石头，使出全身力气，朝着水缸用力砸去！“哗啦”一声，水缸被砸出一个大窟窿，水哗哗地流了出来，小男孩也跟着水流滑到了地上。大家赶紧把他扶起来，他咳出几口水，缓过劲来，得救了。大人们赶来，竖起大拇指夸司马光：小小年纪，遇事不慌，还会想办法，真是了不起！",
     "audio": "assets/audio/story_025.mp3",
     "source": "公共领域改写",
-    "license": "公共领域"
+    "license": "公共领域",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_026",
@@ -412,7 +556,13 @@
     "text": "东汉时候，有个叫孔融的孩子，从小就聪明懂事。孔融有五个哥哥，一个弟弟。一天，父亲买回来一篮梨，那梨个个金黄饱满，看着就让人流口水。父亲把梨洗干净，放在盘子里，让孩子们自己挑。哥哥们抢先跑过去，一人挑了一个大梨。轮到孔融了，他不挑大的，也不挑甜的，偏偏从盘子里捡了一个最小的梨，拿在手里。父亲看见了，觉得奇怪，问他：“孔融，盘子里这么多梨，你为什么偏偏拿最小的呢？”孔融眨眨眼睛，认真地说：“我年纪小，应该吃小梨，大的梨让给哥哥们吃。”父亲又问：“那你的弟弟呢？他比你更小，应该吃最小的呀？”孔融笑着说：“弟弟比我小，我应该让着他，把大的留给他。”父亲听了，又惊又喜，摸着孔融的头说：“好孩子，你小小年纪就知道礼让，将来一定有大出息！”后来，孔融让梨的故事传遍天下，成了千百年来教育孩子谦让有礼的典范。",
     "audio": "assets/audio/story_026.mp3",
     "source": "公共领域改写",
-    "license": "公共领域"
+    "license": "公共领域",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_027",
@@ -428,7 +578,13 @@
     "text": "三国时候，有人送给曹操一头大象。这头大象又高又大，四条腿像柱子，耳朵像两把大蒲扇，站在那儿像一座小山。曹操很想知道大象有多重，就问手下的大臣：“谁能想个办法，称一称这头大象的重量？”大臣们你看我，我看你，都犯了难。有人说：“造一杆大秤！”可谁能抬得起那么大的秤呢？有人说：“把大象杀了，切成一块一块称！”曹操连连摇头：“杀了大象还称它做什么？”正在大家愁眉苦脸的时候，曹操的小儿子曹冲站出来说：“我有办法！把大象牵到船上，在船帮上刻下水面到达的地方；再把大象牵下船，往船上装石头，装到水面和刚才的记号一样高。这时候，船上的石头就和大象一样重了。然后我们一块一块地称石头，把重量加起来，不就是大象的重量了吗？”曹操听了，连连称赞。大家照着曹冲的办法去做，果然称出了大象的重量。曹冲才五六岁，就能想出这么巧妙的办法，真是太聪明了！",
     "audio": "assets/audio/story_027.mp3",
     "source": "公共领域改写",
-    "license": "公共领域"
+    "license": "公共领域",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_028",
@@ -445,7 +601,13 @@
     "audio": "assets/audio/story_028.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "民间传说"
+    "series": "民间传说",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_029",
@@ -462,7 +624,13 @@
     "audio": "assets/audio/story_029.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "民间传说"
+    "series": "民间传说",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_030",
@@ -479,7 +647,13 @@
     "audio": "assets/audio/story_030.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "民间传说"
+    "series": "民间传说",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_031",
@@ -496,7 +670,13 @@
     "audio": "assets/audio/story_031.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_032",
@@ -513,7 +693,13 @@
     "audio": "assets/audio/story_032.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_033",
@@ -530,7 +716,13 @@
     "audio": "assets/audio/story_033.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_034",
@@ -547,7 +739,13 @@
     "audio": "assets/audio/story_034.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_035",
@@ -564,7 +762,13 @@
     "audio": "assets/audio/story_035.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_036",
@@ -581,7 +785,13 @@
     "audio": "assets/audio/story_036.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_037",
@@ -598,7 +808,13 @@
     "audio": "assets/audio/story_037.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_038",
@@ -615,7 +831,13 @@
     "audio": "assets/audio/story_038.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_039",
@@ -632,7 +854,13 @@
     "audio": "assets/audio/story_039.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_040",
@@ -649,7 +877,13 @@
     "audio": "assets/audio/story_040.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_041",
@@ -666,7 +900,13 @@
     "audio": "assets/audio/story_041.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "中国神话"
+    "series": "中国神话",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_042",
@@ -683,7 +923,13 @@
     "audio": "assets/audio/story_042.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "中国神话"
+    "series": "中国神话",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_043",
@@ -700,7 +946,13 @@
     "audio": "assets/audio/story_043.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "中国神话"
+    "series": "中国神话",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_044",
@@ -716,7 +968,13 @@
     "text": "很久以前，有个叫愚公的老人，快九十岁了。他家门口有两座大山——太行山和王屋山，一座在东，一座在西，正好堵住去路。家里人出趟门，要绕好几天山路。一天，愚公把全家人叫到一起，说：“我想把这两座山移走，让咱们出门再也不用绕路。你们说行不行？”家人都说行。于是，愚公带着儿子、孙子，扛着锄头、挑着箩筐，开始挖山。邻居家七八岁的小孩也跑来帮忙。有个叫智叟的老头看见了，笑话愚公：“你都快九十岁了，连山上的草都拔不动，还想移走两座大山？真是痴心妄想！”愚公叹了口气，说：“我是老了，可我死了，还有儿子；儿子死了，还有孙子；子子孙孙，没有穷尽。山却不会长高，我们挖一点就少一点，怎么会挖不平呢？”智叟被说得哑口无言。玉皇大帝听说了这件事，被愚公的诚心打动，派来两个大力神，一夜之间把两座大山背走了。从此，愚公家门口的路又宽又平。",
     "audio": "assets/audio/story_044.mp3",
     "source": "公共领域改写",
-    "license": "公共领域"
+    "license": "公共领域",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_045",
@@ -733,7 +991,13 @@
     "audio": "assets/audio/story_045.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "民间传说"
+    "series": "民间传说",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_046",
@@ -750,7 +1014,13 @@
     "audio": "assets/audio/story_046.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "民间传说"
+    "series": "民间传说",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_047",
@@ -767,7 +1037,13 @@
     "audio": "assets/audio/story_047.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "民间传说"
+    "series": "民间传说",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_048",
@@ -784,7 +1060,13 @@
     "audio": "assets/audio/story_048.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "民间传说"
+    "series": "民间传说",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_049",
@@ -800,7 +1082,13 @@
     "text": "很久以前，北方边境常常打仗。一天，朝廷送来军帖，要每家出一名男子去当兵。木兰的家里，父亲年纪大了，弟弟又太小，都不符合条件。木兰坐在织布机前，越想越发愁。她忽然站起身，说：“让我女扮男装，替父亲去从军吧！”她买来骏马和鞍具，剪短了头发，换上男装，告别父母，踏上了征途。木兰跟着大军渡过黄河，翻过燕山，在战场上冲锋陷阵。她武艺高强，胆识过人，一打就是十二年。将士们谁也不知道，这位立下赫赫战功的将军，竟然是个女子。战争结束了，天子要封木兰做大官，木兰却摇摇头，说：“我不想当官，只想骑上快马，回家看看爹娘。”木兰回到家，父母已经白发苍苍，看见女儿，抱在一起哭成一团。她换回女装，梳起长发，出门看望战友。战友们都惊呆了：“同行十二年，竟然不知道木兰是女郎！”从此，花木兰替父从军的故事，传遍了大江南北。",
     "audio": "assets/audio/story_049.mp3",
     "source": "公共领域改写",
-    "license": "公共领域"
+    "license": "公共领域",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_050",
@@ -817,7 +1105,13 @@
     "audio": "assets/audio/story_050.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "安徒生童话"
+    "series": "安徒生童话",
+    "source_url": "https://zh.wikisource.org/wiki/安徒生童话",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_051",
@@ -834,7 +1128,13 @@
     "audio": "assets/audio/story_051.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "安徒生童话"
+    "series": "安徒生童话",
+    "source_url": "https://zh.wikisource.org/wiki/安徒生童话",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_052",
@@ -851,7 +1151,13 @@
     "audio": "assets/audio/story_052.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "安徒生童话"
+    "series": "安徒生童话",
+    "source_url": "https://zh.wikisource.org/wiki/安徒生童话",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_053",
@@ -868,7 +1174,13 @@
     "audio": "assets/audio/story_053.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "安徒生童话"
+    "series": "安徒生童话",
+    "source_url": "https://zh.wikisource.org/wiki/安徒生童话",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_054",
@@ -885,7 +1197,13 @@
     "audio": "assets/audio/story_054.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "格林童话"
+    "series": "格林童话",
+    "source_url": "https://zh.wikisource.org/wiki/格林童话",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_055",
@@ -902,7 +1220,13 @@
     "audio": "assets/audio/story_055.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "格林童话"
+    "series": "格林童话",
+    "source_url": "https://zh.wikisource.org/wiki/格林童话",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_056",
@@ -919,7 +1243,13 @@
     "audio": "assets/audio/story_056.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "格林童话"
+    "series": "格林童话",
+    "source_url": "https://zh.wikisource.org/wiki/格林童话",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_057",
@@ -936,7 +1266,13 @@
     "audio": "assets/audio/story_057.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "伊索寓言"
+    "series": "伊索寓言",
+    "source_url": "https://zh.wikisource.org/wiki/伊索寓言",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_058",
@@ -953,7 +1289,13 @@
     "audio": "assets/audio/story_058.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "伊索寓言"
+    "series": "伊索寓言",
+    "source_url": "https://zh.wikisource.org/wiki/伊索寓言",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_059",
@@ -970,7 +1312,13 @@
     "audio": "assets/audio/story_059.mp3",
     "source": "公共领域改写",
     "license": "公共领域",
-    "series": "伊索寓言"
+    "series": "伊索寓言",
+    "source_url": "https://zh.wikisource.org/wiki/伊索寓言",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_060",
@@ -986,13 +1334,19 @@
     "text": "小朋友，你抬头看天，天空是蓝蓝的；可宇航员到了太空，看见的却是黑黑的天空，这是为什么呢？原来，太阳光看起来是白色的，其实里面藏着七种颜色：红、橙、黄、绿、蓝、靛、紫。阳光照进大气层，会碰到空气里无数细小的气体分子和尘埃。它们像一群淘气的小球，把光向四面八方弹开——这叫“散射”。其中，蓝光最容易被散射，紫光更厉害，可紫色光很少，我们眼睛对紫色也不敏感。所以，我们抬头看天，看到最多的是被散射开来的蓝光，天空就变成了蓝色的。到了傍晚，太阳斜斜地照着，阳光要穿过更厚的大气层，蓝光都被散射掉了，剩下的红光、橙光走得最远，所以我们看到晚霞是红彤彤的。而太空里没有空气，光不会被散射，所以天空看起来就是黑漆漆的，星星一闪一闪，亮极了。",
     "audio": "assets/audio/story_060.mp3",
     "source": "公共领域改写",
-    "license": "公共领域"
+    "license": "公共领域",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_061",
     "type": "story",
     "title": "猴王学艺",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "🙈",
     "category": [
       "名著"
@@ -1003,13 +1357,19 @@
     "audio": "assets/audio/story_061.mp3",
     "source": "《西游记》第二回·猴王学艺（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_062",
     "type": "story",
     "title": "龙宫借宝",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "🌊",
     "category": [
       "名著"
@@ -1020,13 +1380,19 @@
     "audio": "assets/audio/story_062.mp3",
     "source": "《西游记》第三回·龙宫借宝（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_063",
     "type": "story",
     "title": "大闹天宫",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "⚡",
     "category": [
       "名著"
@@ -1037,13 +1403,19 @@
     "audio": "assets/audio/story_063.mp3",
     "source": "《西游记》第四至六回·大闹天宫（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_064",
     "type": "story",
     "title": "五行山下",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "⛰️",
     "category": [
       "名著"
@@ -1054,13 +1426,19 @@
     "audio": "assets/audio/story_064.mp3",
     "source": "《西游记》第七回·五行山下（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_065",
     "type": "story",
     "title": "高老庄收八戒",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "🐷",
     "category": [
       "名著"
@@ -1071,13 +1449,19 @@
     "audio": "assets/audio/story_065.mp3",
     "source": "《西游记》第十八回·高老庄收八戒（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_066",
     "type": "story",
     "title": "流沙河收沙僧",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "🏜️",
     "category": [
       "名著"
@@ -1088,13 +1472,19 @@
     "audio": "assets/audio/story_066.mp3",
     "source": "《西游记》第二十一回·流沙河收沙僧（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_067",
     "type": "story",
     "title": "三打白骨精",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "🦴",
     "category": [
       "名著"
@@ -1105,13 +1495,19 @@
     "audio": "assets/audio/story_067.mp3",
     "source": "《西游记》第二十七回·三打白骨精（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_068",
     "type": "story",
     "title": "黑风山斗黑熊精",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "🐻",
     "category": [
       "名著"
@@ -1122,13 +1518,19 @@
     "audio": "assets/audio/story_068.mp3",
     "source": "《西游记》第十六至十七回·黑风山斗黑熊精（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_069",
     "type": "story",
     "title": "大战红孩儿",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "🔥",
     "category": [
       "名著"
@@ -1139,13 +1541,19 @@
     "audio": "assets/audio/story_069.mp3",
     "source": "《西游记》第四十一二回·大战红孩儿（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_070",
     "type": "story",
     "title": "车迟国斗法",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "🧙",
     "category": [
       "名著"
@@ -1156,13 +1564,19 @@
     "audio": "assets/audio/story_070.mp3",
     "source": "《西游记》第四十五六回·车迟国斗法（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_071",
     "type": "story",
     "title": "真假美猴王",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "👥",
     "category": [
       "名著"
@@ -1173,13 +1587,19 @@
     "audio": "assets/audio/story_071.mp3",
     "source": "《西游记》第五十七八回·真假美猴王（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_072",
     "type": "story",
     "title": "三借芭蕉扇",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "🍌",
     "category": [
       "名著"
@@ -1190,13 +1610,19 @@
     "audio": "assets/audio/story_072.mp3",
     "source": "《西游记》第五十九至六十一回·三借芭蕉扇（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_073",
     "type": "story",
     "title": "女儿国奇遇",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "👑",
     "category": [
       "名著"
@@ -1207,13 +1633,19 @@
     "audio": "assets/audio/story_073.mp3",
     "source": "《西游记》第五十四回·女儿国奇遇（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_074",
     "type": "story",
     "title": "通天河降妖",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "🐟",
     "category": [
       "名著"
@@ -1224,13 +1656,19 @@
     "audio": "assets/audio/story_074.mp3",
     "source": "《西游记》第四十七至四十九回·通天河降妖（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_075",
     "type": "story",
     "title": "盘丝洞",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "🕷️",
     "category": [
       "名著"
@@ -1241,13 +1679,19 @@
     "audio": "assets/audio/story_075.mp3",
     "source": "《西游记》第七十二至七十三回·盘丝洞（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_076",
     "type": "story",
     "title": "狮驼岭",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "🦅",
     "category": [
       "名著"
@@ -1258,13 +1702,19 @@
     "audio": "assets/audio/story_076.mp3",
     "source": "《西游记》第七十四至七十七回·狮驼岭（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_077",
     "type": "story",
     "title": "小雷音寺",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "🔔",
     "category": [
       "名著"
@@ -1275,13 +1725,19 @@
     "audio": "assets/audio/story_077.mp3",
     "source": "《西游记》第六十五至六十六回·小雷音寺（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_078",
     "type": "story",
     "title": "偷吃人参果",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "👶",
     "category": [
       "名著"
@@ -1292,13 +1748,19 @@
     "audio": "assets/audio/story_078.mp3",
     "source": "《西游记》第二十四至二十六回·偷吃人参果（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_079",
     "type": "story",
     "title": "取经归来",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "🏆",
     "category": [
       "名著"
@@ -1309,7 +1771,13 @@
     "audio": "assets/audio/story_079.mp3",
     "source": "《西游记》第九十九至一百回·取经归来（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_084",
@@ -1326,7 +1794,13 @@
     "audio": "assets/audio/story_084.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": "一千零一夜"
+    "series": "一千零一夜",
+    "source_url": "https://zh.wikisource.org/wiki/一千零一夜",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_085",
@@ -1343,7 +1817,13 @@
     "audio": "assets/audio/story_085.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": "一千零一夜"
+    "series": "一千零一夜",
+    "source_url": "https://zh.wikisource.org/wiki/一千零一夜",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_086",
@@ -1360,7 +1840,13 @@
     "audio": "assets/audio/story_086.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": "一千零一夜"
+    "series": "一千零一夜",
+    "source_url": "https://zh.wikisource.org/wiki/一千零一夜",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_087",
@@ -1377,7 +1863,13 @@
     "audio": "assets/audio/story_087.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": "一千零一夜"
+    "series": "一千零一夜",
+    "source_url": "https://zh.wikisource.org/wiki/一千零一夜",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_088",
@@ -1394,7 +1886,13 @@
     "audio": "assets/audio/story_088.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": "一千零一夜"
+    "series": "一千零一夜",
+    "source_url": "https://zh.wikisource.org/wiki/一千零一夜",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_089",
@@ -1411,7 +1909,13 @@
     "audio": "assets/audio/story_089.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": "一千零一夜"
+    "series": "一千零一夜",
+    "source_url": "https://zh.wikisource.org/wiki/一千零一夜",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_090",
@@ -1428,7 +1932,13 @@
     "audio": "assets/audio/story_090.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": "格林童话"
+    "series": "格林童话",
+    "source_url": "https://zh.wikisource.org/wiki/格林童话",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_091",
@@ -1445,7 +1955,13 @@
     "audio": "assets/audio/story_091.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": "格林童话"
+    "series": "格林童话",
+    "source_url": "https://zh.wikisource.org/wiki/格林童话",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_092",
@@ -1462,7 +1978,13 @@
     "audio": "assets/audio/story_092.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": "格林童话"
+    "series": "格林童话",
+    "source_url": "https://zh.wikisource.org/wiki/格林童话",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_093",
@@ -1479,7 +2001,13 @@
     "audio": "assets/audio/story_093.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": "格林童话"
+    "series": "格林童话",
+    "source_url": "https://zh.wikisource.org/wiki/格林童话",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_094",
@@ -1496,7 +2024,13 @@
     "audio": "assets/audio/story_094.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": "格林童话"
+    "series": "格林童话",
+    "source_url": "https://zh.wikisource.org/wiki/格林童话",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_095",
@@ -1513,7 +2047,13 @@
     "audio": "assets/audio/story_095.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": "安徒生童话"
+    "series": "安徒生童话",
+    "source_url": "https://zh.wikisource.org/wiki/安徒生童话",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_096",
@@ -1530,7 +2070,13 @@
     "audio": "assets/audio/story_096.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": "安徒生童话"
+    "series": "安徒生童话",
+    "source_url": "https://zh.wikisource.org/wiki/安徒生童话",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_097",
@@ -1547,13 +2093,19 @@
     "audio": "assets/audio/story_097.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": "安徒生童话"
+    "series": "安徒生童话",
+    "source_url": "https://zh.wikisource.org/wiki/安徒生童话",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_098",
     "type": "story",
     "title": "木偶奇遇记",
-    "cover": "",
+    "cover": "assets/covers/cover_500.jpg",
     "icon": "🪵",
     "category": [
       "童话"
@@ -1564,13 +2116,19 @@
     "audio": "assets/audio/story_098.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": null
+    "series": null,
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_099",
     "type": "story",
     "title": "爱丽丝梦游仙境",
-    "cover": "",
+    "cover": "assets/covers/cover_11.jpg",
     "icon": "🐰",
     "category": [
       "童话"
@@ -1581,13 +2139,19 @@
     "audio": "assets/audio/story_099.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": null
+    "series": null,
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_100",
     "type": "story",
     "title": "绿野仙踪",
-    "cover": "",
+    "cover": "assets/covers/cover_55.jpg",
     "icon": "🌈",
     "category": [
       "童话"
@@ -1598,7 +2162,13 @@
     "audio": "assets/audio/story_100.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": null
+    "series": null,
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_101",
@@ -1615,7 +2185,13 @@
     "audio": "assets/audio/story_101.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": null
+    "series": null,
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_102",
@@ -1632,7 +2208,13 @@
     "audio": "assets/audio/story_102.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": null
+    "series": null,
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_103",
@@ -1649,7 +2231,13 @@
     "audio": "assets/audio/story_103.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": null
+    "series": null,
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_104",
@@ -1666,7 +2254,13 @@
     "audio": "assets/audio/story_104.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": null
+    "series": null,
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_105",
@@ -1683,7 +2277,13 @@
     "audio": "assets/audio/story_105.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": null
+    "series": null,
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_106",
@@ -1700,7 +2300,13 @@
     "audio": "assets/audio/story_106.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": null
+    "series": null,
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_107",
@@ -1717,7 +2323,13 @@
     "audio": "assets/audio/story_107.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": null
+    "series": null,
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_108",
@@ -1734,7 +2346,13 @@
     "audio": "assets/audio/story_108.mp3",
     "source": "公版作品白话改写（原著公共领域）",
     "license": "公共领域",
-    "series": null
+    "series": null,
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_109",
@@ -1751,7 +2369,13 @@
     "audio": "assets/audio/story_109.mp3",
     "source": "改编自《列子·天瑞篇》（公共领域原文）",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_110",
@@ -1768,7 +2392,13 @@
     "audio": "assets/audio/story_110.mp3",
     "source": "改编自《列子·汤问篇》（公共领域原文）",
     "license": "公共领域",
-    "series": null
+    "series": null,
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_111",
@@ -1785,7 +2415,13 @@
     "audio": "assets/audio/story_111.mp3",
     "source": "改编自《列子·说符篇》（公共领域原文）",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_112",
@@ -1802,7 +2438,13 @@
     "audio": "assets/audio/story_112.mp3",
     "source": "改编自《庄子·齐物论》（公共领域原文）",
     "license": "公共领域",
-    "series": null
+    "series": null,
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_113",
@@ -1819,7 +2461,13 @@
     "audio": "assets/audio/story_113.mp3",
     "source": "改编自《庄子·养生主》（公共领域原文）",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_114",
@@ -1836,7 +2484,13 @@
     "audio": "assets/audio/story_114.mp3",
     "source": "改编自《庄子·秋水》（公共领域原文）",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_115",
@@ -1853,7 +2507,13 @@
     "audio": "assets/audio/story_115.mp3",
     "source": "改编自《庄子·秋水》（公共领域原文）",
     "license": "公共领域",
-    "series": "成语故事"
+    "series": "成语故事",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_116",
@@ -1870,13 +2530,19 @@
     "audio": "assets/audio/story_116.mp3",
     "source": "改编自《山海经·海外西经》（公共领域原文）",
     "license": "公共领域",
-    "series": "中国神话"
+    "series": "中国神话",
+    "source_url": "",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_117",
     "type": "story",
     "title": "金角银角",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "🏺",
     "category": [
       "名著"
@@ -1887,13 +2553,19 @@
     "audio": "assets/audio/story_117.mp3",
     "source": "《西游记》第三十二至三十五回·金角银角（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_118",
     "type": "story",
     "title": "黄袍怪",
-    "cover": "",
+    "cover": "assets/covers/cover_23962.jpg",
     "icon": "👑",
     "category": [
       "名著"
@@ -1904,13 +2576,19 @@
     "audio": "assets/audio/story_118.mp3",
     "source": "《西游记》第二十八至三十一回·黄袍怪（Project Gutenberg 原文改写）",
     "license": "公共领域",
-    "series": "西游记"
+    "series": "西游记",
+    "source_url": "https://www.gutenberg.org/ebooks/23962",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_119",
     "type": "story",
     "title": "金银岛·第一章 老船长和藏宝图",
-    "cover": "",
+    "cover": "assets/covers/cover_120.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -1922,13 +2600,19 @@
     "audio": "assets/audio/story_119.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/120",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_120",
     "type": "story",
     "title": "金银岛·第二章 扬帆出海",
-    "cover": "",
+    "cover": "assets/covers/cover_120.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -1940,13 +2624,19 @@
     "audio": "assets/audio/story_120.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/120",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_121",
     "type": "story",
     "title": "金银岛·第三章 登上金银岛",
-    "cover": "",
+    "cover": "assets/covers/cover_120.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -1958,13 +2648,19 @@
     "audio": "assets/audio/story_121.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/120",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_122",
     "type": "story",
     "title": "金银岛·第四章 小木屋攻防战",
-    "cover": "",
+    "cover": "assets/covers/cover_120.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -1976,13 +2672,19 @@
     "audio": "assets/audio/story_122.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/120",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_123",
     "type": "story",
     "title": "金银岛·第五章 决战夺宝",
-    "cover": "",
+    "cover": "assets/covers/cover_120.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -1994,13 +2696,19 @@
     "audio": "assets/audio/story_123.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/120",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_124",
     "type": "story",
     "title": "金银岛·第六章 满载而归",
-    "cover": "",
+    "cover": "assets/covers/cover_120.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2012,13 +2720,19 @@
     "audio": "assets/audio/story_124.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/120",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_125",
     "type": "story",
     "title": "鲁滨逊漂流记·第一章 流落荒岛",
-    "cover": "",
+    "cover": "assets/covers/cover_521.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2030,13 +2744,19 @@
     "audio": "assets/audio/story_125.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/521",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_127",
     "type": "story",
     "title": "鲁滨逊漂流记·第三章 沙滩上的脚印",
-    "cover": "",
+    "cover": "assets/covers/cover_521.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2048,13 +2768,19 @@
     "audio": "assets/audio/story_127.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/521",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_128",
     "type": "story",
     "title": "鲁滨逊漂流记·第四章 忠实的星期五",
-    "cover": "",
+    "cover": "assets/covers/cover_521.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2066,13 +2792,19 @@
     "audio": "assets/audio/story_128.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/521",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_129",
     "type": "story",
     "title": "鲁滨逊漂流记·第五章 造一艘大船",
-    "cover": "",
+    "cover": "assets/covers/cover_521.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2084,13 +2816,19 @@
     "audio": "assets/audio/story_129.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/521",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_130",
     "type": "story",
     "title": "鲁滨逊漂流记·第六章 再救两个人",
-    "cover": "",
+    "cover": "assets/covers/cover_521.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2102,13 +2840,19 @@
     "audio": "assets/audio/story_130.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/521",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_131",
     "type": "story",
     "title": "鲁滨逊漂流记·第七章 夺回大船",
-    "cover": "",
+    "cover": "assets/covers/cover_521.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2120,13 +2864,19 @@
     "audio": "assets/audio/story_131.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/521",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_132",
     "type": "story",
     "title": "鲁滨逊漂流记·第八章 回家",
-    "cover": "",
+    "cover": "assets/covers/cover_521.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2138,13 +2888,19 @@
     "audio": "assets/audio/story_132.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/521",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_126",
     "type": "story",
     "title": "鲁滨逊漂流记·第二章 荒岛求生",
-    "cover": "",
+    "cover": "assets/covers/cover_521.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2156,13 +2912,19 @@
     "audio": "assets/audio/story_126.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/521",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_133",
     "type": "story",
     "title": "绿野仙踪·第一章 龙卷风",
-    "cover": "",
+    "cover": "assets/covers/cover_55.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2174,13 +2936,19 @@
     "audio": "assets/audio/story_133.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/55",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_134",
     "type": "story",
     "title": "绿野仙踪·第二章 稻草人",
-    "cover": "",
+    "cover": "assets/covers/cover_55.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2192,13 +2960,19 @@
     "audio": "assets/audio/story_134.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/55",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_135",
     "type": "story",
     "title": "绿野仙踪·第三章 铁皮人和狮子",
-    "cover": "",
+    "cover": "assets/covers/cover_55.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2210,13 +2984,19 @@
     "audio": "assets/audio/story_135.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/55",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_136",
     "type": "story",
     "title": "绿野仙踪·第四章 翡翠城",
-    "cover": "",
+    "cover": "assets/covers/cover_55.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2228,13 +3008,19 @@
     "audio": "assets/audio/story_136.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/55",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_137",
     "type": "story",
     "title": "绿野仙踪·第五章 西方恶女巫",
-    "cover": "",
+    "cover": "assets/covers/cover_55.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2246,13 +3032,19 @@
     "audio": "assets/audio/story_137.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/55",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_138",
     "type": "story",
     "title": "绿野仙踪·第六章 回家",
-    "cover": "",
+    "cover": "assets/covers/cover_55.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2264,13 +3056,19 @@
     "audio": "assets/audio/story_138.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/55",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_139",
     "type": "story",
     "title": "爱丽丝梦游仙境·第一章 掉进兔子洞",
-    "cover": "",
+    "cover": "assets/covers/cover_11.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2282,13 +3080,19 @@
     "audio": "assets/audio/story_139.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/11",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_140",
     "type": "story",
     "title": "爱丽丝梦游仙境·第二章 毛毛虫的建议",
-    "cover": "",
+    "cover": "assets/covers/cover_11.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2300,13 +3104,19 @@
     "audio": "assets/audio/story_140.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/11",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_141",
     "type": "story",
     "title": "爱丽丝梦游仙境·第三章 疯帽子的茶会",
-    "cover": "",
+    "cover": "assets/covers/cover_11.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2318,13 +3128,19 @@
     "audio": "assets/audio/story_141.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/11",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_142",
     "type": "story",
     "title": "爱丽丝梦游仙境·第四章 红心皇后的槌球场",
-    "cover": "",
+    "cover": "assets/covers/cover_11.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2336,13 +3152,19 @@
     "audio": "assets/audio/story_142.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/11",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_143",
     "type": "story",
     "title": "爱丽丝梦游仙境·第五章 偷馅饼的审判",
-    "cover": "",
+    "cover": "assets/covers/cover_11.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2354,13 +3176,19 @@
     "audio": "assets/audio/story_143.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/11",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_144",
     "type": "story",
     "title": "爱丽丝梦游仙境·第六章 奇妙的梦境",
-    "cover": "",
+    "cover": "assets/covers/cover_11.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2372,13 +3200,19 @@
     "audio": "assets/audio/story_144.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/11",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_145",
     "type": "story",
     "title": "木偶奇遇记·第一章 会说话的木偶",
-    "cover": "",
+    "cover": "assets/covers/cover_500.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2390,13 +3224,19 @@
     "audio": "assets/audio/story_145.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/500",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_146",
     "type": "story",
     "title": "木偶奇遇记·第二章 金色的硬币",
-    "cover": "",
+    "cover": "assets/covers/cover_500.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2408,13 +3248,19 @@
     "audio": "assets/audio/story_146.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/500",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_147",
     "type": "story",
     "title": "木偶奇遇记·第三章 说谎的鼻子",
-    "cover": "",
+    "cover": "assets/covers/cover_500.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2426,13 +3272,19 @@
     "audio": "assets/audio/story_147.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/500",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_148",
     "type": "story",
     "title": "木偶奇遇记·第四章 玩具国",
-    "cover": "",
+    "cover": "assets/covers/cover_500.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2444,13 +3296,19 @@
     "audio": "assets/audio/story_148.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/500",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_149",
     "type": "story",
     "title": "木偶奇遇记·第五章 鲨鱼肚子里的重逢",
-    "cover": "",
+    "cover": "assets/covers/cover_500.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2462,13 +3320,19 @@
     "audio": "assets/audio/story_149.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/500",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   },
   {
     "id": "story_150",
     "type": "story",
     "title": "木偶奇遇记·第六章 真正的男孩",
-    "cover": "",
+    "cover": "assets/covers/cover_500.jpg",
     "icon": "📚",
     "category": [
       "名著",
@@ -2480,6 +3344,300 @@
     "audio": "assets/audio/story_150.mp3",
     "source": "国外经典（Project Gutenberg 英文公版改写）",
     "license": "公共领域",
-    "series": "国外经典"
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/500",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
+  },
+  {
+    "id": "story_151",
+    "type": "story",
+    "title": "汤姆索亚历险记·第一章 刷墙的妙计",
+    "cover": "assets/covers/cover_74.jpg",
+    "icon": "📚",
+    "category": [
+      "名著",
+      "冒险"
+    ],
+    "age": "8岁+",
+    "duration": "10分钟",
+    "text": "\"在美国密西西比河畔的小镇上，住着一个淘气的男孩，叫汤姆·索亚。汤姆聪明机灵，可就是不爱上学、不爱干活。这天是星期六，阳光明媚，别的孩子都在玩耍，汤姆却被姑妈罚在家里刷围墙。围墙又长又白，汤姆看着就发愁：“唉，这面墙什么时候才能刷完呀！”\\n\\n他正要唉声叹气地开工，忽然看见好朋友本·罗杰斯蹦蹦跳跳地走过来，手里拿着一个大苹果。汤姆眼珠一转，装作十分享受的样子，一边刷墙一边哼着歌：“刷墙可真是世界上最有趣的事啦！”\\n\\n本好奇地停下来：“汤姆，你在刷墙呀？”汤姆头也不抬：“刷墙？这叫艺术！你看，要这样均匀地刷，才刷得漂亮。说实话，一个星期也难得轮到一次呢！”本听得心痒痒：“让我刷一下行吗？”汤姆摇摇头：“不行不行，姑妈只相信我！”\\n\\n本急了：“我把苹果给你，让我刷一会儿！”汤姆假装不情愿地答应了。本接过刷子，兴冲冲地刷起来。不一会儿，其他的孩子也来了，大家排着队，有的用弹弓换，有的用风筝换，都想过过“刷墙瘾”。\\n\\n没过多久，围墙刷得雪白，汤姆却坐在树荫下，兜里装满了孩子们的玩具。他得意地想：“原来干活也能这么有趣！只要动动脑筋，连刷墙都能变成一件抢手的好事。”汤姆提着玩具，蹦蹦跳跳地回家去了——姑妈看了雪白的围墙，还大大地夸奖了他一番呢！\"\n\n汤姆刷完了围墙，正好路过学校的孩子们还眼巴巴地看着那面雪白的墙。他们想不通：为什么汤姆刷墙刷得这么带劲？汤姆心里偷着乐，嘴上却说：“明天要是还有一面墙，我可不给你们刷了！”孩子们一听，反倒更眼馋了。回家的路上，汤姆把玩了一路的“战利品”数了一遍：一个苹果核、一只死老鼠（拴在绳子上当宝贝）、一把断掉的钥匙、还有半个粉笔头。他蹦蹦跳跳地回到家，姑妈正在门口等他，见他一脸得意，奇怪地问：“汤姆，今天怎么这么高兴？”汤姆扬着脑袋说：“姑妈，您教的活儿我干完了，墙刷得又白又亮！”姑妈看了看墙，又看了看汤姆，忍不住笑了——她知道，汤姆这孩子，鬼点子多着呢。",
+    "audio": "assets/audio/story_151.mp3",
+    "source": "国外经典（Project Gutenberg 英文公版改写）",
+    "license": "公共领域",
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/74",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
+  },
+  {
+    "id": "story_152",
+    "type": "story",
+    "title": "汤姆索亚历险记·第二章 贝琪和学校",
+    "cover": "assets/covers/cover_74.jpg",
+    "icon": "📚",
+    "category": [
+      "名著",
+      "冒险"
+    ],
+    "age": "8岁+",
+    "duration": "10分钟",
+    "text": "\"星期一早晨，汤姆又该上学了。他把课本往书包里一塞，磨磨蹭蹭地往学校走。忽然，他看见院子里有一个陌生的女孩——她穿着漂亮的裙子，眼睛又大又亮，头上扎着两个小辫子。汤姆一下子看呆了，觉得她比镇上所有的女孩都好看。\\n\\n“她是谁呀？”汤姆红着脸，悄悄问旁边的孩子。“她是法官的女儿，叫贝琪·撒切尔，刚搬来！”汤姆的心怦怦直跳。他决定让贝琪注意自己：他在墙上翻了几个跟头，又学猫叫，还故意摔了一跤。贝琪看了他一眼，忍不住笑了。\\n\\n上课了，汤姆好不容易找到机会，坐在贝琪旁边。他拿出自己最宝贝的东西——一颗亮晶晶的玻璃球，悄悄放在贝琪桌上：“送给你！”贝琪又惊又喜：“真的吗？”汤姆点点头：“当然！以后我们就是好朋友了！”\\n\\n放学路上，汤姆和贝琪手拉手，有说有笑。汤姆讲起自己的“历险故事”，贝琪听得入了迷：“汤姆，你讲的故事真好听！”汤姆得意极了，心想：要是能天天和贝琪在一起，那该多好呀！\\n\\n可第二天，汤姆不小心说错了一句话，惹贝琪生气了。贝琪噘着嘴，不理汤姆了。汤姆心里难受极了，一个人坐在河边，望着河水发呆：“唉，我惹贝琪生气了……她还会原谅我吗？”他想来想去，最后决定：明天一定要向贝琪道歉，还要送她一朵最漂亮的花！\"\n\n第二天，汤姆早早地来到学校，怀里揣着一朵在路边采的小花。可贝琪还在生他的气，看见他就扭过头去。汤姆把花递到她面前：“贝琪，这是我在河边采的，送给你！”贝琪噘着嘴说：“不要！”汤姆想了想，又说：“那……我教你用草叶编小兔子，好不好？”贝琪的眼睛亮了一下，可还是摇头。汤姆灵机一动，从兜里掏出一只自己刻的小木船：“你看，这是我做的船，能在水上跑！”贝琪终于忍不住了，接过小木船翻来覆去地看：“真好看！汤姆，你教我做好不好？”汤姆高兴地直点头。放学后，两人坐在河边的大柳树下，一个教，一个学，笑声飘得老远。姑妈站在家门口，远远地看着，摇着头笑：“这孩子，总算有个说得上话的朋友了。”",
+    "audio": "assets/audio/story_152.mp3",
+    "source": "国外经典（Project Gutenberg 英文公版改写）",
+    "license": "公共领域",
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/74",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
+  },
+  {
+    "id": "story_153",
+    "type": "story",
+    "title": "汤姆索亚历险记·第三章 坟场惨案",
+    "cover": "assets/covers/cover_74.jpg",
+    "icon": "📚",
+    "category": [
+      "名著",
+      "冒险"
+    ],
+    "age": "8岁+",
+    "duration": "10分钟",
+    "text": "\"晚上，汤姆偷偷溜出家门，去找好朋友哈克贝利。哈克是个流浪儿，整天住在木桶里，谁都不管他，可汤姆觉得他自由自在，羡慕极了。两人约好去镇外的老坟场，听说那里有“鬼”，汤姆想试一试自己的胆子。\\n\\n坟场里黑漆漆的，风吹得树叶沙沙响。汤姆和哈克躲在一棵大树后，大气也不敢出。半夜里，忽然传来一阵脚步声——三个黑影抬着个箱子，鬼鬼祟祟地走过来。汤姆定睛一看：一个是镇上的医生罗宾逊，一个是醉鬼波特，还有一个是凶恶的混血儿印第安·乔埃！\\n\\n原来，他们是来挖尸体的。印第安·乔埃和波特把棺材挖出来，医生给了他们钱。可印第安·乔埃嫌钱少，恶狠狠地说：“再加钱！不然我把你们都杀了！”说着就扑向医生。波特想拦住他，却被乔埃一刀砍倒。医生也和乔埃扭打起来，乔埃捡起波特的大刀，一刀刺进医生胸口，医生倒在地上，死了！\\n\\n汤姆和哈克吓得魂飞魄散，拔腿就跑，一口气跑回镇上，躲在哈克的木桶里直发抖。“太可怕了！”汤姆哆嗦着说，“印第安·乔埃杀了医生！要是他看见我们，一定也会杀了我们！”\\n\\n两人约定：这件事对谁都不能说，不然乔埃一定会来找他们报仇。汤姆躺在床上，翻来覆去睡不着，脑海里全是坟场里那可怕的一幕。他暗暗发誓：一定要把坏人绳之以法！\"\n\n坟场那晚之后，汤姆和哈克好几天都心神不宁。白天上课，汤姆盯着黑板，眼前却总是浮现出印第安·乔埃那凶狠的脸。他悄悄对哈克说：“我总觉得乔埃的眼睛一直在盯着我们。”哈克打了个哆嗦：“别说了！我晚上都不敢睡觉了！”两人约定，谁都不能把这件事说出去。可没过几天，镇上传来了消息：波特被关进了监狱，再过几天就要开庭审判了！汤姆的心里更难受了——他知道波特是冤枉的，可他又不敢说出真相。夜里，汤姆翻来覆去睡不着，悄悄爬起来，走到波特家的窗外。只见波特坐在牢房里，双手抱着头，喃喃地说：“我没杀人……我真的没杀人……”汤姆的眼眶一下子红了，他握紧拳头，心里暗暗下决心：我一定要想办法救波特！",
+    "audio": "assets/audio/story_153.mp3",
+    "source": "国外经典（Project Gutenberg 英文公版改写）",
+    "license": "公共领域",
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/74",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
+  },
+  {
+    "id": "story_154",
+    "type": "story",
+    "title": "汤姆索亚历险记·第四章 荒岛历险",
+    "cover": "assets/covers/cover_74.jpg",
+    "icon": "📚",
+    "category": [
+      "名著",
+      "冒险"
+    ],
+    "age": "8岁+",
+    "duration": "10分钟",
+    "text": "\"第二天，镇上炸开了锅：医生被人杀死在坟场！大家都说凶手是醉鬼波特——因为他浑身是血，手里还握着大刀。波特被抓了起来，关进监狱。汤姆知道真相，可又不敢说出印第安·乔埃的名字，心里又难受又害怕。\\n\\n这天放学，汤姆闷闷不乐，越想越烦：“我再也待不下去了！我要离家出走！”他找到哈克和好朋友乔·哈珀，三人一合计：“我们去当海盗！到荒岛上去过自由自在的日子！”\\n\\n他们偷了家里的小木筏，带着钓竿、火腿和玉米饼，顺着密西西比河漂到了杰克逊岛。岛上树林茂密，鸟语花香，三人搭起帐篷，生火做饭，白天钓鱼、游泳，晚上躺在篝火边看星星。“这才叫生活！”汤姆得意地说。\\n\\n可过了几天，乔·哈珀想妈妈了，哈克也闷闷不乐。汤姆嘴上说“海盗不想家”，心里却也开始惦记姑妈。这时，他们忽然看见河上有艘渡船，船上敲锣打鼓，人们哭成一团——原来镇上的人都以为他们淹死了，正在河里打捞他们的“尸体”！\\n\\n汤姆眼珠一转，想出一个主意：“我们偷偷回去，参加自己的葬礼！”晚上，三个“小海盗”悄悄溜回镇上，藏进教堂。第二天，葬礼上，姑妈哭得十分伤心，汤姆的眼泪也差点掉下来。就在牧师念悼词的时候，汤姆、哈克和乔·哈珀忽然从楼上一齐站了起来，大步走进教堂！“我们没死！”全教堂的人都惊呆了。姑妈一把抱住汤姆，又哭又笑：“你这个坏孩子！吓死我了！”\"\n\n参加完自己的“葬礼”后，汤姆、哈克和乔·哈珀成了全镇的英雄。孩子们围着他俩，七嘴八舌地问：“你们在岛上吃什么？有没有遇见野兽？”汤姆得意地讲起荒岛生活，讲得绘声绘色。可到了晚上，姑妈把汤姆叫到跟前，板着脸问：“汤姆，你知道姑妈多担心你吗？”汤姆低着头，小声说：“姑妈，对不起……”姑妈叹了口气，一把把他搂进怀里：“只要你平平安安的，姑妈就不怪你了。”从那以后，汤姆懂事了许多，不再动不动就说要离家出走。只是他常常一个人坐在河边的石头上，望着远处的杰克逊岛出神——那几天的“海盗生活”，成了他记忆里最难忘的冒险。",
+    "audio": "assets/audio/story_154.mp3",
+    "source": "国外经典（Project Gutenberg 英文公版改写）",
+    "license": "公共领域",
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/74",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
+  },
+  {
+    "id": "story_155",
+    "type": "story",
+    "title": "汤姆索亚历险记·第五章 洞穴探险",
+    "cover": "assets/covers/cover_74.jpg",
+    "icon": "📚",
+    "category": [
+      "名著",
+      "冒险"
+    ],
+    "age": "8岁+",
+    "duration": "10分钟",
+    "text": "\"印第安·乔埃杀人后逃进了深山，谁也不知道他在哪里。汤姆和哈克虽然害怕，可一直在悄悄留意他的踪迹。\\n\\n这天，学校组织郊游，孩子们来到镇外的麦克杜格尔山洞。山洞又深又黑，钟乳石奇形怪状，孩子们拿着蜡烛，兴奋地往里钻。贝琪拉着汤姆的手：“汤姆，我们往里走远一点吧！”汤姆点点头，两人越走越深，穿过一个又一个洞口。\\n\\n不知走了多久，贝琪忽然说：“汤姆，我们该回去了。”可当他们往回走时，发现迷路了！山洞里有无数条岔路，他们怎么也找不到来时的路。蜡烛一根根烧完，洞里一片漆黑，贝琪吓得哭起来：“汤姆，我们会不会死在这里？”\\n\\n汤姆心里也害怕，可他强装镇定：“别怕，贝琪！我们一定能走出去！”他把贝琪安顿在干的地方，自己拿着剩下的蜡烛，沿着洞壁摸索。走着走着，汤姆忽然听见远处有说话声——他悄悄走近一看，天哪！竟然是印第安·乔埃！他躲在洞里，正在数一箱金币！\\n\\n汤姆吓得大气都不敢出，悄悄退了回去。他不敢让乔埃发现，只好带着贝琪往另一个方向爬。两人又累又饿，在洞里熬了整整三天。终于，汤姆发现一丝光亮——是洞口！他拉着贝琪，拼命爬出去。\\n\\n汤姆和贝琪得救了！全镇的人都欢天喜地。可大家更关心一件事：印第安·乔埃还躲在山洞里！人们封住了洞口。几天后，人们打开洞门，发现乔埃已经饿死在洞里，身边还放着那箱金币！汤姆和哈克顺着线索找到了宝藏——满满一箱闪闪发光的金币！\"\n\n汤姆和贝琪被救出山洞后，贝琪生了一场小病，在家休养了好些天。汤姆心里惦记着贝琪，天天采了野花放在她家门口。贝琪病好了，又和汤姆一起上学，两人比从前更要好了。镇上的人提起那箱金币，都说那是汤姆和哈克用勇敢换来的。可汤姆心里还惦记着另一件事：印第安·乔埃虽然死了，可他在洞里到底藏了多少东西？他把这想法告诉哈克，哈克眼睛一亮：“汤姆，要不……我们再去洞里看看？”两人趁一个晴朗的下午，带着蜡烛和绳子，又钻进山洞。这一次，他们沿着当初发现乔埃的地方仔细搜寻，果然在洞壁的石头缝里，找到了一只铁皮箱子！打开一看——里面装满了金币和金条！汤姆和哈克你看看我，我看看你，高兴得在洞里跳了起来。",
+    "audio": "assets/audio/story_155.mp3",
+    "source": "国外经典（Project Gutenberg 英文公版改写）",
+    "license": "公共领域",
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/74",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
+  },
+  {
+    "id": "story_156",
+    "type": "story",
+    "title": "汤姆索亚历险记·第六章 找到宝藏",
+    "cover": "assets/covers/cover_74.jpg",
+    "icon": "📚",
+    "category": [
+      "名著",
+      "冒险"
+    ],
+    "age": "8岁+",
+    "duration": "10分钟",
+    "text": "\"汤姆和哈克在洞里找到的金币，装了满满一大袋。他们请人把金币数了数——天哪，整整一万两千块！两个男孩一夜之间变成了小镇上最有钱的人。\\n\\n汤姆把钱交给撒切尔法官保管，还分给了哈克一份。哈克从来没想过自己也能有钱：“汤姆，我……我也有这么多钱吗？”汤姆拍拍他：“当然！这是我们一起找到的！”\\n\\n后来，汤姆又在老屋里发现印第安·乔埃藏的另一批金币——原来那箱金币还不止那些。汤姆把金币都挖了出来，乡亲们都说：“汤姆这孩子，运气真好！”\\n\\n有了钱的哈克，住进了道格拉斯寡妇家里，寡妇待他像亲儿子一样。哈克第一次穿上干净衣服，第一次睡上软软的床，第一次有人关心他。他对汤姆说：“汤姆，我以前觉得自由自在最好，可现在我明白了，有人关心、有人疼，也很好。”\\n\\n汤姆也渐渐长大了。他依然调皮，依然爱冒险，可他心里多了一份责任：他要保护贝琪，照顾哈克，还要把那次坟场惨案讲给镇上的孩子们听——让他们记住，做坏事的人终究逃不过惩罚，而诚实和勇敢，才是最宝贵的财富。\\n\\n多年以后，汤姆常常坐在密西西比河畔，望着滚滚的河水，想起那些淘气的日子。他笑着想：小时候的冒险，真是一辈子都忘不了呀！\"\n\n汤姆和哈克把金币搬回家，姑妈和道格拉斯寡妇都惊呆了。她们把钱数了一遍又一遍，整整一万两千块！汤姆把一部分钱交给了姑妈，剩下的存进银行。镇上的人都说，汤姆和哈克是镇上最幸运的孩子。可哈克心里却有些不安，他对汤姆说：“汤姆，我们一下子有了这么多钱，会不会有人来抢？”汤姆想了想：“那我们把钱存到法官那里，让法官替我们保管，好不好？”哈克点点头。后来，道格拉斯寡妇收养了哈克，供他上学，哈克开始学认字、学算术。起初他坐不住，可慢慢地，他发现书本里也有许多有趣的故事。多年以后，汤姆和哈克都长大了，可他们依然记得那个夏天的冒险——刷墙的妙计、坟场的黑影、荒岛的篝火，还有山洞里那满满一箱闪亮的金币。",
+    "audio": "assets/audio/story_156.mp3",
+    "source": "国外经典（Project Gutenberg 英文公版改写）",
+    "license": "公共领域",
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/74",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
+  },
+  {
+    "id": "story_157",
+    "type": "story",
+    "title": "八十天环游地球·第一章 福格先生的赌约",
+    "cover": "assets/covers/cover_103.jpg",
+    "icon": "📚",
+    "category": [
+      "名著",
+      "冒险"
+    ],
+    "age": "8岁+",
+    "duration": "10分钟",
+    "text": "\"一百多年前，伦敦有一位古怪的绅士，叫福格先生。他每天的生活精确得像钟表：几点起床、几点吃饭、几点去俱乐部，分秒不差。他从不坐马车，因为那会打乱时间；他在俱乐部里，雷打不动地打牌、看报。\\n\\n这天，福格先生又在俱乐部里和朋友聊天。一位朋友说：“地球太大了，八十天根本不可能环游一圈！”福格先生放下报纸，平静地说：“我认为可以。我这就出发，八十天内环球一周。如果我做到了，赌注是两万英镑；如果我输了，这些钱就归你们。”\\n\\n朋友们都惊呆了：“八十天环游地球？你疯啦！”福格先生看了看怀表：“今晚八点四十五分有一趟去巴黎的火车。我走了。”他回家对新来的仆人路路通说：“收拾行李，我们马上出发，环游地球！”路路通是个活泼的法国小伙子，听了又惊又喜：“环游地球？太棒了！”\\n\\n当晚，福格先生带着路路通登上火车，开始了环游地球的旅程。他的路线是：伦敦→巴黎→苏伊士→孟买→加尔各答→香港→横滨→旧金山→纽约→利物浦→伦敦，总共八十天。\\n\\n消息像长了翅膀一样传遍伦敦。可就在这时，伦敦发生了一件大事：一家银行丢了五万五千英镑，大家都在追捕一个像绅士一样的小偷！侦探菲克斯接到任务，他看了看福格先生的照片，忽然一拍大腿：“这个福格，一定就是那个小偷！他环游地球，分明是想逃跑！”菲克斯当即决定：一路跟踪福格，一定要抓到他！\"\n\n福格先生出发的消息传遍了伦敦的大街小巷。报纸上登出他的照片，有人嘲笑他：“这个疯子，八十天环游地球？他准是疯了！”也有人替他打赌：“我赌他回不来！”一时间，伦敦的俱乐部里、咖啡馆里，到处都在谈论福格先生。福格先生却毫不在意，他坐在火车上，看着窗外的风景，平静得像没事人一样。路路通却兴奋得坐不住：“主人，我们要去那么多地方，得好好见识见识！”福格先生看了看表，说：“路路通，记住两件事：第一，我们只有八十天；第二，路上不能耽搁一分钟。”路路通挺直腰板：“放心吧，主人！我路路通跑得快，比谁都麻利！”火车轰隆隆地驶过田野，向着海边的港口飞驰而去——这场轰动伦敦的环球冒险，就这样开始了。",
+    "audio": "assets/audio/story_157.mp3",
+    "source": "国外经典（Project Gutenberg 英文公版改写）",
+    "license": "公共领域",
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/103",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
+  },
+  {
+    "id": "story_158",
+    "type": "story",
+    "title": "八十天环游地球·第二章 旅途风波",
+    "cover": "assets/covers/cover_103.jpg",
+    "icon": "📚",
+    "category": [
+      "名著",
+      "冒险"
+    ],
+    "age": "8岁+",
+    "duration": "10分钟",
+    "text": "\"福格先生和路路通坐着火车、轮船，一路向东。路路通第一次出远门，看什么都新鲜：“主人，原来世界这么大！”福格先生却只是平静地点头：“嗯，时间刚好。”\\n\\n他们经过苏伊士、孟买，一路顺利。可路路通总觉得有人跟着他们——那个戴眼镜、穿深色大衣的男人，总是若即若离地出现。路路通疑惑地问：“主人，那个人是不是在跟踪我们？”福格先生头也不抬：“不必理会。”\\n\\n原来，那人正是侦探菲克斯。他一路跟着福格，心里盘算着：“我现在还不能抓他，等到了英国的地盘再动手！”可他越看越觉得蹊跷：福格花钱大方，行程精确，怎么看都不像小偷。菲克斯咬咬牙：“不管怎样，先跟着再说！”\\n\\n在孟买，福格先生坐上了去加尔各答的火车。火车开到一半，轨道却断了——前面是一片荒无人烟的森林。福格先生看了看表，眉头微微皱起：“还有两天，必须赶到加尔各答。”\\n\\n怎么办？福格先生四处打听，听说附近有头大象可以出租。他找到大象的主人，花了一大笔钱，买下大象。路路通问：“主人，买大象干什么？”福格先生指指前方：“骑着它赶路。”\\n\\n于是，两人骑着大象，在丛林里赶路。大象慢悠悠地走着，路路通急得直搓手：“这速度，能赶得上吗？”福格先生平静地说：“能。”就在这时，前方传来一阵喧哗——是一队抬着花轿的印度人，正要举行一场可怕的仪式！\"\n\n福格先生骑着大象，穿过密林，走了两天两夜，终于在天亮前赶到了加尔各答火车站。路路通累得直喘气：“主人，大象的钱花得值，可我的骨头都快散架了！”福格先生却精神抖擞：“快，赶火车。”他们登上了开往香港的火车。一路上，路路通总觉得有人在盯着他们，他回头一看，又是那个戴眼镜的男人！“主人，那个家伙又跟上来了！”福格先生头也不抬：“随他去。”可路路通心里直打鼓：这人到底是干什么的？到了站台，他趁福格先生不注意，悄悄拦住那个男人：“喂，你一直跟着我们，到底想干什么？”那人正是侦探菲克斯，他笑了笑：“小伙子，别误会，我只是觉得你们很有趣。”路路通将信将疑地走开了，心里却暗暗留了个心眼。",
+    "audio": "assets/audio/story_158.mp3",
+    "source": "国外经典（Project Gutenberg 英文公版改写）",
+    "license": "公共领域",
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/103",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
+  },
+  {
+    "id": "story_159",
+    "type": "story",
+    "title": "八十天环游地球·第三章 印度奇遇",
+    "cover": "assets/covers/cover_103.jpg",
+    "icon": "📚",
+    "category": [
+      "名著",
+      "冒险"
+    ],
+    "age": "8岁+",
+    "duration": "10分钟",
+    "text": "\"福格先生和路路通骑着大象，走近一看，原来是一群印度人正要把一个年轻女子烧死——这是当地一种可怕的陋习，叫作“殉葬”。那女子被绑在木桩上，哭得撕心裂肺，围观的人却无动于衷。\\n\\n路路通急得直跺脚：“主人！他们要烧死那个姑娘！”福格先生看着那女子，想了想，说：“我们救她。”他掏出钱袋，对主持仪式的人说：“放了她，这些钱归你们。”\\n\\n主持的人看了看钱袋，摇摇头：“不行，这是规矩。”福格先生又说：“再加一倍。”那人还是摇头。路路通急中生智，忽然跳到人群里，扮起鬼脸，学猴子叫，把大家的注意力都吸引过来。趁乱，福格先生冲上前，解开绳子，救下那女子。\\n\\n那女子名叫艾娥达，是印度一位富商的女儿。她感激地跪在福格先生面前：“恩人，谢谢你！”福格先生扶起她：“不用谢。你要去哪里？我们送你去。”\\n\\n艾娥达说，她的亲戚在香港，她想去那里投靠。福格先生点点头：“正好，我们要经过香港。一起走吧！”\\n\\n于是，三个人骑着大象，继续赶路。艾娥达坐在大象上，看着福格先生，心里想：这位先生外表冷冰冰的，心肠却这么好！路路通也在一旁偷偷笑：“我家主人呀，嘴上说不爱管闲事，其实比谁都热心！”\"\n\n艾娥达小姐跟着福格先生上了火车，一路上把印度的风土人情讲给两人听。路路通听得入了迷：“原来世界上有这么多有意思的事！”到了加尔各答，福格先生为艾娥达小姐买了一些衣服和必需品：“路上会冷，多带点。”艾娥达小姐感激地说：“先生，您真是个大好人。”福格先生只是摆摆手：“时间不早了，我们走吧。”船驶向香港，海风吹着，艾娥达小姐站在甲板上，望着无边的大海。她想起自己差点被烧死的那个夜晚，心里充满了感激。她暗暗想：等到了香港，找到亲戚，一定要好好报答福格先生。路路通在一旁看着，悄悄对福格先生说：“主人，艾娥达小姐人真好，我们帮帮她吧。”福格先生看了他一眼，难得地微微一笑：“我们这不是一直在帮她吗？”",
+    "audio": "assets/audio/story_159.mp3",
+    "source": "国外经典（Project Gutenberg 英文公版改写）",
+    "license": "公共领域",
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/103",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
+  },
+  {
+    "id": "story_160",
+    "type": "story",
+    "title": "八十天环游地球·第四章 香港失散",
+    "cover": "assets/covers/cover_103.jpg",
+    "icon": "📚",
+    "category": [
+      "名著",
+      "冒险"
+    ],
+    "age": "8岁+",
+    "duration": "10分钟",
+    "text": "\"福格先生、路路通和艾娥达小姐赶到了加尔各答，坐上了去香港的轮船。一路上，路路通总觉得那个戴眼镜的男人阴魂不散——没错，侦探菲克斯还在跟踪他们。\\n\\n轮船快到香港时，菲克斯终于憋不住了。他悄悄找到路路通，神秘兮兮地说：“小伙子，你跟着的那个福格，是个小偷！他偷了银行的钱，我正要抓他！”路路通听了，气得脸红脖子粗：“胡说！我家主人是全世界最好的绅士！你再乱说，我就揍你！”\\n\\n菲克斯没办法，又想出一条毒计。晚上，他请路路通喝酒：“小伙子，喝一杯吧！”路路通本来不想喝，可菲克斯说个不停，路路通一时大意，多喝了几杯，醉得人事不省。\\n\\n第二天一早，轮船到了香港。福格先生和艾娥达小姐下了船，却发现路路通不见了！福格先生在码头等了很久，也不见路路通的影子。原来，路路通醉倒在船上，错过了下船的时间。等他一觉醒来，轮船已经开往日本横滨去了！\\n\\n路路通急得直跺脚：“坏了坏了！主人一定急坏了！”他只好在横滨下了船，一边找工作挣钱，一边打听福格先生的消息。\\n\\n福格先生这边，也急得不行。他不能在香港久等，因为环游地球的时间一分钟也耽误不起。他只好带着艾娥达小姐，登上了去日本横滨的轮船。福格先生站在甲板上，望着大海，心里想：路路通，你到底在哪里？\"\n\n路路通在横滨下了船，人生地不熟，身上又没钱，只好到处找工作。他先在一家杂技团里表演翻跟头，又在一家饭馆里端盘子，一边挣钱，一边打听福格先生的消息。可他哪里知道，福格先生和艾娥达小姐正在开往横滨的船上！这天，路路通正在街头卖力地表演杂技，忽然看见人群里有一个熟悉的身影——“主人！”他大喊一声，冲了过去。福格先生看见他，也露出了难得的笑容：“路路通，你跑到哪里去了？”路路通红着脸，把事情一五一十说了，还愤愤地说：“主人，那个戴眼镜的家伙不是好人！他说你是小偷！”福格先生听了，眉头微微一皱：“原来是他。”他想了想，说：“不用理会，我们赶路要紧。”三人买了船票，再次启程。路路通站在甲板上，看着渐渐远去的横滨，长长地舒了一口气：“总算又回到主人身边了！”",
+    "audio": "assets/audio/story_160.mp3",
+    "source": "国外经典（Project Gutenberg 英文公版改写）",
+    "license": "公共领域",
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/103",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
+  },
+  {
+    "id": "story_161",
+    "type": "story",
+    "title": "八十天环游地球·第五章 大西洋惊魂",
+    "cover": "assets/covers/cover_103.jpg",
+    "icon": "📚",
+    "category": [
+      "名著",
+      "冒险"
+    ],
+    "age": "8岁+",
+    "duration": "10分钟",
+    "text": "\"福格先生和艾娥达小姐来到横滨，竟然在街头遇见了路路通！主仆重逢，路路通又惊又喜：“主人！我可算找到你了！”福格先生难得露出一丝笑容：“走吧，时间不多了。”\\n\\n三人坐上开往美国的轮船，横渡太平洋，来到旧金山，又乘火车穿过北美大陆，到了纽约。可当他们赶到码头时，去利物浦的邮轮刚刚开走！\\n\\n下一班船要等好几天，可福格先生的八十天赌约只剩下不到十天了！路路通急得直挠头：“主人，怎么办？”福格先生站在码头上，忽然看见一艘小货船——“亨利埃塔号”。他走上前问：“去利物浦，多少钱？”船长摇摇头：“不去！我有货要运！”\\n\\n福格先生掏出一沓钞票：“八万法郎，送我们去利物浦！”船长眼睛一亮，答应了。可船开到一半，煤不够了。船长急得直跳：“没有煤，船走不动了！”\\n\\n福格先生看了看船，忽然说：“那就烧船上的木头！”他出钱把整艘船的甲板、桅杆都拆下来，当柴火烧。路路通心疼地说：“主人，这船要烧没了！”福格先生平静地说：“只要能到利物浦，船烧光了也值得。”\\n\\n大海上，亨利埃塔号拖着滚滚浓烟，拼命向西开。福格先生站在船头，看着远方的海平线，心里默默计算着时间：还来得及吗？一定来得及！\"\n\n亨利埃塔号一路向西，烧掉了甲板、桅杆，甚至连船上的家具也扔进了锅炉。路路通心疼地看着船一点点变矮：“主人，等到了利物浦，这船还能开回去吗？”福格先生平静地说：“开不回去，就让它留在大海上吧。”船上的水手们听了，一个个佩服得五体投地：“这位先生真舍得！”就这样，亨利埃塔号靠着烧船身，终于在预定的日子赶到了利物浦港。福格先生看了看怀表，心里盘算着：还有几个小时就到八十天了！他快步走下船，正要叫马车，忽然，侦探菲克斯又出现了！这一次，菲克斯带着警察，一把抓住福格先生的胳膊：“福格先生，我以偷窃银行巨款的罪名逮捕你！”路路通冲上前想拦住，却被警察挡开：“主人！主人！”福格先生被带走了，他回头看了看路路通，又看了看表，眼里闪过一丝焦急——难道，真的来不及了吗？",
+    "audio": "assets/audio/story_161.mp3",
+    "source": "国外经典（Project Gutenberg 英文公版改写）",
+    "license": "公共领域",
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/103",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
+  },
+  {
+    "id": "story_162",
+    "type": "story",
+    "title": "八十天环游地球·第六章 最后一刻",
+    "cover": "assets/covers/cover_103.jpg",
+    "icon": "📚",
+    "category": [
+      "名著",
+      "冒险"
+    ],
+    "age": "8岁+",
+    "duration": "10分钟",
+    "text": "\"亨利埃塔号靠着烧甲板、烧桅杆，终于横渡大西洋，驶进了利物浦港。可就在这时，侦探菲克斯冲了上来，一把抓住福格先生：“福格！我以偷窃罪逮捕你！”\\n\\n福格先生被关进了监狱。他看了看怀表，闭上眼睛，长长地叹了口气——他离八十天的期限，只差最后几小时了！路路通急得团团转：“主人！主人被关起来了！”\\n\\n就在福格先生几乎绝望的时候，伦敦传来消息：真正的小偷被抓住了！原来，那个偷银行钱的小偷另有其人，根本不是福格先生。菲克斯连忙把福格先生放了出来，连声道歉：“对不起，是我弄错了！”\\n\\n福格先生冲出监狱，跳上火车，直奔伦敦。可伦敦的火车晚点了——当他赶回俱乐部时，已经超过了约定时间！福格先生以为赌约输了，心灰意冷地回到家里。\\n\\n第二天，路路通忽然想起：主人环球一周，日期是往东走的，每跨过一个时区，时间就会多出一个小时！他们绕地球转了一圈，整整赚回了二十四个小时——也就是说，时间还差五分钟才到八十天！\\n\\n“主人！快！还来得及！”路路通拉着福格先生，冲进俱乐部。福格先生看了看怀表，准时站在朋友们面前：“我，福格，八十天环游地球，回来了。”\\n\\n全场响起了欢呼声！福格先生赢得了赌约，也赢得了艾娥达小姐的心。不久，他们结了婚。路路通高兴地说：“主人，跟着您环游地球，是我这辈子最棒的冒险！”福格先生难得地笑了：“路路通，谢谢你一路上的照顾。”\"\n\n福格先生被关进监狱后，路路通急得团团转。他跑到俱乐部，把消息告诉了福格先生的朋友们。朋友们也替他着急：“这可怎么办？离八十天只剩几个小时了！”就在这时，一个警察气喘吁吁地跑进来：“好消息！真正的小偷抓到了！福格先生是冤枉的！”原来，那个偷银行钱的小偷在别的地方落了网，他的长相和福格先生有几分相似，才让菲克斯认错了人。菲克斯连忙赶到监狱，把福格先生放了出来，连声道歉：“福格先生，实在对不起，是我弄错了！”福格先生顾不上计较，冲出监狱，跳上马车，直奔俱乐部。可伦敦的马车偏偏在路口堵了车，福格先生急得直敲车厢：“快！快！”当他气喘吁吁地跑进俱乐部时，正好是约定时间前的五分钟！福格先生赢了！他环游地球，用了七十九天二十三小时五十五分钟——正正好好！",
+    "audio": "assets/audio/story_162.mp3",
+    "source": "国外经典（Project Gutenberg 英文公版改写）",
+    "license": "公共领域",
+    "series": "国外经典",
+    "source_url": "https://www.gutenberg.org/ebooks/103",
+    "tts": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "pitch": "+35Hz",
+      "rate": "+10%"
+    }
   }
 ]
