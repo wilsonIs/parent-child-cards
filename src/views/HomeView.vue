@@ -32,9 +32,20 @@ const recentStories = computed(() =>
     <main class="flex-1 overflow-y-auto">
       <!-- 欢迎区 -->
       <section
-        class="fade-up mx-4 mt-4 rounded-4xl bg-gradient-to-br from-coral-soft to-cream-100 p-6 shadow-card"
+        class="fade-up relative mx-4 mt-4 overflow-hidden rounded-4xl bg-gradient-to-br from-coral-soft via-cream-50 to-learn-soft p-6 shadow-card"
       >
-        <div class="flex items-center justify-between gap-3">
+        <!-- 装饰：柔和的大太阳/云朵（低透明度，护眼不抢戏） -->
+        <span
+          class="pointer-events-none absolute -right-4 -top-6 select-none text-8xl opacity-20"
+          aria-hidden="true"
+          >☀️</span
+        >
+        <span
+          class="pointer-events-none absolute right-16 top-6 select-none text-4xl opacity-15"
+          aria-hidden="true"
+          >☁️</span
+        >
+        <div class="relative flex items-center justify-between gap-3">
           <div>
             <h2 class="text-2xl font-bold leading-snug text-ink">
               今天，和孩子做点什么呢？
@@ -62,9 +73,12 @@ const recentStories = computed(() =>
             v-for="st in recentStories"
             :key="st.id"
             :to="`/story/${st.id}`"
-            class="flex w-24 shrink-0 flex-col items-center gap-1 rounded-2xl bg-cream-100 p-3 text-center transition-transform active:scale-95"
+            class="flex w-24 shrink-0 flex-col items-center gap-1 rounded-2xl border border-cream-200 bg-white/80 p-3 text-center shadow-soft transition-transform active:scale-95"
           >
-            <span class="text-3xl">{{ st.icon }}</span>
+            <span
+              class="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-story-soft to-story-light text-3xl"
+              >{{ st.icon }}</span
+            >
             <span class="line-clamp-1 w-full text-xs font-bold text-ink">{{
               st.title
             }}</span>
@@ -82,14 +96,22 @@ const recentStories = computed(() =>
           class="block transition-transform active:scale-[0.97]"
         >
           <div
-            class="card-soft flex flex-col items-start gap-1 bg-gradient-to-br p-5"
+            class="card-soft relative flex flex-col items-start gap-1 overflow-hidden bg-gradient-to-br p-5"
             :class="[c.gradFrom, c.gradTo]"
           >
-            <span class="text-6xl leading-none">{{ m.icon }}</span>
-            <h3 class="mt-1 text-xl font-bold" :class="c.textDeep">
+            <!-- 装饰大图标（低透明度水印感） -->
+            <span
+              class="pointer-events-none absolute -bottom-3 -right-3 select-none text-8xl opacity-25"
+              aria-hidden="true"
+              >{{ m.icon }}</span
+            >
+            <span class="text-5xl leading-none drop-shadow-sm">{{
+              m.icon
+            }}</span>
+            <h3 class="mt-1 text-xl font-bold text-white drop-shadow-sm">
               {{ m.title }}
             </h3>
-            <p class="text-xs text-ink-soft">{{ m.subtitle }}</p>
+            <p class="text-xs font-medium text-white/90">{{ m.subtitle }}</p>
           </div>
         </RouterLink>
       </section>

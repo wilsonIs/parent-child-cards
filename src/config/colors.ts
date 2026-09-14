@@ -22,7 +22,7 @@ export const COLOR_MAP: Record<string, ColorSet> = {
     text: 'text-eat',
     textDeep: 'text-eat-deep',
     gradFrom: 'from-eat',
-    gradTo: 'to-eat-soft',
+    gradTo: 'to-eat-deep',
     border: 'border-eat',
   },
   learn: {
@@ -31,7 +31,7 @@ export const COLOR_MAP: Record<string, ColorSet> = {
     text: 'text-learn',
     textDeep: 'text-learn-deep',
     gradFrom: 'from-learn',
-    gradTo: 'to-learn-soft',
+    gradTo: 'to-learn-deep',
     border: 'border-learn',
   },
   story: {
@@ -40,7 +40,7 @@ export const COLOR_MAP: Record<string, ColorSet> = {
     text: 'text-story',
     textDeep: 'text-story-deep',
     gradFrom: 'from-story',
-    gradTo: 'to-story-soft',
+    gradTo: 'to-story-deep',
     border: 'border-story',
   },
   play: {
@@ -49,7 +49,7 @@ export const COLOR_MAP: Record<string, ColorSet> = {
     text: 'text-play',
     textDeep: 'text-play-deep',
     gradFrom: 'from-play',
-    gradTo: 'to-play-soft',
+    gradTo: 'to-play-deep',
     border: 'border-play',
   },
   coral: {
@@ -58,7 +58,7 @@ export const COLOR_MAP: Record<string, ColorSet> = {
     text: 'text-coral',
     textDeep: 'text-coral',
     gradFrom: 'from-coral',
-    gradTo: 'to-coral-soft',
+    gradTo: 'to-coral-deep',
     border: 'border-coral',
   },
   cream: {

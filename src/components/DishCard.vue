@@ -24,7 +24,7 @@ function toggleExpand() {
     >
       <!-- 封面 -->
       <div
-        class="relative flex min-h-0 flex-1 items-center justify-center overflow-hidden bg-gradient-to-br from-eat to-eat-soft"
+        class="relative flex min-h-0 flex-1 items-center justify-center overflow-hidden bg-gradient-to-br from-eat to-eat-deep"
       >
         <img
           v-if="dish.image"
@@ -32,7 +32,11 @@ function toggleExpand() {
           :alt="dish.name"
           class="h-full w-full object-cover"
         />
-        <span v-else class="select-none text-9xl drop-shadow-md">{{ dish.icon }}</span>
+        <template v-else>
+          <span class="pointer-events-none absolute -left-6 -top-8 h-28 w-28 rounded-full bg-white/15" aria-hidden="true"></span>
+          <span class="pointer-events-none absolute -bottom-10 -right-4 h-32 w-32 rounded-full bg-white/10" aria-hidden="true"></span>
+          <span class="select-none text-9xl drop-shadow-lg">{{ dish.icon }}</span>
+        </template>
       </div>
 
       <!-- 标题信息 -->

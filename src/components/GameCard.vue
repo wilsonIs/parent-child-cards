@@ -24,7 +24,7 @@ onMounted(() => {
       @click="toggle"
     >
       <div
-        class="flex aspect-[5/3] items-center justify-center bg-gradient-to-b from-play to-play-soft"
+        class="flex aspect-[5/3] items-center justify-center bg-gradient-to-b from-play to-play-deep"
       >
         <span class="text-8xl drop-shadow-sm">{{ game.icon }}</span>
       </div>

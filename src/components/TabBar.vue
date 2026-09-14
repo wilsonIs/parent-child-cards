@@ -23,11 +23,23 @@ const activeTo = computed(() => route.path)
       v-for="t in tabs"
       :key="t.to"
       :to="t.to"
-      class="flex flex-1 flex-col items-center gap-0.5 py-2 text-2xl transition-opacity"
-      :class="activeTo === t.to ? 'opacity-100' : 'opacity-50'"
+      class="flex flex-1 flex-col items-center gap-0.5 py-2"
+      :class="activeTo === t.to ? 'opacity-100' : 'opacity-45'"
     >
-      <span>{{ t.icon }}</span>
-      <span class="text-xs text-ink-soft">{{ t.label }}</span>
+      <span
+        class="flex h-7 w-12 items-center justify-center rounded-full transition-all duration-150"
+        :class="
+          activeTo === t.to
+            ? 'bg-gradient-to-b from-coral-soft to-coral-light shadow-soft'
+            : 'bg-transparent'
+        "
+        ><span class="text-xl leading-none">{{ t.icon }}</span></span
+      >
+      <span
+        class="text-xs"
+        :class="activeTo === t.to ? 'font-bold text-coral' : 'text-ink-soft'"
+        >{{ t.label }}</span
+      >
     </RouterLink>
   </nav>
 </template>

@@ -16,7 +16,7 @@ function open(id: string) {
     @click="open(story.id)"
   >
     <div
-      class="flex h-28 items-center justify-center bg-gradient-to-br from-story to-story-soft"
+      class="relative flex h-28 items-center justify-center overflow-hidden bg-gradient-to-br from-story to-story-deep"
     >
       <img
         v-if="story.cover"
@@ -24,7 +24,18 @@ function open(id: string) {
         :alt="story.title"
         class="h-full w-full object-cover"
       />
-      <span v-else class="text-6xl">{{ story.icon }}</span>
+      <template v-else>
+        <!-- 装饰圆点，让纯色渐变不那么呆 -->
+        <span
+          class="pointer-events-none absolute -left-4 -top-6 h-20 w-20 rounded-full bg-white/15"
+          aria-hidden="true"
+        ></span>
+        <span
+          class="pointer-events-none absolute -bottom-8 -right-3 h-24 w-24 rounded-full bg-white/10"
+          aria-hidden="true"
+        ></span>
+        <span class="text-6xl drop-shadow-md">{{ story.icon }}</span>
+      </template>
     </div>
     <div class="flex flex-1 flex-col gap-2 p-3">
       <h3 class="text-base font-bold leading-snug text-ink">{{ story.title }}</h3>
@@ -44,7 +55,7 @@ function open(id: string) {
     </div>
     <span
       v-if="story.audio"
-      class="pointer-events-none absolute bottom-3 right-3 flex h-9 w-9 items-center justify-center rounded-full bg-story text-sm text-white shadow-soft"
+      class="pointer-events-none absolute bottom-3 right-3 flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-story to-story-deep text-sm text-white shadow-[0_4px_12px_-2px_rgba(91,79,192,0.5)]"
       aria-hidden="true"
       >▶</span
     >
