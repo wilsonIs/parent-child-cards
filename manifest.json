@@ -1,0 +1,17 @@
+{
+  "name": "亲子卡片箱",
+  "short_name": "卡片箱",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FBF7F0",
+  "theme_color": "#FBF7F0",
+  "description": "把吃、学、故事、玩做成卡片，简单、纯粹、不上瘾的亲子生活工具。",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎎</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
