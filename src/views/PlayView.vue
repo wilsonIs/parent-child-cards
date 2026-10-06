@@ -23,7 +23,13 @@ function go(key: string) {
         class="card-soft flex flex-col items-center justify-center gap-1 p-4 transition-all duration-150 active:scale-95"
         @click="go(s.key)"
       >
-        <span class="text-4xl">{{ s.icon }}</span>
+        <img
+          v-if="s.image"
+          :src="s.image"
+          :alt="s.key"
+          class="h-16 w-16 rounded-2xl object-cover"
+        />
+        <span v-else class="text-4xl">{{ s.icon }}</span>
         <span class="text-base font-semibold text-ink">{{ s.key }}</span>
         <span class="text-center text-xs text-ink-muted">{{ s.desc }}</span>
       </button>

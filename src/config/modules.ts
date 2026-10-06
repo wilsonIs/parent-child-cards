@@ -42,15 +42,15 @@ export const MODULES: ModuleMeta[] = [
 
 /** 玩模块 9 个场景 */
 export const PLAY_SCENES = [
-  { key: '家里', icon: '🏠', desc: '宅家也能玩' },
-  { key: '户外', icon: '🌳', desc: '出去放电' },
-  { key: '旅途', icon: '🚗', desc: '车上不无聊' },
-  { key: '等待', icon: '⏳', desc: '排队等餐' },
-  { key: '睡前', icon: '🛏', desc: '安静助眠' },
-  { key: '聚会', icon: '👨‍👩‍👧', desc: '多人热闹' },
-  { key: '公共场合', icon: '🛒', desc: '不大声' },
-  { key: '雨天/室内', icon: '🌧', desc: '出不了门' },
-  { key: '纯语言', icon: '🗣', desc: '动嘴不动手' },
+  { key: '家里', icon: '🏠', desc: '宅家也能玩', image: '/assets/icons/scenes/home.jpg' },
+  { key: '户外', icon: '🌳', desc: '出去放电', image: '/assets/icons/scenes/outdoor.jpg' },
+  { key: '旅途', icon: '🚗', desc: '车上不无聊', image: '/assets/icons/scenes/trip.jpg' },
+  { key: '等待', icon: '⏳', desc: '排队等餐', image: '/assets/icons/scenes/wait.jpg' },
+  { key: '睡前', icon: '🛏', desc: '安静助眠', image: '/assets/icons/scenes/bed.jpg' },
+  { key: '聚会', icon: '👨‍👩‍👧', desc: '多人热闹', image: '/assets/icons/scenes/party.jpg' },
+  { key: '公共场合', icon: '🛒', desc: '不大声', image: '/assets/icons/scenes/cart.jpg' },
+  { key: '雨天/室内', icon: '🌧', desc: '出不了门', image: '/assets/icons/scenes/rain.jpg' },
+  { key: '纯语言', icon: '🗣', desc: '动嘴不动手', image: '/assets/icons/scenes/talk.jpg' },
 ]
 
 /** 故事分类（合并后的大分类，方便小朋友选择） */

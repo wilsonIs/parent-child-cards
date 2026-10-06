@@ -80,15 +80,18 @@ def main(short, alts=None):
         if r.returncode != 0:
             print(short, 'NORM_FAIL', idx, f); sys.exit(2)
 
-    # 5. concat
-    lst = tmp/f'list{short}.txt'
-    lst.write_text('\n'.join(f"file '{norm/f'seg_{short}_{i:03d}.mp3'}'" for i in range(len(order))))
+    # 5. concat（多输入 filter_complex，避免 concat demuxer 流参数不一致）
+    n = len(order)
+    inputs = []
+    for i in range(n):
+        inputs += ['-i', str(norm / f'seg_{short}_{i:03d}.mp3')]
+    fc = ''.join(f'[{i}:a]' for i in range(n)) + f'concat=n={n}:v=0:a=1[out]'
     out_mp3 = f'public/assets/audio/{sid}.mp3'
-    r = subprocess.run(['ffmpeg','-y','-f','concat','-safe','0','-i',str(lst),'-c:a','libmp3lame','-b:a','128k',out_mp3],
-                       capture_output=True, timeout=180)
+    r = subprocess.run(['ffmpeg','-y'] + inputs + ['-filter_complex', fc, '-map', '[out]', '-c:a', 'libmp3lame', '-b:a', '128k', out_mp3],
+                       capture_output=True, timeout=300)
     if r.returncode != 0:
         print(short, 'CONCAT_FAIL'); sys.exit(2)
-    print(short, 'OK segs:', len(order))
+    print(short, 'OK segs:', n)
 
 if __name__ == '__main__':
     alts_map = {
@@ -96,10 +99,20 @@ if __name__ == '__main__':
         '004': {4:'亡羊补牢。'},
         '006': {4:'狐假虎威。'},
         '034': {4:'自相矛盾。'},
-        '035': {2:'嘣——。'},
-        '037': {4:'轰隆。'},
+        '035': {2:'嘣——。',5:'惊弓之鸟。'},
+        '037': {4:'轰隆。',5:'画龙点睛。'},
         '109': {5:'杞人忧天。'},
         '113': {0:'哗哗。',4:'庖丁解牛。',5:'游刃有余。'},
+        '196': {2:'一鸣惊人。',3:'一鸣惊人。'},
+        '197': {7:'一叶障目。'},
+        '198': {3:'一诺千金。'},
+        '199': {5:'一鼓作气。'},
+        '200': {0:'书圣。',1:'墨池。',3:'入木三分。'},
+        '201': {4:'三顾茅庐。'},
+        '202': {9:'大公无私。'},
+        '203': {4:'不耻下问。'},
+        '208': {5:'程门立雪。'},
+        '209': {4:'铁杵磨针。'},
         '022': {4:'花果山福地，水帘洞洞天。'},
         '067': {15:'白骨夫人。'},
         '068': {6:'仙丹。'},
