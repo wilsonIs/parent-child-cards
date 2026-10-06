@@ -4,10 +4,12 @@ import { useRouter } from 'vue-router'
 import { useDataStore } from '@/stores/data'
 import AppHeader from '@/components/AppHeader.vue'
 import { SERIES_META } from '@/config/modules'
+import { useSwipeHint } from '@/composables/useSwipeHint'
 import type { Story } from '@/types'
 
 const router = useRouter()
 const data = useDataStore()
+const { showHint, dismiss } = useSwipeHint('story')
 
 /** 卡片：系列卡 或 单篇卡 */
 type Card =
@@ -15,7 +17,23 @@ type Card =
   | { kind: 'story'; story: Story }
 
 const category = ref('全部')
-const CATEGORIES = ['全部', '系列', '成语', '寓言', '神话', '童话', '民间', '名著', '历史', '睡前', '科普', '英语']
+/** 合并后的分类（小分类归入大分类，方便小朋友选择） */
+const CATEGORIES = ['全部', '系列', '成语', '童话', '神话', '名著', '冒险', '睡前']
+/** 原始分类 → 合并后分类的映射 */
+const CAT_MAP: Record<string, string> = {
+  成语: '成语',
+  童话: '童话',
+  寓言: '童话',
+  民间: '童话',
+  英语: '童话',
+  神话: '神话',
+  传统文化: '神话',
+  名著: '名著',
+  历史: '名著',
+  冒险: '冒险',
+  睡前: '睡前',
+  科普: '睡前',
+}
 
 const allCards = computed<Card[]>(() => {
   const cards: Card[] = []
@@ -56,7 +74,7 @@ const pool = computed(() => {
   // 具体分类：把该分类下的所有故事（含系列内故事）展开为单篇卡
   const storyCards: Card[] = []
   for (const st of data.stories) {
-    if (Array.isArray(st.category) && st.category.includes(cat)) {
+    if (Array.isArray(st.category) && st.category.some((c) => CAT_MAP[c] === cat)) {
       storyCards.push({ kind: 'story', story: st })
     }
   }
@@ -85,7 +103,9 @@ const cooldown = ref(0)
 function cardStyle(i: number) {
   const dy = (i - idx.value) * 100
   const drag = i === idx.value ? offsetY.value : 0
-  return { transform: `translateY(${dy + drag}%)` }
+  // 当前卡片略放大，前后卡片缩小，增强层次感
+  const scale = i === idx.value ? 1 : 0.92
+  return { transform: `translateY(${dy + drag}%) scale(${scale})` }
 }
 
 function go(delta: number) {
@@ -125,6 +145,7 @@ function onTouchEnd() {
   if (offsetY.value < -35) go(1)
   else if (offsetY.value > 35) go(-1)
   offsetY.value = 0
+  dismiss()
 }
 
 // ---- 滚轮 ----
@@ -134,11 +155,18 @@ function onWheel(e: WheelEvent) {
   cooldown.value = now
   if (e.deltaY > 20) go(1)
   else if (e.deltaY < -20) go(-1)
+  dismiss()
 }
 
 // 数据异步加载完成后初始化播放顺序；分类切换/换一批也会重新洗牌
 watch(pool, shuffle, { immediate: true })
 const brief = (text: string) => (text.length > 70 ? text.slice(0, 70) + '……' : text)
+
+/** 故事原始分类 → 合并后分类（去重） */
+function mergedCats(story: Story): string[] {
+  if (!Array.isArray(story.category)) return []
+  return [...new Set(story.category.map((c) => CAT_MAP[c] ?? c))]
+}
 </script>
 
 <template>
@@ -169,7 +197,7 @@ const brief = (text: string) => (text.length > 70 ? text.slice(0, 70) + '……'
       <div
         v-for="(card, i) in deck"
         :key="card.kind === 'series' ? 's:' + card.key : 't:' + card.story.id"
-        class="absolute inset-0 transition-transform duration-300"
+        class="absolute inset-0 transition-transform duration-300 ease-out"
         :class="dragging ? '!transition-none' : ''"
         :style="cardStyle(i)"
       >
@@ -246,7 +274,7 @@ const brief = (text: string) => (text.length > 70 ? text.slice(0, 70) + '……'
           </h2>
           <div class="relative flex flex-wrap justify-center gap-1">
             <span
-              v-for="c in card.story.category"
+              v-for="c in mergedCats(card.story)"
               :key="c"
               class="chip bg-white/25 text-white backdrop-blur-sm"
               >{{ c }}</span
@@ -279,12 +307,30 @@ const brief = (text: string) => (text.length > 70 ? text.slice(0, 70) + '……'
       >
         该分类下暂无故事
       </div>
+
+      <!-- 上滑引导（仅首次） -->
+      <div
+        v-if="showHint && deck.length > 1"
+        class="pointer-events-none absolute inset-x-0 bottom-6 flex flex-col items-center gap-1 text-ink-muted"
+      >
+        <span class="swipe-hint text-3xl">👆</span>
+        <span class="text-xs">上滑看下一个</span>
+      </div>
+
+      <!-- 换一批 FAB -->
+      <button
+        v-if="deck.length > 0"
+        class="fab absolute bottom-4 right-4 bg-coral px-5 text-sm"
+        @click="shuffle"
+      >
+        🎲 换一批
+      </button>
     </div>
 
     <!-- 底部控制条 -->
     <div
       v-if="deck.length > 0"
-      class="flex items-center justify-between gap-3 px-4 pb-4 pt-1"
+      class="flex shrink-0 items-center justify-center gap-6 px-4 pb-4 pt-1"
     >
       <button
         class="flex h-11 w-11 items-center justify-center rounded-full bg-cream-100 text-lg text-ink shadow-soft active:scale-95"
@@ -296,7 +342,6 @@ const brief = (text: string) => (text.length > 70 ? text.slice(0, 70) + '……'
       </button>
       <div class="text-center text-xs text-ink-muted">
         {{ idx + 1 }} / {{ deck.length }}
-        <span v-if="category !== '全部'"> · {{ category }}</span>
       </div>
       <button
         class="flex h-11 w-11 items-center justify-center rounded-full bg-cream-100 text-lg text-ink shadow-soft active:scale-95"
@@ -305,12 +350,6 @@ const brief = (text: string) => (text.length > 70 ? text.slice(0, 70) + '……'
         @click="go(1)"
       >
         ↓
-      </button>
-      <button
-        class="flex h-11 items-center justify-center gap-1 rounded-full bg-coral px-5 text-sm font-bold text-white shadow-soft active:scale-95"
-        @click="shuffle"
-      >
-        🎲 换一批
       </button>
     </div>
   </div>

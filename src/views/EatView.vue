@@ -5,11 +5,13 @@ import FilterBar from '@/components/FilterBar.vue'
 import DishCard from '@/components/DishCard.vue'
 import { useDataStore } from '@/stores/data'
 import { DISH_MEALS, DISH_TYPES } from '@/config/modules'
+import { useSwipeHint } from '@/composables/useSwipeHint'
 import type { Dish } from '@/types'
 
 const data = useDataStore()
 const meal = ref('全部')
 const dishType = ref('全部')
+const { showHint, dismiss } = useSwipeHint('eat')
 
 /** 过滤后的卡片池 */
 const pool = computed(() =>
@@ -41,7 +43,9 @@ const cooldown = ref(0)
 function cardStyle(i: number) {
   const dy = (i - idx.value) * 100
   const drag = i === idx.value ? offsetY.value : 0
-  return { transform: `translateY(${dy + drag}%)` }
+  // 当前卡片略放大，前后卡片缩小，增强层次感
+  const scale = i === idx.value ? 1 : 0.92
+  return { transform: `translateY(${dy + drag}%) scale(${scale})` }
 }
 
 function go(delta: number) {
@@ -73,6 +77,7 @@ function onTouchEnd() {
   if (offsetY.value < -35) go(1)
   else if (offsetY.value > 35) go(-1)
   offsetY.value = 0
+  dismiss()
 }
 
 // ---- 滚轮 ----
@@ -82,6 +87,7 @@ function onWheel(e: WheelEvent) {
   cooldown.value = now
   if (e.deltaY > 20) go(1)
   else if (e.deltaY < -20) go(-1)
+  dismiss()
 }
 
 // 数据异步加载完成后初始化；分类切换/换一批也会重新洗牌
@@ -109,7 +115,7 @@ watch(pool, shuffle, { immediate: true })
       <div
         v-for="(d, i) in deck"
         :key="d.id"
-        class="absolute inset-0 transition-transform duration-300"
+        class="absolute inset-0 transition-transform duration-300 ease-out"
         :class="dragging ? '!transition-none' : ''"
         :style="cardStyle(i)"
       >
@@ -123,12 +129,30 @@ watch(pool, shuffle, { immediate: true })
       >
         🍽️ 没有符合条件的菜谱，换个筛选试试
       </div>
+
+      <!-- 上滑引导（仅首次） -->
+      <div
+        v-if="showHint && deck.length > 1"
+        class="pointer-events-none absolute inset-x-0 bottom-6 flex flex-col items-center gap-1 text-ink-muted"
+      >
+        <span class="swipe-hint text-3xl">👆</span>
+        <span class="text-xs">上滑看下一个</span>
+      </div>
+
+      <!-- 换一批 FAB -->
+      <button
+        v-if="deck.length > 0"
+        class="fab absolute bottom-4 right-4 bg-coral px-5 text-sm"
+        @click="shuffle"
+      >
+        🎲 换一批
+      </button>
     </div>
 
     <!-- 底部控制条 -->
     <div
       v-if="deck.length > 0"
-      class="flex shrink-0 items-center justify-between gap-3 px-4 pb-4 pt-1"
+      class="flex shrink-0 items-center justify-center gap-6 px-4 pb-4 pt-1"
     >
       <button
         class="flex h-11 w-11 items-center justify-center rounded-full bg-cream-100 text-lg text-ink shadow-soft active:scale-95"
@@ -140,7 +164,6 @@ watch(pool, shuffle, { immediate: true })
       </button>
       <div class="text-center text-xs text-ink-muted">
         {{ idx + 1 }} / {{ deck.length }}
-        <span v-if="meal !== '全部' || dishType !== '全部'"> · 已筛选</span>
       </div>
       <button
         class="flex h-11 w-11 items-center justify-center rounded-full bg-cream-100 text-lg text-ink shadow-soft active:scale-95"
@@ -149,12 +172,6 @@ watch(pool, shuffle, { immediate: true })
         @click="go(1)"
       >
         ↓
-      </button>
-      <button
-        class="flex h-11 items-center justify-center gap-1 rounded-full bg-coral px-5 text-sm font-bold text-white shadow-soft active:scale-95"
-        @click="shuffle"
-      >
-        🎲 换一批
       </button>
     </div>
   </div>

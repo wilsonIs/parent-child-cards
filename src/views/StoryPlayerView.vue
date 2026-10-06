@@ -6,7 +6,6 @@ import { useDataStore } from '@/stores/data'
 import { useSettingsStore } from '@/stores/settings'
 import { useAudio, fmtTime } from '@/composables/useAudio'
 import AppHeader from '@/components/AppHeader.vue'
-import ActionButtons from '@/components/ActionButtons.vue'
 import EmptyState from '@/components/EmptyState.vue'
 
 const route = useRoute()
@@ -19,12 +18,19 @@ const id = computed(() => String(route.params.id))
 const story = computed(() => data.storyById(id.value))
 
 const audioRef = ref<HTMLAudioElement | null>(null)
-const { playing, current, duration, ended, bind, unbind, toggle, seek, applyRate, play, reset } =
+const { playing, loading, current, duration, ended, bind, unbind, toggle, seek, applyRate, play, reset } =
   useAudio()
 
 const noAudio = computed(() => !story.value?.audio)
 const rates = [0.75, 1, 1.25]
 const autoAdvancing = ref(false)
+
+/** 绑定音频后自动播放（进入播放页由用户点击触发，具备用户手势） */
+function bindAndPlay(el: HTMLAudioElement | null) {
+  if (!el) return
+  bind(el)
+  if (!noAudio.value) play()
+}
 
 function setRate(r: number) {
   settings.setPlaybackRate(r)
@@ -58,27 +64,27 @@ watch(ended, (v) => {
   if (v && prefs.value.autoPlay) nextStory()
 })
 
-// 路由 id 变化（自动连播或手动进入其他故事）：重置播放状态
+// 路由 id 变化（自动连播或手动进入其他故事）：重置播放状态并自动播放
 watch(
   () => route.params.id,
   () => {
     settings.recordView('story', id.value)
     reset()
-    if (autoAdvancing.value) {
-      autoAdvancing.value = false
-      nextTick(() => play())
-    }
+    if (autoAdvancing.value) autoAdvancing.value = false
+    nextTick(() => {
+      if (!noAudio.value) play()
+    })
   },
 )
 
 onMounted(() => {
   settings.recordView('story', id.value)
-  if (audioRef.value) bind(audioRef.value)
+  if (audioRef.value) bindAndPlay(audioRef.value)
 })
 
 // 故事数据异步加载、audio 元素渲染后再绑定播放器（首次进入时 onMounted 可能拿不到元素）
 watch(audioRef, (el) => {
-  if (el) bind(el)
+  if (el) bindAndPlay(el)
 })
 
 onBeforeUnmount(() => {
@@ -119,10 +125,6 @@ onBeforeUnmount(() => {
         <p class="text-base leading-relaxed text-ink">{{ story.text }}</p>
       </div>
 
-      <!-- 操作按钮 -->
-      <div class="flex justify-center px-4 pb-6">
-        <ActionButtons type="story" :id="story.id" />
-      </div>
     </div>
 
     <!-- 吸底播放器：长故事滚动时播放控件始终可见 -->
@@ -139,7 +141,8 @@ onBeforeUnmount(() => {
           :disabled="noAudio"
           @click="toggle"
         >
-          <span>{{ playing ? '⏸' : '▶' }}</span>
+          <span v-if="loading" class="inline-block animate-spin">⏳</span>
+          <span v-else>{{ playing ? '⏸' : '▶' }}</span>
         </button>
         <div class="flex-1">
           <input

@@ -9,6 +9,7 @@ import { useSettingsStore } from '@/stores/settings'
 export function useAudio() {
   const audioEl = ref<HTMLAudioElement | null>(null)
   const playing = ref(false)
+  const loading = ref(false)
   const current = ref(0) // 当前秒
   const duration = ref(0)
   const ended = ref(false)
@@ -27,6 +28,9 @@ export function useAudio() {
     el.addEventListener('ended', onEnded)
     el.addEventListener('play', () => (playing.value = true))
     el.addEventListener('pause', () => (playing.value = false))
+    el.addEventListener('waiting', () => (loading.value = true))
+    el.addEventListener('canplay', () => (loading.value = false))
+    el.addEventListener('playing', () => (loading.value = false))
   }
 
   function unbind() {
@@ -35,9 +39,13 @@ export function useAudio() {
     el.removeEventListener('timeupdate', onTime)
     el.removeEventListener('loadedmetadata', onMeta)
     el.removeEventListener('ended', onEnded)
+    el.removeEventListener('waiting', () => (loading.value = true))
+    el.removeEventListener('canplay', () => (loading.value = false))
+    el.removeEventListener('playing', () => (loading.value = false))
     el.pause()
     audioEl.value = null
     playing.value = false
+    loading.value = false
   }
 
   function onTime() {
@@ -67,11 +75,13 @@ export function useAudio() {
     const el = audioEl.value
     if (!el) return
     ended.value = false
+    loading.value = true
     applyRate()
     try {
       await el.play()
     } catch (e) {
       console.warn('播放失败', e)
+      loading.value = false
     }
   }
 
@@ -99,12 +109,14 @@ export function useAudio() {
     }
     playing.value = false
     ended.value = false
+    loading.value = false
     current.value = 0
   }
 
   return {
     audioEl,
     playing,
+    loading,
     current,
     duration,
     ended,

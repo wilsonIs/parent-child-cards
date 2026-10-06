@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import type { Dish } from '@/types'
-import ActionButtons from '@/components/ActionButtons.vue'
 import { useSettingsStore } from '@/stores/settings'
 
 const props = defineProps<{ dish: Dish }>()
@@ -102,10 +101,5 @@ function toggleExpand() {
         </section>
       </div>
     </div>
-
-    <!-- 底部操作 -->
-    <footer class="shrink-0 border-t border-cream-200 px-5 py-3">
-      <ActionButtons type="dish" :id="dish.id" />
-    </footer>
   </article>
 </template>

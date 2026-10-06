@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import ActionButtons from '@/components/ActionButtons.vue'
 import type { Poem } from '@/types'
 
 defineProps<{ poem: Poem }>()
@@ -49,11 +48,10 @@ defineProps<{ poem: Poem }>()
       </p>
     </div>
 
-    <div class="mt-1 flex items-center justify-between gap-2 border-t border-cream-200 pt-3">
+    <div class="mt-1 flex items-center gap-2 border-t border-cream-200 pt-3">
       <span class="text-xs text-ink-muted">
         {{ poem.source }} · {{ poem.license }}
       </span>
-      <ActionButtons type="poem" :id="poem.id" />
     </div>
   </article>
 </template>

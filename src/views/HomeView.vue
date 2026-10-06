@@ -1,16 +1,15 @@
 <script setup lang="ts">
-import { computed } from 'vue'
-import { RouterLink } from 'vue-router'
+import { computed, ref } from 'vue'
+import { RouterLink, useRouter } from 'vue-router'
 import AppHeader from '@/components/AppHeader.vue'
 import { MODULES } from '@/config/modules'
 import { colors } from '@/config/colors'
-import { useTodayStore } from '@/stores/today'
 import { useSettingsStore } from '@/stores/settings'
 import { useDataStore } from '@/stores/data'
 
-const today = useTodayStore()
 const settings = useSettingsStore()
 const data = useDataStore()
+const router = useRouter()
 
 const cards = computed(() =>
   MODULES.map((m) => ({ m, c: colors(m.colorClass) })),
@@ -24,11 +23,32 @@ const recentStories = computed(() =>
     .map((h) => data.storyById(h.id))
     .filter((s): s is NonNullable<typeof s> => Boolean(s)),
 )
+
+/** 帮我选：随机进入一个模块 */
+const picking = ref(false)
+function pickRandom() {
+  picking.value = true
+  setTimeout(() => {
+    const m = MODULES[Math.floor(Math.random() * MODULES.length)]
+    router.push(m.to)
+    picking.value = false
+  }, 600)
+}
 </script>
 
 <template>
   <div class="flex h-full flex-col">
-    <AppHeader title="亲子卡片箱" />
+    <AppHeader title="亲子卡片箱">
+      <template #right>
+        <RouterLink
+          to="/settings"
+          class="flex h-9 w-9 items-center justify-center rounded-full bg-cream-200/70 text-lg transition-colors active:bg-cream-200"
+          aria-label="设置"
+        >
+          ⚙️
+        </RouterLink>
+      </template>
+    </AppHeader>
     <main class="flex-1 overflow-y-auto">
       <!-- 欢迎区 -->
       <section
@@ -41,18 +61,10 @@ const recentStories = computed(() =>
         />
         <div class="relative flex items-center justify-between gap-3 p-6">
           <div>
-            <h2 class="text-2xl font-bold leading-snug text-ink">
-              今天，和孩子做点什么呢？
-            </h2>
-            <p class="mt-1 text-sm text-ink-soft">简单 · 纯粹 · 不上瘾</p>
+            <h2 class="text-3xl font-bold leading-snug text-ink">今天玩什么？</h2>
+            <p class="mt-1 text-sm text-ink-soft">选一个，开始吧</p>
           </div>
-          <RouterLink
-            v-if="today.count > 0"
-            to="/today"
-            class="chip shrink-0 bg-white text-coral shadow-soft"
-          >
-            今日 {{ today.count }}
-          </RouterLink>
+          <span class="float-soft text-5xl">🎈</span>
         </div>
       </section>
 
@@ -67,7 +79,7 @@ const recentStories = computed(() =>
             v-for="st in recentStories"
             :key="st.id"
             :to="`/story/${st.id}`"
-            class="flex w-24 shrink-0 flex-col items-center gap-1 rounded-2xl border border-cream-200 bg-white/80 p-3 text-center shadow-soft transition-transform active:scale-95"
+            class="flex w-24 shrink-0 flex-col items-center gap-1 rounded-2xl border border-cream-200 bg-white/80 p-3 text-center shadow-soft transition-transform active:scale-90"
           >
             <span
               class="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-story-soft to-story-light text-3xl"
@@ -84,13 +96,14 @@ const recentStories = computed(() =>
       <!-- 模块卡片网格 -->
       <section class="grid grid-cols-2 gap-3 p-4">
         <RouterLink
-          v-for="{ m, c } in cards"
+          v-for="({ m, c }, i) in cards"
           :key="m.key"
           :to="m.to"
-          class="block transition-transform active:scale-[0.97]"
+          class="block transition-transform duration-150 active:scale-95"
+          :style="{ animationDelay: `${i * 80}ms` }"
         >
           <div
-            class="card-soft relative flex flex-col items-start gap-1 overflow-hidden p-5"
+            class="card-soft fade-up relative flex flex-col items-start gap-1 overflow-hidden p-5"
             :class="[m.image ? 'aspect-[4/3]' : ['min-h-[7rem]', c.gradFrom, c.gradTo]]"
           >
             <!-- 模块背景图（有图时铺满） -->
@@ -120,7 +133,19 @@ const recentStories = computed(() =>
         </RouterLink>
       </section>
 
-      <p class="px-4 pb-6 text-center text-xs text-ink-muted">
+      <!-- 帮我选 -->
+      <div class="flex justify-center px-4 pb-2">
+        <button
+          class="btn-primary bounce-in flex items-center gap-2 px-7 py-3 text-base"
+          :class="picking ? 'animate-pulse' : ''"
+          @click="pickRandom"
+        >
+          <span :class="picking ? 'animate-spin inline-block' : ''">🎲</span>
+          帮我选一个
+        </button>
+      </div>
+
+      <p class="px-4 pb-6 pt-2 text-center text-xs text-ink-muted">
         无广告 · 无 VIP · 无推送 · 无积分
       </p>
     </main>

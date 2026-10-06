@@ -20,7 +20,7 @@ function go(key: string) {
       <button
         v-for="s in PLAY_SCENES"
         :key="s.key"
-        class="card-soft flex flex-col items-center justify-center gap-1 p-4 transition-all duration-150 active:scale-[0.97]"
+        class="card-soft flex flex-col items-center justify-center gap-1 p-4 transition-all duration-150 active:scale-95"
         @click="go(s.key)"
       >
         <span class="text-4xl">{{ s.icon }}</span>

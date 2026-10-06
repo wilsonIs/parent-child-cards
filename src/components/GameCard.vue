@@ -2,7 +2,6 @@
 import { onMounted, ref } from 'vue'
 import type { Game } from '@/types'
 import { useSettingsStore } from '@/stores/settings'
-import ActionButtons from './ActionButtons.vue'
 
 const props = defineProps<{ game: Game }>()
 const settings = useSettingsStore()
@@ -86,10 +85,6 @@ onMounted(() => {
           </section>
         </div>
       </div>
-    </div>
-
-    <div class="flex justify-center py-3">
-      <ActionButtons type="game" :id="game.id" />
     </div>
   </article>
 </template>
