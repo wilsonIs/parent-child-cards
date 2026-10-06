@@ -43,7 +43,7 @@ export default defineConfig({
       },
       manifest: {
         name: '神奇卡盒',
-        short_name: '卡盒',
+        short_name: '神奇卡盒',
         description: '抽一张卡片，发现吃、学、故事、玩的惊喜，简单、纯粹、不上瘾。',
         theme_color: '#FBF7F0',
         background_color: '#FBF7F0',

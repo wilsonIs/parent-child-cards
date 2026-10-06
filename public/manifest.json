@@ -1,6 +1,6 @@
 {
   "name": "神奇卡盒",
-  "short_name": "卡盒",
+  "short_name": "神奇卡盒",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#FBF7F0",
@@ -9,19 +9,19 @@
   "lang": "zh-CN",
   "icons": [
     {
-      "src": "/assets/icons/icon-192.jpg",
+      "src": "assets/icons/icon-192.jpg",
       "sizes": "192x192",
       "type": "image/jpeg",
       "purpose": "any"
     },
     {
-      "src": "/assets/icons/icon-512.jpg",
+      "src": "assets/icons/icon-512.jpg",
       "sizes": "512x512",
       "type": "image/jpeg",
       "purpose": "any"
     },
     {
-      "src": "/assets/icons/icon-maskable-512.jpg",
+      "src": "assets/icons/icon-maskable-512.jpg",
       "sizes": "512x512",
       "type": "image/jpeg",
       "purpose": "maskable"
