@@ -30,7 +30,13 @@ function open(id: string) {
       <div
         class="flex flex-col items-center gap-3 bg-gradient-to-br from-story to-story-soft px-6 py-8 text-center"
       >
-        <span class="text-8xl drop-shadow-sm">{{ meta.icon ?? '📚' }}</span>
+        <img
+          v-if="meta.cover"
+          :src="meta.cover"
+          :alt="name"
+          class="h-44 w-full max-w-sm rounded-2xl object-cover shadow-soft"
+        />
+        <span v-else class="text-8xl drop-shadow-sm">{{ meta.icon ?? '📚' }}</span>
         <h2 class="text-2xl font-bold text-white drop-shadow-sm">{{ name }}</h2>
         <p class="max-w-xs text-sm text-white/85">{{ meta.desc }}</p>
         <span class="chip bg-white/25 text-white">共 {{ stories.length }} 个故事</span>
@@ -45,7 +51,16 @@ function open(id: string) {
           class="card-soft flex items-center gap-4 p-4 text-left transition-transform active:scale-[0.98]"
           @click="open(st.id)"
         >
-          <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-story-soft text-3xl">
+          <img
+            v-if="st.cover"
+            :src="st.cover"
+            :alt="st.title"
+            class="h-12 w-12 shrink-0 rounded-2xl object-cover"
+          />
+          <span
+            v-else
+            class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-story-soft text-3xl"
+          >
             {{ st.icon }}
           </span>
           <div class="min-w-0 flex-1">

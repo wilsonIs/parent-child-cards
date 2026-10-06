@@ -23,3 +23,6 @@ pnpm-debug.log*
 
 # 内部文档（不入库）
 .trae
+
+# TTS/封面生成中间产物
+public/assets/tmp/

@@ -92,9 +92,15 @@ onBeforeUnmount(() => {
     <div class="flex-1 overflow-y-auto">
       <!-- 封面区 -->
       <div
-        class="flex flex-col items-center gap-2 bg-gradient-to-br from-story to-story-soft px-6 py-6 text-center"
+        class="flex flex-col items-center gap-3 bg-gradient-to-br from-story to-story-soft px-6 py-6 text-center"
       >
-        <div class="text-7xl">{{ story.icon }}</div>
+        <img
+          v-if="story.cover"
+          :src="story.cover"
+          :alt="story.title"
+          class="h-48 w-full max-w-sm rounded-2xl object-cover shadow-soft"
+        />
+        <div v-else class="text-7xl">{{ story.icon }}</div>
         <h2 class="text-xl font-bold text-story-deep">{{ story.title }}</h2>
         <div class="flex flex-wrap justify-center gap-1">
           <span v-for="c in story.category" :key="c" class="chip chip-on">{{

@@ -287,7 +287,13 @@ async function main() {
     const n = await syncPoems()
     console.log(`[sync] src/data/poems.json 已生成，共 ${n} 条`)
   } catch (e) {
-    fail(`数据拉取失败: ${e.message}`)
+    // 网络波动时降级：已有 poems.json 则保留继续，不阻断构建
+    try {
+      await access(path.join(DATA_DIR, 'poems.json'))
+      console.warn(`[sync] ⚠ 诗词拉取失败（${e.message}），保留现有 poems.json（不阻断构建）`)
+    } catch {
+      fail(`数据拉取失败: ${e.message}`)
+    }
   }
 
   console.log('[sync] 校验现有数据 …')

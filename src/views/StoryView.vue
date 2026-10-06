@@ -11,7 +11,7 @@ const data = useDataStore()
 
 /** 卡片：系列卡 或 单篇卡 */
 type Card =
-  | { kind: 'series'; key: string; icon: string; title: string; desc: string; count: number }
+  | { kind: 'series'; key: string; icon: string; title: string; desc: string; count: number; cover?: string }
   | { kind: 'story'; story: Story }
 
 const category = ref('全部')
@@ -40,6 +40,7 @@ const allCards = computed<Card[]>(() => {
       title: key,
       desc: meta?.desc ?? `${list.length} 个故事`,
       count: list.length,
+      cover: meta?.cover,
     })
   }
   // 单篇卡
@@ -176,15 +177,35 @@ const brief = (text: string) => (text.length > 70 ? text.slice(0, 70) + '……'
         <button
           v-if="card.kind === 'series'"
           type="button"
-          class="card-soft fade-up flex h-full w-full flex-col items-center justify-center gap-4 bg-gradient-to-br from-story to-story-soft p-6 text-center"
+          class="card-soft fade-up relative flex h-full w-full flex-col items-center justify-center gap-4 overflow-hidden p-6 text-center"
           @click="openCard(card)"
         >
-          <span class="text-8xl drop-shadow-sm">{{ card.icon }}</span>
-          <h2 class="text-3xl font-bold text-white drop-shadow-sm">{{ card.title }}</h2>
-          <p class="max-w-xs text-sm text-white/85">{{ card.desc }}</p>
-          <span class="chip bg-white/25 text-white">共 {{ card.count }} 个故事</span>
+          <!-- 有封面：图片铺满 + 暗色渐变遮罩保证文字可读 -->
+          <template v-if="card.cover">
+            <img
+              :src="card.cover"
+              :alt="card.title"
+              class="absolute inset-0 h-full w-full object-cover"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-b from-ink/60 via-ink/25 to-ink/75"
+            ></div>
+          </template>
+          <!-- 无封面：紫色渐变底 -->
+          <div
+            v-else
+            class="absolute inset-0 bg-gradient-to-br from-story to-story-soft"
+          ></div>
           <span
-            class="mt-2 flex items-center gap-2 rounded-full bg-white px-6 py-3 font-bold text-story-deep shadow-soft"
+            v-if="!card.cover"
+            class="relative text-8xl drop-shadow-sm"
+            >{{ card.icon }}</span
+          >
+          <h2 class="relative text-3xl font-bold text-white drop-shadow-sm">{{ card.title }}</h2>
+          <p class="relative max-w-xs text-sm text-white/85">{{ card.desc }}</p>
+          <span class="relative chip bg-white/25 text-white">共 {{ card.count }} 个故事</span>
+          <span
+            class="relative mt-2 flex items-center gap-2 rounded-full bg-white px-6 py-3 font-bold text-story-deep shadow-soft"
           >
             进入系列 ▸
           </span>
@@ -214,8 +235,8 @@ const brief = (text: string) => (text.length > 70 ? text.slice(0, 70) + '……'
             class="absolute inset-0 bg-gradient-to-br from-story to-story-deep"
           ></div>
           <span
+            v-if="!card.story.cover"
             class="relative text-8xl drop-shadow-md"
-            :class="card.story.cover ? 'opacity-90' : ''"
             >{{ card.story.icon }}</span
           >
           <h2

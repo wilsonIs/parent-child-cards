@@ -1,0 +1,1417 @@
+{
+ "story_022": {
+  "title": "猴王出世",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "老猴",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "众猴",
+    "role": "crowd"
+   },
+   {
+    "i": 2,
+    "speaker": "老猴",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "石猴",
+    "role": "wukong"
+   },
+   {
+    "i": 4,
+    "speaker": "石碑",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "石猴",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "石猴",
+    "role": "wukong"
+   },
+   {
+    "i": 7,
+    "speaker": "石猴",
+    "role": "wukong"
+   },
+   {
+    "i": 8,
+    "speaker": "众猴",
+    "role": "crowd"
+   },
+   {
+    "i": 9,
+    "speaker": "众猴",
+    "role": "crowd"
+   },
+   {
+    "i": 10,
+    "speaker": "美猴王",
+    "role": "wukong"
+   },
+   {
+    "i": 11,
+    "speaker": "通背猿猴",
+    "role": "wukong"
+   },
+   {
+    "i": 12,
+    "speaker": "美猴王",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_061": {
+  "title": "猴王学艺",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "猴王",
+    "role": "wukong"
+   },
+   {
+    "i": 1,
+    "speaker": "路人",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "樵夫",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "猴王",
+    "role": "wukong"
+   },
+   {
+    "i": 4,
+    "speaker": "樵夫",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "猴王",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "樵夫",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "猴王",
+    "role": "wukong"
+   },
+   {
+    "i": 8,
+    "speaker": "樵夫",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "仙童",
+    "role": "child"
+   },
+   {
+    "i": 10,
+    "speaker": "猴王",
+    "role": "wukong"
+   },
+   {
+    "i": 11,
+    "speaker": "猴王",
+    "role": "wukong"
+   },
+   {
+    "i": 12,
+    "speaker": "祖师",
+    "role": "male_old"
+   },
+   {
+    "i": 13,
+    "speaker": "猴王",
+    "role": "wukong"
+   },
+   {
+    "i": 14,
+    "speaker": "祖师",
+    "role": "male_old"
+   },
+   {
+    "i": 15,
+    "speaker": "猴王",
+    "role": "wukong"
+   },
+   {
+    "i": 16,
+    "speaker": "祖师",
+    "role": "male_old"
+   },
+   {
+    "i": 17,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 18,
+    "speaker": "祖师",
+    "role": "male_old"
+   },
+   {
+    "i": 19,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 20,
+    "speaker": "祖师",
+    "role": "male_old"
+   },
+   {
+    "i": 21,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 22,
+    "speaker": "祖师",
+    "role": "male_old"
+   },
+   {
+    "i": 23,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 24,
+    "speaker": "祖师",
+    "role": "male_old"
+   },
+   {
+    "i": 25,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 26,
+    "speaker": "众师兄",
+    "role": "crowd"
+   },
+   {
+    "i": 27,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 28,
+    "speaker": "祖师",
+    "role": "male_old"
+   },
+   {
+    "i": 29,
+    "speaker": "祖师",
+    "role": "male_old"
+   },
+   {
+    "i": 30,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 31,
+    "speaker": "祖师",
+    "role": "male_old"
+   },
+   {
+    "i": 32,
+    "speaker": "祖师",
+    "role": "male_old"
+   },
+   {
+    "i": 33,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 34,
+    "speaker": "祖师",
+    "role": "male_old"
+   },
+   {
+    "i": 35,
+    "speaker": "祖师",
+    "role": "male_old"
+   },
+   {
+    "i": 36,
+    "speaker": "祖师",
+    "role": "male_old"
+   }
+  ]
+ },
+ "story_062": {
+  "title": "龙宫借宝",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 1,
+    "speaker": "老猴们",
+    "role": "crowd"
+   },
+   {
+    "i": 2,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 3,
+    "speaker": "混世魔王",
+    "role": "demon_male"
+   },
+   {
+    "i": 4,
+    "speaker": "悟空咒语",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "老猴",
+    "role": "male_old"
+   },
+   {
+    "i": 6,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 7,
+    "speaker": "龙王",
+    "role": "male_old"
+   },
+   {
+    "i": 8,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 9,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 10,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 11,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 12,
+    "speaker": "龙王",
+    "role": "male_old"
+   },
+   {
+    "i": 13,
+    "speaker": "龙婆龙女",
+    "role": "female_gentle"
+   },
+   {
+    "i": 14,
+    "speaker": "龙王",
+    "role": "male_old"
+   },
+   {
+    "i": 15,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 16,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 17,
+    "speaker": "金箍棒刻字",
+    "role": "non_speech"
+   },
+   {
+    "i": 18,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 19,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 20,
+    "speaker": "龙王",
+    "role": "male_old"
+   },
+   {
+    "i": 21,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 22,
+    "speaker": "小鬼",
+    "role": "demon_male"
+   },
+   {
+    "i": 23,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 24,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 25,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_063": {
+  "title": "大闹天宫",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "太白金星",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "玉帝",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "老臣",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 4,
+    "speaker": "同僚们",
+    "role": "crowd"
+   },
+   {
+    "i": 5,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "独角鬼王",
+    "role": "demon_male"
+   },
+   {
+    "i": 7,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 8,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 9,
+    "speaker": "七仙女",
+    "role": "female_gentle"
+   },
+   {
+    "i": 10,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 11,
+    "speaker": "仙女们",
+    "role": "female_gentle"
+   },
+   {
+    "i": 12,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 13,
+    "speaker": "仙女",
+    "role": "female_gentle"
+   },
+   {
+    "i": 14,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 15,
+    "speaker": "太上老君",
+    "role": "male_old"
+   },
+   {
+    "i": 16,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_064": {
+  "title": "五行山下",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 1,
+    "speaker": "如来",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 3,
+    "speaker": "如来",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 5,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 7,
+    "speaker": "如来",
+    "role": "male_old"
+   },
+   {
+    "i": 8,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 9,
+    "speaker": "如来",
+    "role": "male_old"
+   },
+   {
+    "i": 10,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 11,
+    "speaker": "观音",
+    "role": "female_gentle"
+   },
+   {
+    "i": 12,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 13,
+    "speaker": "观音",
+    "role": "female_gentle"
+   },
+   {
+    "i": 14,
+    "speaker": "观音",
+    "role": "female_gentle"
+   },
+   {
+    "i": 15,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 16,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 17,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_065": {
+  "title": "高老庄收八戒",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "高太公",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 3,
+    "speaker": "高太公",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "猪妖",
+    "role": "male_rough"
+   },
+   {
+    "i": 5,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 7,
+    "speaker": "猪妖",
+    "role": "male_rough"
+   },
+   {
+    "i": 8,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 9,
+    "speaker": "猪妖",
+    "role": "male_rough"
+   },
+   {
+    "i": 10,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 11,
+    "speaker": "猪悟能",
+    "role": "male_rough"
+   }
+  ]
+ },
+ "story_066": {
+  "title": "流沙河收沙僧",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "石碑",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 2,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 3,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 4,
+    "speaker": "观音",
+    "role": "female_gentle"
+   },
+   {
+    "i": 5,
+    "speaker": "沙僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 7,
+    "speaker": "沙僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "沙僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "沙僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 11,
+    "speaker": "沙僧",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "story_067": {
+  "title": "三打白骨精",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 1,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 2,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 3,
+    "speaker": "村姑",
+    "role": "female_bright"
+   },
+   {
+    "i": 4,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 7,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 8,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 9,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 10,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 11,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 12,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 13,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 14,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 15,
+    "speaker": "白骨刻字",
+    "role": "non_speech"
+   },
+   {
+    "i": 16,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 17,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 18,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 19,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 20,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 21,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 22,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "story_068": {
+  "title": "黑风山斗黑熊精",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "老院主",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 2,
+    "speaker": "土地神",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "黑熊精",
+    "role": "demon_male"
+   },
+   {
+    "i": 4,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 5,
+    "speaker": "黑熊精",
+    "role": "demon_male"
+   },
+   {
+    "i": 6,
+    "speaker": "仙丹",
+    "role": "non_speech"
+   },
+   {
+    "i": 7,
+    "speaker": "黑熊精",
+    "role": "demon_male"
+   },
+   {
+    "i": 8,
+    "speaker": "观音",
+    "role": "female_gentle"
+   }
+  ]
+ },
+ "story_069": {
+  "title": "大战红孩儿",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "红孩儿",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 3,
+    "speaker": "红孩儿",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 5,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "红孩儿",
+    "role": "child"
+   },
+   {
+    "i": 7,
+    "speaker": "观音",
+    "role": "female_gentle"
+   },
+   {
+    "i": 8,
+    "speaker": "红孩儿",
+    "role": "child"
+   }
+  ]
+ },
+ "story_070": {
+  "title": "车迟国斗法",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 1,
+    "speaker": "老和尚",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 3,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "虎力大仙",
+    "role": "demon_male"
+   },
+   {
+    "i": 5,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 7,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 8,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 9,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 10,
+    "speaker": "比试词",
+    "role": "non_speech"
+   },
+   {
+    "i": 11,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 12,
+    "speaker": "咒语",
+    "role": "non_speech"
+   },
+   {
+    "i": 13,
+    "speaker": "比试词",
+    "role": "non_speech"
+   },
+   {
+    "i": 14,
+    "speaker": "比试词",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_071": {
+  "title": "真假美猴王",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 1,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 2,
+    "speaker": "如来",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "如来",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "如来",
+    "role": "male_old"
+   }
+  ]
+ },
+ "story_072": {
+  "title": "三借芭蕉扇",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "灵吉菩萨",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "story_073": {
+  "title": "女儿国奇遇",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "妇人",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "妇人",
+    "role": "female_gentle"
+   },
+   {
+    "i": 3,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 4,
+    "speaker": "老婆婆",
+    "role": "female_gentle"
+   },
+   {
+    "i": 5,
+    "speaker": "女子们",
+    "role": "crowd"
+   },
+   {
+    "i": 6,
+    "speaker": "宫女",
+    "role": "female_gentle"
+   },
+   {
+    "i": 7,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 8,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 9,
+    "speaker": "观音",
+    "role": "female_gentle"
+   }
+  ]
+ },
+ "story_074": {
+  "title": "通天河降妖",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 1,
+    "speaker": "童名",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 3,
+    "speaker": "村民们",
+    "role": "crowd"
+   },
+   {
+    "i": 4,
+    "speaker": "象声词",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "观音",
+    "role": "female_gentle"
+   },
+   {
+    "i": 6,
+    "speaker": "大乌龟",
+    "role": "male_old"
+   }
+  ]
+ },
+ "story_075": {
+  "title": "盘丝洞",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 2,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "蜘蛛精",
+    "role": "demon_female"
+   },
+   {
+    "i": 4,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_076": {
+  "title": "狮驼岭",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "小童",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 2,
+    "speaker": "三个魔王",
+    "role": "demon_male"
+   },
+   {
+    "i": 3,
+    "speaker": "青狮精",
+    "role": "demon_male"
+   },
+   {
+    "i": 4,
+    "speaker": "大鹏精",
+    "role": "demon_male"
+   },
+   {
+    "i": 5,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "如来",
+    "role": "male_old"
+   }
+  ]
+ },
+ "story_077": {
+  "title": "小雷音寺",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 2,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "黄眉怪",
+    "role": "demon_male"
+   },
+   {
+    "i": 4,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 5,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "黄眉怪",
+    "role": "demon_male"
+   },
+   {
+    "i": 7,
+    "speaker": "法宝名",
+    "role": "non_speech"
+   },
+   {
+    "i": 8,
+    "speaker": "弥勒佛",
+    "role": "male_old"
+   }
+  ]
+ },
+ "story_078": {
+  "title": "偷吃人参果",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "镇元大仙",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 3,
+    "speaker": "象声词",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "土地",
+    "role": "male_old"
+   },
+   {
+    "i": 5,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 7,
+    "speaker": "镇元大仙",
+    "role": "male_old"
+   }
+  ]
+ },
+ "story_079": {
+  "title": "取经归来",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "如来",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "观音",
+    "role": "female_gentle"
+   },
+   {
+    "i": 2,
+    "speaker": "大乌龟",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "乌龟",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "刻石",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "标语",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_117": {
+  "title": "金角银角",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "银角大王",
+    "role": "demon_male"
+   },
+   {
+    "i": 1,
+    "speaker": "金角大王",
+    "role": "demon_male"
+   },
+   {
+    "i": 2,
+    "speaker": "银角大王",
+    "role": "demon_male"
+   },
+   {
+    "i": 3,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 4,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 5,
+    "speaker": "太上老君",
+    "role": "male_old"
+   }
+  ]
+ },
+ "story_118": {
+  "title": "黄袍怪",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 2,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 3,
+    "speaker": "小白龙",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 5,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   }
+  ]
+ }
+}

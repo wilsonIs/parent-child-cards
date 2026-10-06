@@ -112,15 +112,17 @@ export const GRADE_LEVEL: Record<string, number> = {
   拓展: 6,
 }
 
-/** 故事系列元数据（icon 与一句话简介） */
-export const SERIES_META: Record<string, { icon: string; desc: string }> = {
-  西游记: { icon: '🐒', desc: '取经路上降妖除魔的经典故事' },
+/** 故事系列元数据（icon、一句话简介、主题封面） */
+export const SERIES_META: Record<string, { icon: string; desc: string; cover?: string }> = {
+  西游记: { icon: '🐒', desc: '取经路上降妖除魔的经典故事', cover: 'assets/covers/themed/xyj.jpg' },
   三国演义: { icon: '⚔️', desc: '群雄逐鹿的智慧与忠义' },
-  一千零一夜: { icon: '🧞', desc: '阿拉伯的奇妙夜谭' },
-  格林童话: { icon: '👸', desc: '德国经典童话集' },
-  安徒生童话: { icon: '🦢', desc: '丹麦童话大师的经典作品' },
-  伊索寓言: { icon: '🦊', desc: '小动物讲出的大道理' },
-  成语故事: { icon: '📖', desc: '一条成语，一段来历' },
-  中国神话: { icon: '🌌', desc: '盘古开天到夸父逐日' },
-  民间传说: { icon: '🏮', desc: '流传千年的民间故事' },
+  一千零一夜: { icon: '🧞', desc: '阿拉伯的奇妙夜谭', cover: 'assets/covers/themed/arabian.jpg' },
+  格林童话: { icon: '👸', desc: '德国经典童话集', cover: 'assets/covers/themed/grimm.jpg' },
+  安徒生童话: { icon: '🦢', desc: '丹麦童话大师的经典作品', cover: 'assets/covers/themed/mermaid.jpg' },
+  伊索寓言: { icon: '🦊', desc: '小动物讲出的大道理', cover: 'assets/covers/themed/aesop.jpg' },
+  成语故事: { icon: '📖', desc: '一条成语，一段来历', cover: 'assets/covers/themed/idiom.jpg' },
+  中国神话: { icon: '🌌', desc: '盘古开天到夸父逐日', cover: 'assets/covers/themed/chinese_myth.jpg' },
+  民间传说: { icon: '🏮', desc: '流传千年的民间故事', cover: 'assets/covers/themed/folklore.jpg' },
+  王尔德童话: { icon: '🎭', desc: '王尔德笔下温柔又感伤的童话', cover: 'assets/covers/themed/happy_prince.jpg' },
+  国外经典: { icon: '📚', desc: '跨越时空的世界名著', cover: 'assets/covers/themed/alice.jpg' },
 }
