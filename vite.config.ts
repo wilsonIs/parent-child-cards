@@ -24,6 +24,8 @@ export default defineConfig({
         skipWaiting: true,
         clientsClaim: true,
         cleanupOutdatedCaches: true,
+        // 用 hash 路由，不需要 SPA 导航 fallback；静态资源直接命中文件
+        navigateFallback: null,
         // 运行时缓存策略：StaleWhileRevalidate = 先用缓存，后台拉新版本
         runtimeCaching: [
           {
