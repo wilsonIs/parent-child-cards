@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref, watch } from 'vue'
+import { computed, nextTick, ref, watch } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import FilterBar from '@/components/FilterBar.vue'
 import DishCard from '@/components/DishCard.vue'
@@ -33,6 +33,8 @@ function shuffle() {
   deck.value = arr
   idx.value = 0
   offsetY.value = 0
+  // 初始预加载前两张
+  nextTick(() => preloadNearby(0))
 }
 
 const idx = ref(0)
@@ -52,6 +54,20 @@ function go(delta: number) {
   const next = Math.min(Math.max(idx.value + delta, 0), deck.value.length - 1)
   idx.value = next
 }
+
+/** 预加载下一张菜谱的图片 */
+function preloadNearby(currentIdx: number) {
+  for (const offset of [1, 2]) {
+    const d = deck.value[currentIdx + offset]
+    if (d?.image) {
+      const img = new Image()
+      img.src = d.image
+    }
+  }
+}
+
+// idx 变化时预加载下一张
+watch(idx, (v) => preloadNearby(v))
 
 // ---- 触摸手势（touch-action:none 交给 JS，避免 Safari 橡皮筋）----
 let startY = 0

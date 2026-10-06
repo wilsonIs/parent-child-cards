@@ -57,7 +57,8 @@ function open(id: string) {
             v-if="st.cover"
             :src="st.cover"
             :alt="st.title"
-            class="h-12 w-12 shrink-0 rounded-2xl object-cover"
+            rounded="rounded-2xl"
+            class="h-12 w-12 shrink-0"
           />
           <span
             v-else

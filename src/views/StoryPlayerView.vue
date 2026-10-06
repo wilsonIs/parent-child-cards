@@ -90,6 +90,14 @@ watch(audioRef, (el) => {
 onBeforeUnmount(() => {
   unbind()
 })
+
+// 预加载封面图（进入播放页时立即触发）
+watch(story, (s) => {
+  if (s?.cover) {
+    const img = new Image()
+    img.src = s.cover
+  }
+})
 </script>
 
 <template>

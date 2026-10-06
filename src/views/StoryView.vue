@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref, watch } from 'vue'
+import { computed, nextTick, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { useDataStore } from '@/stores/data'
 import AppHeader from '@/components/AppHeader.vue'
@@ -93,6 +93,8 @@ function shuffle() {
   deck.value = arr
   idx.value = 0
   offsetY.value = 0
+  // 初始预加载前两张
+  nextTick(() => preloadNearby(0))
 }
 
 const idx = ref(0)
@@ -120,6 +122,22 @@ function openCard(card: Card) {
     router.push(`/story/${card.story.id}`)
   }
 }
+
+/** 预加载下一张卡片的图片到浏览器缓存 */
+function preloadNearby(currentIdx: number) {
+  for (const offset of [1, 2]) {
+    const card = deck.value[currentIdx + offset]
+    if (!card) continue
+    const src = card.kind === 'series' ? card.cover : card.story?.cover
+    if (src) {
+      const img = new Image()
+      img.src = src
+    }
+  }
+}
+
+// idx 变化时预加载下一张
+watch(idx, (v) => preloadNearby(v))
 
 // ---- 触摸手势 ----
 let startY = 0

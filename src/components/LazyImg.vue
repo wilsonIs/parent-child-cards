@@ -4,7 +4,7 @@ import { onBeforeUnmount, onMounted, ref } from 'vue'
 const props = defineProps<{
   src: string
   alt?: string
-  placeholder?: string
+  rounded?: string
 }>()
 
 const loaded = ref(false)
@@ -24,7 +24,7 @@ onMounted(() => {
         }
       }
     },
-    { rootMargin: '200px' },
+    { rootMargin: '300px' },
   )
   observer.observe(el.value)
 })
@@ -35,11 +35,19 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <img
-    ref="el"
-    :src="actualSrc"
-    :alt="alt"
-    loading="lazy"
-    @load="loaded = true"
-  />
+  <div ref="el" class="relative overflow-hidden bg-cream-200/60" :class="rounded">
+    <img
+      :src="actualSrc"
+      :alt="alt"
+      loading="lazy"
+      class="h-full w-full object-cover transition-opacity duration-300"
+      :class="loaded ? 'opacity-100' : 'opacity-0'"
+      @load="loaded = true"
+    />
+    <!-- 加载中骨架 -->
+    <div
+      v-if="!loaded"
+      class="absolute inset-0 animate-pulse bg-gradient-to-br from-cream-200/80 to-cream-300/40"
+    ></div>
+  </div>
 </template>
