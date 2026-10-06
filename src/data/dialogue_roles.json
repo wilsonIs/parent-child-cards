@@ -1413,5 +1413,320 @@
     "role": "male_adult"
    }
   ]
+ },
+ "story_003": {
+  "title": "刻舟求剑",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "落水声",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "同行人",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "掉剑人",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "同行人",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "掉剑人",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "落水声",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_004": {
+  "title": "亡羊补牢",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "邻居",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "养羊人",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "养羊人",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "长者",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_005": {
+  "title": "拔苗助长",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "农夫",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "农夫",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "农夫",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "儿子",
+    "role": "child"
+   }
+  ]
+ },
+ "story_006": {
+  "title": "狐假虎威",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "狐狸",
+    "role": "demon_female"
+   },
+   {
+    "i": 1,
+    "speaker": "老虎",
+    "role": "male_rough"
+   },
+   {
+    "i": 2,
+    "speaker": "狐狸",
+    "role": "demon_female"
+   },
+   {
+    "i": 3,
+    "speaker": "老虎",
+    "role": "male_rough"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_034": {
+  "title": "自相矛盾",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "卖矛人",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "卖矛人",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "围观者",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "卖矛人",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_035": {
+  "title": "惊弓之鸟",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "更羸",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "魏王",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "弓弦声",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "魏王",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "更羸",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_036": {
+  "title": "杯弓蛇影",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "客人",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "主人",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "客人",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "主人",
+    "role": "male_old"
+   }
+  ]
+ },
+ "story_037": {
+  "title": "画龙点睛",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "围观者",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "围观者",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "张僧繇",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "围观者",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "雷声",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_109": {
+  "title": "杞人忧天",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "开导者",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "杞人",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "开导者",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "杞人",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "开导者",
+    "role": "male_old"
+   },
+   {
+    "i": 5,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_113": {
+  "title": "庖丁解牛",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "剖牛声",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "文惠君",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "庖丁",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "文惠君",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
  }
 }

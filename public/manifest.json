@@ -1,7 +1,7 @@
 {
   "name": "亲子卡片箱",
   "short_name": "卡片箱",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#FBF7F0",
   "theme_color": "#FBF7F0",
