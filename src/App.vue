@@ -1,9 +1,5 @@
 <script setup lang="ts">
-import { useIdlePrefetch } from '@/composables/useIdlePrefetch'
 import { usePWAUpdate } from '@/composables/usePWAUpdate'
-
-// 空闲时预缓存音频
-useIdlePrefetch()
 
 // PWA 更新检测
 const { needRefresh, offlineReady, update, close } = usePWAUpdate()

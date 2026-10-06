@@ -38,12 +38,13 @@ export default defineConfig({
             },
           },
           {
-            // 音频：先播缓存，后台拉新版本
+            // 音频：先播缓存，后台拉新版本；网络失败时静默降级，不抛 no-response
             urlPattern: /\.(?:mp3|wav|m4a)$/,
-            handler: 'StaleWhileRevalidate',
+            handler: 'NetworkFirst',
             options: {
               cacheName: 'audio-cache',
               expiration: { maxEntries: 100, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              networkTimeoutSeconds: 10,
             },
           },
         ],
