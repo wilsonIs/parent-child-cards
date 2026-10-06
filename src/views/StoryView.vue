@@ -211,8 +211,10 @@ function mergedCats(story: Story): string[] {
           <!-- 有封面：图片铺满 + 暗色渐变遮罩保证文字可读 -->
           <template v-if="card.cover">
             <img
+              v-if="Math.abs(i - idx) <= 1"
               :src="card.cover"
               :alt="card.title"
+              loading="lazy"
               class="absolute inset-0 h-full w-full object-cover"
             />
             <div
@@ -249,8 +251,10 @@ function mergedCats(story: Story): string[] {
           <!-- 有封面：图片铺满 + 暗色渐变遮罩保证文字可读 -->
           <template v-if="card.story.cover">
             <img
+              v-if="Math.abs(i - idx) <= 1"
               :src="card.story.cover"
               :alt="card.story.title"
+              loading="lazy"
               class="absolute inset-0 h-full w-full object-cover"
             />
             <div

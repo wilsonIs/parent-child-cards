@@ -58,6 +58,7 @@ function pickRandom() {
         <img
           :src="`${BASE_URL}assets/covers/welcome.jpg`"
           alt=""
+          loading="lazy"
           class="absolute inset-0 h-full w-full object-cover"
         />
         <div class="relative flex items-center justify-between gap-3 p-6">
@@ -112,6 +113,7 @@ function pickRandom() {
               v-if="m.image"
               :src="m.image"
               :alt="m.title"
+              loading="lazy"
               class="absolute inset-0 h-full w-full object-cover"
             />
             <!-- 无图时的 emoji 水印 -->

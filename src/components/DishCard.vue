@@ -29,6 +29,7 @@ function toggleExpand() {
           v-if="dish.image"
           :src="dish.image"
           :alt="dish.name"
+          loading="lazy"
           class="h-full w-full object-cover"
         />
         <template v-else>

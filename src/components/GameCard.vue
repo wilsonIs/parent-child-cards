@@ -29,6 +29,7 @@ onMounted(() => {
           v-if="game.image"
           :src="game.image"
           :alt="game.title"
+          loading="lazy"
           class="h-full w-full object-cover"
         />
         <span v-else class="text-8xl drop-shadow-sm">{{ game.icon }}</span>

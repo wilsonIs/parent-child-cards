@@ -22,6 +22,7 @@ function open(id: string) {
         v-if="story.cover"
         :src="story.cover"
         :alt="story.title"
+        loading="lazy"
         class="h-full w-full object-cover"
       />
       <template v-else>

@@ -26,6 +26,7 @@ function toggleExpand() {
       <img
         :src="learn.image"
         :alt="learn.title"
+        loading="lazy"
         class="h-full w-full object-cover"
       />
     </div>

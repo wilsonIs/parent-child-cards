@@ -34,6 +34,7 @@ function open(id: string) {
           v-if="meta.cover"
           :src="meta.cover"
           :alt="name"
+          loading="lazy"
           class="h-44 w-full max-w-sm rounded-2xl object-cover shadow-soft"
         />
         <span v-else class="text-8xl drop-shadow-sm">{{ meta.icon ?? '📚' }}</span>
@@ -55,6 +56,7 @@ function open(id: string) {
             v-if="st.cover"
             :src="st.cover"
             :alt="st.title"
+            loading="lazy"
             class="h-12 w-12 shrink-0 rounded-2xl object-cover"
           />
           <span

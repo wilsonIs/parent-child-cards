@@ -104,6 +104,7 @@ onBeforeUnmount(() => {
           v-if="story.cover"
           :src="story.cover"
           :alt="story.title"
+          loading="lazy"
           class="h-48 w-full max-w-sm rounded-2xl object-cover shadow-soft"
         />
         <div v-else class="text-7xl">{{ story.icon }}</div>
