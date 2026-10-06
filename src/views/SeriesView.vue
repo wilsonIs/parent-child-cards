@@ -4,6 +4,7 @@ import { useRoute, useRouter } from 'vue-router'
 import { useDataStore } from '@/stores/data'
 import AppHeader from '@/components/AppHeader.vue'
 import EmptyState from '@/components/EmptyState.vue'
+import LazyImg from '@/components/LazyImg.vue'
 import { SERIES_META } from '@/config/modules'
 
 const route = useRoute()
@@ -52,11 +53,10 @@ function open(id: string) {
           class="card-soft flex items-center gap-4 p-4 text-left transition-transform active:scale-[0.98]"
           @click="open(st.id)"
         >
-          <img
+          <LazyImg
             v-if="st.cover"
             :src="st.cover"
             :alt="st.title"
-            loading="lazy"
             class="h-12 w-12 shrink-0 rounded-2xl object-cover"
           />
           <span

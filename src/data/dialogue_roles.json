@@ -1728,5 +1728,340 @@
     "role": "non_speech"
    }
   ]
+ },
+ "story_196": {
+  "title": "一鸣惊人",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "淳于髡",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "齐威王",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_197": {
+  "title": "一叶障目",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "楚人",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "楚人",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "楚人",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "妻子",
+    "role": "female_gentle"
+   },
+   {
+    "i": 4,
+    "speaker": "楚人",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "楚人",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "路人",
+    "role": "male_old"
+   },
+   {
+    "i": 7,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_198": {
+  "title": "一诺千金",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "楚地百姓",
+    "role": "crowd"
+   },
+   {
+    "i": 1,
+    "speaker": "季布",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "曹丘生",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_199": {
+  "title": "一鼓作气",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "曹刿",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "曹刿",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "曹刿",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "鲁庄公",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "曹刿",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_200": {
+  "title": "入木三分",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "称号",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "墨池",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "围观者",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_201": {
+  "title": "三顾茅庐",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "张飞",
+    "role": "male_rough"
+   },
+   {
+    "i": 1,
+    "speaker": "刘备",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "诸葛亮",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "刘备",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_202": {
+  "title": "大公无私",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "晋悼公",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "祁奚",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "晋悼公",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "祁奚",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "晋悼公",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "祁奚",
+    "role": "male_old"
+   },
+   {
+    "i": 6,
+    "speaker": "晋悼公",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "祁奚",
+    "role": "male_old"
+   },
+   {
+    "i": 8,
+    "speaker": "晋悼公",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_203": {
+  "title": "不耻下问",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "孔子",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "旁人",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "孔子",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "孔子",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_208": {
+  "title": "程门立雪",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "书童",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "杨时",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "同伴",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "杨时",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "程颐",
+    "role": "male_old"
+   },
+   {
+    "i": 5,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_209": {
+  "title": "铁杵磨针",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "李白",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "老奶奶",
+    "role": "female_gentle"
+   },
+   {
+    "i": 2,
+    "speaker": "李白",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "老奶奶",
+    "role": "female_gentle"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
  }
 }
