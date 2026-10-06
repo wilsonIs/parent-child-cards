@@ -24,9 +24,15 @@ onMounted(() => {
       @click="toggle"
     >
       <div
-        class="flex aspect-[5/3] items-center justify-center bg-gradient-to-b from-play to-play-deep"
+        class="flex aspect-[5/3] items-center justify-center overflow-hidden bg-gradient-to-b from-play to-play-deep"
       >
-        <span class="text-8xl drop-shadow-sm">{{ game.icon }}</span>
+        <img
+          v-if="game.image"
+          :src="game.image"
+          :alt="game.title"
+          class="h-full w-full object-cover"
+        />
+        <span v-else class="text-8xl drop-shadow-sm">{{ game.icon }}</span>
       </div>
 
       <div class="flex flex-1 flex-col gap-3 p-5">

@@ -25,48 +25,62 @@ function toggleToday() {
 </script>
 
 <template>
-  <article class="card-soft fade-up p-4" @click="toggleExpand">
-    <div class="flex flex-wrap items-center gap-2">
-      <span class="chip bg-learn-soft text-learn-deep">{{ learn.subject }}</span>
-      <span class="chip bg-learn-soft text-learn-deep">
-        {{ learn.resourceType }}
-      </span>
-      <span v-if="learn.grade" class="chip chip-off">{{ learn.grade }}</span>
+  <article class="card-soft fade-up overflow-hidden p-0" @click="toggleExpand">
+    <!-- 封面图（有图时显示） -->
+    <div
+      v-if="learn.image"
+      class="flex aspect-[16/9] items-center justify-center overflow-hidden"
+    >
+      <img
+        :src="learn.image"
+        :alt="learn.title"
+        class="h-full w-full object-cover"
+      />
     </div>
 
-    <h3 class="mt-2 text-base font-bold leading-snug text-ink">
-      {{ learn.title }}
-    </h3>
-    <p v-if="learn.source" class="mt-0.5 text-xs text-ink-muted">
-      {{ learn.source }}
-    </p>
+    <div class="p-4">
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="chip bg-learn-soft text-learn-deep">{{ learn.subject }}</span>
+        <span class="chip bg-learn-soft text-learn-deep">
+          {{ learn.resourceType }}
+        </span>
+        <span v-if="learn.grade" class="chip chip-off">{{ learn.grade }}</span>
+      </div>
 
-    <!-- 本地知识全文（默认 3 行，点击展开） -->
-    <p
-      class="mt-2 text-sm leading-relaxed text-ink-soft"
-      :class="expand ? '' : 'line-clamp-3'"
-    >
-      {{ learn.content }}
-    </p>
-    <span class="mt-1 inline-block text-xs text-learn-deep">
-      {{ expand ? '收起 ▲' : '展开阅读 ▼' }}
-    </span>
+      <h3 class="mt-2 text-base font-bold leading-snug text-ink">
+        {{ learn.title }}
+      </h3>
+      <p v-if="learn.source" class="mt-0.5 text-xs text-ink-muted">
+        {{ learn.source }}
+      </p>
 
-    <div class="mt-3 flex items-center justify-between gap-2">
-      <button
-        class="btn h-10 gap-1.5 px-4 text-sm"
-        :class="
-          today.has('learn', learn.id)
-            ? 'bg-ink text-cream'
-            : 'bg-cream-200 text-ink-soft'
-        "
-        @click.stop="toggleToday"
+      <!-- 本地知识全文（默认 3 行，点击展开） -->
+      <p
+        class="mt-2 text-sm leading-relaxed text-ink-soft"
+        :class="expand ? '' : 'line-clamp-3'"
       >
-        <span>{{ today.has('learn', learn.id) ? '✓' : '⭐' }}</span>
-        <span>{{ today.has('learn', learn.id) ? '已在今日' : '加入今日' }}</span>
-      </button>
+        {{ learn.content }}
+      </p>
+      <span class="mt-1 inline-block text-xs text-learn-deep">
+        {{ expand ? '收起 ▲' : '展开阅读 ▼' }}
+      </span>
 
-      <span class="text-xs text-ink-muted">📖 本地知识 · 可直接阅读</span>
+      <div class="mt-3 flex items-center justify-between gap-2">
+        <button
+          class="btn h-10 gap-1.5 px-4 text-sm"
+          :class="
+            today.has('learn', learn.id)
+              ? 'bg-ink text-cream'
+              : 'bg-cream-200 text-ink-soft'
+          "
+          @click.stop="toggleToday"
+        >
+          <span>{{ today.has('learn', learn.id) ? '✓' : '⭐' }}</span>
+          <span>{{ today.has('learn', learn.id) ? '已在今日' : '加入今日' }}</span>
+        </button>
+
+        <span class="text-xs text-ink-muted">📖 本地知识 · 可直接阅读</span>
+      </div>
     </div>
   </article>
 </template>

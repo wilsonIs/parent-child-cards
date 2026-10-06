@@ -3,7 +3,7 @@
     "id": "dish_001",
     "type": "dish",
     "name": "番茄炒蛋",
-    "image": "",
+    "image": "assets/covers/dishes/dish_001.jpg",
     "icon": "🍅",
     "tags": [
       "快手",
@@ -35,7 +35,7 @@
     "id": "dish_002",
     "type": "dish",
     "name": "蒸蛋羹",
-    "image": "",
+    "image": "assets/covers/dishes/dish_002.jpg",
     "icon": "🥚",
     "tags": [
       "快手",
@@ -66,7 +66,7 @@
     "id": "dish_003",
     "type": "dish",
     "name": "蔬菜粥",
-    "image": "",
+    "image": "assets/covers/dishes/dish_003.jpg",
     "icon": "🥣",
     "tags": [
       "主食",
@@ -98,7 +98,7 @@
     "id": "dish_004",
     "type": "dish",
     "name": "南瓜饼",
-    "image": "",
+    "image": "assets/covers/dishes/dish_004.jpg",
     "icon": "🎃",
     "tags": [
       "主食",
@@ -128,7 +128,7 @@
     "id": "dish_005",
     "type": "dish",
     "name": "青菜豆腐汤",
-    "image": "",
+    "image": "assets/covers/dishes/dish_005.jpg",
     "icon": "🥬",
     "tags": [
       "汤",
@@ -160,7 +160,7 @@
     "id": "dish_006",
     "type": "dish",
     "name": "土豆泥",
-    "image": "",
+    "image": "assets/covers/dishes/dish_006.jpg",
     "icon": "🥔",
     "tags": [
       "素菜",
@@ -191,7 +191,7 @@
     "id": "dish_007",
     "type": "dish",
     "name": "西兰花虾仁",
-    "image": "",
+    "image": "assets/covers/dishes/dish_007.jpg",
     "icon": "🥦",
     "tags": [
       "荤菜",
@@ -223,7 +223,7 @@
     "id": "dish_008",
     "type": "dish",
     "name": "鸡蛋面",
-    "image": "",
+    "image": "assets/covers/dishes/dish_008.jpg",
     "icon": "🍜",
     "tags": [
       "主食",
@@ -255,7 +255,7 @@
     "id": "dish_009",
     "type": "dish",
     "name": "小米粥",
-    "image": "",
+    "image": "assets/covers/dishes/dish_009.jpg",
     "icon": "🌾",
     "tags": [
       "主食",
@@ -284,7 +284,7 @@
     "id": "dish_010",
     "type": "dish",
     "name": "香蕉松饼",
-    "image": "",
+    "image": "assets/covers/dishes/dish_010.jpg",
     "icon": "🍌",
     "tags": [
       "主食",

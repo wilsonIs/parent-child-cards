@@ -5,10 +5,10 @@ import { computed } from 'vue'
 const route = useRoute()
 
 const tabs = [
-  { to: '/home', icon: '🏠', label: '首页' },
-  { to: '/today', icon: '⭐', label: '今日清单' },
-  { to: '/favorites', icon: '❤️', label: '收藏' },
-  { to: '/settings', icon: '⚙️', label: '设置' },
+  { to: '/home', icon: '/assets/icons/home.jpg', label: '首页' },
+  { to: '/today', icon: '/assets/icons/star.jpg', label: '今日清单' },
+  { to: '/favorites', icon: '/assets/icons/heart.jpg', label: '收藏' },
+  { to: '/settings', icon: '/assets/icons/settings.jpg', label: '设置' },
 ]
 
 const activeTo = computed(() => route.path)
@@ -33,7 +33,11 @@ const activeTo = computed(() => route.path)
             ? 'bg-gradient-to-b from-coral-soft to-coral-light shadow-soft'
             : 'bg-transparent'
         "
-        ><span class="text-xl leading-none">{{ t.icon }}</span></span
+        ><img
+          :src="t.icon"
+          :alt="t.label"
+          class="h-6 w-6 rounded-full object-cover"
+        /></span
       >
       <span
         class="text-xs"

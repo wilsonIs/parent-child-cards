@@ -42,6 +42,7 @@ export interface Game {
   id: string
   type: 'game'
   title: string
+  image?: string
   icon: string
   scenes: string[]
   types: string[]
@@ -60,6 +61,7 @@ export interface Learn {
   id: string
   type: 'learn'
   title: string
+  image?: string
   subject: string
   grade: string
   resourceType: string
@@ -117,4 +119,5 @@ export interface ModuleMeta {
   icon: string
   to: string
   colorClass: string
+  image?: string
 }

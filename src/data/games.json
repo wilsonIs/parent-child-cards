@@ -26,7 +26,8 @@
     ],
     "tips": "孩子小就把动的标准放宽，衣服飘动也算没动，多给几次机会。",
     "source": "民间传统游戏",
-    "license": "原创改写"
+    "license": "原创改写",
+    "image": "assets/covers/games/game_home_001.jpg"
   },
   {
     "id": "game_home_002",
@@ -57,7 +58,8 @@
     ],
     "tips": "丢的位置让孩子自己挑，提醒别总丢给同一个人。",
     "source": "民间传统游戏",
-    "license": "原创改写"
+    "license": "原创改写",
+    "image": "assets/covers/games/game_home_002.jpg"
   },
   {
     "id": "game_outdoor_001",
@@ -87,7 +89,8 @@
     ],
     "tips": "孩子小可以少画几格、允许双脚落地，重点是玩得开心。",
     "source": "民间传统游戏",
-    "license": "原创改写"
+    "license": "原创改写",
+    "image": "assets/covers/games/game_outdoor_001.jpg"
   },
   {
     "id": "game_home_003",
@@ -118,7 +121,8 @@
     ],
     "tips": "先教两三个简单花样，孩子学会后会很得意，再慢慢加难度。",
     "source": "民间传统游戏",
-    "license": "原创改写"
+    "license": "原创改写",
+    "image": "assets/covers/games/game_home_003.jpg"
   },
   {
     "id": "game_outdoor_002",
@@ -146,7 +150,8 @@
     ],
     "tips": "人多场地小就少排几只小鸡，注意别撞到桌椅和墙角。",
     "source": "民间传统游戏",
-    "license": "原创改写"
+    "license": "原创改写",
+    "image": "assets/covers/games/game_outdoor_002.jpg"
   },
   {
     "id": "game_outdoor_003",
@@ -174,7 +179,8 @@
     ],
     "tips": "可以加黄灯慢走环节，增加变化，孩子会更专注听口令。",
     "source": "民间传统游戏",
-    "license": "原创改写"
+    "license": "原创改写",
+    "image": "assets/covers/games/game_outdoor_003.jpg"
   },
   {
     "id": "game_trip_001",
@@ -202,7 +208,8 @@
     ],
     "tips": "高速上尤其管用，孩子会盯着窗外看，安静又专注。",
     "source": "原创改写",
-    "license": "原创改写"
+    "license": "原创改写",
+    "image": "assets/covers/games/game_trip_001.jpg"
   },
   {
     "id": "game_verbal_001",
@@ -231,7 +238,8 @@
     ],
     "tips": "孩子小可以放宽到词语接龙，只要同字开头即可，先建立信心。",
     "source": "民间传统游戏",
-    "license": "原创改写"
+    "license": "原创改写",
+    "image": "assets/covers/games/game_verbal_001.jpg"
   },
   {
     "id": "game_verbal_002",
@@ -262,7 +270,8 @@
     ],
     "tips": "排队等餐时玩最合适，不动地方也能让孩子专注又开心。",
     "source": "原创改写",
-    "license": "原创改写"
+    "license": "原创改写",
+    "image": "assets/covers/games/game_verbal_002.jpg"
   },
   {
     "id": "game_home_004",
@@ -291,7 +300,8 @@
     ],
     "tips": "睡前玩可以放慢节奏，灯光柔和，越玩越安静。",
     "source": "原创改写",
-    "license": "原创改写"
+    "license": "原创改写",
+    "image": "assets/covers/games/game_home_004.jpg"
   },
   {
     "id": "game_home_005",

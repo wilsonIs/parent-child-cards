@@ -454,31 +454,26 @@
    },
    {
     "i": 11,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 12,
     "speaker": "仙女们",
     "role": "female_gentle"
    },
    {
-    "i": 12,
+    "i": 13,
     "speaker": "悟空",
     "role": "wukong"
-   },
-   {
-    "i": 13,
-    "speaker": "仙女",
-    "role": "female_gentle"
    },
    {
     "i": 14,
-    "speaker": "悟空",
-    "role": "wukong"
-   },
-   {
-    "i": 15,
     "speaker": "太上老君",
     "role": "male_old"
    },
    {
-    "i": 16,
+    "i": 15,
     "speaker": "悟空",
     "role": "wukong"
    }
@@ -1410,6 +1405,3581 @@
    {
     "i": 5,
     "speaker": "唐僧",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "story_182": {
+  "title": "鹰愁涧收白龙马",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "水声",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "水声",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 4,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 5,
+    "speaker": "观音菩萨",
+    "role": "female_gentle"
+   },
+   {
+    "i": 6,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "观音菩萨",
+    "role": "female_gentle"
+   },
+   {
+    "i": 8,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_183": {
+  "title": "大战黄风怪",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "风声",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "风声",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 3,
+    "speaker": "黄风怪",
+    "role": "demon_male"
+   },
+   {
+    "i": 4,
+    "speaker": "灵吉菩萨",
+    "role": "male_old"
+   },
+   {
+    "i": 5,
+    "speaker": "灵吉菩萨",
+    "role": "male_old"
+   },
+   {
+    "i": 6,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 7,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_184": {
+  "title": "四圣试禅心",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "黎山老母",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "黎山老母",
+    "role": "female_gentle"
+   },
+   {
+    "i": 2,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "黎山老母",
+    "role": "female_gentle"
+   },
+   {
+    "i": 4,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 5,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 7,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "法术声",
+    "role": "non_speech"
+   },
+   {
+    "i": 9,
+    "speaker": "观音菩萨",
+    "role": "female_gentle"
+   },
+   {
+    "i": 10,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 11,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_185": {
+  "title": "乌鸡国降妖",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "国王鬼魂",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "国王鬼魂",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 3,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 5,
+    "speaker": "惊讶声",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 7,
+    "speaker": "文殊菩萨",
+    "role": "male_old"
+   },
+   {
+    "i": 8,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 9,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_186": {
+  "title": "朱紫国行医",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 1,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 3,
+    "speaker": "药水声",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 7,
+    "speaker": "爆炸声",
+    "role": "non_speech"
+   },
+   {
+    "i": 8,
+    "speaker": "观音菩萨",
+    "role": "female_gentle"
+   },
+   {
+    "i": 9,
+    "speaker": "八戒",
+    "role": "male_rough"
+   }
+  ]
+ },
+ "story_187": {
+  "title": "比丘国救小儿",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 1,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 2,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 3,
+    "speaker": "南极仙翁",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "百姓",
+    "role": "crowd"
+   },
+   {
+    "i": 5,
+    "speaker": "八戒",
+    "role": "male_rough"
+   }
+  ]
+ },
+ "story_188": {
+  "title": "无底洞",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "声音",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 2,
+    "speaker": "老鼠精",
+    "role": "demon_female"
+   },
+   {
+    "i": 3,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 4,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 5,
+    "speaker": "八戒",
+    "role": "male_rough"
+   }
+  ]
+ },
+ "story_189": {
+  "title": "灭法国",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 1,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 2,
+    "speaker": "剃头声",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "王后",
+    "role": "female_gentle"
+   },
+   {
+    "i": 5,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "大臣",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "兵士",
+    "role": "crowd"
+   },
+   {
+    "i": 9,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 11,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 12,
+    "speaker": "国名",
+    "role": "non_speech"
+   },
+   {
+    "i": 13,
+    "speaker": "八戒",
+    "role": "male_rough"
+   }
+  ]
+ },
+ "story_190": {
+  "title": "隐雾山",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "豹子精",
+    "role": "demon_male"
+   },
+   {
+    "i": 1,
+    "speaker": "小妖",
+    "role": "demon_male"
+   },
+   {
+    "i": 2,
+    "speaker": "人头",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 4,
+    "speaker": "豹子精",
+    "role": "demon_male"
+   },
+   {
+    "i": 5,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 6,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_191": {
+  "title": "凤仙郡祈雨",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "百姓",
+    "role": "crowd"
+   },
+   {
+    "i": 1,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 2,
+    "speaker": "龙王",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "玉帝",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 5,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "鞭声",
+    "role": "non_speech"
+   },
+   {
+    "i": 7,
+    "speaker": "雷声",
+    "role": "non_speech"
+   },
+   {
+    "i": 8,
+    "speaker": "百姓",
+    "role": "crowd"
+   },
+   {
+    "i": 9,
+    "speaker": "百姓",
+    "role": "crowd"
+   },
+   {
+    "i": 10,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_192": {
+  "title": "玉华州",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 1,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 2,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 3,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 4,
+    "speaker": "妖怪",
+    "role": "demon_male"
+   },
+   {
+    "i": 5,
+    "speaker": "风声",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "天尊",
+    "role": "male_old"
+   },
+   {
+    "i": 7,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_193": {
+  "title": "天竺国玉兔",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "宫人",
+    "role": "crowd"
+   },
+   {
+    "i": 1,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 4,
+    "speaker": "太阴星君",
+    "role": "female_gentle"
+   },
+   {
+    "i": 5,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "太阴星君",
+    "role": "female_gentle"
+   },
+   {
+    "i": 7,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "八戒",
+    "role": "male_rough"
+   }
+  ]
+ },
+ "story_195": {
+  "title": "铜台府",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "寇善人",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "家人",
+    "role": "crowd"
+   },
+   {
+    "i": 2,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 3,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 4,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 5,
+    "speaker": "寇善人",
+    "role": "male_old"
+   },
+   {
+    "i": 6,
+    "speaker": "唐僧",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "八戒",
+    "role": "male_rough"
+   },
+   {
+    "i": 8,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_014": {
+  "title": "小红帽",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "妈妈",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "大灰狼",
+    "role": "demon_male"
+   },
+   {
+    "i": 2,
+    "speaker": "小红帽",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "大灰狼",
+    "role": "demon_male"
+   },
+   {
+    "i": 4,
+    "speaker": "小红帽",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "小红帽",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "大灰狼",
+    "role": "demon_male"
+   },
+   {
+    "i": 7,
+    "speaker": "小红帽",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "大灰狼",
+    "role": "demon_male"
+   },
+   {
+    "i": 9,
+    "speaker": "小红帽",
+    "role": "child"
+   },
+   {
+    "i": 10,
+    "speaker": "大灰狼",
+    "role": "demon_male"
+   },
+   {
+    "i": 11,
+    "speaker": "小红帽",
+    "role": "child"
+   },
+   {
+    "i": 12,
+    "speaker": "大灰狼",
+    "role": "demon_male"
+   }
+  ]
+ },
+ "story_172": {
+  "title": "狼和七只小羊",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "羊妈妈",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "小羊们",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "敲门声",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "大灰狼",
+    "role": "demon_male"
+   },
+   {
+    "i": 4,
+    "speaker": "小羊们",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "大灰狼",
+    "role": "demon_male"
+   },
+   {
+    "i": 6,
+    "speaker": "小羊们",
+    "role": "child"
+   },
+   {
+    "i": 7,
+    "speaker": "小羊们",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "大灰狼",
+    "role": "demon_male"
+   },
+   {
+    "i": 9,
+    "speaker": "羊妈妈",
+    "role": "female_gentle"
+   },
+   {
+    "i": 10,
+    "speaker": "小羊们",
+    "role": "child"
+   },
+   {
+    "i": 11,
+    "speaker": "羊妈妈",
+    "role": "female_gentle"
+   },
+   {
+    "i": 12,
+    "speaker": "落水声",
+    "role": "non_speech"
+   },
+   {
+    "i": 13,
+    "speaker": "小羊们",
+    "role": "child"
+   }
+  ]
+ },
+ "story_174": {
+  "title": "勇敢的小裁缝",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "拍打声",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "小裁缝",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "小裁缝",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "围观者",
+    "role": "crowd"
+   },
+   {
+    "i": 4,
+    "speaker": "小裁缝",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "风声",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "巨人",
+    "role": "demon_male"
+   },
+   {
+    "i": 7,
+    "speaker": "布条字",
+    "role": "non_speech"
+   },
+   {
+    "i": 8,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "小裁缝",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 11,
+    "speaker": "公主",
+    "role": "female_gentle"
+   },
+   {
+    "i": 12,
+    "speaker": "小裁缝",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "story_171": {
+  "title": "笨汉汉斯",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "称呼",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "笨汉汉斯",
+    "role": "male_rough"
+   },
+   {
+    "i": 2,
+    "speaker": "爸爸",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "赶羊声",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "笨汉汉斯",
+    "role": "male_rough"
+   },
+   {
+    "i": 5,
+    "speaker": "笨汉汉斯",
+    "role": "male_rough"
+   },
+   {
+    "i": 6,
+    "speaker": "笨汉汉斯",
+    "role": "male_rough"
+   },
+   {
+    "i": 7,
+    "speaker": "公主",
+    "role": "female_gentle"
+   },
+   {
+    "i": 8,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "笨汉汉斯",
+    "role": "male_rough"
+   },
+   {
+    "i": 11,
+    "speaker": "公主",
+    "role": "female_gentle"
+   },
+   {
+    "i": 12,
+    "speaker": "笨汉汉斯",
+    "role": "male_rough"
+   },
+   {
+    "i": 13,
+    "speaker": "公主",
+    "role": "female_gentle"
+   },
+   {
+    "i": 14,
+    "speaker": "拍打声",
+    "role": "non_speech"
+   },
+   {
+    "i": 15,
+    "speaker": "笨汉汉斯",
+    "role": "male_rough"
+   },
+   {
+    "i": 16,
+    "speaker": "公主",
+    "role": "female_gentle"
+   },
+   {
+    "i": 17,
+    "speaker": "称呼",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_141": {
+  "title": "爱丽丝梦游仙境·疯帽子的茶会",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "门牌",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "疯帽匠",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "三月兔",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "疯帽匠",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "疯帽匠",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "睡鼠",
+    "role": "child"
+   },
+   {
+    "i": 7,
+    "speaker": "三月兔",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 9,
+    "speaker": "疯帽匠",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 11,
+    "speaker": "三月兔",
+    "role": "male_adult"
+   },
+   {
+    "i": 12,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 13,
+    "speaker": "疯帽匠",
+    "role": "male_adult"
+   },
+   {
+    "i": 14,
+    "speaker": "爱丽丝",
+    "role": "child"
+   }
+  ]
+ },
+ "story_151": {
+  "title": "汤姆索亚历险记·刷墙的妙计",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "本",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "本",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "本",
+    "role": "child"
+   },
+   {
+    "i": 7,
+    "speaker": "标语",
+    "role": "non_speech"
+   },
+   {
+    "i": 8,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 9,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 10,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 11,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 12,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 13,
+    "speaker": "旁白",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_154": {
+  "title": "汤姆索亚历险记·荒岛历险",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "哈克",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "木牌字",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "词",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "木牌字",
+    "role": "non_speech"
+   },
+   {
+    "i": 7,
+    "speaker": "孩子们",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "姑妈",
+    "role": "female_gentle"
+   },
+   {
+    "i": 9,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 10,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 11,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 12,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 13,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 14,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 15,
+    "speaker": "旁白",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_157": {
+  "title": "八十天环游地球·福格先生的赌约",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "俱乐部会员",
+    "role": "crowd"
+   },
+   {
+    "i": 1,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "俱乐部会员",
+    "role": "crowd"
+   },
+   {
+    "i": 3,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "路路通",
+    "role": "male_rough"
+   },
+   {
+    "i": 6,
+    "speaker": "警探",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 8,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 9,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 10,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 11,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 12,
+    "speaker": "旁白",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_158": {
+  "title": "八十天环游地球·旅途风波",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "路路通",
+    "role": "male_rough"
+   },
+   {
+    "i": 1,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "路路通",
+    "role": "male_rough"
+   },
+   {
+    "i": 3,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "菲克斯警探",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "菲克斯警探",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "路路通",
+    "role": "male_rough"
+   },
+   {
+    "i": 8,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "路路通",
+    "role": "male_rough"
+   },
+   {
+    "i": 10,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 11,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 12,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 13,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 14,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 15,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 16,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 17,
+    "speaker": "旁白",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_159": {
+  "title": "八十天环游地球·印度奇遇",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "场景词",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "路路通",
+    "role": "male_rough"
+   },
+   {
+    "i": 2,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "祭司",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "艾娥达小姐",
+    "role": "female_gentle"
+   },
+   {
+    "i": 7,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "路路通",
+    "role": "male_rough"
+   },
+   {
+    "i": 10,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 11,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 12,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 13,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 14,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 15,
+    "speaker": "旁白",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_160": {
+  "title": "八十天环游地球·香港失散",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "菲克斯警探",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "路路通",
+    "role": "male_rough"
+   },
+   {
+    "i": 2,
+    "speaker": "菲克斯警探",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "路路通",
+    "role": "male_rough"
+   },
+   {
+    "i": 4,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 7,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 8,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 9,
+    "speaker": "旁白",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_161": {
+  "title": "八十天环游地球·大西洋惊魂",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "路路通",
+    "role": "male_rough"
+   },
+   {
+    "i": 1,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "路路通",
+    "role": "male_rough"
+   },
+   {
+    "i": 3,
+    "speaker": "船名",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "船长",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "船长",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "路路通",
+    "role": "male_rough"
+   },
+   {
+    "i": 10,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 11,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 12,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 13,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 14,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 15,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 16,
+    "speaker": "旁白",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_162": {
+  "title": "八十天环游地球·最后一刻",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "菲克斯警探",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "路路通",
+    "role": "male_rough"
+   },
+   {
+    "i": 2,
+    "speaker": "菲克斯警探",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "路路通",
+    "role": "male_rough"
+   },
+   {
+    "i": 4,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "路路通",
+    "role": "male_rough"
+   },
+   {
+    "i": 6,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 8,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 9,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 10,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 11,
+    "speaker": "旁白",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_133": {
+  "title": "绿野仙踪·龙卷风",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "亨利叔叔",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "芒奇金人",
+    "role": "crowd"
+   },
+   {
+    "i": 2,
+    "speaker": "北方女巫",
+    "role": "female_gentle"
+   },
+   {
+    "i": 3,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "北方女巫",
+    "role": "female_gentle"
+   }
+  ]
+ },
+ "story_134": {
+  "title": "绿野仙踪·稻草人",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 9,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "狮子吼",
+    "role": "non_speech"
+   },
+   {
+    "i": 11,
+    "speaker": "胆小狮",
+    "role": "male_rough"
+   }
+  ]
+ },
+ "story_135": {
+  "title": "绿野仙踪·铁皮人和狮子",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "胆小狮",
+    "role": "male_rough"
+   },
+   {
+    "i": 1,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "胆小狮",
+    "role": "male_rough"
+   },
+   {
+    "i": 3,
+    "speaker": "铁皮声",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "铁皮人",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "铁皮声",
+    "role": "non_speech"
+   },
+   {
+    "i": 7,
+    "speaker": "铁皮人",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 9,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "多萝西",
+    "role": "child"
+   }
+  ]
+ },
+ "story_136": {
+  "title": "绿野仙踪·翡翠城",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "守门人",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "守门人",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "守门人",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "奥兹大王",
+    "role": "male_old"
+   },
+   {
+    "i": 5,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "奥兹大王",
+    "role": "male_old"
+   },
+   {
+    "i": 7,
+    "speaker": "奥兹大王",
+    "role": "male_old"
+   },
+   {
+    "i": 8,
+    "speaker": "奥兹大王",
+    "role": "male_old"
+   },
+   {
+    "i": 9,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 10,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   },
+   {
+    "i": 11,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "story_137": {
+  "title": "绿野仙踪·西方恶女巫",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "西方恶女巫",
+    "role": "demon_female"
+   },
+   {
+    "i": 1,
+    "speaker": "西方恶女巫",
+    "role": "demon_female"
+   },
+   {
+    "i": 2,
+    "speaker": "铁皮声",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "西方恶女巫",
+    "role": "demon_female"
+   },
+   {
+    "i": 4,
+    "speaker": "西方恶女巫",
+    "role": "demon_female"
+   },
+   {
+    "i": 5,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "胆小狮",
+    "role": "male_rough"
+   },
+   {
+    "i": 7,
+    "speaker": "铁皮人",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "芒奇金人",
+    "role": "crowd"
+   }
+  ]
+ },
+ "story_138": {
+  "title": "绿野仙踪·回家",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "称号",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "奥兹大王",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "奥兹大王",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "风声",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "北方女巫",
+    "role": "female_gentle"
+   },
+   {
+    "i": 6,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 7,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "风声",
+    "role": "non_speech"
+   },
+   {
+    "i": 9,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 10,
+    "speaker": "艾姆婶婶",
+    "role": "female_gentle"
+   },
+   {
+    "i": 11,
+    "speaker": "多萝西",
+    "role": "child"
+   }
+  ]
+ },
+ "story_139": {
+  "title": "爱丽丝梦游仙境·掉进兔子洞",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "白兔",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "瓶签字",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "蛋糕签字",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 7,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "爱丽丝",
+    "role": "child"
+   }
+  ]
+ },
+ "story_140": {
+  "title": "爱丽丝梦游仙境·毛毛虫的建议",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "鸽子",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "毛毛虫",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "毛毛虫",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "毛毛虫",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "毛毛虫",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "爱丽丝",
+    "role": "child"
+   }
+  ]
+ },
+ "story_142": {
+  "title": "爱丽丝梦游仙境·红心皇后的槌球场",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "柴郡猫",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "柴郡猫",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "柴郡猫",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "柴郡猫",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "红心皇后",
+    "role": "demon_female"
+   },
+   {
+    "i": 7,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "红心皇后",
+    "role": "demon_female"
+   },
+   {
+    "i": 9,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 10,
+    "speaker": "柴郡猫",
+    "role": "male_adult"
+   },
+   {
+    "i": 11,
+    "speaker": "柴郡猫",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "story_143": {
+  "title": "爱丽丝梦游仙境·偷馅饼的审判",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "白兔",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "白兔",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "帽匠",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "红心皇后",
+    "role": "demon_female"
+   },
+   {
+    "i": 4,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "睡鼠",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "红心皇后",
+    "role": "demon_female"
+   },
+   {
+    "i": 7,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "姐姐",
+    "role": "female_gentle"
+   },
+   {
+    "i": 9,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 10,
+    "speaker": "姐姐",
+    "role": "female_gentle"
+   }
+  ]
+ },
+ "story_144": {
+  "title": "爱丽丝梦游仙境·奇妙的梦境",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "回声",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "姐姐",
+    "role": "female_gentle"
+   },
+   {
+    "i": 4,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "姐姐",
+    "role": "female_gentle"
+   },
+   {
+    "i": 6,
+    "speaker": "爱丽丝",
+    "role": "child"
+   }
+  ]
+ },
+ "story_145": {
+  "title": "木偶奇遇记·会说话的木偶",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "老木匠",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "老木匠",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "老木匠",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "老木匠",
+    "role": "male_old"
+   },
+   {
+    "i": 5,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "鼓乐声",
+    "role": "non_speech"
+   },
+   {
+    "i": 7,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "木偶们",
+    "role": "crowd"
+   },
+   {
+    "i": 9,
+    "speaker": "班主",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "皮诺曹",
+    "role": "child"
+   }
+  ]
+ },
+ "story_146": {
+  "title": "木偶奇遇记·金色的硬币",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "班主",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "狐狸",
+    "role": "male_rough"
+   },
+   {
+    "i": 3,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "猫",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "狐狸",
+    "role": "male_rough"
+   },
+   {
+    "i": 7,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "猫",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 10,
+    "speaker": "仙女",
+    "role": "female_gentle"
+   },
+   {
+    "i": 11,
+    "speaker": "仙女",
+    "role": "female_gentle"
+   }
+  ]
+ },
+ "story_147": {
+  "title": "木偶奇遇记·说谎的鼻子",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "仙女",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "嗖",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "仙女",
+    "role": "female_gentle"
+   },
+   {
+    "i": 5,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 7,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "仙女",
+    "role": "female_gentle"
+   },
+   {
+    "i": 9,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 10,
+    "speaker": "嗖",
+    "role": "non_speech"
+   },
+   {
+    "i": 11,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 12,
+    "speaker": "仙女",
+    "role": "female_gentle"
+   },
+   {
+    "i": 13,
+    "speaker": "皮诺曹",
+    "role": "child"
+   }
+  ]
+ },
+ "story_148": {
+  "title": "木偶奇遇记·玩具国",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "小灯芯",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "车夫",
+    "role": "male_rough"
+   },
+   {
+    "i": 3,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "小灯芯",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "驴叫",
+    "role": "non_speech"
+   },
+   {
+    "i": 7,
+    "speaker": "招牌",
+    "role": "non_speech"
+   },
+   {
+    "i": 8,
+    "speaker": "皮诺曹",
+    "role": "child"
+   }
+  ]
+ },
+ "story_149": {
+  "title": "木偶奇遇记·鲨鱼肚子里的重逢",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "杰佩托",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "喷嚏",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "杰佩托",
+    "role": "male_old"
+   },
+   {
+    "i": 6,
+    "speaker": "仙女",
+    "role": "female_gentle"
+   }
+  ]
+ },
+ "story_150": {
+  "title": "木偶奇遇记·真正的男孩",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "杰佩托",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "仙女",
+    "role": "female_gentle"
+   },
+   {
+    "i": 3,
+    "speaker": "邻居们",
+    "role": "crowd"
+   },
+   {
+    "i": 4,
+    "speaker": "杰佩托",
+    "role": "male_old"
+   }
+  ]
+ },
+ "story_152": {
+  "title": "汤姆索亚历险记·贝琪和学校",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "男孩",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "贝琪",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "书名",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "贝琪",
+    "role": "child"
+   },
+   {
+    "i": 7,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 9,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 10,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 11,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 12,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 13,
+    "speaker": "旁白",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_153": {
+  "title": "汤姆索亚历险记·坟场惨案",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "词",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "印第安乔埃",
+    "role": "male_rough"
+   },
+   {
+    "i": 2,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "哈克",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 7,
+    "speaker": "旁白",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_155": {
+  "title": "汤姆索亚历险记·洞穴探险",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "贝琪",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "贝琪",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "贝琪",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "旁白",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_156": {
+  "title": "汤姆索亚历险记·找到宝藏",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "哈克",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "镇上人",
+    "role": "crowd"
+   },
+   {
+    "i": 3,
+    "speaker": "哈克",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "旁白",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "旁白",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_163": {
+  "title": "快乐王子",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "小燕子",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "小燕子",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "小燕子",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "快乐王子",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "快乐王子",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "快乐王子",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "小燕子",
+    "role": "child"
+   },
+   {
+    "i": 7,
+    "speaker": "快乐王子",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "小燕子",
+    "role": "child"
+   },
+   {
+    "i": 9,
+    "speaker": "工人",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "天使",
+    "role": "male_old"
+   }
+  ]
+ },
+ "story_164": {
+  "title": "夜莺与玫瑰",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "学生",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "夜莺",
+    "role": "female_bright"
+   },
+   {
+    "i": 2,
+    "speaker": "夜莺",
+    "role": "female_bright"
+   },
+   {
+    "i": 3,
+    "speaker": "白玫瑰树",
+    "role": "female_gentle"
+   },
+   {
+    "i": 4,
+    "speaker": "黄玫瑰树",
+    "role": "female_gentle"
+   },
+   {
+    "i": 5,
+    "speaker": "红玫瑰树",
+    "role": "male_old"
+   },
+   {
+    "i": 6,
+    "speaker": "夜莺",
+    "role": "female_bright"
+   },
+   {
+    "i": 7,
+    "speaker": "学生",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "姑娘",
+    "role": "female_gentle"
+   },
+   {
+    "i": 9,
+    "speaker": "学生",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "story_165": {
+  "title": "自私的巨人",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "巨人",
+    "role": "demon_male"
+   },
+   {
+    "i": 1,
+    "speaker": "告示牌",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "巨人",
+    "role": "demon_male"
+   },
+   {
+    "i": 3,
+    "speaker": "巨人",
+    "role": "demon_male"
+   },
+   {
+    "i": 4,
+    "speaker": "巨人",
+    "role": "demon_male"
+   },
+   {
+    "i": 5,
+    "speaker": "巨人",
+    "role": "demon_male"
+   },
+   {
+    "i": 6,
+    "speaker": "巨人",
+    "role": "demon_male"
+   },
+   {
+    "i": 7,
+    "speaker": "孩子",
+    "role": "child"
+   }
+  ]
+ },
+ "story_166": {
+  "title": "忠实的朋友",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "磨坊主",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "磨坊主",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "小汉斯",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "磨坊主",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "磨坊主",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "磨坊主",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "磨坊主",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "小汉斯",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "磨坊主",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "小汉斯",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "磨坊主",
+    "role": "male_adult"
+   },
+   {
+    "i": 11,
+    "speaker": "邻居",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "story_167": {
+  "title": "了不起的火箭",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "火箭",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "烟花们",
+    "role": "crowd"
+   },
+   {
+    "i": 2,
+    "speaker": "火箭",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "火箭",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "火箭",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "火箭",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "火箭",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "轰鸣",
+    "role": "non_speech"
+   },
+   {
+    "i": 8,
+    "speaker": "火箭",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "啪",
+    "role": "non_speech"
+   },
+   {
+    "i": 10,
+    "speaker": "火箭",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "story_094": {
+  "title": "渔夫和他的妻子",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "比目鱼",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "渔夫妻",
+    "role": "female_gentle"
+   },
+   {
+    "i": 2,
+    "speaker": "比目鱼",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "渔夫",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "渔夫",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "渔夫",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "渔夫",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "比目鱼",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "story_095": {
+  "title": "皇帝的新装",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "骗子",
+    "role": "male_rough"
+   },
+   {
+    "i": 1,
+    "speaker": "大臣",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "词",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "大臣",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "百姓",
+    "role": "crowd"
+   },
+   {
+    "i": 5,
+    "speaker": "小孩",
+    "role": "child"
+   }
+  ]
+ },
+ "story_168": {
+  "title": "野天鹅",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "大哥哥",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "哥哥们",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "艾丽莎",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "哥哥们",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "百姓",
+    "role": "crowd"
+   }
+  ]
+ },
+ "story_169": {
+  "title": "打火匣",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "老巫婆",
+    "role": "demon_female"
+   },
+   {
+    "i": 1,
+    "speaker": "士兵",
+    "role": "male_rough"
+   },
+   {
+    "i": 2,
+    "speaker": "啪",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "大狗",
+    "role": "demon_male"
+   },
+   {
+    "i": 4,
+    "speaker": "士兵",
+    "role": "male_rough"
+   },
+   {
+    "i": 5,
+    "speaker": "士兵",
+    "role": "male_rough"
+   },
+   {
+    "i": 6,
+    "speaker": "士兵",
+    "role": "male_rough"
+   },
+   {
+    "i": 7,
+    "speaker": "百姓",
+    "role": "crowd"
+   }
+  ]
+ },
+ "story_173": {
+  "title": "金鹅",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "称呼",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "小老人",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "老大",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "小老人",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "傻小子",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "小老人",
+    "role": "male_old"
+   },
+   {
+    "i": 6,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "笑声",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_175": {
+  "title": "六只天鹅",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "女巫",
+    "role": "demon_female"
+   },
+   {
+    "i": 1,
+    "speaker": "大哥哥",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "王子",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "百姓",
+    "role": "crowd"
+   },
+   {
+    "i": 4,
+    "speaker": "王子",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "story_176": {
+  "title": "仓颉造字",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "仓颉",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "字",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "字",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "字",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "字",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "字",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "称号",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_178": {
+  "title": "吴刚伐桂",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "吴刚",
+    "role": "male_rough"
+   },
+   {
+    "i": 1,
+    "speaker": "砍伐声",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "玉帝",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "吴刚",
+    "role": "male_rough"
+   },
+   {
+    "i": 4,
+    "speaker": "砍伐声",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "旁白",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_179": {
+  "title": "鲤鱼跃龙门",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "鲤鱼们",
+    "role": "crowd"
+   },
+   {
+    "i": 1,
+    "speaker": "鲤鱼们",
+    "role": "crowd"
+   },
+   {
+    "i": 2,
+    "speaker": "鲤鱼们",
+    "role": "crowd"
+   },
+   {
+    "i": 3,
+    "speaker": "小鲤鱼",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "鲤鱼们",
+    "role": "crowd"
+   },
+   {
+    "i": 5,
+    "speaker": "水声",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "小鲤鱼",
+    "role": "child"
+   },
+   {
+    "i": 7,
+    "speaker": "结尾词",
+    "role": "non_speech"
+   },
+   {
+    "i": 8,
+    "speaker": "词",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_181": {
+  "title": "姜子牙钓鱼",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "路人",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "姜子牙",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "路人",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "姜子牙",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "周文王",
+    "role": "male_old"
+   },
+   {
+    "i": 5,
+    "speaker": "姜子牙",
+    "role": "male_old"
+   }
+  ]
+ },
+ "story_088": {
+  "title": "渔夫和魔鬼",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "魔鬼",
+    "role": "demon_male"
+   },
+   {
+    "i": 1,
+    "speaker": "渔夫",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "魔鬼",
+    "role": "demon_male"
+   },
+   {
+    "i": 3,
+    "speaker": "渔夫",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "魔鬼",
+    "role": "demon_male"
+   },
+   {
+    "i": 5,
+    "speaker": "啪",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "渔夫",
+    "role": "male_old"
+   }
+  ]
+ },
+ "story_009": {
+  "title": "狼来了",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "放羊娃",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "村民们",
+    "role": "crowd"
+   },
+   {
+    "i": 2,
+    "speaker": "放羊娃",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "放羊娃",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "放羊娃",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "村民们",
+    "role": "crowd"
+   }
+  ]
+ },
+ "story_058": {
+  "title": "北风和太阳",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "北风",
+    "role": "male_rough"
+   },
+   {
+    "i": 1,
+    "speaker": "太阳",
+    "role": "female_gentle"
+   },
+   {
+    "i": 2,
+    "speaker": "太阳",
+    "role": "female_gentle"
+   },
+   {
+    "i": 3,
+    "speaker": "北风",
+    "role": "male_rough"
+   },
+   {
+    "i": 4,
+    "speaker": "风声",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "行人",
     "role": "male_adult"
    }
   ]
