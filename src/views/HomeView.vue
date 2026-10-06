@@ -55,7 +55,7 @@ function pickRandom() {
         class="fade-up relative mx-4 mt-4 overflow-hidden rounded-4xl shadow-card"
       >
         <img
-          src="assets/covers/welcome.jpg"
+          :src="`${import.meta.env.BASE_URL}assets/covers/welcome.jpg`"
           alt=""
           class="absolute inset-0 h-full w-full object-cover"
         />
