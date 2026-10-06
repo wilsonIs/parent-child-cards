@@ -315,7 +315,7 @@
     "id": "dish_011",
     "type": "dish",
     "name": "鱼丸汤",
-    "image": "",
+    "image": "assets/covers/dishes/dish_011.jpg",
     "icon": "🐟",
     "tags": [
       "汤",
@@ -347,7 +347,7 @@
     "id": "dish_012",
     "type": "dish",
     "name": "胡萝卜饼",
-    "image": "",
+    "image": "assets/covers/dishes/dish_012.jpg",
     "icon": "🥕",
     "tags": [
       "主食",
@@ -379,7 +379,7 @@
     "id": "dish_013",
     "type": "dish",
     "name": "肉末蒸蛋",
-    "image": "",
+    "image": "assets/covers/dishes/dish_013.jpg",
     "icon": "🥚",
     "tags": [
       "荤菜",
@@ -411,7 +411,7 @@
     "id": "dish_014",
     "type": "dish",
     "name": "紫菜蛋花汤",
-    "image": "",
+    "image": "assets/covers/dishes/dish_014.jpg",
     "icon": "🥚",
     "tags": [
       "汤",
@@ -443,7 +443,7 @@
     "id": "dish_015",
     "type": "dish",
     "name": "土豆炖牛肉",
-    "image": "",
+    "image": "assets/covers/dishes/dish_015.jpg",
     "icon": "🥩",
     "tags": [
       "荤菜",
@@ -474,7 +474,7 @@
     "id": "dish_016",
     "type": "dish",
     "name": "番茄龙利鱼",
-    "image": "",
+    "image": "assets/covers/dishes/dish_016.jpg",
     "icon": "🐟",
     "tags": [
       "荤菜",
@@ -506,7 +506,7 @@
     "id": "dish_017",
     "type": "dish",
     "name": "蔬菜饭团",
-    "image": "",
+    "image": "assets/covers/dishes/dish_017.jpg",
     "icon": "🍙",
     "tags": [
       "主食",
@@ -538,7 +538,7 @@
     "id": "dish_018",
     "type": "dish",
     "name": "玉米排骨汤",
-    "image": "",
+    "image": "assets/covers/dishes/dish_018.jpg",
     "icon": "🌽",
     "tags": [
       "汤",
@@ -570,7 +570,7 @@
     "id": "dish_019",
     "type": "dish",
     "name": "苹果燕麦粥",
-    "image": "",
+    "image": "assets/covers/dishes/dish_019.jpg",
     "icon": "🍎",
     "tags": [
       "主食",
@@ -600,7 +600,7 @@
     "id": "dish_020",
     "type": "dish",
     "name": "芝士吐司",
-    "image": "",
+    "image": "assets/covers/dishes/dish_020.jpg",
     "icon": "🧀",
     "tags": [
       "快手",
@@ -631,7 +631,7 @@
     "id": "dish_021",
     "type": "dish",
     "name": "蔬菜小煎饼",
-    "image": "",
+    "image": "assets/covers/dishes/dish_021.jpg",
     "icon": "🥞",
     "tags": [
       "素菜",
@@ -663,7 +663,7 @@
     "id": "dish_022",
     "type": "dish",
     "name": "虾仁滑蛋",
-    "image": "",
+    "image": "assets/covers/dishes/dish_022.jpg",
     "icon": "🦐",
     "tags": [
       "荤菜",
@@ -695,7 +695,7 @@
     "id": "dish_023",
     "type": "dish",
     "name": "南瓜小米粥",
-    "image": "",
+    "image": "assets/covers/dishes/dish_023.jpg",
     "icon": "🎃",
     "tags": [
       "主食",
@@ -725,7 +725,7 @@
     "id": "dish_024",
     "type": "dish",
     "name": "菠菜猪肝粥",
-    "image": "",
+    "image": "assets/covers/dishes/dish_024.jpg",
     "icon": "🥬",
     "tags": [
       "主食",
@@ -757,7 +757,7 @@
     "id": "dish_025",
     "type": "dish",
     "name": "三鲜豆腐",
-    "image": "",
+    "image": "assets/covers/dishes/dish_025.jpg",
     "icon": "🧈",
     "tags": [
       "素菜",
@@ -789,7 +789,7 @@
     "id": "dish_026",
     "type": "dish",
     "name": "番茄牛腩",
-    "image": "",
+    "image": "assets/covers/dishes/dish_026.jpg",
     "icon": "🍅",
     "tags": [
       "荤菜",
@@ -820,7 +820,7 @@
     "id": "dish_027",
     "type": "dish",
     "name": "香菇鸡肉粥",
-    "image": "",
+    "image": "assets/covers/dishes/dish_027.jpg",
     "icon": "🍄",
     "tags": [
       "主食",
@@ -852,7 +852,7 @@
     "id": "dish_028",
     "type": "dish",
     "name": "清蒸鳕鱼",
-    "image": "",
+    "image": "assets/covers/dishes/dish_028.jpg",
     "icon": "🐟",
     "tags": [
       "荤菜",
@@ -884,7 +884,7 @@
     "id": "dish_029",
     "type": "dish",
     "name": "山药排骨汤",
-    "image": "",
+    "image": "assets/covers/dishes/dish_029.jpg",
     "icon": "🍠",
     "tags": [
       "汤",
@@ -916,7 +916,7 @@
     "id": "dish_030",
     "type": "dish",
     "name": "鲜虾蔬菜面",
-    "image": "",
+    "image": "assets/covers/dishes/dish_030.jpg",
     "icon": "🍤",
     "tags": [
       "主食",

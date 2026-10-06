@@ -36,7 +36,7 @@ function back() {
       class="flex-1 truncate text-center text-lg font-bold"
       :class="c.textDeep"
     >
-      {{ title || '亲子卡片箱' }}
+      {{ title || '神奇卡盒' }}
     </h1>
     <!-- 右侧：操作区 -->
     <div class="flex h-9 w-9 shrink-0 items-center justify-center">

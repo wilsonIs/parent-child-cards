@@ -39,7 +39,7 @@ function pickRandom() {
 
 <template>
   <div class="flex h-full flex-col">
-    <AppHeader title="亲子卡片箱">
+    <AppHeader title="神奇卡盒">
       <template #right>
         <RouterLink
           to="/settings"

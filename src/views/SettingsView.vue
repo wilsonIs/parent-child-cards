@@ -153,9 +153,9 @@ function clearAll() {
 
       <!-- 4. 关于 -->
       <section class="card-soft space-y-2 p-4">
-        <h3 class="text-lg font-bold text-ink">亲子卡片箱</h3>
+        <h3 class="text-lg font-bold text-ink">神奇卡盒</h3>
         <p class="text-sm text-ink-soft">
-          和孩子一起，每天简单做点事。
+          抽一张卡片，每天简单做点事。
         </p>
         <p class="text-xs text-ink-muted">
           无广告 · 无 VIP · 无内购 · 无推送 · 无积分 · 无排行榜

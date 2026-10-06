@@ -42,9 +42,9 @@ export default defineConfig({
         ],
       },
       manifest: {
-        name: '亲子卡片箱',
-        short_name: '卡片箱',
-        description: '把吃、学、故事、玩做成卡片，简单、纯粹、不上瘾的亲子生活工具。',
+        name: '神奇卡盒',
+        short_name: '卡盒',
+        description: '抽一张卡片，发现吃、学、故事、玩的惊喜，简单、纯粹、不上瘾。',
         theme_color: '#FBF7F0',
         background_color: '#FBF7F0',
         display: 'standalone',
