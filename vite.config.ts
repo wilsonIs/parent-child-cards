@@ -14,6 +14,7 @@ export default defineConfig({
         'assets/icons/icon-192.jpg',
         'assets/icons/icon-512.jpg',
       ],
+      manifest: false,
       workbox: {
         // 预缓存：构建产物（JS/CSS/HTML）+ manifest + 图标
         // Workbox 会为每个文件计算 hash 作为 revision，内容变了 revision 变，SW 自动更新
@@ -42,22 +43,6 @@ export default defineConfig({
               cacheName: 'audio-cache',
               expiration: { maxEntries: 100, maxAgeSeconds: 60 * 60 * 24 * 30 },
             },
-          },
-        ],
-      },
-      manifest: {
-        name: '神奇卡盒',
-        short_name: '神奇卡盒',
-        description: '抽一张卡片，发现吃、学、故事、玩的惊喜，简单、纯粹、不上瘾。',
-        theme_color: '#FBF7F0',
-        background_color: '#FBF7F0',
-        display: 'standalone',
-        start_url: './',
-        icons: [
-          {
-            src: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🎎</text></svg>',
-            sizes: 'any',
-            type: 'image/svg+xml',
           },
         ],
       },
