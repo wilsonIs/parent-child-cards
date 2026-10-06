@@ -2438,5 +2438,365 @@
     "role": "non_speech"
    }
   ]
+ },
+ "story_222": {
+  "title": "纸上谈兵",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "赵奢",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "秦国间谍",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "蔺相如",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "赵母",
+    "role": "female_gentle"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_224": {
+  "title": "四面楚歌",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "项羽",
+    "role": "male_rough"
+   },
+   {
+    "i": 1,
+    "speaker": "项羽",
+    "role": "male_rough"
+   },
+   {
+    "i": 2,
+    "speaker": "项羽",
+    "role": "male_rough"
+   },
+   {
+    "i": 3,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_226": {
+  "title": "背水一战",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "李左车",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "陈余",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "赵军将士",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "韩信",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_227": {
+  "title": "草船借箭",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "鲁肃",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "诸葛亮",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "诸葛亮",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "诸葛亮",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_229": {
+  "title": "对症下药",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "华佗",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "华佗",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "倪寻",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "华佗",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_230": {
+  "title": "百发百中",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "箭声",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "养由基",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "潘虎",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "养由基",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_231": {
+  "title": "一箭双雕",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "随从",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "长孙晟",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "箭声",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "随从",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "众人",
+    "role": "crowd"
+   },
+   {
+    "i": 5,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_233": {
+  "title": "呆若木鸡",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "齐王",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "纪渻子",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "纪渻子",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "纪渻子",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "纪渻子",
+    "role": "male_old"
+   },
+   {
+    "i": 5,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_234": {
+  "title": "按图索骥",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "伯乐",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "儿子",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "伯乐",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_237": {
+  "title": "乐不思蜀",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "封号",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "司马昭",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "刘禅",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "郤正",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "司马昭",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "刘禅",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_238": {
+  "title": "指鹿为马",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "赵高",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "秦二世",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "赵高",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "秦二世",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "阿谀大臣",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "阿谀大臣",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "正直大臣",
+    "role": "male_old"
+   },
+   {
+    "i": 7,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
  }
 }

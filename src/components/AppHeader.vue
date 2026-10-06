@@ -19,10 +19,10 @@ function back() {
 
 <template>
   <header
-    class="sticky top-0 z-20 flex items-center gap-2 px-4 py-3 backdrop-blur-md bg-cream-50/85 border-b border-cream-200"
+    class="sticky top-0 z-20 flex items-center gap-2 px-4 py-3 bg-cream"
     style="padding-top: calc(var(--safe-top) + 0.75rem)"
   >
-    <!-- 左侧：返回按钮 或 占位（保持标题居中） -->
+    <!-- 左侧：返回按钮 或 logo -->
     <button
       v-if="showBack"
       class="btn-ghost -ml-1 h-9 w-9 shrink-0 rounded-full px-0"
@@ -31,7 +31,12 @@ function back() {
     >
       <span class="text-lg">←</span>
     </button>
-    <span v-else class="h-9 w-9 shrink-0"></span>
+    <img
+      v-else
+      src="/assets/icons/icon-192.jpg"
+      alt="logo"
+      class="h-9 w-9 shrink-0 rounded-xl object-cover shadow-soft"
+    />
     <h1
       class="flex-1 truncate text-center text-lg font-bold"
       :class="c.textDeep"

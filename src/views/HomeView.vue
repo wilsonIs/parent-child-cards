@@ -43,10 +43,14 @@ function pickRandom() {
       <template #right>
         <RouterLink
           to="/settings"
-          class="flex h-9 w-9 items-center justify-center rounded-full bg-cream-200/70 text-lg transition-colors active:bg-cream-200"
+          class="flex h-9 w-9 items-center justify-center rounded-full bg-cream-200/70 transition-colors active:bg-cream-200"
           aria-label="设置"
         >
-          ⚙️
+          <img
+            src="/assets/icons/settings.jpg"
+            alt="设置"
+            class="h-6 w-6 rounded-full object-cover"
+          />
         </RouterLink>
       </template>
     </AppHeader>

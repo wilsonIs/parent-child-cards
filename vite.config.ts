@@ -9,11 +9,15 @@ export default defineConfig({
     vue(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['manifest.json', 'assets/icons/icon-192.jpg', 'assets/icons/icon-512.jpg'],
+      includeAssets: [
+        'manifest.json',
+        'assets/icons/icon-192.jpg',
+        'assets/icons/icon-512.jpg',
+      ],
       workbox: {
         // 预缓存：构建产物（JS/CSS/HTML）+ manifest + 图标
         // Workbox 会为每个文件计算 hash 作为 revision，内容变了 revision 变，SW 自动更新
-        globPatterns: ['**/*.{js,css,html,json,svg,woff2}'],
+        globPatterns: ['**/*.{js,css,html,json,svg,woff2,jpg,png,webp,gif}'],
         globIgnores: ['**/assets/audio/**'],
         // 新 SW 立即激活，不等旧 SW 退出
         skipWaiting: true,
@@ -27,7 +31,7 @@ export default defineConfig({
             handler: 'StaleWhileRevalidate',
             options: {
               cacheName: 'img-cache',
-              expiration: { maxEntries: 300, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              expiration: { maxEntries: 500, maxAgeSeconds: 60 * 60 * 24 * 30 },
             },
           },
           {
