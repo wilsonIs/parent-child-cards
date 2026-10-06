@@ -10,6 +10,7 @@ import { useDataStore } from '@/stores/data'
 const settings = useSettingsStore()
 const data = useDataStore()
 const router = useRouter()
+const BASE_URL = import.meta.env.BASE_URL
 
 const cards = computed(() =>
   MODULES.map((m) => ({ m, c: colors(m.colorClass) })),
@@ -55,7 +56,7 @@ function pickRandom() {
         class="fade-up relative mx-4 mt-4 overflow-hidden rounded-4xl shadow-card"
       >
         <img
-          :src="`${import.meta.env.BASE_URL}assets/covers/welcome.jpg`"
+          :src="`${BASE_URL}assets/covers/welcome.jpg`"
           alt=""
           class="absolute inset-0 h-full w-full object-cover"
         />
