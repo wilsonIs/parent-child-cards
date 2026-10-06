@@ -2063,5 +2063,380 @@
     "role": "non_speech"
    }
   ]
+ },
+ "story_210": {
+  "title": "孟母三迁",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "哭丧声",
+    "role": "crowd"
+   },
+   {
+    "i": 1,
+    "speaker": "孟母",
+    "role": "female_gentle"
+   },
+   {
+    "i": 2,
+    "speaker": "屠夫",
+    "role": "male_rough"
+   },
+   {
+    "i": 3,
+    "speaker": "菜贩",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "孟母",
+    "role": "female_gentle"
+   },
+   {
+    "i": 5,
+    "speaker": "孟母",
+    "role": "female_gentle"
+   },
+   {
+    "i": 6,
+    "speaker": "称号",
+    "role": "non_speech"
+   },
+   {
+    "i": 7,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_212": {
+  "title": "熟能生巧",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "箭声",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "陈尧咨",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "卖油翁",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "陈尧咨",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "卖油翁",
+    "role": "male_old"
+   },
+   {
+    "i": 5,
+    "speaker": "卖油翁",
+    "role": "male_old"
+   },
+   {
+    "i": 6,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_213": {
+  "title": "水滴石穿",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "张乖崖",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "库吏",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "张乖崖",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "库吏",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "张乖崖",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "张乖崖",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_214": {
+  "title": "塞翁失马",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "邻居",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "塞翁",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "邻居",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "塞翁",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "邻居",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "塞翁",
+    "role": "male_old"
+   },
+   {
+    "i": 6,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_215": {
+  "title": "南辕北辙",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "路人",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "驾车人",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "路人",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "驾车人",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "路人",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "驾车人",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "路人",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "驾车人",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "路人",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_216": {
+  "title": "买椟还珠",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "买家",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "楚商",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "买家",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_217": {
+  "title": "郑人买履",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "郑人",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "卖鞋人",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "郑人",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "路人",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "郑人",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_219": {
+  "title": "螳螂捕蝉",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "吴王",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "吴王",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "少年",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "吴王",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_220": {
+  "title": "完璧归赵",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "宝物名",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "蔺相如",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "蔺相如",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "蔺相如",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "蔺相如",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_221": {
+  "title": "负荆请罪",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "廉颇",
+    "role": "male_rough"
+   },
+   {
+    "i": 1,
+    "speaker": "门客",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "蔺相如",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "廉颇",
+    "role": "male_rough"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
  }
 }

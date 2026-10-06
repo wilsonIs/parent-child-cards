@@ -80,14 +80,12 @@ def main(short, alts=None):
         if r.returncode != 0:
             print(short, 'NORM_FAIL', idx, f); sys.exit(2)
 
-    # 5. concat（多输入 filter_complex，避免 concat demuxer 流参数不一致）
+    # 5. concat（concat demuxer + copy 封装，libmp3lame 重编码在拼接流上有已知 bug）
     n = len(order)
-    inputs = []
-    for i in range(n):
-        inputs += ['-i', str(norm / f'seg_{short}_{i:03d}.mp3')]
-    fc = ''.join(f'[{i}:a]' for i in range(n)) + f'concat=n={n}:v=0:a=1[out]'
+    lst = tmp / f'list{short}.txt'
+    lst.write_text('\n'.join(f"file '{norm / f'seg_{short}_{i:03d}.mp3'}'" for i in range(n)))
     out_mp3 = f'public/assets/audio/{sid}.mp3'
-    r = subprocess.run(['ffmpeg','-y'] + inputs + ['-filter_complex', fc, '-map', '[out]', '-c:a', 'libmp3lame', '-b:a', '128k', out_mp3],
+    r = subprocess.run(['ffmpeg','-y','-f','concat','-safe','0','-i',str(lst),'-c','copy',out_mp3],
                        capture_output=True, timeout=300)
     if r.returncode != 0:
         print(short, 'CONCAT_FAIL'); sys.exit(2)

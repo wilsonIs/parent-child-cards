@@ -9,36 +9,34 @@ export default defineConfig({
     vue(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['manifest.json', 'assets/icons/favicon.jpg'],
+      includeAssets: ['manifest.json', 'assets/icons/icon-192.jpg', 'assets/icons/icon-512.jpg'],
       workbox: {
-        // 预缓存：构建产物（JS/CSS/HTML）+ manifest
+        // 预缓存：构建产物（JS/CSS/HTML）+ manifest + 图标
+        // Workbox 会为每个文件计算 hash 作为 revision，内容变了 revision 变，SW 自动更新
         globPatterns: ['**/*.{js,css,html,json,svg,woff2}'],
-        globIgnores: ['**/assets/audio/**', '**/assets/covers/**'],
-        // 图片运行时缓存（CacheFirst：优先用缓存）
+        globIgnores: ['**/assets/audio/**'],
+        // 新 SW 立即激活，不等旧 SW 退出
+        skipWaiting: true,
+        clientsClaim: true,
+        cleanupOutdatedCaches: true,
+        // 运行时缓存策略：StaleWhileRevalidate = 先用缓存，后台拉新版本
         runtimeCaching: [
           {
+            // 图片：先用缓存快速显示，后台静默更新
             urlPattern: /\.(?:jpg|png|webp|gif)$/,
-            handler: 'CacheFirst',
+            handler: 'StaleWhileRevalidate',
             options: {
               cacheName: 'img-cache',
               expiration: { maxEntries: 300, maxAgeSeconds: 60 * 60 * 24 * 30 },
             },
           },
           {
+            // 音频：先播缓存，后台拉新版本
             urlPattern: /\.(?:mp3|wav|m4a)$/,
-            handler: 'CacheFirst',
+            handler: 'StaleWhileRevalidate',
             options: {
               cacheName: 'audio-cache',
               expiration: { maxEntries: 100, maxAgeSeconds: 60 * 60 * 24 * 30 },
-            },
-          },
-          // 其他静态资源
-          {
-            urlPattern: /^https?.*\/assets\//,
-            handler: 'StaleWhileRevalidate',
-            options: {
-              cacheName: 'static-cache',
-              expiration: { maxEntries: 200, maxAgeSeconds: 60 * 60 * 24 * 7 },
             },
           },
         ],
