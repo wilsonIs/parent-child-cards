@@ -1,17 +1,28 @@
 <script setup lang="ts">
-import { computed, nextTick, ref, watch } from 'vue'
+import { computed, nextTick, onBeforeUnmount, onDeactivated, ref, watch } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import FilterBar from '@/components/FilterBar.vue'
 import DishCard from '@/components/DishCard.vue'
 import { useDataStore } from '@/stores/data'
 import { DISH_MEALS, DISH_TYPES } from '@/config/modules'
 import { useSwipeHint } from '@/composables/useSwipeHint'
+import { useSpeech } from '@/composables/useSpeech'
 import type { Dish } from '@/types'
 
 const data = useDataStore()
 const meal = ref('全部')
 const dishType = ref('全部')
 const { showHint, dismiss } = useSwipeHint('eat')
+const { speak, stop: stopSpeech } = useSpeech()
+// 离开页面（含 keep-alive 缓存）时停止朗读，避免后台继续发声
+onBeforeUnmount(stopSpeech)
+onDeactivated(stopSpeech)
+
+/** 实时朗读当前卡片菜名 */
+function speakCurrent() {
+  const d = deck.value[idx.value]
+  if (d) speak(d.name)
+}
 
 /** 过滤后的卡片池 */
 const pool = computed(() =>
@@ -53,6 +64,7 @@ function cardStyle(i: number) {
 function go(delta: number) {
   const next = Math.min(Math.max(idx.value + delta, 0), deck.value.length - 1)
   idx.value = next
+  speakCurrent()
 }
 
 /** 预加载下一张菜谱的图片 */
@@ -154,15 +166,6 @@ watch(pool, shuffle, { immediate: true })
         <span class="swipe-hint text-3xl">👆</span>
         <span class="text-xs">上滑看下一个</span>
       </div>
-
-      <!-- 换一批 FAB -->
-      <button
-        v-if="deck.length > 0"
-        class="fab absolute bottom-4 right-4 bg-coral px-5 text-sm md:px-6 md:text-base"
-        @click="shuffle"
-      >
-        🎲 换一批
-      </button>
     </div>
 
     <!-- 底部控制条 -->
