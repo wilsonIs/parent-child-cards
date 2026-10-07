@@ -7297,5 +7297,325 @@
     "role": "child"
    }
   ]
+ },
+ "145": {
+  "title": "木偶奇遇记·第一章 会说话的木偶",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "杰佩托",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "杰佩托",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "杰佩托",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "杰佩托",
+    "role": "male_old"
+   },
+   {
+    "i": 5,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "锣鼓声",
+    "role": "non_speech"
+   },
+   {
+    "i": 7,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "木偶演员",
+    "role": "crowd"
+   },
+   {
+    "i": 9,
+    "speaker": "剧场老板",
+    "role": "male_rough"
+   },
+   {
+    "i": 10,
+    "speaker": "皮诺曹",
+    "role": "child"
+   }
+  ]
+ },
+ "146": {
+  "title": "木偶奇遇记·第二章 金色的硬币",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "剧场老板",
+    "role": "male_rough"
+   },
+   {
+    "i": 1,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "狐狸",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "狐狸",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "猫",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "狐狸",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 10,
+    "speaker": "仙女",
+    "role": "female_gentle"
+   },
+   {
+    "i": 11,
+    "speaker": "仙女",
+    "role": "female_gentle"
+   }
+  ]
+ },
+ "147": {
+  "title": "木偶奇遇记·第三章 说谎的鼻子",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "仙女",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "嗖",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "仙女",
+    "role": "female_gentle"
+   },
+   {
+    "i": 5,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 7,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "仙女",
+    "role": "female_gentle"
+   },
+   {
+    "i": 9,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 10,
+    "speaker": "嗖",
+    "role": "non_speech"
+   },
+   {
+    "i": 11,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 12,
+    "speaker": "仙女",
+    "role": "female_gentle"
+   },
+   {
+    "i": 13,
+    "speaker": "皮诺曹",
+    "role": "child"
+   }
+  ]
+ },
+ "148": {
+  "title": "木偶奇遇记·第四章 玩具国",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "小毛驴车夫",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "小毛驴车夫",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "小毛驴车夫",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "驴叫",
+    "role": "non_speech"
+   },
+   {
+    "i": 7,
+    "speaker": "招牌",
+    "role": "non_speech"
+   },
+   {
+    "i": 8,
+    "speaker": "皮诺曹",
+    "role": "child"
+   }
+  ]
+ },
+ "149": {
+  "title": "木偶奇遇记·第五章 鲨鱼肚子里的重逢",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "杰佩托",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "喷嚏",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "杰佩托",
+    "role": "male_old"
+   },
+   {
+    "i": 6,
+    "speaker": "仙女",
+    "role": "female_gentle"
+   }
+  ]
+ },
+ "150": {
+  "title": "木偶奇遇记·第六章 真正的男孩",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "皮诺曹",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "杰佩托",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "仙女",
+    "role": "female_gentle"
+   },
+   {
+    "i": 3,
+    "speaker": "邻居们",
+    "role": "crowd"
+   },
+   {
+    "i": 4,
+    "speaker": "杰佩托",
+    "role": "male_old"
+   }
+  ]
  }
 }
