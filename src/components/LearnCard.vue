@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { useSettingsStore } from '@/stores/settings'
+import { useLearnAudio } from '@/composables/useLearnAudio'
 import type { Learn } from '@/types'
 
 const props = defineProps<{ learn: Learn }>()
@@ -8,11 +9,21 @@ const props = defineProps<{ learn: Learn }>()
 const settings = useSettingsStore()
 const expand = ref(false)
 
+const { activeId, playing, loading, toggle } = useLearnAudio()
+
+const isActive = computed(() => activeId.value === props.learn.id)
+const isPlaying = computed(() => isActive.value && playing.value)
+const isLoading = computed(() => isActive.value && loading.value)
+
 onMounted(() => settings.recordView('learn', props.learn.id))
 
 function toggleExpand() {
   expand.value = !expand.value
   if (expand.value) settings.recordView('learn', props.learn.id)
+}
+
+function onPlay() {
+  if (props.learn.audio) toggle(props.learn.id, props.learn.audio)
 }
 </script>
 
@@ -58,7 +69,20 @@ function toggleExpand() {
         {{ expand ? '收起 ▲' : '展开阅读 ▼' }}
       </span>
 
-      <div class="mt-3 flex items-center gap-2">
+      <!-- 朗读（标题+内容） -->
+      <button
+        v-if="learn.audio"
+        type="button"
+        class="mt-3 flex w-full items-center justify-center gap-2 rounded-full bg-learn py-2.5 text-sm font-bold text-white shadow-soft transition-transform active:scale-95"
+        @click.stop="onPlay"
+      >
+        <span v-if="isLoading" class="animate-spin">⏳</span>
+        <template v-else>
+          <span>{{ isPlaying ? '⏸' : '▶' }}</span>
+          <span>{{ isPlaying ? '暂停' : '听一听' }}</span>
+        </template>
+      </button>
+      <div v-else class="mt-3 flex items-center gap-2">
         <span class="text-xs text-ink-muted">📖 本地知识 · 可直接阅读</span>
       </div>
     </div>

@@ -67,6 +67,8 @@ export interface Learn {
   resourceType: string
   /** 本地可直接阅读的知识内容（应用内展示，不依赖外链） */
   content: string
+  /** 朗读音频（标题+内容），没有则为空 */
+  audio?: string
   /** 可选：移动端友好的外部平台链接（如 B站/小红书/抖音），没有则为空 */
   url?: string
   source?: string
