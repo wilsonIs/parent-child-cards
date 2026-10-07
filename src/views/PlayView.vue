@@ -16,7 +16,7 @@ function go(key: string) {
     <p class="px-4 pt-3 text-center text-sm text-ink-muted">
       选个场景，看看能玩什么
     </p>
-    <div class="grid grid-cols-3 gap-3 p-4 content-start flex-1 overflow-y-auto md:gap-4 md:p-6">
+    <div class="grid grid-cols-3 gap-3 p-4 content-start flex-1 overflow-y-auto md:gap-4 md:p-6 md:grid-cols-4 lg:grid-cols-5">
       <button
         v-for="s in PLAY_SCENES"
         :key="s.key"

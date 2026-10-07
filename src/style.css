@@ -18,15 +18,15 @@
 
   body {
     @apply bg-cream text-ink font-sans antialiased;
-    /* 用户偏好字体大小（设置页可调） */
-    font-size: var(--app-font-size, 16px);
+    /* 用户偏好字体大小（设置页可调），默认 1rem = 16px */
+    font-size: var(--app-font-size, 1rem);
     -webkit-tap-highlight-color: transparent;
     overscroll-behavior-y: none;
   }
 
-  /* 移动优先：桌面端居中限宽模拟手机 */
+  /* 移动优先：竖屏居中限宽模拟手机 */
   #app {
-    max-width: 480px;
+    max-width: 30rem; /* 480px */
     margin: 0 auto;
     /* 极淡的氛围渐变：暖米白底 + 模块色温柔晕染（不花哨、护眼） */
     background:
@@ -38,16 +38,16 @@
     overflow: hidden;
   }
 
-  /* 平板适配：768px+ 横竖屏统一加宽容器、放大字体和按钮 */
-  @media (min-width: 768px) {
+  /* 平板竖屏（768px+）：加宽容器、放大字体和按钮 */
+  @media (min-width: 48rem) { /* 768px */
     #app {
-      max-width: 600px;
+      max-width: 37.5rem; /* 600px */
     }
     body {
-      font-size: 18px;
+      font-size: 1.125rem; /* 18px */
     }
     .btn {
-      min-height: 52px;
+      min-height: 3.25rem; /* 52px */
     }
     .btn-primary {
       @apply px-8 text-lg;
@@ -56,23 +56,34 @@
       @apply px-4 py-1.5 text-base;
     }
     .fab {
-      min-height: 60px;
+      min-height: 3.75rem; /* 60px */
     }
   }
 
-  /* 平板横屏（1024px+）：进一步放大 */
-  @media (min-width: 1024px) {
+  /* 平板横屏（768px+ landscape）：撑满 100% */
+  @media (min-width: 48rem) and (orientation: landscape) {
     #app {
-      max-width: 640px;
+      max-width: 100%;
+      box-shadow: none;
     }
+  }
+
+  /* 大屏平板横屏（1024px+）：进一步放大 */
+  @media (min-width: 64rem) { /* 1024px */
     body {
-      font-size: 20px;
+      font-size: 1.25rem; /* 20px */
     }
     .btn {
-      min-height: 56px;
+      min-height: 3.5rem; /* 56px */
     }
     .fab {
-      min-height: 64px;
+      min-height: 4rem; /* 64px */
+    }
+  }
+
+  @media (min-width: 64rem) and (orientation: landscape) {
+    #app {
+      max-width: 100%;
     }
   }
 
