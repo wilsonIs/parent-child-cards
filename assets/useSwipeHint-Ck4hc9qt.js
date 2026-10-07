@@ -1,0 +1,1 @@
+import{x as s,l as n}from"./index-DEpOFwHS.js";function c(a){const e=`swipe-hint-${a}`,t=n(!1);function o(){t.value=!1;try{localStorage.setItem(e,"1")}catch{}}return s(()=>{try{t.value=!localStorage.getItem(e)}catch{t.value=!0}}),{showHint:t,dismiss:o}}export{c as u};
