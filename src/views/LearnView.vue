@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onBeforeUnmount, ref } from 'vue'
+import { computed, onBeforeUnmount, onDeactivated, ref, watch } from 'vue'
 import { RouterLink } from 'vue-router'
 import AppHeader from '@/components/AppHeader.vue'
 import FilterBar from '@/components/FilterBar.vue'
@@ -10,9 +10,10 @@ import { useSettingsStore } from '@/stores/settings'
 import { useSharedAudio } from '@/composables/useSharedAudio'
 import { LEARN_GRADES, LEARN_SUBJECTS } from '@/config/modules'
 
-const { stop: stopAudio } = useSharedAudio()
-// 离开页面时停止朗读，避免音频在后台继续播放
+const { play, stop: stopAudio, endedId } = useSharedAudio()
+// 离开页面（含 keep-alive 缓存）时停止朗读，避免后台继续播放
 onBeforeUnmount(stopAudio)
+onDeactivated(stopAudio)
 
 const data = useDataStore()
 const settings = useSettingsStore()
@@ -35,6 +36,15 @@ const filtered = computed(() =>
     return subjectOk && gradeOk
   }),
 )
+
+// 自动听下一个：当前卡片播完且开启连播，就播同列表下一条
+watch(endedId, (id) => {
+  if (!id || !settings.settings.autoPlay) return
+  const list = filtered.value.filter((l) => l.audio)
+  const idx = list.findIndex((l) => l.id === id)
+  const next = list[idx + 1]
+  if (next?.audio) play(next.id, next.audio)
+})
 </script>
 
 <template>

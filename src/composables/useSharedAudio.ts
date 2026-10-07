@@ -11,6 +11,8 @@ const audioEl =
 
 /** 当前绑定音频的卡片 id */
 const activeId = ref<string | null>(null)
+/** 最近一次自然播完的卡片 id（供页面做“自动听下一个”） */
+const endedId = ref<string | null>(null)
 const playing = ref(false)
 const loading = ref(false)
 
@@ -23,6 +25,7 @@ function wire() {
   audioEl.addEventListener('pause', () => (playing.value = false))
   audioEl.addEventListener('ended', () => {
     playing.value = false
+    endedId.value = activeId.value
     activeId.value = null
   })
   audioEl.addEventListener('waiting', () => (loading.value = true))
@@ -40,6 +43,7 @@ export function useSharedAudio() {
 
   function play(id: string, src: string) {
     if (!audioEl) return
+    endedId.value = null
     // 切到新卡片时重置音源与进度；同一张卡片暂停后继续则保留进度
     if (audioEl.dataset.audioId !== id) {
       audioEl.dataset.audioId = id
@@ -65,7 +69,8 @@ export function useSharedAudio() {
     activeId.value = null
     playing.value = false
     loading.value = false
+    endedId.value = null
   }
 
-  return { activeId, playing, loading, toggle, stop }
+  return { activeId, endedId, playing, loading, play, toggle, stop }
 }
