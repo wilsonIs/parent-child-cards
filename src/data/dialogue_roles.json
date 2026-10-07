@@ -4927,5 +4927,1325 @@
     "role": "tang"
    }
   ]
+ },
+ "171": {
+  "title": "笨汉汉斯",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "书名",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "汉斯",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "爸爸",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "哼哧声",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "汉斯",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "汉斯",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "汉斯",
+    "role": "child"
+   },
+   {
+    "i": 7,
+    "speaker": "公主",
+    "role": "female_gentle"
+   },
+   {
+    "i": 8,
+    "speaker": "公主",
+    "role": "female_gentle"
+   },
+   {
+    "i": 9,
+    "speaker": "公主",
+    "role": "female_gentle"
+   },
+   {
+    "i": 10,
+    "speaker": "汉斯",
+    "role": "child"
+   },
+   {
+    "i": 11,
+    "speaker": "公主",
+    "role": "female_gentle"
+   },
+   {
+    "i": 12,
+    "speaker": "汉斯",
+    "role": "child"
+   },
+   {
+    "i": 13,
+    "speaker": "公主",
+    "role": "female_gentle"
+   },
+   {
+    "i": 14,
+    "speaker": "啪",
+    "role": "non_speech"
+   },
+   {
+    "i": 15,
+    "speaker": "汉斯",
+    "role": "child"
+   },
+   {
+    "i": 16,
+    "speaker": "公主",
+    "role": "female_gentle"
+   },
+   {
+    "i": 17,
+    "speaker": "书名",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "172": {
+  "title": "狼和七只小羊",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "羊妈妈",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "小羊们",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "敲门声",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "大灰狼",
+    "role": "male_rough"
+   },
+   {
+    "i": 4,
+    "speaker": "小羊",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "大灰狼",
+    "role": "male_rough"
+   },
+   {
+    "i": 6,
+    "speaker": "小羊",
+    "role": "child"
+   },
+   {
+    "i": 7,
+    "speaker": "小羊",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "大灰狼",
+    "role": "male_rough"
+   },
+   {
+    "i": 9,
+    "speaker": "羊妈妈",
+    "role": "female_gentle"
+   },
+   {
+    "i": 10,
+    "speaker": "小羊",
+    "role": "child"
+   },
+   {
+    "i": 11,
+    "speaker": "羊妈妈",
+    "role": "female_gentle"
+   },
+   {
+    "i": 12,
+    "speaker": "扑通",
+    "role": "non_speech"
+   },
+   {
+    "i": 13,
+    "speaker": "小羊",
+    "role": "child"
+   }
+  ]
+ },
+ "014": {
+  "title": "小红帽",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "妈妈",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "大灰狼",
+    "role": "male_rough"
+   },
+   {
+    "i": 2,
+    "speaker": "小红帽",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "大灰狼",
+    "role": "male_rough"
+   },
+   {
+    "i": 4,
+    "speaker": "称呼",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "小红帽",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "大灰狼",
+    "role": "male_rough"
+   },
+   {
+    "i": 7,
+    "speaker": "小红帽",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "大灰狼",
+    "role": "male_rough"
+   },
+   {
+    "i": 9,
+    "speaker": "小红帽",
+    "role": "child"
+   },
+   {
+    "i": 10,
+    "speaker": "大灰狼",
+    "role": "male_rough"
+   },
+   {
+    "i": 11,
+    "speaker": "小红帽",
+    "role": "child"
+   },
+   {
+    "i": 12,
+    "speaker": "大灰狼",
+    "role": "male_rough"
+   }
+  ]
+ },
+ "174": {
+  "title": "勇敢的小裁缝",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "啪",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "小裁缝",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "小裁缝",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "关键词",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "小裁缝",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "嗖",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "巨人",
+    "role": "male_rough"
+   },
+   {
+    "i": 7,
+    "speaker": "题字",
+    "role": "non_speech"
+   },
+   {
+    "i": 8,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "小裁缝",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 11,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 12,
+    "speaker": "小裁缝",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "166": {
+  "title": "忠实的朋友",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "题眼",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "磨坊主",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "小汉斯",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "磨坊主",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "磨坊主",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "磨坊主",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "磨坊主",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "小汉斯",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "磨坊主",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "小汉斯",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "磨坊主",
+    "role": "male_adult"
+   },
+   {
+    "i": 11,
+    "speaker": "磨坊主",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "163": {
+  "title": "快乐王子",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "燕子",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "燕子",
+    "role": "female_gentle"
+   },
+   {
+    "i": 2,
+    "speaker": "快乐王子",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "快乐王子",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "快乐王子",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "快乐王子",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "燕子",
+    "role": "female_gentle"
+   },
+   {
+    "i": 7,
+    "speaker": "快乐王子",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "燕子",
+    "role": "female_gentle"
+   },
+   {
+    "i": 9,
+    "speaker": "市长",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "上帝",
+    "role": "male_old"
+   }
+  ]
+ },
+ "167": {
+  "title": "了不起的火箭",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "火箭",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "烟花",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "火箭",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "火箭",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "火箭",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "火箭",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "火箭",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "轰",
+    "role": "non_speech"
+   },
+   {
+    "i": 8,
+    "speaker": "火箭",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "啪",
+    "role": "non_speech"
+   },
+   {
+    "i": 10,
+    "speaker": "火箭",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "164": {
+  "title": "夜莺与玫瑰",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "学生",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "夜莺",
+    "role": "female_gentle"
+   },
+   {
+    "i": 2,
+    "speaker": "学生",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "白玫瑰",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "黄玫瑰",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "红玫瑰",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "夜莺",
+    "role": "female_gentle"
+   },
+   {
+    "i": 7,
+    "speaker": "学生",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "姑娘",
+    "role": "female_gentle"
+   },
+   {
+    "i": 9,
+    "speaker": "学生",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "179": {
+  "title": "鲤鱼跃龙门",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "鲤鱼群",
+    "role": "crowd"
+   },
+   {
+    "i": 1,
+    "speaker": "鲤鱼群",
+    "role": "crowd"
+   },
+   {
+    "i": 2,
+    "speaker": "鲤鱼群",
+    "role": "crowd"
+   },
+   {
+    "i": 3,
+    "speaker": "小鲤鱼",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "鲤鱼群",
+    "role": "crowd"
+   },
+   {
+    "i": 5,
+    "speaker": "哗啦",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "鲤鱼群",
+    "role": "crowd"
+   },
+   {
+    "i": 7,
+    "speaker": "题词",
+    "role": "non_speech"
+   },
+   {
+    "i": 8,
+    "speaker": "题词",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "094": {
+  "title": "渔夫和他的妻子",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "比目鱼王子",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "妻子",
+    "role": "female_gentle"
+   },
+   {
+    "i": 2,
+    "speaker": "比目鱼王子",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "妻子",
+    "role": "female_gentle"
+   },
+   {
+    "i": 4,
+    "speaker": "妻子",
+    "role": "female_gentle"
+   },
+   {
+    "i": 5,
+    "speaker": "妻子",
+    "role": "female_gentle"
+   },
+   {
+    "i": 6,
+    "speaker": "妻子",
+    "role": "female_gentle"
+   },
+   {
+    "i": 7,
+    "speaker": "比目鱼王子",
+    "role": "male_old"
+   }
+  ]
+ },
+ "165": {
+  "title": "自私的巨人",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "巨人",
+    "role": "male_rough"
+   },
+   {
+    "i": 1,
+    "speaker": "牌子",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "巨人",
+    "role": "male_rough"
+   },
+   {
+    "i": 3,
+    "speaker": "巨人",
+    "role": "male_rough"
+   },
+   {
+    "i": 4,
+    "speaker": "巨人",
+    "role": "male_rough"
+   },
+   {
+    "i": 5,
+    "speaker": "巨人",
+    "role": "male_rough"
+   },
+   {
+    "i": 6,
+    "speaker": "巨人",
+    "role": "male_rough"
+   },
+   {
+    "i": 7,
+    "speaker": "小男孩",
+    "role": "child"
+   }
+  ]
+ },
+ "169": {
+  "title": "打火匣",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "巫婆",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "士兵",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "啪",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "大狗",
+    "role": "male_rough"
+   },
+   {
+    "i": 4,
+    "speaker": "士兵",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "士兵",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "士兵",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "百姓",
+    "role": "crowd"
+   }
+  ]
+ },
+ "173": {
+  "title": "金鹅",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "绰号",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "老人",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "大儿子",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "老人",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "三儿子",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "老人",
+    "role": "male_old"
+   },
+   {
+    "i": 6,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "扑哧",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "088": {
+  "title": "渔夫和魔鬼",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "魔鬼",
+    "role": "male_rough"
+   },
+   {
+    "i": 1,
+    "speaker": "渔夫",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "魔鬼",
+    "role": "male_rough"
+   },
+   {
+    "i": 3,
+    "speaker": "渔夫",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "魔鬼",
+    "role": "male_rough"
+   },
+   {
+    "i": 5,
+    "speaker": "啪",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "渔夫",
+    "role": "male_old"
+   }
+  ]
+ },
+ "176": {
+  "title": "仓颉造字",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "仓颉",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "日",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "月",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "山",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "水",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "字",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "称号",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "009": {
+  "title": "狼来了",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "放羊娃",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "村民",
+    "role": "crowd"
+   },
+   {
+    "i": 2,
+    "speaker": "放羊娃",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "放羊娃",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "放羊娃",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "村民",
+    "role": "crowd"
+   }
+  ]
+ },
+ "015": {
+  "title": "三只小猪",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "小猪老大",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "小猪老三",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "呼",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "咔嚓",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "扑通",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "嗷嗷",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "058": {
+  "title": "北风和太阳",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "北风",
+    "role": "male_rough"
+   },
+   {
+    "i": 1,
+    "speaker": "太阳",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "北风",
+    "role": "male_rough"
+   },
+   {
+    "i": 3,
+    "speaker": "太阳",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "呼呼",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "行人",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "095": {
+  "title": "皇帝的新装",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "骗子",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "皇帝",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "新衣",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "大臣",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "大臣",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "小孩",
+    "role": "child"
+   }
+  ]
+ },
+ "178": {
+  "title": "吴刚伐桂",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "吴刚",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "咔嚓",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "玉帝",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "吴刚",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "咔嚓",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "题词",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "181": {
+  "title": "姜子牙钓鱼",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "路人",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "姜子牙",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "路人",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "姜子牙",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "周文王",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "姜子牙",
+    "role": "male_old"
+   }
+  ]
+ },
+ "054": {
+  "title": "青蛙王子",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "青蛙",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "青蛙",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "国王",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "公主",
+    "role": "female_gentle"
+   },
+   {
+    "i": 4,
+    "speaker": "王子",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "059": {
+  "title": "蚂蚁和蚱蜢",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "蚱蜢",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "蚂蚁",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "蚱蜢",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "蚱蜢",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "蚂蚁",
+    "role": "child"
+   }
+  ]
+ },
+ "110": {
+  "title": "两小儿辩日",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "小儿甲",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "小儿乙",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "小儿甲",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "小儿乙",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "小儿甲",
+    "role": "child"
+   }
+  ]
+ },
+ "168": {
+  "title": "野天鹅",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "哥哥",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "哥哥",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "艾丽莎",
+    "role": "female_gentle"
+   },
+   {
+    "i": 3,
+    "speaker": "哥哥",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "人们",
+    "role": "crowd"
+   }
+  ]
+ },
+ "175": {
+  "title": "六只天鹅",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "老妇人",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "哥哥",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "人们",
+    "role": "crowd"
+   },
+   {
+    "i": 4,
+    "speaker": "国王",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "010": {
+  "title": "农夫与蛇",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "农夫",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "农夫",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "蛇",
+    "role": "male_rough"
+   },
+   {
+    "i": 3,
+    "speaker": "农夫",
+    "role": "male_old"
+   }
+  ]
+ },
+ "041": {
+  "title": "精卫填海",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "鸟鸣",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "大海",
+    "role": "male_rough"
+   },
+   {
+    "i": 2,
+    "speaker": "精卫",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "题词",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "084": {
+  "title": "山鲁佐德的故事",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "山鲁佐德",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "妹妹",
+    "role": "female_gentle"
+   },
+   {
+    "i": 2,
+    "speaker": "妹妹",
+    "role": "female_gentle"
+   },
+   {
+    "i": 3,
+    "speaker": "山鲁佐德",
+    "role": "female_gentle"
+   }
+  ]
+ },
+ "170": {
+  "title": "红鞋",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "小女孩",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "老奶奶",
+    "role": "female_gentle"
+   },
+   {
+    "i": 2,
+    "speaker": "小女孩",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "小女孩",
+    "role": "child"
+   }
+  ]
  }
 }
