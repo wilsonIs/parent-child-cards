@@ -158,7 +158,7 @@ watch(pool, shuffle, { immediate: true })
       <!-- 换一批 FAB -->
       <button
         v-if="deck.length > 0"
-        class="fab absolute bottom-4 right-4 bg-coral px-5 text-sm"
+        class="fab absolute bottom-4 right-4 bg-coral px-5 text-sm md:px-6 md:text-base"
         @click="shuffle"
       >
         🎲 换一批
@@ -171,18 +171,18 @@ watch(pool, shuffle, { immediate: true })
       class="flex shrink-0 items-center justify-center gap-6 px-4 pb-4 pt-1"
     >
       <button
-        class="flex h-11 w-11 items-center justify-center rounded-full bg-cream-100 text-lg text-ink shadow-soft active:scale-95"
+        class="flex h-11 w-11 items-center justify-center rounded-full bg-cream-100 text-lg text-ink shadow-soft active:scale-95 md:h-13 md:w-13 md:text-xl"
         aria-label="上一个"
         :disabled="idx === 0"
         @click="go(-1)"
       >
         ↑
       </button>
-      <div class="text-center text-xs text-ink-muted">
+      <div class="text-center text-xs text-ink-muted md:text-sm">
         {{ idx + 1 }} / {{ deck.length }}
       </div>
       <button
-        class="flex h-11 w-11 items-center justify-center rounded-full bg-cream-100 text-lg text-ink shadow-soft active:scale-95"
+        class="flex h-11 w-11 items-center justify-center rounded-full bg-cream-100 text-lg text-ink shadow-soft active:scale-95 md:h-13 md:w-13 md:text-xl"
         aria-label="下一个"
         :disabled="idx === deck.length - 1"
         @click="go(1)"

@@ -19,32 +19,32 @@ function back() {
 
 <template>
   <header
-    class="sticky top-0 z-20 flex items-center gap-2 px-4 py-3 bg-cream"
+    class="sticky top-0 z-20 flex items-center gap-2 px-4 py-3 bg-cream md:py-4"
     style="padding-top: calc(var(--safe-top) + 0.75rem)"
   >
     <!-- 左侧：返回按钮 或 logo -->
     <button
       v-if="showBack"
-      class="btn-ghost -ml-1 h-9 w-9 shrink-0 rounded-full px-0"
+      class="btn-ghost -ml-1 h-9 w-9 shrink-0 rounded-full px-0 md:h-11 md:w-11"
       aria-label="返回"
       @click="back"
     >
-      <span class="text-lg">←</span>
+      <span class="text-lg md:text-xl">←</span>
     </button>
     <img
       v-else
       src="/assets/icons/icon-192.jpg"
       alt="logo"
-      class="h-9 w-9 shrink-0 rounded-xl object-cover shadow-soft"
+      class="h-9 w-9 shrink-0 rounded-xl object-cover shadow-soft md:h-11 md:w-11"
     />
     <h1
-      class="flex-1 truncate text-center text-lg font-bold"
+      class="flex-1 truncate text-center text-lg font-bold md:text-xl"
       :class="c.textDeep"
     >
       {{ title || '神奇卡盒' }}
     </h1>
     <!-- 右侧：操作区 -->
-    <div class="flex h-9 w-9 shrink-0 items-center justify-center">
+    <div class="flex h-9 w-9 shrink-0 items-center justify-center md:h-11 md:w-11">
       <slot name="right" />
     </div>
   </header>

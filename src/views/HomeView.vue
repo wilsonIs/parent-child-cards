@@ -100,7 +100,7 @@ function pickRandom() {
       </section>
 
       <!-- 模块卡片网格 -->
-      <section class="grid grid-cols-2 gap-3 p-4">
+      <section class="grid grid-cols-2 gap-3 p-4 md:gap-4 md:p-6">
         <RouterLink
           v-for="({ m, c }, i) in cards"
           :key="m.key"
@@ -130,10 +130,10 @@ function pickRandom() {
             <span v-if="!m.image" class="text-5xl leading-none drop-shadow-sm">{{
               m.icon
             }}</span>
-            <h3 class="relative mt-1 text-xl font-bold text-white drop-shadow-md">
+            <h3 class="relative mt-1 text-xl font-bold text-white drop-shadow-md md:text-2xl">
               {{ m.title }}
             </h3>
-            <p class="relative text-xs font-medium text-white/95 drop-shadow-sm">{{
+            <p class="relative text-xs font-medium text-white/95 drop-shadow-sm md:text-sm">{{
               m.subtitle
             }}</p>
           </div>

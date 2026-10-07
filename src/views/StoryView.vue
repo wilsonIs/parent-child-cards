@@ -249,8 +249,8 @@ function mergedCats(story: Story): string[] {
             class="relative text-8xl drop-shadow-sm"
             >{{ card.icon }}</span
           >
-          <h2 class="relative text-3xl font-bold text-white drop-shadow-sm">{{ card.title }}</h2>
-          <p class="relative max-w-xs text-sm text-white/85">{{ card.desc }}</p>
+          <h2 class="relative text-3xl font-bold text-white drop-shadow-sm md:text-4xl">{{ card.title }}</h2>
+          <p class="relative max-w-xs text-sm text-white/85 md:text-base">{{ card.desc }}</p>
           <span class="relative chip bg-white/25 text-white">共 {{ card.count }} 个故事</span>
           <span
             class="relative mt-2 flex items-center gap-2 rounded-full bg-white px-6 py-3 font-bold text-story-deep shadow-soft"
@@ -290,7 +290,7 @@ function mergedCats(story: Story): string[] {
             >{{ card.story.icon }}</span
           >
           <h2
-            class="relative text-3xl font-bold text-white drop-shadow-sm"
+            class="relative text-3xl font-bold text-white drop-shadow-sm md:text-4xl"
           >
             {{ card.story.title }}
           </h2>
@@ -342,7 +342,7 @@ function mergedCats(story: Story): string[] {
       <!-- 换一批 FAB -->
       <button
         v-if="deck.length > 0"
-        class="fab absolute bottom-4 right-4 bg-coral px-5 text-sm"
+        class="fab absolute bottom-4 right-4 bg-coral px-5 text-sm md:px-6 md:text-base"
         @click="shuffle"
       >
         🎲 换一批
@@ -355,18 +355,18 @@ function mergedCats(story: Story): string[] {
       class="flex shrink-0 items-center justify-center gap-6 px-4 pb-4 pt-1"
     >
       <button
-        class="flex h-11 w-11 items-center justify-center rounded-full bg-cream-100 text-lg text-ink shadow-soft active:scale-95"
+        class="flex h-11 w-11 items-center justify-center rounded-full bg-cream-100 text-lg text-ink shadow-soft active:scale-95 md:h-13 md:w-13 md:text-xl"
         aria-label="上一个"
         :disabled="idx === 0"
         @click="go(-1)"
       >
         ↑
       </button>
-      <div class="text-center text-xs text-ink-muted">
+      <div class="text-center text-xs text-ink-muted md:text-sm">
         {{ idx + 1 }} / {{ deck.length }}
       </div>
       <button
-        class="flex h-11 w-11 items-center justify-center rounded-full bg-cream-100 text-lg text-ink shadow-soft active:scale-95"
+        class="flex h-11 w-11 items-center justify-center rounded-full bg-cream-100 text-lg text-ink shadow-soft active:scale-95 md:h-13 md:w-13 md:text-xl"
         aria-label="下一个"
         :disabled="idx === deck.length - 1"
         @click="go(1)"

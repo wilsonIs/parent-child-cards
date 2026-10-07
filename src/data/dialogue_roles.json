@@ -4257,5 +4257,675 @@
     "role": "non_speech"
    }
   ]
+ },
+ "story_182": {
+  "title": "鹰愁涧收白龙马",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "水声",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "水声",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "唐僧",
+    "role": "tang"
+   },
+   {
+    "i": 3,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 4,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 5,
+    "speaker": "观音菩萨",
+    "role": "female_gentle"
+   },
+   {
+    "i": 6,
+    "speaker": "唐僧",
+    "role": "tang"
+   },
+   {
+    "i": 7,
+    "speaker": "观音菩萨",
+    "role": "female_gentle"
+   },
+   {
+    "i": 8,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_183": {
+  "title": "大战黄风怪",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "风声",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "风声",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 3,
+    "speaker": "黄风怪",
+    "role": "male_rough"
+   },
+   {
+    "i": 4,
+    "speaker": "灵吉菩萨",
+    "role": "male_old"
+   },
+   {
+    "i": 5,
+    "speaker": "灵吉菩萨",
+    "role": "male_old"
+   },
+   {
+    "i": 6,
+    "speaker": "八戒",
+    "role": "bajie"
+   },
+   {
+    "i": 7,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_184": {
+  "title": "四圣试禅心",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "老妇",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "老妇",
+    "role": "female_gentle"
+   },
+   {
+    "i": 2,
+    "speaker": "唐僧",
+    "role": "tang"
+   },
+   {
+    "i": 3,
+    "speaker": "老妇",
+    "role": "female_gentle"
+   },
+   {
+    "i": 4,
+    "speaker": "八戒",
+    "role": "bajie"
+   },
+   {
+    "i": 5,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "八戒",
+    "role": "bajie"
+   },
+   {
+    "i": 7,
+    "speaker": "唐僧",
+    "role": "tang"
+   },
+   {
+    "i": 8,
+    "speaker": "法相变化",
+    "role": "non_speech"
+   },
+   {
+    "i": 9,
+    "speaker": "菩萨",
+    "role": "female_gentle"
+   },
+   {
+    "i": 10,
+    "speaker": "八戒",
+    "role": "bajie"
+   },
+   {
+    "i": 11,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_185": {
+  "title": "乌鸡国降妖",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "国王鬼魂",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "国王鬼魂",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 3,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 4,
+    "speaker": "八戒",
+    "role": "bajie"
+   },
+   {
+    "i": 5,
+    "speaker": "惊叫",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 7,
+    "speaker": "文殊菩萨",
+    "role": "male_old"
+   },
+   {
+    "i": 8,
+    "speaker": "八戒",
+    "role": "bajie"
+   },
+   {
+    "i": 9,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_186": {
+  "title": "朱紫国行医",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 1,
+    "speaker": "唐僧",
+    "role": "tang"
+   },
+   {
+    "i": 2,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 3,
+    "speaker": "药声",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 7,
+    "speaker": "轰隆",
+    "role": "non_speech"
+   },
+   {
+    "i": 8,
+    "speaker": "观音菩萨",
+    "role": "female_gentle"
+   },
+   {
+    "i": 9,
+    "speaker": "八戒",
+    "role": "bajie"
+   }
+  ]
+ },
+ "story_187": {
+  "title": "比丘国救小儿",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 1,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 2,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 3,
+    "speaker": "寿星",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "百姓",
+    "role": "crowd"
+   },
+   {
+    "i": 5,
+    "speaker": "八戒",
+    "role": "bajie"
+   }
+  ]
+ },
+ "story_188": {
+  "title": "无底洞",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "声响",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 2,
+    "speaker": "称呼",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 4,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 5,
+    "speaker": "八戒",
+    "role": "bajie"
+   }
+  ]
+ },
+ "story_189": {
+  "title": "灭法国",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "八戒",
+    "role": "bajie"
+   },
+   {
+    "i": 1,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 2,
+    "speaker": "剃发声",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "大臣",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "大臣",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "唐僧",
+    "role": "tang"
+   },
+   {
+    "i": 8,
+    "speaker": "关键词",
+    "role": "non_speech"
+   },
+   {
+    "i": 9,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "唐僧",
+    "role": "tang"
+   },
+   {
+    "i": 11,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 12,
+    "speaker": "国名",
+    "role": "non_speech"
+   },
+   {
+    "i": 13,
+    "speaker": "八戒",
+    "role": "bajie"
+   }
+  ]
+ },
+ "story_190": {
+  "title": "隐雾山",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "豹子精",
+    "role": "male_rough"
+   },
+   {
+    "i": 1,
+    "speaker": "小妖",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "假人头",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 4,
+    "speaker": "豹子精",
+    "role": "male_rough"
+   },
+   {
+    "i": 5,
+    "speaker": "八戒",
+    "role": "bajie"
+   },
+   {
+    "i": 6,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_191": {
+  "title": "凤仙郡祈雨",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "百姓",
+    "role": "crowd"
+   },
+   {
+    "i": 1,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 2,
+    "speaker": "龙王",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "玉帝",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 5,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "雷声",
+    "role": "non_speech"
+   },
+   {
+    "i": 7,
+    "speaker": "雷声",
+    "role": "non_speech"
+   },
+   {
+    "i": 8,
+    "speaker": "百姓",
+    "role": "crowd"
+   },
+   {
+    "i": 9,
+    "speaker": "百姓",
+    "role": "crowd"
+   },
+   {
+    "i": 10,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_192": {
+  "title": "玉华州",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 2,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 3,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 4,
+    "speaker": "妖怪",
+    "role": "male_rough"
+   },
+   {
+    "i": 5,
+    "speaker": "风声",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "天尊",
+    "role": "male_old"
+   },
+   {
+    "i": 7,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_193": {
+  "title": "天竺国玉兔",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "宫人",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "唐僧",
+    "role": "tang"
+   },
+   {
+    "i": 2,
+    "speaker": "国王",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 4,
+    "speaker": "太阴星君",
+    "role": "female_gentle"
+   },
+   {
+    "i": 5,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 6,
+    "speaker": "太阴星君",
+    "role": "female_gentle"
+   },
+   {
+    "i": 7,
+    "speaker": "唐僧",
+    "role": "tang"
+   },
+   {
+    "i": 8,
+    "speaker": "八戒",
+    "role": "bajie"
+   }
+  ]
+ },
+ "story_194": {
+  "title": "青龙山犀牛精",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "悟空",
+    "role": "wukong"
+   }
+  ]
+ },
+ "story_195": {
+  "title": "铜台府",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "寇员外",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "寇员外",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "八戒",
+    "role": "bajie"
+   },
+   {
+    "i": 3,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 4,
+    "speaker": "悟空",
+    "role": "wukong"
+   },
+   {
+    "i": 5,
+    "speaker": "寇员外",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "唐僧",
+    "role": "tang"
+   },
+   {
+    "i": 7,
+    "speaker": "八戒",
+    "role": "bajie"
+   },
+   {
+    "i": 8,
+    "speaker": "唐僧",
+    "role": "tang"
+   }
+  ]
  }
 }

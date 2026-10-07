@@ -38,6 +38,44 @@
     overflow: hidden;
   }
 
+  /* 平板适配：768px+ 横竖屏统一加宽容器、放大字体和按钮 */
+  @media (min-width: 768px) {
+    #app {
+      max-width: 600px;
+    }
+    body {
+      font-size: 18px;
+    }
+    .btn {
+      min-height: 52px;
+    }
+    .btn-primary {
+      @apply px-8 text-lg;
+    }
+    .chip {
+      @apply px-4 py-1.5 text-base;
+    }
+    .fab {
+      min-height: 60px;
+    }
+  }
+
+  /* 平板横屏（1024px+）：进一步放大 */
+  @media (min-width: 1024px) {
+    #app {
+      max-width: 640px;
+    }
+    body {
+      font-size: 20px;
+    }
+    .btn {
+      min-height: 56px;
+    }
+    .fab {
+      min-height: 64px;
+    }
+  }
+
   button {
     @apply font-sans;
   }
