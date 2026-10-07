@@ -7617,5 +7617,225 @@
     "role": "male_old"
    }
   ]
+ },
+ "151": {
+  "title": "汤姆索亚历险记·第一章 刷墙的妙计",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "本·罗杰斯",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "本·罗杰斯",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "本·罗杰斯",
+    "role": "child"
+   },
+   {
+    "i": 7,
+    "speaker": "刷墙瘾",
+    "role": "non_speech"
+   },
+   {
+    "i": 8,
+    "speaker": "汤姆",
+    "role": "child"
+   }
+  ]
+ },
+ "152": {
+  "title": "汤姆索亚历险记·第二章 贝琪和学校",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "同学",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "贝琪",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "历险故事",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "贝琪",
+    "role": "child"
+   },
+   {
+    "i": 7,
+    "speaker": "汤姆",
+    "role": "child"
+   }
+  ]
+ },
+ "153": {
+  "title": "汤姆索亚历险记·第三章 坟场惨案",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "鬼",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "印第安·乔埃",
+    "role": "male_rough"
+   },
+   {
+    "i": 2,
+    "speaker": "哈克",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "汤姆",
+    "role": "child"
+   }
+  ]
+ },
+ "154": {
+  "title": "汤姆索亚历险记·第四章 荒岛历险",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "哈克",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "乔·哈珀",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "歌谣",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "尸体",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "小海盗",
+    "role": "non_speech"
+   },
+   {
+    "i": 7,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "姑妈",
+    "role": "female_gentle"
+   }
+  ]
+ },
+ "155": {
+  "title": "汤姆索亚历险记·第五章 洞穴探险",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "贝琪",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "贝琪",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "贝琪",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "汤姆",
+    "role": "child"
+   }
+  ]
+ },
+ "156": {
+  "title": "汤姆索亚历险记·第六章 找到宝藏",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "哈克",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "汤姆",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "镇上人",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "哈克",
+    "role": "child"
+   }
+  ]
  }
 }
