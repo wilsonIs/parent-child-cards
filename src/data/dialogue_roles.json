@@ -6247,5 +6247,370 @@
     "role": "child"
    }
   ]
+ },
+ "007": {
+  "title": "乌鸦喝水",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "哇哇",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "扑通",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "咕咚咕咚",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "008": {
+  "title": "龟兔赛跑",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "兔子",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "乌龟",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "兔子",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "021": {
+  "title": "月亮船",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "小女孩",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "月亮船",
+    "role": "female_gentle"
+   },
+   {
+    "i": 2,
+    "speaker": "月亮船",
+    "role": "female_gentle"
+   }
+  ]
+ },
+ "026": {
+  "title": "孔融让梨",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "父亲",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "孔融",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "父亲",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "孔融",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "父亲",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "027": {
+  "title": "曹冲称象",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "曹操",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "大臣甲",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "大臣乙",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "曹操",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "曹冲",
+    "role": "child"
+   }
+  ]
+ },
+ "044": {
+  "title": "愚公移山",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "愚公",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "妻子",
+    "role": "female_gentle"
+   },
+   {
+    "i": 2,
+    "speaker": "愚公",
+    "role": "male_old"
+   }
+  ]
+ },
+ "046": {
+  "title": "猴子捞月",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "小猴",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "小猴",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "众猴",
+    "role": "crowd"
+   },
+   {
+    "i": 3,
+    "speaker": "老猴",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "小猴",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "老猴",
+    "role": "male_old"
+   }
+  ]
+ },
+ "047": {
+  "title": "神笔马良",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "白胡子仙人",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "鸡叫",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "牛叫",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "马良",
+    "role": "child"
+   }
+  ]
+ },
+ "049": {
+  "title": "花木兰",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "花木兰",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "花木兰",
+    "role": "female_gentle"
+   },
+   {
+    "i": 2,
+    "speaker": "战友",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "053": {
+  "title": "豌豆公主",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "题词",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "国王",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "公主",
+    "role": "female_gentle"
+   }
+  ]
+ },
+ "056": {
+  "title": "白雪公主",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "王后",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "魔镜",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "魔镜",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "085": {
+  "title": "阿里巴巴与四十大盗",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "阿里巴巴",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "口令",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "阿里巴巴",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "089": {
+  "title": "会飞的木马",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "王子",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "风声",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "王子",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "100": {
+  "title": "绿野仙踪",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "北方好女巫",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "题词",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "105": {
+  "title": "姜子牙钓鱼",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "樵夫",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "姜子牙",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "周文王",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "称号",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "107": {
+  "title": "崂山道士",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "老道士",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "老道士",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "咚",
+    "role": "non_speech"
+   }
+  ]
  }
 }
