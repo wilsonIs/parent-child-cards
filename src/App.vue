@@ -1,15 +1,34 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import { usePWAUpdate } from '@/composables/usePWAUpdate'
 
 // PWA 更新检测
 const { needRefresh, offlineReady, update, close } = usePWAUpdate()
+
+// 需要缓存的页面组件名（与路由 meta.keepAlive 对应）
+const cachedViews = computed(() => [
+  'HomeView',
+  'EatView',
+  'StoryView',
+  'StoryPlayerView',
+  'SeriesView',
+  'PlayView',
+  'PlaySceneView',
+  'LearnView',
+  'PoemsView',
+  'TodayView',
+  'FavoritesView',
+  'SettingsView',
+])
 </script>
 
 <template>
   <div class="flex h-full flex-col pb-2">
     <RouterView v-slot="{ Component }">
       <transition name="page" mode="out-in">
-        <component :is="Component" />
+        <keep-alive :include="cachedViews">
+          <component :is="Component" />
+        </keep-alive>
       </transition>
     </RouterView>
 
