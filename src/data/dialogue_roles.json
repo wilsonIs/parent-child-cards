@@ -7837,5 +7837,285 @@
     "role": "child"
    }
   ]
+ },
+ "157": {
+  "title": "八十天环游地球·第一章 福格先生的赌约",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "俱乐部绅士",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "俱乐部绅士",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "路路通",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "菲克斯",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "158": {
+  "title": "八十天环游地球·第二章 旅途风波",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "路路通",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "路路通",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "菲克斯",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "菲克斯",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "路路通",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "路路通",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "159": {
+  "title": "八十天环游地球·第三章 印度奇遇",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "殉葬",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "路路通",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "祭司",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "艾娥达",
+    "role": "female_gentle"
+   },
+   {
+    "i": 7,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "路路通",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "路路通",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "160": {
+  "title": "八十天环游地球·第四章 香港失散",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "菲克斯",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "路路通",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "菲克斯",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "路路通",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "161": {
+  "title": "八十天环游地球·第五章 大西洋惊魂",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "路路通",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "路路通",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "船名",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "船长",
+    "role": "male_rough"
+   },
+   {
+    "i": 6,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "水手",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "路路通",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "162": {
+  "title": "八十天环游地球·第六章 最后一刻",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "菲克斯",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "路路通",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "菲克斯",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "路路通",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "路路通",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "福格先生",
+    "role": "male_adult"
+   }
+  ]
  }
 }
