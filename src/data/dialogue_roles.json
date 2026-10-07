@@ -6612,5 +6612,690 @@
     "role": "non_speech"
    }
   ]
+ },
+ "133": {
+  "title": "绿野仙踪·第一章 龙卷风",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "叔叔",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "芒奇金人",
+    "role": "crowd"
+   },
+   {
+    "i": 2,
+    "speaker": "北方好女巫",
+    "role": "female_gentle"
+   },
+   {
+    "i": 3,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "北方好女巫",
+    "role": "female_gentle"
+   }
+  ]
+ },
+ "134": {
+  "title": "绿野仙踪·第二章 稻草人",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 9,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "狮子",
+    "role": "male_rough"
+   },
+   {
+    "i": 11,
+    "speaker": "狮子",
+    "role": "male_rough"
+   }
+  ]
+ },
+ "135": {
+  "title": "绿野仙踪·第三章 铁皮人和狮子",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "狮子",
+    "role": "male_rough"
+   },
+   {
+    "i": 1,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "狮子",
+    "role": "male_rough"
+   },
+   {
+    "i": 3,
+    "speaker": "锈声",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "铁皮人",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "锈声",
+    "role": "non_speech"
+   },
+   {
+    "i": 7,
+    "speaker": "铁皮人",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   },
+   {
+    "i": 9,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "多萝西",
+    "role": "child"
+   }
+  ]
+ },
+ "136": {
+  "title": "绿野仙踪·第四章 翡翠城",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "守门人",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "守门人",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "侍卫",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "奥兹大王",
+    "role": "male_old"
+   },
+   {
+    "i": 5,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "奥兹大王",
+    "role": "male_old"
+   },
+   {
+    "i": 7,
+    "speaker": "奥兹大王",
+    "role": "male_old"
+   },
+   {
+    "i": 8,
+    "speaker": "奥兹大王",
+    "role": "male_old"
+   },
+   {
+    "i": 9,
+    "speaker": "奥兹大王",
+    "role": "male_old"
+   },
+   {
+    "i": 10,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 11,
+    "speaker": "狮子",
+    "role": "male_rough"
+   }
+  ]
+ },
+ "137": {
+  "title": "绿野仙踪·第五章 西方恶女巫",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "西方恶女巫",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "西方恶女巫",
+    "role": "female_gentle"
+   },
+   {
+    "i": 2,
+    "speaker": "咔嚓",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "西方恶女巫",
+    "role": "female_gentle"
+   },
+   {
+    "i": 4,
+    "speaker": "西方恶女巫",
+    "role": "female_gentle"
+   },
+   {
+    "i": 5,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "狮子",
+    "role": "male_rough"
+   },
+   {
+    "i": 7,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "芒奇金人",
+    "role": "crowd"
+   }
+  ]
+ },
+ "138": {
+  "title": "绿野仙踪·第六章 回家",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "牌匾",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "奥兹大王",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "奥兹大王",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "气球声",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "稻草人",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "北方好女巫",
+    "role": "female_gentle"
+   },
+   {
+    "i": 6,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 7,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "嗖",
+    "role": "non_speech"
+   },
+   {
+    "i": 9,
+    "speaker": "多萝西",
+    "role": "child"
+   },
+   {
+    "i": 10,
+    "speaker": "叔叔",
+    "role": "male_adult"
+   },
+   {
+    "i": 11,
+    "speaker": "多萝西",
+    "role": "child"
+   }
+  ]
+ },
+ "139": {
+  "title": "爱丽丝梦游仙境·第一章 掉进兔子洞",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "白兔",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "瓶签",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "蛋糕签",
+    "role": "non_speech"
+   },
+   {
+    "i": 6,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 7,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "爱丽丝",
+    "role": "child"
+   }
+  ]
+ },
+ "140": {
+  "title": "爱丽丝梦游仙境·第二章 毛毛虫的建议",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "仆人",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "毛毛虫",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "毛毛虫",
+    "role": "male_old"
+   },
+   {
+    "i": 5,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 6,
+    "speaker": "毛毛虫",
+    "role": "male_old"
+   },
+   {
+    "i": 7,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "毛毛虫",
+    "role": "male_old"
+   },
+   {
+    "i": 9,
+    "speaker": "爱丽丝",
+    "role": "child"
+   }
+  ]
+ },
+ "141": {
+  "title": "爱丽丝梦游仙境·第三章 疯帽子的茶会",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "门牌",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "疯帽匠",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "三月兔",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "疯帽匠",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "睡鼠",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "疯帽匠",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 7,
+    "speaker": "三月兔",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 9,
+    "speaker": "三月兔",
+    "role": "male_adult"
+   },
+   {
+    "i": 10,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 11,
+    "speaker": "睡鼠",
+    "role": "child"
+   },
+   {
+    "i": 12,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 13,
+    "speaker": "三月兔",
+    "role": "male_adult"
+   },
+   {
+    "i": 14,
+    "speaker": "爱丽丝",
+    "role": "child"
+   }
+  ]
+ },
+ "142": {
+  "title": "爱丽丝梦游仙境·第四章 红心皇后的槌球场",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "柴郡猫",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "柴郡猫",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 4,
+    "speaker": "柴郡猫",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "柴郡猫",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "红心皇后",
+    "role": "female_gentle"
+   },
+   {
+    "i": 7,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "红心皇后",
+    "role": "female_gentle"
+   },
+   {
+    "i": 9,
+    "speaker": "红心皇后",
+    "role": "female_gentle"
+   },
+   {
+    "i": 10,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 11,
+    "speaker": "柴郡猫",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "143": {
+  "title": "爱丽丝梦游仙境·第五章 偷馅饼的审判",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "白兔",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "白兔",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "睡鼠",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "红心皇后",
+    "role": "female_gentle"
+   },
+   {
+    "i": 4,
+    "speaker": "厨娘",
+    "role": "female_gentle"
+   },
+   {
+    "i": 5,
+    "speaker": "公爵夫人",
+    "role": "female_gentle"
+   },
+   {
+    "i": 6,
+    "speaker": "白兔",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 8,
+    "speaker": "姐姐",
+    "role": "female_gentle"
+   },
+   {
+    "i": 9,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 10,
+    "speaker": "姐姐",
+    "role": "female_gentle"
+   }
+  ]
+ },
+ "144": {
+  "title": "爱丽丝梦游仙境·第六章 奇妙的梦境",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "记忆回响",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "姐姐",
+    "role": "female_gentle"
+   },
+   {
+    "i": 4,
+    "speaker": "爱丽丝",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "姐姐",
+    "role": "female_gentle"
+   },
+   {
+    "i": 6,
+    "speaker": "爱丽丝",
+    "role": "child"
+   }
+  ]
  }
 }
