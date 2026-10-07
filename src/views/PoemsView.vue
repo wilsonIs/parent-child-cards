@@ -1,12 +1,17 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, onBeforeUnmount, ref } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import FilterBar from '@/components/FilterBar.vue'
 import EmptyState from '@/components/EmptyState.vue'
 import PoemCard from '@/components/PoemCard.vue'
 import { useDataStore } from '@/stores/data'
 import { useSettingsStore } from '@/stores/settings'
+import { useSharedAudio } from '@/composables/useSharedAudio'
 import { GRADE_LEVEL } from '@/config/modules'
+
+const { stop: stopAudio } = useSharedAudio()
+// 离开页面时停止朗读，避免音频在后台继续播放
+onBeforeUnmount(stopAudio)
 
 const data = useDataStore()
 const settings = useSettingsStore()

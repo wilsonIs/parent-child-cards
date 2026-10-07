@@ -2,9 +2,9 @@ import { ref } from 'vue'
 import { useSettingsStore } from '@/stores/settings'
 
 /**
- * 「学什么」卡片朗读控制。
- * 模块级单例音频：所有 LearnCard 共享同一个 <audio>，保证同一时刻只有一条在播，
- * 点另一张卡会自动打断当前这张。点同一张卡则在播放/暂停间切换。
+ * 朗读控制 composable（语音卡片播放按钮共用）。
+ * 模块级单例音频：所有使用方共享同一个 <audio>，保证同一时刻只有一条在播，
+ * 点另一张卡会自动打断当前这张；点同一张卡则在播放/暂停间切换。
  */
 const audioEl =
   typeof Audio !== 'undefined' ? new Audio() : (null as HTMLAudioElement | null)
@@ -34,15 +34,15 @@ function wire() {
   })
 }
 
-export function useLearnAudio() {
+export function useSharedAudio() {
   wire()
   const settings = useSettingsStore()
 
   function play(id: string, src: string) {
     if (!audioEl) return
     // 切到新卡片时重置音源与进度；同一张卡片暂停后继续则保留进度
-    if (audioEl.dataset.learnId !== id) {
-      audioEl.dataset.learnId = id
+    if (audioEl.dataset.audioId !== id) {
+      audioEl.dataset.audioId = id
       audioEl.src = src
       audioEl.currentTime = 0
     }

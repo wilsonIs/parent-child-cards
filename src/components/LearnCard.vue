@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
 import { useSettingsStore } from '@/stores/settings'
-import { useLearnAudio } from '@/composables/useLearnAudio'
+import { useSharedAudio } from '@/composables/useSharedAudio'
 import type { Learn } from '@/types'
 
 const props = defineProps<{ learn: Learn }>()
@@ -9,7 +9,7 @@ const props = defineProps<{ learn: Learn }>()
 const settings = useSettingsStore()
 const expand = ref(false)
 
-const { activeId, playing, loading, toggle } = useLearnAudio()
+const { activeId, playing, loading, toggle } = useSharedAudio()
 
 const isActive = computed(() => activeId.value === props.learn.id)
 const isPlaying = computed(() => isActive.value && playing.value)

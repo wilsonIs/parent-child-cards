@@ -7,10 +7,10 @@ import EmptyState from '@/components/EmptyState.vue'
 import LearnCard from '@/components/LearnCard.vue'
 import { useDataStore } from '@/stores/data'
 import { useSettingsStore } from '@/stores/settings'
-import { useLearnAudio } from '@/composables/useLearnAudio'
+import { useSharedAudio } from '@/composables/useSharedAudio'
 import { LEARN_GRADES, LEARN_SUBJECTS } from '@/config/modules'
 
-const { stop: stopAudio } = useLearnAudio()
+const { stop: stopAudio } = useSharedAudio()
 // 离开页面时停止朗读，避免音频在后台继续播放
 onBeforeUnmount(stopAudio)
 

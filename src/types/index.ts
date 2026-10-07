@@ -85,6 +85,8 @@ export interface Poem {
   category: '唐诗' | '宋词' | '诗经' | '楚辞' | '蒙学'
   grade: string // 学龄前 / 一年级…六年级 / 拓展
   paragraphs: string[]
+  /** 朗读音频（诗名+朝代+诗人+正文），没有则为空 */
+  audio?: string
   source?: string
   license?: string
 }
