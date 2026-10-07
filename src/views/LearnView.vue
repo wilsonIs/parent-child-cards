@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, onBeforeUnmount, ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import AppHeader from '@/components/AppHeader.vue'
 import FilterBar from '@/components/FilterBar.vue'
@@ -7,7 +7,12 @@ import EmptyState from '@/components/EmptyState.vue'
 import LearnCard from '@/components/LearnCard.vue'
 import { useDataStore } from '@/stores/data'
 import { useSettingsStore } from '@/stores/settings'
+import { useLearnAudio } from '@/composables/useLearnAudio'
 import { LEARN_GRADES, LEARN_SUBJECTS } from '@/config/modules'
+
+const { stop: stopAudio } = useLearnAudio()
+// 离开页面时停止朗读，避免音频在后台继续播放
+onBeforeUnmount(stopAudio)
 
 const data = useDataStore()
 const settings = useSettingsStore()
@@ -60,7 +65,7 @@ const filtered = computed(() =>
     </div>
 
     <div class="flex-1 overflow-y-auto">
-      <div v-if="filtered.length" class="flex flex-col gap-3 p-4">
+      <div v-if="filtered.length" class="grid grid-cols-1 gap-3 p-4 md:grid-cols-2 md:gap-4 md:p-6 lg:grid-cols-3 lg:gap-5 lg:p-8">
         <LearnCard v-for="l in filtered" :key="l.id" :learn="l" />
       </div>
       <EmptyState

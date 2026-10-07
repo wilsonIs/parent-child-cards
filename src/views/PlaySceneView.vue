@@ -41,7 +41,7 @@ function randomPick() {
       <button class="btn-primary w-full" @click="randomPick">🎲 随机抽一张</button>
     </div>
     <FilterBar :options="options" v-model="filter" />
-    <div ref="feedRef" class="feed flex-1">
+    <div ref="feedRef" class="feed flex-1 md:mx-auto md:w-full md:max-w-[72vh]">
       <GameCard v-for="g in filtered" :key="g.id" :game="g" />
       <EmptyState
         v-if="filtered.length === 0"

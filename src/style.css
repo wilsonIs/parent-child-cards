@@ -4,6 +4,16 @@
 
 @layer base {
   :root {
+    /* 用户偏好字号缩放因子（设置页：标准=1 / 大号=1.125） */
+    --app-font-scale: 1;
+    /*
+     * 断点基础字号放在根元素（html）上：
+     * Tailwind 的 text-*、间距、尺寸工具类都是 rem，随根字号整体缩放，
+     * 平板/大屏下字体、按钮、间距一次性同步放大，不再逐处覆盖。
+     */
+    font-size: calc(16px * var(--app-font-scale, 1));
+    /* 防止 iOS 旋转屏幕时自动重排文字大小 */
+    -webkit-text-size-adjust: 100%;
     --safe-bottom: env(safe-area-inset-bottom, 0px);
     --safe-top: env(safe-area-inset-top, 0px);
   }
@@ -18,8 +28,6 @@
 
   body {
     @apply bg-cream text-ink font-sans antialiased;
-    /* 用户偏好字体大小（设置页可调），默认 1rem = 16px */
-    font-size: var(--app-font-size, 1rem);
     -webkit-tap-highlight-color: transparent;
     overscroll-behavior-y: none;
   }
@@ -38,52 +46,28 @@
     overflow: hidden;
   }
 
-  /* 平板竖屏（768px+）：加宽容器、放大字体和按钮 */
-  @media (min-width: 48rem) { /* 768px */
-    #app {
-      max-width: 37.5rem; /* 600px */
+  /* 平板（768px+）：容器撑满全宽，根字号 16→18px，字体/间距整体放大 */
+  @media (min-width: 768px) {
+    :root {
+      font-size: calc(18px * var(--app-font-scale, 1));
     }
-    body {
-      font-size: 1.125rem; /* 18px */
-    }
-    .btn {
-      min-height: 3.25rem; /* 52px */
-    }
-    .btn-primary {
-      @apply px-8 text-lg;
-    }
-    .chip {
-      @apply px-4 py-1.5 text-base;
-    }
-    .fab {
-      min-height: 3.75rem; /* 60px */
-    }
-  }
-
-  /* 平板横屏（768px+ landscape）：撑满 100% */
-  @media (min-width: 48rem) and (orientation: landscape) {
     #app {
       max-width: 100%;
       box-shadow: none;
     }
   }
 
-  /* 大屏平板横屏（1024px+）：进一步放大 */
-  @media (min-width: 64rem) { /* 1024px */
-    body {
-      font-size: 1.25rem; /* 20px */
-    }
-    .btn {
-      min-height: 3.5rem; /* 56px */
-    }
-    .fab {
-      min-height: 4rem; /* 64px */
+  /* 大屏平板横屏（1024px+）：进一步放大，根字号 20px */
+  @media (min-width: 1024px) {
+    :root {
+      font-size: calc(20px * var(--app-font-scale, 1));
     }
   }
 
-  @media (min-width: 64rem) and (orientation: landscape) {
-    #app {
-      max-width: 100%;
+  /* 超大屏平板（1280px+，如 Surface Pro / iPad Pro 12.9 横屏）：再放大，根字号 22px */
+  @media (min-width: 1280px) {
+    :root {
+      font-size: calc(22px * var(--app-font-scale, 1));
     }
   }
 
@@ -214,16 +198,59 @@
   50% { transform: translateY(-4px); }
 }
 
-/* 页面切换转场 */
+/* 页面切换转场：新页浮入放大、旧页淡出上移，书本翻页感 */
 .page-enter-active,
 .page-leave-active {
-  transition: opacity 180ms ease, transform 180ms ease;
+  transition:
+    opacity 260ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 260ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 .page-enter-from {
   opacity: 0;
-  transform: translateY(12px);
+  transform: translateY(24px) scale(0.98);
 }
 .page-leave-to {
   opacity: 0;
-  transform: translateY(-12px);
+  transform: translateY(-14px) scale(0.985);
+}
+
+/*
+ * 平板/大屏下放大按钮与 chips（未分层样式，优先级高于 @layer 内的组件定义）。
+ * 字体本身由根字号断点统一放大，这里只补 touch 目标的最小尺寸。
+ */
+@media (min-width: 768px) {
+  .btn {
+    min-height: 3.25rem; /* 52px */
+  }
+  .btn-primary {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.125rem; /* text-lg */
+  }
+  .chip {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+    font-size: 1rem; /* text-base */
+  }
+  .fab {
+    min-height: 3.75rem; /* 60px */
+  }
+}
+@media (min-width: 1024px) {
+  .btn {
+    min-height: 3.5rem; /* 56px */
+  }
+  .fab {
+    min-height: 4rem; /* 64px */
+  }
+}
+@media (min-width: 1280px) {
+  .btn {
+    min-height: 3.75rem; /* 60px */
+  }
+  .fab {
+    min-height: 4.25rem; /* 68px */
+  }
 }

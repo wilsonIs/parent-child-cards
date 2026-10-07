@@ -11,7 +11,7 @@ function pick(v: string) {
 </script>
 
 <template>
-  <div class="no-scrollbar flex gap-2 overflow-x-auto px-4 py-2">
+  <div class="no-scrollbar flex gap-2 overflow-x-auto px-4 py-2 md:flex-wrap">
     <button
       v-for="opt in options"
       :key="opt"

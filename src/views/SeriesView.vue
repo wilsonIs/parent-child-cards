@@ -27,25 +27,38 @@ function open(id: string) {
     <AppHeader :title="name" show-back color-class="story" />
 
     <div class="flex-1 overflow-y-auto">
-      <!-- 系列头图 -->
-      <div
-        class="flex flex-col items-center gap-3 bg-gradient-to-br from-story to-story-soft px-6 py-8 text-center"
-      >
+      <!-- 系列头图：封面图作为整个头图区背景铺满 -->
+      <div class="relative flex min-h-[16rem] flex-col overflow-hidden md:min-h-[20rem] lg:min-h-[24rem]">
+        <!-- 背景图：充满整个头图区 -->
         <img
           v-if="meta.cover"
           :src="meta.cover"
           :alt="name"
           loading="lazy"
-          class="h-44 w-full max-w-sm rounded-2xl object-cover shadow-soft"
+          class="absolute inset-0 h-full w-full object-cover"
         />
-        <span v-else class="text-8xl drop-shadow-sm">{{ meta.icon ?? '📚' }}</span>
-        <h2 class="text-2xl font-bold text-white drop-shadow-sm">{{ name }}</h2>
-        <p class="max-w-xs text-sm text-white/85">{{ meta.desc }}</p>
-        <span class="chip bg-white/25 text-white">共 {{ stories.length }} 个故事</span>
+        <!-- 无封面时的渐变底 -->
+        <div
+          v-else
+          class="absolute inset-0 bg-gradient-to-br from-story to-story-soft"
+        ></div>
+        <!-- 暗色渐变遮罩：保证文字在任何封面上都可读 -->
+        <div
+          class="absolute inset-0 bg-gradient-to-b from-ink/30 via-ink/20 to-ink/75"
+        ></div>
+        <!-- 内容覆盖在背景图上 -->
+        <div
+          class="relative flex flex-1 flex-col items-center justify-end gap-3 px-6 pb-8 pt-6 text-center"
+        >
+          <span v-if="!meta.cover" class="text-7xl drop-shadow-sm md:text-8xl">{{ meta.icon ?? '📚' }}</span>
+          <h2 class="text-2xl font-bold text-white drop-shadow-sm md:text-3xl lg:text-4xl">{{ name }}</h2>
+          <p class="max-w-xs text-sm text-white/90 drop-shadow-sm md:max-w-sm md:text-base lg:text-lg">{{ meta.desc }}</p>
+          <span class="chip bg-white/25 text-white backdrop-blur-sm">共 {{ stories.length }} 个故事</span>
+        </div>
       </div>
 
       <!-- 故事列表 -->
-      <div v-if="stories.length" class="flex flex-col gap-3 p-4">
+      <div v-if="stories.length" class="grid grid-cols-1 gap-3 p-4 md:grid-cols-2 md:gap-4 md:p-6 lg:grid-cols-3 lg:gap-5 lg:p-8">
         <button
           v-for="(st, i) in stories"
           :key="st.id"

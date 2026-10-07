@@ -46,7 +46,7 @@ function confirmClear() {
 <template>
   <div class="flex h-full flex-col">
     <AppHeader title="收藏" show-back />
-    <div class="flex-1 overflow-y-auto p-4">
+    <div class="flex-1 overflow-y-auto p-4 md:p-6 lg:p-8">
       <EmptyState
         v-if="fav.count === 0"
         icon="❤️"
@@ -70,7 +70,7 @@ function confirmClear() {
               <span>{{ g.meta.label }}</span>
               <span class="text-ink-muted">{{ g.items.length }}</span>
             </h3>
-            <ul class="space-y-2">
+            <ul class="grid grid-cols-1 gap-2 md:grid-cols-2">
               <li
                 v-for="it in g.items"
                 :key="it.id"

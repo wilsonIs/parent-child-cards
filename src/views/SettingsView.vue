@@ -33,7 +33,7 @@ function clearAll() {
 <template>
   <div class="flex h-full flex-col">
     <AppHeader title="设置" show-back />
-    <div class="flex-1 overflow-y-auto space-y-4 p-4">
+    <div class="flex-1 overflow-y-auto grid grid-cols-1 gap-4 p-4 md:grid-cols-2 md:gap-4 md:p-6 lg:gap-5 lg:p-8">
       <!-- 1. 故事语速 -->
       <section class="card-soft space-y-3 p-4">
         <div>
@@ -152,7 +152,7 @@ function clearAll() {
       </section>
 
       <!-- 4. 关于 -->
-      <section class="card-soft space-y-2 p-4">
+      <section class="card-soft space-y-2 p-4 md:col-span-2">
         <h3 class="text-lg font-bold text-ink">神奇卡盒</h3>
         <p class="text-sm text-ink-soft">
           抽一张卡片，每天简单做点事。

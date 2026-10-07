@@ -47,7 +47,7 @@ const filteredNote = computed(() => {
     </div>
 
     <div class="flex-1 overflow-y-auto">
-      <div v-if="filtered.length" class="flex flex-col gap-3 p-4">
+      <div v-if="filtered.length" class="grid grid-cols-1 gap-3 p-4 md:grid-cols-2 md:gap-4 md:p-6 lg:grid-cols-3 lg:gap-5 lg:p-8">
         <p class="text-xs text-ink-muted">
           {{
             filteredNote ||

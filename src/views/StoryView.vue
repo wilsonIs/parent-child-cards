@@ -204,9 +204,9 @@ function mergedCats(story: Story): string[] {
       </button>
     </div>
 
-    <!-- 上滑卡片流 -->
+    <!-- 上滑卡片流（横屏下居中限宽，避免卡片过宽、文字行过长） -->
     <div
-      class="relative flex-1 overflow-hidden px-3 pb-3"
+      class="relative flex-1 overflow-hidden px-3 pb-3 md:mx-auto md:w-full md:max-w-[80vh]"
       @touchstart="onTouchStart"
       @touchmove="onTouchMove"
       @touchend="onTouchEnd"

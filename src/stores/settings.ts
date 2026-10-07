@@ -22,14 +22,15 @@ export const useSettingsStore = defineStore('settings', () => {
   })
   const history = ref<HistoryItem[]>(readJSON<HistoryItem[]>(HISTORY_KEY, []))
 
-  // 应用字体大小到根元素（用户习惯可视化）
-  const fontPx = computed(() => (settings.value.fontSize === 'large' ? 18 : 16))
+  // 用户偏好字号缩放因子：normal=1，large=1.125
+  // 不再写死 px，避免覆盖媒体查询的断点基础字号（768px→18px、1024px→20px）
+  const fontScale = computed(() => (settings.value.fontSize === 'large' ? 1.125 : 1))
 
   function applyFontSize() {
     if (typeof document === 'undefined') return
     document.documentElement.style.setProperty(
-      '--app-font-size',
-      `${fontPx.value}px`,
+      '--app-font-scale',
+      String(fontScale.value),
     )
   }
 
@@ -82,7 +83,7 @@ export const useSettingsStore = defineStore('settings', () => {
   return {
     settings,
     history,
-    fontPx,
+    fontScale,
     applyFontSize,
     setPlaybackRate,
     setFontSize,
