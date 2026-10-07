@@ -28,3 +28,6 @@ pnpm-debug.log*
 # TTS/封面生成中间产物
 public/assets/tmp/
 .vercel
+
+# 音频处理备份
+*.bak
