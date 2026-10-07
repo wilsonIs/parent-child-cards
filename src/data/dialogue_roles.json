@@ -2798,5 +2798,1464 @@
     "role": "non_speech"
    }
   ]
+ },
+ "story_001": {
+  "title": "守株待兔",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "撞树声",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "农夫",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "story_002": {
+  "title": "掩耳盗铃",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "铃铛声",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "铃铛声",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "邻居",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "story_031": {
+  "title": "画蛇添足",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "门客甲",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "门客乙",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "门客甲",
+    "role": "male_adult"
+   }
+  ]
+ },
+ "story_032": {
+  "title": "井底之蛙",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "青蛙叫",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "青蛙",
+    "role": "child"
+   },
+   {
+    "i": 2,
+    "speaker": "海龟",
+    "role": "male_old"
+   }
+  ]
+ },
+ "story_038": {
+  "title": "对牛弹琴",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "牛吃草",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_039": {
+  "title": "叶公好龙",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "叶公",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "叶公",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_040": {
+  "title": "望梅止渴",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "曹操",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "士兵欢呼",
+    "role": "crowd"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_204": {
+  "title": "专心致志",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "弈秋",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_205": {
+  "title": "卧薪尝胆",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "勾践",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_206": {
+  "title": "悬梁刺股",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "动作词",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "动作词",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_207": {
+  "title": "凿壁偷光",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "点题",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_211": {
+  "title": "胸有成竹",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "苏轼",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_218": {
+  "title": "鹬蚌相争",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "苏代",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "苏代",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_223": {
+  "title": "围魏救赵",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "孙膑",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "田忌",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_225": {
+  "title": "破釜沉舟",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "项羽",
+    "role": "male_rough"
+   },
+   {
+    "i": 1,
+    "speaker": "士兵",
+    "role": "crowd"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_228": {
+  "title": "七步成诗",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "曹丕",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "曹植",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_232": {
+  "title": "老马识途",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "齐桓公",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "管仲",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_235": {
+  "title": "草木皆兵",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "苻坚",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_236": {
+  "title": "风声鹤唳",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "败兵",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "败兵",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_239": {
+  "title": "闻鸡起舞",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "祖逖",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "刘琨",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_240": {
+  "title": "中流击楫",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "祖逖",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "部众",
+    "role": "crowd"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_241": {
+  "title": "东施效颦",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "村民",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_242": {
+  "title": "班门弄斧",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "匾额",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "卖斧人",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "围观者",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "诗人",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_243": {
+  "title": "画饼充饥",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "魏文帝",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "卢毓",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "魏文帝",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "魏文帝",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_244": {
+  "title": "囊萤夜读",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_245": {
+  "title": "映雪读书",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_246": {
+  "title": "开卷有益",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "大臣",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "宋太宗",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "大臣",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "宋太宗",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_247": {
+  "title": "手不释卷",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "孙权",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "吕蒙",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "孙权",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "鲁肃",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_248": {
+  "title": "半途而废",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "妻子",
+    "role": "female_gentle"
+   },
+   {
+    "i": 1,
+    "speaker": "乐羊",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "剪刀声",
+    "role": "non_speech"
+   },
+   {
+    "i": 3,
+    "speaker": "乐羊",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "妻子",
+    "role": "female_gentle"
+   },
+   {
+    "i": 5,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_249": {
+  "title": "三人成虎",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "庞葱",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "魏王",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "庞葱",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "魏王",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "庞葱",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "魏王",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "庞葱",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "魏王",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "智者",
+    "role": "male_old"
+   },
+   {
+    "i": 9,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_250": {
+  "title": "曾子杀猪",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "孩子",
+    "role": "child"
+   },
+   {
+    "i": 1,
+    "speaker": "妻子",
+    "role": "female_gentle"
+   },
+   {
+    "i": 2,
+    "speaker": "孩子",
+    "role": "child"
+   },
+   {
+    "i": 3,
+    "speaker": "妻子",
+    "role": "female_gentle"
+   },
+   {
+    "i": 4,
+    "speaker": "曾子",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_251": {
+  "title": "一饭千金",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "韩信",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "漂母",
+    "role": "female_gentle"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_252": {
+  "title": "胯下之辱",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "屠夫",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "围观者",
+    "role": "crowd"
+   },
+   {
+    "i": 2,
+    "speaker": "韩信",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_253": {
+  "title": "退避三舍",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "楚成王",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "重耳",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "楚国大臣",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "楚成王",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "重耳",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "重耳",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_254": {
+  "title": "唇亡齿寒",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "晋献公",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "晋献公",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "荀息",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "宫之奇",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "虞君",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "宫之奇",
+    "role": "male_old"
+   },
+   {
+    "i": 6,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_255": {
+  "title": "三令五申",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "吴王",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "孙武",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "孙武",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "宫女",
+    "role": "female_gentle"
+   },
+   {
+    "i": 4,
+    "speaker": "孙武",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "孙武",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "使者",
+    "role": "male_adult"
+   },
+   {
+    "i": 7,
+    "speaker": "孙武",
+    "role": "male_adult"
+   },
+   {
+    "i": 8,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_256": {
+  "title": "田忌赛马",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "孙膑",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "孙膑",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "田忌",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "齐威王",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "田忌",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_257": {
+  "title": "约法三章",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "樊哙",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "刘邦",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "刘邦",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_258": {
+  "title": "兔死狗烹",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "范蠡",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "勾践",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_259": {
+  "title": "明修栈道暗度陈仓",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_260": {
+  "title": "洛阳纸贵",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "邻居老头",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_261": {
+  "title": "江郎才尽",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "称号",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "仙人",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_262": {
+  "title": "才高八斗",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "谢灵运",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "谢灵运",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_263": {
+  "title": "东山再起",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "百姓",
+    "role": "crowd"
+   },
+   {
+    "i": 1,
+    "speaker": "谢安",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "谢安",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_264": {
+  "title": "精忠报国",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "刺字",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "金军将士",
+    "role": "male_rough"
+   },
+   {
+    "i": 2,
+    "speaker": "秦桧",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "点题",
+    "role": "non_speech"
+   },
+   {
+    "i": 4,
+    "speaker": "游人",
+    "role": "male_old"
+   },
+   {
+    "i": 5,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_265": {
+  "title": "马革裹尸",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "友人",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "马援",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "友人",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "马援",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   },
+   {
+    "i": 5,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_266": {
+  "title": "投笔从戎",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "班超",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "同伴",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "班超",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_267": {
+  "title": "张良拾履",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "老人",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "老人",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "老人",
+    "role": "male_old"
+   },
+   {
+    "i": 3,
+    "speaker": "老人",
+    "role": "male_old"
+   },
+   {
+    "i": 4,
+    "speaker": "老人",
+    "role": "male_old"
+   },
+   {
+    "i": 5,
+    "speaker": "老人",
+    "role": "male_old"
+   },
+   {
+    "i": 6,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_268": {
+  "title": "雪中送炭",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "宋太宗",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "老人",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_269": {
+  "title": "锲而不舍",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "荀子",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_270": {
+  "title": "毛遂自荐",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "毛遂",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "平原君",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "毛遂",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "平原君",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_271": {
+  "title": "一字千金",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "吕不韦",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "宾客",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_272": {
+  "title": "口若悬河",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "王衍",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_273": {
+  "title": "一叶知秋",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "哲人",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "点题",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_274": {
+  "title": "未雨绸缪",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "君主",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "大臣",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "诗人",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_275": {
+  "title": "防微杜渐",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "智者",
+    "role": "male_old"
+   },
+   {
+    "i": 1,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_276": {
+  "title": "前车之鉴",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "贾谊",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "名词",
+    "role": "non_speech"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_277": {
+  "title": "螳臂当车",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "驾车声",
+    "role": "non_speech"
+   },
+   {
+    "i": 1,
+    "speaker": "齐庄公",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "车夫",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "齐庄公",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "车夫",
+    "role": "male_adult"
+   },
+   {
+    "i": 5,
+    "speaker": "齐庄公",
+    "role": "male_adult"
+   },
+   {
+    "i": 6,
+    "speaker": "庄子",
+    "role": "male_old"
+   },
+   {
+    "i": 7,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_278": {
+  "title": "朝三暮四",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "养猴人",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "养猴人",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_033": {
+  "title": "滥竽充数",
+  "dials": []
+ },
+ "story_111": {
+  "title": "歧路亡羊",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "杨子",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "邻居",
+    "role": "male_adult"
+   },
+   {
+    "i": 2,
+    "speaker": "杨子",
+    "role": "male_adult"
+   },
+   {
+    "i": 3,
+    "speaker": "邻居",
+    "role": "male_adult"
+   },
+   {
+    "i": 4,
+    "speaker": "学生",
+    "role": "child"
+   },
+   {
+    "i": 5,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_114": {
+  "title": "邯郸学步",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
+ },
+ "story_115": {
+  "title": "望洋兴叹",
+  "dials": [
+   {
+    "i": 0,
+    "speaker": "河伯",
+    "role": "male_adult"
+   },
+   {
+    "i": 1,
+    "speaker": "北海若",
+    "role": "male_old"
+   },
+   {
+    "i": 2,
+    "speaker": "点题",
+    "role": "non_speech"
+   }
+  ]
  }
 }
